@@ -1,0 +1,38 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499968,
+                "file_path": "results\\carsim1\\MoveToTarget\\MoveToTarget-499968.onnx",
+                "reward": null,
+                "creation_time": 1687808837.121976,
+                "auxillary_file_paths": [
+                    "results\\carsim1\\MoveToTarget\\MoveToTarget-499968.pt"
+                ]
+            },
+            {
+                "steps": 500032,
+                "file_path": "results\\carsim1\\MoveToTarget\\MoveToTarget-500032.onnx",
+                "reward": null,
+                "creation_time": 1687808837.1550415,
+                "auxillary_file_paths": [
+                    "results\\carsim1\\MoveToTarget\\MoveToTarget-500032.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500032,
+            "file_path": "results\\carsim1\\MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1687808837.1550415,
+            "auxillary_file_paths": [
+                "results\\carsim1\\MoveToTarget\\MoveToTarget-500032.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
