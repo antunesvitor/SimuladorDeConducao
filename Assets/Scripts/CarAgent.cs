@@ -9,11 +9,19 @@ using UnityEngine;
 
 public class CarAgent : Agent
 {
+    //Controle do veículo
     private float horizontalInput, verticalInput;
     private float currentSteerAngle, currentbreakForce;
     private bool isBreaking;
     private Rigidbody rBody;
+
     private List<GameObject> parkableStreets;
+
+    private float carDistanceToDestination;             //distância entre o carro e o destino no início do episódio
+    private float currentCarDistanceToDestination;      //distância entre o carro e o destino a cada frame
+
+    private float timeLimit = 20;                       //Tempo limite em segundos para atingir o objetivo
+    private float elapsedTime = 0;                      //Tempo decorrido em segundos
 
     // Settings
     [SerializeField] private float motorForce, breakForce, maxSteerAngle;
@@ -78,7 +86,12 @@ public class CarAgent : Agent
     {
         SetNewRandomCarLocation();
         SetNewRandomDestination();
-        //Talvez setar uma nova posicão para o carro 
+
+        //atualiza as novas variáveis de distância entre o agente e o destino
+        this.carDistanceToDestination = Vector3.Distance(this.transform.localPosition, Target.transform.position);
+        this.currentCarDistanceToDestination = this.carDistanceToDestination;
+
+        this.elapsedTime = 0;
     }  
 
     public override void CollectObservations(VectorSensor sensor)
@@ -99,7 +112,26 @@ public class CarAgent : Agent
 
         //Finalizar episódio aqui
 
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
+        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.position);
+        float travelledDistLastFrame = distanceToTarget * Time.deltaTime;
+        this.currentCarDistanceToDestination -= travelledDistLastFrame;
+        this.elapsedTime += Time.deltaTime;
+
+        SetReward(travelledDistLastFrame);
+
+        SetReward(-Time.deltaTime);
+
+        if (CarIsUpsideDown())
+        {
+            SetReward(-1.0f);
+            EndEpisode();
+        }
+
+        if(this.elapsedTime > this.timeLimit)
+        {
+            SetReward(-1.0f);
+            EndEpisode();
+        }
 
         if (distanceToTarget < 2.5f)
         {
@@ -121,12 +153,18 @@ public class CarAgent : Agent
         //Debug.Log("verticalInput: " + verticalInput);
         //Debug.Log("horizontalInput: " + horizontalInput);
         //Debug.Log("isBreaking: " + isBreaking);
+        //Debug.Log($"Car velocity x: {this.rBody.velocity.x} | z: {this.rBody.velocity.z}" );
+        //Debug.Log("carDistanceToDestination: " + carDistanceToDestination);
+        //Debug.Log("current distance: " + Vector3.Distance(this.transform.localPosition, Target.localPosition));
 
         continuousActionsOut[0] = verticalInput;
         continuousActionsOut[1] = horizontalInput;
         discreteActionsOut[0] = isBreaking ? 1 : 0;
 
         UpdateCar();
+
+        if (CarIsUpsideDown())
+            EndEpisode();
     }
 
     private void UpdateCar()
@@ -140,7 +178,11 @@ public class CarAgent : Agent
     private void SetNewRandomDestination()
     {
         //Seleciona as ruas próximas ao veículo
-        GameObject[] nearbyParkableStreets = this.parkableStreets.Where(x => Vector3.Distance(x.transform.localPosition, this.transform.localPosition) < 20).ToArray();
+        GameObject[] nearbyParkableStreets = this.parkableStreets
+                                              .Where(x => Vector3
+                                                        .Distance(x.transform.localPosition,
+                                                                  this.transform.localPosition) < 20)
+                                              .ToArray();
 
         int randomIndex = UnityEngine.Random.Range(0, nearbyParkableStreets.Length);
 
@@ -155,17 +197,50 @@ public class CarAgent : Agent
     private void SetNewRandomCarLocation()
     {
         int randomIndex = UnityEngine.Random.Range(0, parkableStreets.Count);
+
         GameObject randomSeletedStreetObj = this.parkableStreets[randomIndex];
         Transform randomlySelectedStreet = randomSeletedStreetObj.transform;
+
         Vector3 randomStreetVector = new Vector3(randomlySelectedStreet.localPosition.x,
                                                     .5f,
                                                     randomlySelectedStreet.localPosition.z);
 
         this.transform.localPosition = randomStreetVector;
         this.transform.rotation = randomlySelectedStreet.rotation;
+
+        ResetPhysics();
+    }
+
+    //TODO: reescrever este método 
+    private void ResetPhysics()
+    {
         verticalInput = 0;
         horizontalInput = 0;
         isBreaking = false;
+
+        this.rBody.velocity =
+        this.rBody.angularVelocity =
+        this.frontLeftWheelCollider.attachedRigidbody.velocity =
+        this.rearLeftWheelCollider.attachedRigidbody.velocity =
+        this.frontRightWheelCollider.attachedRigidbody.velocity =
+        this.rearRightWheelCollider.attachedRigidbody.velocity =
+
+        this.frontLeftWheelCollider.attachedRigidbody.angularVelocity =
+        this.rearLeftWheelCollider.attachedRigidbody.angularVelocity =
+        this.frontRightWheelCollider.attachedRigidbody.angularVelocity =
+        this.rearRightWheelCollider.attachedRigidbody.angularVelocity = Vector3.zero;
+
+
+        this.rBody.Sleep();
+        this.frontLeftWheelCollider.attachedRigidbody.Sleep();
+        this.rearLeftWheelCollider.attachedRigidbody.Sleep();
+        this.frontRightWheelCollider.attachedRigidbody.Sleep();
+        this.rearRightWheelCollider.attachedRigidbody.Sleep();
     }
 
+    //Checa se o carro está de ponta cabeça
+    private bool CarIsUpsideDown()
+    {
+        return Vector3.Dot(this.transform.up, Vector3.down) > 0;
+    }
 }
