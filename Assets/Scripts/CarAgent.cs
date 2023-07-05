@@ -117,14 +117,14 @@ public class CarAgent : Agent
         this.currentCarDistanceToDestination -= travelledDistLastFrame;
         this.elapsedTime += Time.deltaTime;
 
-        SetReward(travelledDistLastFrame);
+        SetReward(travelledDistLastFrame * 5);
 
-        SetReward(-Time.deltaTime);
+        SetReward(- (Time.deltaTime * 0.1f) );
 
         if (CarIsUpsideDown())
         {
             SetReward(-1.0f);
-            EndEpisode();
+            //EndEpisode();
         }
 
         if(this.elapsedTime > this.timeLimit)
@@ -135,8 +135,8 @@ public class CarAgent : Agent
 
         if (distanceToTarget < 2.5f)
         {
-            SetReward(1.0f);
-            EndEpisode();
+            SetReward(3.0f);
+            SetNewRandomDestination();
         }
         //Colocar um else if com condições de tombar o carro ou bater, subir na calçada etc
     }
@@ -164,7 +164,10 @@ public class CarAgent : Agent
         UpdateCar();
 
         if (CarIsUpsideDown())
-            EndEpisode();
+        {
+            FixCarPosition();
+            //EndEpisode();
+        }
     }
 
     private void UpdateCar()
@@ -242,5 +245,12 @@ public class CarAgent : Agent
     private bool CarIsUpsideDown()
     {
         return Vector3.Dot(this.transform.up, Vector3.down) > 0;
+    }
+
+    private void FixCarPosition()
+    {
+        Debug.Log("==>consertando posição");
+        this.transform.localPosition= new Vector3(this.transform.localPosition.x, 1.5f, this.transform.localPosition.z);
+        this.transform.rotation = Quaternion.Euler(0, 0, 180);
     }
 }
