@@ -15,8 +15,6 @@ public class CarAgent : Agent
     private bool isBreaking;
     private Rigidbody rBody;
 
-    private List<GameObject> parkableStreets;
-
     private float carDistanceToDestination;             //distância entre o carro e o destino no início do episódio
     private float currentCarDistanceToDestination;      //distância entre o carro e o destino a cada frame
 
@@ -39,7 +37,6 @@ public class CarAgent : Agent
     public void Start()
     {
         this.rBody = GetComponent<Rigidbody>();
-        this.parkableStreets = GameObject.FindGameObjectsWithTag("ParkableStreet").ToList();     //Lista de todos os objetos
     }
 
     private void HandleMotor()
@@ -100,6 +97,8 @@ public class CarAgent : Agent
         sensor.AddObservation(Target.localPosition);
 
         //Dar um jeito de add observacao da velocidade do carro
+        sensor.AddObservation(this.rBody.velocity.x);
+        sensor.AddObservation(this.rBody.velocity.z);
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -110,21 +109,24 @@ public class CarAgent : Agent
 
         UpdateCar();
 
-        //Finalizar episódio aqui
+        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.position);
-        float travelledDistLastFrame = distanceToTarget * Time.deltaTime;
-        this.currentCarDistanceToDestination -= travelledDistLastFrame;
+        //verifica se o carro se aproximou do destino em um metro
+        if (Math.Truncate(this.currentCarDistanceToDestination) > Math.Truncate(distanceToTarget))
+        { 
+            SetReward(0.5f);
+        }
+
+        //Atualiza a variável da classe
+        this.currentCarDistanceToDestination = distanceToTarget;
+
         this.elapsedTime += Time.deltaTime;
-
-        SetReward(travelledDistLastFrame * 5);
-
         SetReward(- (Time.deltaTime * 0.1f) );
 
         if (CarIsUpsideDown())
         {
-            SetReward(-1.0f);
-            //EndEpisode();
+            SetReward(-5.0f);
+            FixCarPosition();
         }
 
         if(this.elapsedTime > this.timeLimit)
@@ -135,7 +137,8 @@ public class CarAgent : Agent
 
         if (distanceToTarget < 2.5f)
         {
-            SetReward(3.0f);
+            this.elapsedTime = 0f;
+            SetReward(5.0f);
             SetNewRandomDestination();
         }
         //Colocar um else if com condições de tombar o carro ou bater, subir na calçada etc
@@ -180,36 +183,17 @@ public class CarAgent : Agent
 
     private void SetNewRandomDestination()
     {
-        //Seleciona as ruas próximas ao veículo
-        GameObject[] nearbyParkableStreets = this.parkableStreets
-                                              .Where(x => Vector3
-                                                        .Distance(x.transform.localPosition,
-                                                                  this.transform.localPosition) < 20)
-                                              .ToArray();
+        Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
 
-        int randomIndex = UnityEngine.Random.Range(0, nearbyParkableStreets.Length);
-
-        Transform randomlySelectedStreet = nearbyParkableStreets[randomIndex].transform;
-
-        Vector3 randomStreetVector = new Vector3(randomlySelectedStreet.localPosition.x,
-                                                    1.5f,
-                                                    randomlySelectedStreet.localPosition.z);
-        Target.localPosition = randomStreetVector;
+        Target.localPosition = newPos.localPosition;
     }
 
     private void SetNewRandomCarLocation()
     {
-        int randomIndex = UnityEngine.Random.Range(0, parkableStreets.Count);
+        Transform newPos = SpawnPointManager.Instance.GetSpawnPoint();
 
-        GameObject randomSeletedStreetObj = this.parkableStreets[randomIndex];
-        Transform randomlySelectedStreet = randomSeletedStreetObj.transform;
-
-        Vector3 randomStreetVector = new Vector3(randomlySelectedStreet.localPosition.x,
-                                                    .5f,
-                                                    randomlySelectedStreet.localPosition.z);
-
-        this.transform.localPosition = randomStreetVector;
-        this.transform.rotation = randomlySelectedStreet.rotation;
+        this.transform.localPosition = newPos.localPosition;
+        this.transform.rotation = newPos.rotation;
 
         ResetPhysics();
     }
@@ -250,7 +234,8 @@ public class CarAgent : Agent
     private void FixCarPosition()
     {
         Debug.Log("==>consertando posição");
-        this.transform.localPosition= new Vector3(this.transform.localPosition.x, 1.5f, this.transform.localPosition.z);
-        this.transform.rotation = Quaternion.Euler(0, 0, 180);
+        Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
+        this.transform.localPosition = newPos.localPosition;
+        this.transform.rotation = newPos.rotation;
     }
 }
