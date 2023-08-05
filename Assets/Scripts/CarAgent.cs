@@ -21,6 +21,9 @@ public class CarAgent : Agent
     private float timeLimit = 20;                       //Tempo limite em segundos para atingir o objetivo
     private float elapsedTime = 0;                      //Tempo decorrido em segundos
 
+    private CheckpointSingle nextCheckpoint;
+    private Transform resetPosition;
+
     // Settings
     [SerializeField] private float motorForce, breakForce, maxSteerAngle;
 
@@ -37,6 +40,102 @@ public class CarAgent : Agent
     public void Start()
     {
         this.rBody = GetComponent<Rigidbody>();
+    }
+
+
+    #region :: ML-AGENTS METHODS ::
+    public override void OnEpisodeBegin()
+    {
+        SetNewPath();
+
+        //atualiza as novas variáveis de distância entre o agente e o destino
+        this.carDistanceToDestination = Vector3.Distance(this.transform.localPosition, Target.transform.position);
+        this.currentCarDistanceToDestination = this.carDistanceToDestination;
+
+        this.elapsedTime = 0;
+    }  
+
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        sensor.AddObservation(this.transform.localPosition);
+        //sensor.AddObservation(Target.localPosition);
+        sensor.AddObservation(this.nextCheckpoint?.transform.localPosition ?? Target.localPosition);
+
+        //Dar um jeito de add observacao da velocidade do carro
+        sensor.AddObservation(this.rBody.velocity.x);
+        sensor.AddObservation(this.rBody.velocity.z);
+    }
+
+    public override void OnActionReceived(ActionBuffers actions)
+    {
+        verticalInput = actions.ContinuousActions[0];
+        horizontalInput = actions.ContinuousActions[1];
+        isBreaking = actions.DiscreteActions[0] == 1;
+
+        UpdateCar();
+
+        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
+
+        this.elapsedTime += Time.deltaTime;
+        //SetReward(- (Time.deltaTime * 0.1f) );
+
+        if (CarIsUpsideDown())
+        {
+            SetReward(-5.0f);
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            EndEpisode();
+            //FixCarPosition();
+        }
+
+        if(this.elapsedTime > this.timeLimit)
+        {
+            SetReward(-2.0f);
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            EndEpisode();
+        }
+
+        if (distanceToTarget < 2.5f)
+        {
+            this.elapsedTime = 0f;
+            SetReward(5.0f);
+            SetNewPath();
+
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            EndEpisode();
+        }
+    }
+
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        var continuousActionsOut = actionsOut.ContinuousActions;
+        var discreteActionsOut = actionsOut.DiscreteActions;
+
+        verticalInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal");
+        isBreaking = Input.GetKey(KeyCode.Space);
+
+        continuousActionsOut[0] = verticalInput;
+        continuousActionsOut[1] = horizontalInput;
+        discreteActionsOut[0] = isBreaking ? 1 : 0;
+
+        UpdateCar();
+
+        if (CarIsUpsideDown())
+        {
+            FixCarPosition();
+            //Debug.Log($"episode reward: {this.GetCumulativeReward()}")EndEpisode();
+        }
+    }
+
+    #endregion
+
+    #region :: CAR CONTROLL ::
+    private void UpdateCar()
+    {
+        //Debug.Log("Atualizando carro");
+        HandleMotor();
+        HandleSteering();
+        UpdateWheels();
     }
 
     private void HandleMotor()
@@ -78,124 +177,34 @@ public class CarAgent : Agent
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
     }
+    #endregion
 
-    public override void OnEpisodeBegin()
+    private void SetNewPath()
     {
-        SetNewRandomCarLocation();
-        SetNewRandomDestination();
+        PathManager newPath = SpawnPointManager.Instance.GetNewPath();
+      
+        Transform newCarLocation = newPath.origin.transform;
+        Transform newDestination = newPath.destiny.transform;
 
-        //atualiza as novas variáveis de distância entre o agente e o destino
-        this.carDistanceToDestination = Vector3.Distance(this.transform.localPosition, Target.transform.position);
-        this.currentCarDistanceToDestination = this.carDistanceToDestination;
+        this.transform.localPosition = newCarLocation.localPosition;
+        this.transform.rotation = newCarLocation.rotation;
 
-        this.elapsedTime = 0;
-    }  
-
-    public override void CollectObservations(VectorSensor sensor)
-    {
-        sensor.AddObservation(this.transform.localPosition);
-        sensor.AddObservation(Target.localPosition);
-
-        //Dar um jeito de add observacao da velocidade do carro
-        sensor.AddObservation(this.rBody.velocity.x);
-        sensor.AddObservation(this.rBody.velocity.z);
-    }
-
-    public override void OnActionReceived(ActionBuffers actions)
-    {
-        verticalInput = actions.ContinuousActions[0];
-        horizontalInput = actions.ContinuousActions[1];
-        isBreaking = actions.DiscreteActions[0] == 1;
-
-        UpdateCar();
-
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
-
-        //verifica se o carro se aproximou do destino em um metro
-        if (Math.Truncate(this.currentCarDistanceToDestination) > Math.Truncate(distanceToTarget))
-        { 
-            SetReward(0.5f);
-        }
-
-        //Atualiza a variável da classe
-        this.currentCarDistanceToDestination = distanceToTarget;
-
-        this.elapsedTime += Time.deltaTime;
-        SetReward(- (Time.deltaTime * 0.1f) );
-
-        if (CarIsUpsideDown())
-        {
-            SetReward(-5.0f);
-            FixCarPosition();
-        }
-
-        if(this.elapsedTime > this.timeLimit)
-        {
-            SetReward(-1.0f);
-            EndEpisode();
-        }
-
-        if (distanceToTarget < 2.5f)
-        {
-            this.elapsedTime = 0f;
-            SetReward(5.0f);
-            SetNewRandomDestination();
-        }
-        //Colocar um else if com condições de tombar o carro ou bater, subir na calçada etc
-    }
-
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
-        var continuousActionsOut = actionsOut.ContinuousActions;
-        var discreteActionsOut = actionsOut.DiscreteActions;
-
-        verticalInput = Input.GetAxis("Vertical");
-        horizontalInput = Input.GetAxis("Horizontal");
-        isBreaking = Input.GetKey(KeyCode.Space);
-
-        //Debug.Log("verticalInput: " + verticalInput);
-        //Debug.Log("horizontalInput: " + horizontalInput);
-        //Debug.Log("isBreaking: " + isBreaking);
-        //Debug.Log($"Car velocity x: {this.rBody.velocity.x} | z: {this.rBody.velocity.z}" );
-        //Debug.Log("carDistanceToDestination: " + carDistanceToDestination);
-        //Debug.Log("current distance: " + Vector3.Distance(this.transform.localPosition, Target.localPosition));
-
-        continuousActionsOut[0] = verticalInput;
-        continuousActionsOut[1] = horizontalInput;
-        discreteActionsOut[0] = isBreaking ? 1 : 0;
-
-        UpdateCar();
-
-        if (CarIsUpsideDown())
-        {
-            FixCarPosition();
-            //EndEpisode();
-        }
-    }
-
-    private void UpdateCar()
-    {
-        //Debug.Log("Atualizando carro");
-        HandleMotor();
-        HandleSteering();
-        UpdateWheels();
-    }
-
-    private void SetNewRandomDestination()
-    {
-        Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
-
-        Target.localPosition = newPos.localPosition;
-    }
-
-    private void SetNewRandomCarLocation()
-    {
-        Transform newPos = SpawnPointManager.Instance.GetSpawnPoint();
-
-        this.transform.localPosition = newPos.localPosition;
-        this.transform.rotation = newPos.rotation;
+        this.resetPosition = newCarLocation;
+        this.nextCheckpoint = newPath.GetFirstCheckpoint;
+        Target.localPosition = newDestination.localPosition;
 
         ResetPhysics();
+    }
+
+    //Função que o SpawnpointManager chama informando que o checkpoint foi cruzado
+    public void OnCheckedpoint(CheckpointSingle nextCheckpoint)
+    {
+        //if(nextCheckpoint != null) Debug.Log($"Checkpoint! {this.nextCheckpoint.name}");
+        this.resetPosition = this.nextCheckpoint?.transform ?? this.resetPosition;
+        this.nextCheckpoint = nextCheckpoint;
+
+        //TODO: fazer com que as recompensas estejam organizadas em constantes em um código separado
+        SetReward(2f);
     }
 
     //TODO: reescrever este método 
@@ -234,8 +243,8 @@ public class CarAgent : Agent
     private void FixCarPosition()
     {
         Debug.Log("==>consertando posição");
-        Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
-        this.transform.localPosition = newPos.localPosition;
-        this.transform.rotation = newPos.rotation;
+        //Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
+        this.transform.localPosition = this.resetPosition.localPosition;
+        this.transform.rotation = this.resetPosition.rotation;
     }
 }
