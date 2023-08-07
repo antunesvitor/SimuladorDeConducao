@@ -53,7 +53,7 @@ public class CarAgent : Agent
         this.currentCarDistanceToDestination = this.carDistanceToDestination;
 
         this.elapsedTime = 0;
-    }  
+    }
 
     public override void CollectObservations(VectorSensor sensor)
     {
@@ -61,7 +61,6 @@ public class CarAgent : Agent
         //sensor.AddObservation(Target.localPosition);
         sensor.AddObservation(this.nextCheckpoint?.transform.localPosition ?? Target.localPosition);
 
-        //Dar um jeito de add observacao da velocidade do carro
         sensor.AddObservation(this.rBody.velocity.x);
         sensor.AddObservation(this.rBody.velocity.z);
     }
@@ -82,7 +81,7 @@ public class CarAgent : Agent
         if (CarIsUpsideDown())
         {
             SetReward(-5.0f);
-            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
             //FixCarPosition();
         }
@@ -90,7 +89,7 @@ public class CarAgent : Agent
         if(this.elapsedTime > this.timeLimit)
         {
             SetReward(-2.0f);
-            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
         }
 
@@ -100,7 +99,7 @@ public class CarAgent : Agent
             SetReward(5.0f);
             SetNewPath();
 
-            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
         }
     }
@@ -191,7 +190,7 @@ public class CarAgent : Agent
 
         this.resetPosition = newCarLocation;
         this.nextCheckpoint = newPath.GetFirstCheckpoint;
-        Target.localPosition = newDestination.localPosition;
+        Target.localPosition = new Vector3(newDestination.localPosition.x, 1, newDestination.localPosition.z);
 
         ResetPhysics();
     }
@@ -204,7 +203,19 @@ public class CarAgent : Agent
         this.nextCheckpoint = nextCheckpoint;
 
         //TODO: fazer com que as recompensas estejam organizadas em constantes em um código separado
-        SetReward(2f);
+        SetReward(1f);
+    }
+
+    public void OnSideWalkCollision()
+    {
+        //Debug.Log("Colidiu com calçada!");
+        SetReward(-0.5f);
+    }
+
+    public void OnWallCollsion()
+    {
+        //Debug.Log("Colidiu com parede!");
+        SetReward(-0.5f);
     }
 
     //TODO: reescrever este método 
@@ -242,7 +253,6 @@ public class CarAgent : Agent
 
     private void FixCarPosition()
     {
-        Debug.Log("==>consertando posição");
         //Transform newPos = SpawnPointManager.Instance.GetNearbySpawnpoint(this.transform);
         this.transform.localPosition = this.resetPosition.localPosition;
         this.transform.rotation = this.resetPosition.rotation;

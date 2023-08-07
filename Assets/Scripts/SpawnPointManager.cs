@@ -20,7 +20,7 @@ public class SpawnPointManager : MonoBehaviour
         Instance = this;
         //spawnPoints = GetComponentsInChildren<SpawnPoint>();
         pathManagers = GetComponentsInChildren<PathManager>().ToList();
-        Debug.Log($"SpawnPointManager Awake() pathManagers size: ${this.pathManagers.Count()}");
+        //Debug.Log($"SpawnPointManager Awake() pathManagers size: ${this.pathManagers.Count()}");
         Transform pathsTransform = transform.Find("Path");
     }
 
@@ -54,7 +54,7 @@ public class SpawnPointManager : MonoBehaviour
         this.lastRandomIndex = randomIndex;
 
         randomPathM.ActivateCheckpoints();
-        Debug.Log("GetNewPath() newPath nextCheckpointIndex: " + randomPathM.getNextCheckpointIndex);
+        //Debug.Log("GetNewPath() newPath nextCheckpointIndex: " + randomPathM.getNextCheckpointIndex);
         return randomPathM;
     }
 

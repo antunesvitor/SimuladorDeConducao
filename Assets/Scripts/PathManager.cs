@@ -23,6 +23,7 @@ public class PathManager : MonoBehaviour
     {
         var pathCheckpoints = GetComponentsInChildren<CheckpointSingle>();
         this.checkpointsList = new List<CheckpointSingle>();
+
         foreach(CheckpointSingle checkpoint in pathCheckpoints)
         {
             checkpoint.SetPathManager(this);
@@ -33,8 +34,6 @@ public class PathManager : MonoBehaviour
         this._origin = transform.Find("Origin");
         this._destiny = transform.Find("Destiny");
         this.nextCheckpointSingleIndex = 0;
-
-        //Debug.Log("Awake() checkpointList size = " + this.checkpointsList.Count);
     }
 
     public void WhenPlayerCrossCheckpoint()
@@ -54,13 +53,6 @@ public class PathManager : MonoBehaviour
 
     public void ActivateCheckpoints()
     {
-        //Debug.Log("Escolhida a rota");
-
-        //Debug.Log("Resetando path");
-        //ResetPath();
-        //Debug.Log("ActivateCheckpoints() checkpointList size = " + this.checkpointsList.Count);
-
-        //Debug.Log("ativando rota");
         this.checkpointsList.ForEach(x => x.Activate());
     }
 
