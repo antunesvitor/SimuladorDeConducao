@@ -2,58 +2,58 @@
     "MoveToTarget": {
         "checkpoints": [
             {
-                "steps": 499975,
-                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-499975.onnx",
+                "steps": 2499964,
+                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2499964.onnx",
+                "reward": 1.0,
+                "creation_time": 1691416781.664281,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2499964.pt"
+                ]
+            },
+            {
+                "steps": 2999941,
+                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2999941.onnx",
                 "reward": null,
-                "creation_time": 1691365544.2876859,
+                "creation_time": 1691420386.5105505,
                 "auxillary_file_paths": [
-                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-499975.pt"
+                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2999941.pt"
                 ]
             },
             {
-                "steps": 999989,
-                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-999989.onnx",
-                "reward": -2.0,
-                "creation_time": 1691369563.184556,
+                "steps": 3499993,
+                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-3499993.onnx",
+                "reward": 10.0,
+                "creation_time": 1691423987.2747164,
                 "auxillary_file_paths": [
-                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-999989.pt"
+                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-3499993.pt"
                 ]
             },
             {
-                "steps": 1499954,
-                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-1499954.onnx",
-                "reward": 8.333333333333334,
-                "creation_time": 1691373431.0976946,
+                "steps": 3999983,
+                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-3999983.onnx",
+                "reward": 1.0,
+                "creation_time": 1691427597.4593685,
                 "auxillary_file_paths": [
-                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-1499954.pt"
+                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-3999983.pt"
                 ]
             },
             {
-                "steps": 1999979,
-                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-1999979.onnx",
-                "reward": 12.0,
-                "creation_time": 1691377272.0587375,
+                "steps": 4000047,
+                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-4000047.onnx",
+                "reward": 1.0,
+                "creation_time": 1691427597.492962,
                 "auxillary_file_paths": [
-                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-1999979.pt"
-                ]
-            },
-            {
-                "steps": 2000043,
-                "file_path": "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2000043.onnx",
-                "reward": 12.0,
-                "creation_time": 1691377272.1048477,
-                "auxillary_file_paths": [
-                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2000043.pt"
+                    "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-4000047.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 2000043,
+            "steps": 4000047,
             "file_path": "results\\CarSim6.0\\MoveToTarget.onnx",
-            "reward": 12.0,
-            "creation_time": 1691377272.1048477,
+            "reward": 1.0,
+            "creation_time": 1691427597.492962,
             "auxillary_file_paths": [
-                "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-2000043.pt"
+                "results\\CarSim6.0\\MoveToTarget\\MoveToTarget-4000047.pt"
             ]
         }
     },

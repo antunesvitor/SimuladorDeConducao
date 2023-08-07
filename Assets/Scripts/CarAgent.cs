@@ -76,7 +76,10 @@ public class CarAgent : Agent
         float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
         this.elapsedTime += Time.deltaTime;
-        //SetReward(- (Time.deltaTime * 0.1f) );
+
+        //Aplicando punição do step
+        //TODO: centralizar isso em uma constante
+        SetReward(-0.0006f);
 
         if (CarIsUpsideDown())
         {
@@ -84,13 +87,6 @@ public class CarAgent : Agent
             //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
             //FixCarPosition();
-        }
-
-        if(this.elapsedTime > this.timeLimit)
-        {
-            SetReward(-2.0f);
-            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
-            EndEpisode();
         }
 
         if (distanceToTarget < 2.5f)
