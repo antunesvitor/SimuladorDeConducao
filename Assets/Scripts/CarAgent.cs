@@ -18,11 +18,13 @@ public class CarAgent : Agent
     private float carDistanceToDestination;             //distância entre o carro e o destino no início do episódio
     private float currentCarDistanceToDestination;      //distância entre o carro e o destino a cada frame
 
-    private float timeLimit = 20;                       //Tempo limite em segundos para atingir o objetivo
-    private float elapsedTime = 0;                      //Tempo decorrido em segundos
+    //private float timeLimit = 20;                       //Tempo limite em segundos para atingir o objetivo
+    //private float elapsedTime = 0;                      //Tempo decorrido em segundos
 
     private CheckpointSingle nextCheckpoint;
     private Transform resetPosition;
+    private float stepPunishment { get { return Constants.FEEDBACK_MAXSTEPS_REACHED / this.MaxStep; } }
+
 
     // Settings
     [SerializeField] private float motorForce, breakForce, maxSteerAngle;
@@ -36,10 +38,12 @@ public class CarAgent : Agent
     [SerializeField] private Transform rearLeftWheelTransform, rearRightWheelTransform;
 
     [SerializeField] private Transform Target;
+    [SerializeField] private SpawnPointManager SpawnPointManager;
 
     public void Start()
     {
         this.rBody = GetComponent<Rigidbody>();
+        Debug.Log($"Step Punishment: {stepPunishment}");
     }
 
 
@@ -52,15 +56,11 @@ public class CarAgent : Agent
         this.carDistanceToDestination = Vector3.Distance(this.transform.localPosition, Target.transform.position);
         this.currentCarDistanceToDestination = this.carDistanceToDestination;
 
-        this.elapsedTime = 0;
+        //this.elapsedTime = 0;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(this.transform.localPosition);
-        //sensor.AddObservation(Target.localPosition);
-        sensor.AddObservation(this.nextCheckpoint?.transform.localPosition ?? Target.localPosition);
-
         sensor.AddObservation(this.rBody.velocity.x);
         sensor.AddObservation(this.rBody.velocity.z);
     }
@@ -75,28 +75,33 @@ public class CarAgent : Agent
 
         float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
-        this.elapsedTime += Time.deltaTime;
+        //this.elapsedTime += Time.deltaTime;
 
         //Aplicando punição do step
         //TODO: centralizar isso em uma constante
-        SetReward(-0.0006f);
+        AddReward(stepPunishment);
 
         if (CarIsUpsideDown())
         {
-            SetReward(-5.0f);
-            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            AddReward(Constants.FEEDBACK_CAR_UPSIDE_DOWN);
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
             //FixCarPosition();
         }
 
         if (distanceToTarget < 2.5f)
         {
-            this.elapsedTime = 0f;
-            SetReward(5.0f);
+            //this.elapsedTime = 0f;
+            AddReward(Constants.FEEDBACK_DESTINATION_REACHED);
             SetNewPath();
 
-            //Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
+        }
+
+        if (this.StepCount == this.MaxStep)
+        {
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
         }
     }
 
@@ -176,7 +181,7 @@ public class CarAgent : Agent
 
     private void SetNewPath()
     {
-        PathManager newPath = SpawnPointManager.Instance.GetNewPath();
+        PathManager newPath = this.SpawnPointManager.GetNewPath();
       
         Transform newCarLocation = newPath.origin.transform;
         Transform newDestination = newPath.destiny.transform;
@@ -194,24 +199,23 @@ public class CarAgent : Agent
     //Função que o SpawnpointManager chama informando que o checkpoint foi cruzado
     public void OnCheckedpoint(CheckpointSingle nextCheckpoint)
     {
-        //if(nextCheckpoint != null) Debug.Log($"Checkpoint! {this.nextCheckpoint.name}");
         this.resetPosition = this.nextCheckpoint?.transform ?? this.resetPosition;
         this.nextCheckpoint = nextCheckpoint;
 
-        //TODO: fazer com que as recompensas estejam organizadas em constantes em um código separado
-        SetReward(1f);
+        //Debug.Log($"Atingiu checkpoint! +{Constants.FEEDBACK_CHECKPOINT_REACHED} pts | atual: {this.GetCumulativeReward()}");
+        AddReward(Constants.FEEDBACK_CHECKPOINT_REACHED);
     }
 
     public void OnSideWalkCollision()
     {
-        //Debug.Log("Colidiu com calçada!");
-        SetReward(-0.5f);
+        Debug.Log($"Colidiu com calçada! -{Constants.FEEDBACK_COLLISION_SIDEWALK} pts | atual: {this.GetCumulativeReward()}");
+        AddReward(Constants.FEEDBACK_COLLISION_SIDEWALK);
     }
 
     public void OnWallCollsion()
     {
-        //Debug.Log("Colidiu com parede!");
-        SetReward(-0.5f);
+        Debug.Log($"Colidiu com parede! -{Constants.FEEDBACK_COLLISION_WALL} pts | atual: {this.GetCumulativeReward()}");
+        AddReward(Constants.FEEDBACK_COLLISION_WALL);
     }
 
     //TODO: reescrever este método 

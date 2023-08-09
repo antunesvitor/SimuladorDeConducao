@@ -1,0 +1,38 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499973,
+                "file_path": "results\\CarSim6.2.1_Path2_Build\\MoveToTarget\\MoveToTarget-499973.onnx",
+                "reward": 10.354999870061874,
+                "creation_time": 1691598755.2192805,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.1_Path2_Build\\MoveToTarget\\MoveToTarget-499973.pt"
+                ]
+            },
+            {
+                "steps": 510222,
+                "file_path": "results\\CarSim6.2.1_Path2_Build\\MoveToTarget\\MoveToTarget-510222.onnx",
+                "reward": null,
+                "creation_time": 1691598780.3566349,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.1_Path2_Build\\MoveToTarget\\MoveToTarget-510222.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 510222,
+            "file_path": "results\\CarSim6.2.1_Path2_Build\\MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1691598780.3566349,
+            "auxillary_file_paths": [
+                "results\\CarSim6.2.1_Path2_Build\\MoveToTarget\\MoveToTarget-510222.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
