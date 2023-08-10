@@ -2617,7 +2617,7 @@ MonoBehaviour:
   m_RaysPerDirection: 4
   m_MaxRayDegrees: 180
   m_SphereCastRadius: 0.3
-  m_RayLength: 7
+  m_RayLength: 8
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
@@ -3584,7 +3584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_BehaviorType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_InferenceDevice
@@ -3608,7 +3608,7 @@ PrefabInstance:
       objectReference: {fileID: 617172435}
     - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: MaxStep
-      value: 2500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714595082468, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_IsActive

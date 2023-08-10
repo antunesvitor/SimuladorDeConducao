@@ -1,0 +1,4576 @@
+Mono path[0] = 'C:/Users/vitor/SimuladorDeDirecao/Build/SimuladorDeDirecao_Data/Managed'
+Mono config path = 'C:/Users/vitor/SimuladorDeDirecao/Build/MonoBleedingEdge/etc'
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/vitor/SimuladorDeDirecao/Build/SimuladorDeDirecao_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12242 MB
+    Driver:   31.0.12027.9001
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.068 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initialized touch support.
+UnloadTime: 0.691300 ms
+Step Punishment: -0,005
+episode reward: -5,000067
+Colidiu com parede! --5 pts | atual: -1,554999
+Colidiu com parede! --5 pts | atual: -6,905007
+Colidiu com parede! --5 pts | atual: -12,86503
+Colidiu com parede! --5 pts | atual: -18,58491
+episode reward: -24,99967
+episode reward: -5,000067
+episode reward: -5,000067
+episode reward: -5,000067
+Colidiu com calçada! --5 pts | atual: 4,309993
+Colidiu com parede! --5 pts | atual: -0,910007
+Colidiu com parede! --5 pts | atual: -5,940008
+Colidiu com parede! --5 pts | atual: -11,79003
+Colidiu com parede! --5 pts | atual: -18,23978
+Colidiu com parede! --5 pts | atual: -23,80969
+episode reward: -28,99966
+episode reward: -3,00002
+Colidiu com calçada! --5 pts | atual: 14,70496
+Colidiu com calçada! --5 pts | atual: 9,45995
+Colidiu com calçada! --5 pts | atual: 4,45995
+episode reward: -2,000048
+Colidiu com calçada! --5 pts | atual: 16,14499
+episode reward: 15,98998
+episode reward: 0,9999926
+Colidiu com calçada! --5 pts | atual: 2,61999
+episode reward: -6,000093
+Colidiu com calçada! --5 pts | atual: 2,704991
+episode reward: -6,000094
+Colidiu com calçada! --5 pts | atual: 0,7249882
+episode reward: -6,000051
+Colidiu com calçada! --5 pts | atual: 0,6150012
+episode reward: -8,000081
+episode reward: -3,000025
+episode reward: -3,00006
+Colidiu com calçada! --5 pts | atual: 1,880002
+episode reward: -6,000064
+episode reward: -3,000035
+Colidiu com calçada! --5 pts | atual: 0,9350023
+Colidiu com calçada! --5 pts | atual: -4,230001
+episode reward: -11,00004
+episode reward: 8,999909
+Colidiu com calçada! --5 pts | atual: 16,66001
+Colidiu com calçada! --5 pts | atual: 11,595
+episode reward: 4,999968
+episode reward: 1,000004
+Colidiu com calçada! --5 pts | atual: 13,17499
+Colidiu com calçada! --5 pts | atual: 8,119987
+episode reward: 7,934983
+Colidiu com calçada! --5 pts | atual: 14,23497
+episode reward: 14,04997
+Colidiu com calçada! --5 pts | atual: 6,089963
+Colidiu com calçada! --5 pts | atual: 2,729956
+episode reward: -3,000061
+episode reward: 2,999965
+episode reward: -1,000059
+Colidiu com calçada! --5 pts | atual: 5,019993
+episode reward: 1,999993
+Colidiu com calçada! --5 pts | atual: 11,05496
+Colidiu com calçada! --5 pts | atual: 5,92496
+Colidiu com calçada! --5 pts | atual: 0,8749602
+Colidiu com calçada! --5 pts | atual: -4,395046
+Colidiu com calçada! --5 pts | atual: -9,435047
+episode reward: -19,66505
+episode reward: 0,9999391
+Colidiu com calçada! --5 pts | atual: 8,384978
+Colidiu com calçada! --5 pts | atual: 2,709963
+Colidiu com calçada! --5 pts | atual: -2,295037
+episode reward: -10,0001
+Colidiu com calçada! --5 pts | atual: 6,194985
+Colidiu com calçada! --5 pts | atual: 1,134985
+episode reward: -7,000086
+episode reward: -1,000008
+Colidiu com calçada! --5 pts | atual: 2,639993
+episode reward: -6,00009
+Colidiu com calçada! --5 pts | atual: 2,739988
+episode reward: -6,000098
+Colidiu com calçada! --5 pts | atual: 7,65997
+Colidiu com calçada! --5 pts | atual: 2,259961
+Colidiu com calçada! --5 pts | atual: -2,78504
+episode reward: -8,000045
+Colidiu com calçada! --5 pts | atual: 11,72493
+Colidiu com calçada! --5 pts | atual: 6,724931
+Colidiu com calçada! --5 pts | atual: 1,659931
+Colidiu com calçada! --5 pts | atual: -3,35007
+Colidiu com calçada! --5 pts | atual: -8,595075
+Colidiu com calçada! --5 pts | atual: -13,62008
+Colidiu com calçada! --5 pts | atual: -18,74505
+episode reward: -24,00001
+Colidiu com calçada! --5 pts | atual: 12,15998
+Colidiu com calçada! --5 pts | atual: 6,859969
+Colidiu com calçada! --5 pts | atual: 1,764969
+Colidiu com calçada! --5 pts | atual: -3,270031
+Colidiu com calçada! --5 pts | atual: -8,610039
+episode reward: -18,71504
+Colidiu com calçada! --5 pts | atual: 0,7649997
+episode reward: -9,545008
+Colidiu com calçada! --5 pts | atual: 5,624966
+Colidiu com calçada! --5 pts | atual: 0,6249657
+episode reward: -7,000094
+Colidiu com calçada! --5 pts | atual: 15,23998
+Colidiu com calçada! --5 pts | atual: 12,17498
+Colidiu com calçada! --5 pts | atual: 11,06998
+Colidiu com calçada! --5 pts | atual: 6,039979
+Colidiu com calçada! --5 pts | atual: 0,979979
+Colidiu com calçada! --5 pts | atual: -4,940042
+episode reward: -11,00007
+episode reward: -1,000021
+episode reward: -1,000014
+Colidiu com calçada! --5 pts | atual: 3,069998
+Colidiu com calçada! --5 pts | atual: 5,569968
+episode reward: -1,000031
+episode reward: -0,9999961
+episode reward: -0,999996
+episode reward: -1,000024
+episode reward: -3,00002
+episode reward: 4,99991
+episode reward: 8,999954
+Colidiu com calçada! --5 pts | atual: 4,204988
+Colidiu com calçada! --5 pts | atual: -0,8800114
+Colidiu com calçada! --5 pts | atual: -5,900058
+Colidiu com calçada! --5 pts | atual: -10,93006
+episode reward: -16,99989
+episode reward: 2,999935
+episode reward: 6,999941
+episode reward: 6,999905
+episode reward: 6,999902
+episode reward: 0,9999348
+episode reward: 8,999908
+episode reward: 8,999908
+episode reward: 8,999912
+Colidiu com calçada! --5 pts | atual: 4,774988
+Colidiu com calçada! --5 pts | atual: 4,279915
+episode reward: -1,000084
+Colidiu com calçada! --5 pts | atual: 2,15499
+Colidiu com calçada! --5 pts | atual: -3,310021
+Colidiu com calçada! --5 pts | atual: -8,420023
+Colidiu com calçada! --5 pts | atual: -11,78003
+Colidiu com parede! --5 pts | atual: -18,45475
+episode reward: -23,99966
+episode reward: 8,999913
+Colidiu com calçada! --5 pts | atual: 10,26494
+Colidiu com calçada! --5 pts | atual: 5,254936
+episode reward: -1,000063
+episode reward: 8,999908
+episode reward: 10,99991
+Colidiu com calçada! --5 pts | atual: 13,07496
+episode reward: 5,999908
+Colidiu com calçada! --5 pts | atual: 11,17491
+episode reward: 5,999905
+Colidiu com calçada! --5 pts | atual: 11,35991
+episode reward: 5,999903
+episode reward: 6,999911
+episode reward: 4,999911
+episode reward: 6,999908
+Colidiu com calçada! --5 pts | atual: 11,37996
+Colidiu com calçada! --5 pts | atual: 4,454912
+Colidiu com calçada! --5 pts | atual: -0,7700876
+episode reward: -6,000093
+Colidiu com calçada! --5 pts | atual: 12,91996
+episode reward: 5,999912
+Colidiu com calçada! --5 pts | atual: 11,30496
+Colidiu com calçada! --5 pts | atual: 5,169931
+episode reward: -1,000068
+Colidiu com calçada! --5 pts | atual: 10,82495
+episode reward: 9,559916
+episode reward: 10,9999
+Colidiu com calçada! --5 pts | atual: 13,02996
+episode reward: 12,21494
+episode reward: 10,99991
+episode reward: 8,999909
+episode reward: 10,99993
+Colidiu com calçada! --5 pts | atual: 12,81494
+episode reward: 12,35993
+Colidiu com calçada! --5 pts | atual: 12,50494
+episode reward: 5,999907
+episode reward: 16,28493
+Colidiu com calçada! --5 pts | atual: 15,49496
+Colidiu com calçada! --5 pts | atual: 12,36996
+episode reward: 14,05995
+Colidiu com calçada! --5 pts | atual: 11,46991
+episode reward: 5,999904
+Colidiu com calçada! --5 pts | atual: 11,46992
+episode reward: 5,999913
+Colidiu com calçada! --5 pts | atual: 12,45994
+episode reward: 5,999907
+episode reward: 10,99991
+episode reward: 10,99991
+Colidiu com calçada! --5 pts | atual: 12,03994
+episode reward: 5,999913
+episode reward: 10,99991
+episode reward: 10,99991
+episode reward: 8,999917
+episode reward: 8,999917
+Colidiu com calçada! --5 pts | atual: 11,69992
+Colidiu com calçada! --5 pts | atual: 6,69992
+episode reward: 0,9999204
+episode reward: 10,99991
+Colidiu com calçada! --5 pts | atual: 11,72492
+episode reward: 5,999905
+episode reward: 8,999906
+Colidiu com calçada! --5 pts | atual: 13,09495
+episode reward: 5,999905
+episode reward: 10,99991
+episode reward: 10,9999
+episode reward: 10,9999
+episode reward: 19,00027
+episode reward: 10,99991
+Colidiu com calçada! --5 pts | atual: 13,14995
+Colidiu com calçada! --5 pts | atual: 7,799943
+episode reward: 6,579925
+episode reward: 10,9999
+Colidiu com calçada! --5 pts | atual: 12,00493
+episode reward: 5,999905
+Colidiu com calçada! --5 pts | atual: 12,93494
+Colidiu com calçada! --5 pts | atual: 7,059924
+Colidiu com calçada! --5 pts | atual: 7,319908
+Colidiu com calçada! --5 pts | atual: 2,319908
+Colidiu com calçada! --5 pts | atual: -2,880096
+episode reward: -8,000099
+episode reward: 10,9999
+Colidiu com calçada! --5 pts | atual: 14,12498
+episode reward: 13,9999
+Colidiu com calçada! --5 pts | atual: 13,47996
+Colidiu com calçada! --5 pts | atual: 9,53994
+Colidiu com calçada! --5 pts | atual: 5,504916
+Colidiu com calçada! --5 pts | atual: 0,5049162
+episode reward: -5,000095
+episode reward: 17,00032
+episode reward: 17,0001
+Colidiu com calçada! --5 pts | atual: 17,57997
+Colidiu com calçada! --5 pts | atual: 12,57497
+episode reward: 8,99991
+Colidiu com calçada! --5 pts | atual: 13,63496
+Colidiu com calçada! --5 pts | atual: 8,40996
+Colidiu com calçada! --5 pts | atual: 5,479916
+Colidiu com calçada! --5 pts | atual: 0,4749156
+Colidiu com calçada! --5 pts | atual: -4,740089
+Colidiu com calçada! --5 pts | atual: -9,740089
+Colidiu com calçada! --5 pts | atual: -14,84509
+Colidiu com calçada! --5 pts | atual: -19,84509
+episode reward: -25,00007
+episode reward: 17,00022
+episode reward: 15,00006
+episode reward: 15,0002
+episode reward: 15,00018
+Colidiu com calçada! --5 pts | atual: 6,474981
+episode reward: -2,000016
+episode reward: 15,00033
+Colidiu com calçada! --5 pts | atual: 16,03998
+Colidiu com calçada! --5 pts | atual: 11,01998
+episode reward: 2,99991
+Colidiu com calçada! --5 pts | atual: 18,03002
+episode reward: 9,999947
+Colidiu com calçada! --5 pts | atual: 13,57496
+episode reward: 11,9999
+episode reward: 17,00035
+Colidiu com calçada! --5 pts | atual: 4,724988
+episode reward: -4,000057
+episode reward: 17,00034
+episode reward: 17,00031
+Colidiu com calçada! --5 pts | atual: 6,494983
+Colidiu com calçada! --5 pts | atual: 3,859971
+Colidiu com calçada! --5 pts | atual: -1,145029
+episode reward: -4,000072
+Colidiu com calçada! --5 pts | atual: 6,559984
+Colidiu com calçada! --5 pts | atual: 0,1149856
+Colidiu com calçada! --5 pts | atual: -5,170021
+episode reward: -12,00006
+episode reward: 12,99991
+episode reward: 19,00007
+Colidiu com calçada! --5 pts | atual: 12,08997
+Colidiu com calçada! --5 pts | atual: 7,014973
+episode reward: 2,999907
+Colidiu com calçada! --5 pts | atual: 4,869989
+Colidiu com calçada! --5 pts | atual: -0,1350106
+episode reward: -9,000099
+episode reward: 19,00034
+Colidiu com calçada! --5 pts | atual: 12,60998
+Colidiu com calçada! --5 pts | atual: 7,544981
+episode reward: 0,9999548
+Colidiu com calçada! --5 pts | atual: 12,63998
+Colidiu com calçada! --5 pts | atual: 7,454979
+Colidiu com calçada! --5 pts | atual: 2,454979
+Colidiu com calçada! --5 pts | atual: -2,740026
+Colidiu com calçada! --5 pts | atual: -7,740026
+episode reward: -16,0001
+Colidiu com calçada! --5 pts | atual: 19,09551
+episode reward: 14,0005
+Colidiu com calçada! --5 pts | atual: 14,53998
+Colidiu com calçada! --5 pts | atual: 9,409979
+Colidiu com calçada! --5 pts | atual: 2,72994
+episode reward: -2,000098
+Colidiu com calçada! --5 pts | atual: 10,38998
+episode reward: 9,999905
+Colidiu com calçada! --5 pts | atual: 14,24498
+Colidiu com calçada! --5 pts | atual: 14,36491
+episode reward: 8,999905
+Colidiu com calçada! --5 pts | atual: 16,50998
+Colidiu com calçada! --5 pts | atual: 10,99993
+Colidiu com calçada! --5 pts | atual: 5,854922
+Colidiu com calçada! --5 pts | atual: 0,5499226
+episode reward: -5,00009
+Colidiu com calçada! --5 pts | atual: 14,39998
+Colidiu com calçada! --5 pts | atual: 9,32998
+episode reward: 2,999904
+episode reward: 15,00009
+episode reward: 12,99991
+episode reward: 19,00055
+Colidiu com calçada! --5 pts | atual: 14,45998
+Colidiu com calçada! --5 pts | atual: 9,384981
+episode reward: 6,999904
+Colidiu com calçada! --5 pts | atual: 14,24498
+Colidiu com calçada! --5 pts | atual: 13,15498
+episode reward: 6,999904
+episode reward: 17,00049
+episode reward: 19,00054
+Colidiu com calçada! --5 pts | atual: 18,07002
+Colidiu com calçada! --5 pts | atual: 12,455
+episode reward: 4,999947
+episode reward: 19,00037
+Colidiu com calçada! --5 pts | atual: 14,38498
+episode reward: 5,999905
+Colidiu com calçada! --5 pts | atual: 13,87497
+Colidiu com calçada! --5 pts | atual: 8,75997
+episode reward: 0,9999305
+episode reward: 14,99991
+episode reward: 12,9999
+episode reward: 14,99991
+episode reward: 19,0001
+Colidiu com calçada! --5 pts | atual: 19,50505
+Colidiu com calçada! --5 pts | atual: 14,49505
+episode reward: 9,000041
+Colidiu com calçada! --5 pts | atual: 6,524984
+Colidiu com calçada! --5 pts | atual: 9,014974
+episode reward: 4,999905
+episode reward: 12,9999
+Colidiu com calçada! --5 pts | atual: 8,16498
+episode reward: 7,999907
+episode reward: 19,00009
+episode reward: 19,0002
+Colidiu com calçada! --5 pts | atual: 3,249997
+Colidiu com calçada! --5 pts | atual: 9,619989
+Colidiu com calçada! --5 pts | atual: 10,83995
+Colidiu com calçada! --5 pts | atual: 5,604943
+Colidiu com calçada! --5 pts | atual: 0,6049433
+Colidiu com calçada! --5 pts | atual: -4,940069
+Colidiu com calçada! --5 pts | atual: -9,940069
+episode reward: -16,00009
+episode reward: 15,00012
+episode reward: 15,00001
+Colidiu com calçada! --5 pts | atual: 12,22498
+Colidiu com calçada! --5 pts | atual: 7,194977
+episode reward: 0,999975
+episode reward: 15,00015
+episode reward: 15,00019
+episode reward: 12,99991
+Colidiu com calçada! --5 pts | atual: 6,464985
+Colidiu com calçada! --5 pts | atual: 8,934976
+Colidiu com calçada! --5 pts | atual: 5,344962
+episode reward: 1,999959
+episode reward: 14,99991
+Colidiu com calçada! --5 pts | atual: 10,25498
+Colidiu com calçada! --5 pts | atual: 5,254977
+Colidiu com calçada! --5 pts | atual: 0,04997731
+Colidiu com calçada! --5 pts | atual: -5,065025
+episode reward: -13,00009
+episode reward: 15,00011
+episode reward: 14,9999
+Colidiu com calçada! --5 pts | atual: 8,42998
+episode reward: 9,999902
+Colidiu com calçada! --5 pts | atual: 15,28995
+episode reward: 9,999902
+episode reward: 14,99992
+episode reward: 17,00007
+episode reward: 19,00046
+Colidiu com calçada! --5 pts | atual: 19,65515
+Colidiu com calçada! --5 pts | atual: 14,65015
+episode reward: 9,000134
+episode reward: 19,00034
+episode reward: 19,00041
+episode reward: 19,00022
+episode reward: 19,00034
+Colidiu com calçada! --5 pts | atual: 20,45526
+episode reward: 14,00022
+episode reward: 19,00045
+episode reward: 19,00018
+Colidiu com calçada! --5 pts | atual: 14,12497
+Colidiu com calçada! --5 pts | atual: 10,94497
+Colidiu com calçada! --5 pts | atual: 7,859967
+Colidiu com calçada! --5 pts | atual: 2,854967
+episode reward: -3,000078
+Colidiu com calçada! --5 pts | atual: 4,74999
+episode reward: 11,99991
+Colidiu com calçada! --5 pts | atual: 13,99997
+Colidiu com calçada! --5 pts | atual: 8,849967
+Colidiu com calçada! --5 pts | atual: 7,224953
+episode reward: 1,999902
+Colidiu com calçada! --5 pts | atual: 15,77997
+episode reward: 11,99991
+Colidiu com calçada! --5 pts | atual: 14,01498
+Colidiu com calçada! --5 pts | atual: 9,014977
+Colidiu com calçada! --5 pts | atual: 3,994977
+Colidiu com calçada! --5 pts | atual: -3,085047
+Colidiu com calçada! --5 pts | atual: -8,110047
+episode reward: -14,00007
+episode reward: 12,99991
+episode reward: 19,00053
+episode reward: 17,00001
+episode reward: 12,99991
+episode reward: 15,00001
+Colidiu com calçada! --5 pts | atual: 16,96996
+episode reward: 11,99992
+episode reward: 14,99991
+episode reward: 12,99991
+episode reward: 12,9999
+episode reward: 14,99991
+episode reward: 12,9999
+episode reward: 15,00009
+episode reward: 15,00021
+episode reward: 12,9999
+episode reward: 12,99991
+episode reward: 15,00011
+episode reward: 17,00043
+episode reward: 15,00011
+episode reward: 15,00022
+episode reward: 15,00029
+episode reward: 0,9999295
+episode reward: 17,00048
+episode reward: 17,00044
+episode reward: 15,00028
+episode reward: 17,00052
+episode reward: 17,00042
+Colidiu com calçada! --5 pts | atual: 13,69997
+Colidiu com calçada! --5 pts | atual: 12,53996
+episode reward: 6,999905
+Colidiu com calçada! --5 pts | atual: 18,07501
+episode reward: 11,99998
+Colidiu com calçada! --5 pts | atual: 19,6753
+Colidiu com calçada! --5 pts | atual: 14,6053
+Colidiu com calçada! --5 pts | atual: 9,605303
+Colidiu com calçada! --5 pts | atual: 4,515301
+episode reward: -0,9996988
+episode reward: 17,00045
+Colidiu com calçada! --5 pts | atual: 8,434982
+Colidiu com calçada! --5 pts | atual: 3,384981
+Colidiu com calçada! --5 pts | atual: 2,249981
+episode reward: -2,000023
+Colidiu com calçada! --5 pts | atual: 14,52498
+Colidiu com calçada! --5 pts | atual: 9,409978
+episode reward: 8,324953
+episode reward: 17,00054
+episode reward: 15,00019
+episode reward: 15,00009
+Colidiu com calçada! --5 pts | atual: 16,15999
+Colidiu com calçada! --5 pts | atual: 13,09999
+episode reward: 4,99992
+episode reward: 15,00038
+episode reward: 15,00037
+episode reward: 15,00018
+Colidiu com calçada! --5 pts | atual: 14,47998
+Colidiu com calçada! --5 pts | atual: 9,364979
+Colidiu com calçada! --5 pts | atual: 8,249976
+Colidiu com calçada! --5 pts | atual: 3,249976
+Colidiu com calçada! --5 pts | atual: -2,165027
+Colidiu com calçada! --5 pts | atual: -6,625061
+episode reward: -13,00009
+episode reward: 17,00057
+episode reward: 15,00031
+episode reward: 15,00033
+episode reward: 17,00053
+episode reward: 17,00051
+episode reward: 15,00037
+episode reward: 19,00055
+Colidiu com calçada! --5 pts | atual: 14,58998
+Colidiu com calçada! --5 pts | atual: 9,514981
+episode reward: 8,999901
+episode reward: 15,0003
+episode reward: 19,0005
+Colidiu com calçada! --5 pts | atual: 11,39996
+episode reward: 3,999902
+episode reward: 15,00025
+episode reward: 19,00045
+episode reward: 17,00035
+Colidiu com calçada! --5 pts | atual: 16,43033
+episode reward: 10,0003
+episode reward: 25,73015
+episode reward: 15,00037
+episode reward: 17,00034
+episode reward: 17,00054
+episode reward: 17,00055
+episode reward: 17,00044
+episode reward: 17,00052
+Colidiu com calçada! --5 pts | atual: 14,71998
+Colidiu com calçada! --5 pts | atual: 11,64998
+episode reward: 8,999899
+episode reward: 17,00049
+episode reward: 19,00045
+Colidiu com calçada! --5 pts | atual: 20,77523
+Colidiu com calçada! --5 pts | atual: 15,36522
+episode reward: 9,000194
+episode reward: 19,00056
+episode reward: 17,0005
+episode reward: 20,23498
+Colidiu com calçada! --5 pts | atual: 16,46498
+Colidiu com calçada! --5 pts | atual: 13,39998
+episode reward: 8,9999
+episode reward: 19,0005
+episode reward: 19,00054
+episode reward: 26,81505
+Colidiu com calçada! --5 pts | atual: 16,26
+Colidiu com calçada! --5 pts | atual: 11,24
+Colidiu com calçada! --5 pts | atual: 6,230001
+episode reward: -1,999996
+episode reward: 19,00041
+Colidiu com calçada! --5 pts | atual: 21,84509
+episode reward: 21,80009
+episode reward: 26,89004
+Colidiu com calçada! --5 pts | atual: 22,10003
+Colidiu com calçada! --5 pts | atual: 17,07504
+Colidiu com calçada! --5 pts | atual: 10,61
+Colidiu com calçada! --5 pts | atual: 5,374996
+Colidiu com calçada! --5 pts | atual: 0,3699962
+Colidiu com calçada! --5 pts | atual: -4,750007
+episode reward: -11,00004
+episode reward: 26,70005
+Colidiu com calçada! --5 pts | atual: 17,4905
+Colidiu com calçada! --5 pts | atual: 12,44549
+episode reward: 7,000484
+Colidiu com calçada! --5 pts | atual: 21,87004
+episode reward: 21,80005
+episode reward: 26,47505
+episode reward: 26,72006
+Colidiu com calçada! --5 pts | atual: 18,24
+Colidiu com calçada! --5 pts | atual: 13,235
+Colidiu com calçada! --5 pts | atual: 8,185
+Colidiu com calçada! --5 pts | atual: 5,019997
+Colidiu com calçada! --5 pts | atual: 2,004997
+Colidiu com calçada! --5 pts | atual: -3,690019
+Colidiu com calçada! --5 pts | atual: -10,74007
+episode reward: -16,00007
+episode reward: 26,10009
+episode reward: 26,36002
+Colidiu com calçada! --5 pts | atual: 18
+Colidiu com calçada! --5 pts | atual: 13
+Colidiu com calçada! --5 pts | atual: 9,799999
+Colidiu com calçada! --5 pts | atual: 5,744975
+Colidiu com calçada! --5 pts | atual: 0,6199752
+Colidiu com calçada! --5 pts | atual: -5,615053
+episode reward: -11,00006
+Colidiu com calçada! --5 pts | atual: 18,79518
+Colidiu com calçada! --5 pts | atual: 13,71517
+Colidiu com calçada! --5 pts | atual: 7,945156
+episode reward: 2,000134
+episode reward: 26,22502
+Colidiu com calçada! --5 pts | atual: 20,15503
+Colidiu com calçada! --5 pts | atual: 17,06005
+Colidiu com calçada! --5 pts | atual: 10,13
+Colidiu com calçada! --5 pts | atual: 5,080002
+Colidiu com calçada! --5 pts | atual: 0,02500183
+Colidiu com calçada! --5 pts | atual: -5,895019
+Colidiu com calçada! --5 pts | atual: -10,89502
+episode reward: -16,00002
+episode reward: 25,64505
+episode reward: 26,35003
+episode reward: 26,65003
+episode reward: 26,58004
+Colidiu com calçada! --5 pts | atual: 19,73999
+episode reward: 21,49501
+episode reward: 26,67005
+Colidiu com calçada! --5 pts | atual: 21,37003
+episode reward: 21,33003
+Colidiu com calçada! --5 pts | atual: 21,79004
+Colidiu com calçada! --5 pts | atual: 15,89017
+Colidiu com calçada! --5 pts | atual: 10,44516
+Colidiu com calçada! --5 pts | atual: 5,41016
+Colidiu com calçada! --5 pts | atual: 0,1401603
+Colidiu com parede! --5 pts | atual: -5,894863
+episode reward: -10,99987
+episode reward: 26,69504
+Colidiu com calçada! --5 pts | atual: 21,07501
+episode reward: 21,06501
+episode reward: 26,86504
+episode reward: 26,88506
+episode reward: 26,82006
+Colidiu com calçada! --5 pts | atual: 16,35998
+episode reward: 22,02001
+episode reward: 26,72004
+episode reward: 26,95005
+Colidiu com calçada! --5 pts | atual: 21,95004
+Colidiu com calçada! --5 pts | atual: 16,40014
+Colidiu com calçada! --5 pts | atual: 9,620094
+episode reward: 4,00008
+episode reward: 26,92504
+episode reward: 26,77504
+episode reward: 26,48001
+episode reward: 27,00005
+episode reward: 26,81005
+episode reward: 24,58506
+episode reward: 26,69007
+episode reward: 26,72505
+episode reward: 26,80506
+episode reward: 26,50501
+Colidiu com calçada! --5 pts | atual: 21,31012
+episode reward: 21,30012
+episode reward: 26,62004
+episode reward: 26,56003
+episode reward: 26,79507
+episode reward: 26,62004
+Colidiu com calçada! --5 pts | atual: 17,99001
+episode reward: 19,75501
+Colidiu com calçada! --5 pts | atual: 14,61498
+Colidiu com calçada! --5 pts | atual: 9,039969
+episode reward: 12,72496
+episode reward: 26,81504
+Colidiu com calçada! --5 pts | atual: 21,89505
+episode reward: 21,86505
+episode reward: 27,11504
+episode reward: 26,86503
+Colidiu com calçada! --5 pts | atual: 16,05999
+Colidiu com calçada! --5 pts | atual: 13,04499
+episode reward: 16,62998
+episode reward: 26,65507
+episode reward: 26,70505
+episode reward: 26,71007
+Colidiu com calçada! --5 pts | atual: 21,91005
+episode reward: 21,87505
+episode reward: 27,07005
+episode reward: 27,13506
+episode reward: 27,02004
+episode reward: 26,95504
+episode reward: 26,86004
+episode reward: 26,95504
+episode reward: 27,05504
+episode reward: 26,69005
+episode reward: 26,95504
+episode reward: 26,81006
+episode reward: 26,66501
+episode reward: 27,01503
+Colidiu com calçada! --5 pts | atual: 21,42003
+episode reward: 21,40004
+episode reward: 27,03503
+Colidiu com calçada! --5 pts | atual: 22,05504
+episode reward: 22,02004
+episode reward: 27,34004
+episode reward: 27,02004
+Colidiu com calçada! --5 pts | atual: 14,44498
+Colidiu com calçada! --5 pts | atual: 17,25497
+episode reward: 17,08497
+episode reward: 26,98004
+episode reward: 27,05504
+episode reward: 27,12004
+episode reward: 26,94504
+episode reward: 25,07003
+episode reward: 27,11504
+Colidiu com calçada! --5 pts | atual: 22,13003
+episode reward: 22,11503
+episode reward: 26,89504
+Colidiu com calçada! --5 pts | atual: 22,02503
+episode reward: 22,00503
+Colidiu com calçada! --5 pts | atual: 22,19504
+Colidiu com calçada! --5 pts | atual: 17,18504
+Colidiu com calçada! --5 pts | atual: 12,10004
+Colidiu com calçada! --5 pts | atual: 7,095036
+episode reward: 7,050035
+Colidiu com calçada! --5 pts | atual: 22,04504
+episode reward: 22,02504
+episode reward: 27,11004
+episode reward: 27,05504
+Colidiu com calçada! --5 pts | atual: 14,40498
+Colidiu com calçada! --5 pts | atual: 15,27497
+Colidiu com calçada! --5 pts | atual: 10,25997
+Colidiu com calçada! --5 pts | atual: 7,189972
+episode reward: 7,11497
+episode reward: 27,09505
+episode reward: 27,02505
+Colidiu com calçada! --5 pts | atual: 21,32514
+Colidiu com calçada! --5 pts | atual: 14,46516
+Colidiu com calçada! --5 pts | atual: 9,330153
+episode reward: 4,000145
+episode reward: 26,91004
+Colidiu com calçada! --5 pts | atual: 14,45998
+Colidiu com calçada! --5 pts | atual: 17,125
+Colidiu com calçada! --5 pts | atual: 11,55998
+Colidiu com calçada! --5 pts | atual: 4,189929
+episode reward: -1,000071
+Colidiu com calçada! --5 pts | atual: 16,31998
+episode reward: 22,01
+Colidiu com calçada! --5 pts | atual: 19,98503
+episode reward: 19,97503
+Colidiu com calçada! --5 pts | atual: 14,51498
+episode reward: 14,13997
+Colidiu com calçada! --5 pts | atual: 18,32
+Colidiu com calçada! --5 pts | atual: 15,155
+Colidiu com calçada! --5 pts | atual: 10,15
+episode reward: 10,12
+Colidiu com calçada! --5 pts | atual: 20,15501
+Colidiu com calçada! --5 pts | atual: 15,06
+episode reward: 15,01
+episode reward: 27,17004
+Colidiu com calçada! --5 pts | atual: 14,535
+Colidiu com calçada! --5 pts | atual: 9,534999
+Colidiu com calçada! --5 pts | atual: 3,534976
+Colidiu com parede! --5 pts | atual: -1,700024
+Colidiu com parede! --5 pts | atual: -6,930029
+episode reward: -12,00003
+Colidiu com calçada! --5 pts | atual: 22,12503
+episode reward: 22,04005
+Colidiu com calçada! --5 pts | atual: 20,17002
+episode reward: 20,15502
+Colidiu com calçada! --5 pts | atual: 14,48998
+episode reward: 22,13
+Colidiu com calçada! --5 pts | atual: 22,26503
+episode reward: 22,18005
+Colidiu com calçada! --5 pts | atual: 22,16503
+episode reward: 22,09004
+episode reward: 27,05002
+episode reward: 26,85504
+Colidiu com calçada! --5 pts | atual: 16,23998
+episode reward: 21,95
+Colidiu com calçada! --5 pts | atual: 16,38999
+Colidiu com calçada! --5 pts | atual: 13,36999
+Colidiu com calçada! --5 pts | atual: 12,12498
+episode reward: 12,07498
+Colidiu com calçada! --5 pts | atual: 22,12504
+episode reward: 22,07504
+Colidiu com calçada! --5 pts | atual: 22,04501
+episode reward: 21,91003
+episode reward: 26,99504
+Colidiu com calçada! --5 pts | atual: 12,52498
+Colidiu com calçada! --5 pts | atual: 9,194973
+Colidiu com calçada! --5 pts | atual: 2,119925
+Colidiu com calçada! --5 pts | atual: -3,920098
+Colidiu com calçada! --5 pts | atual: -8,925098
+episode reward: -14,0001
+episode reward: 26,97503
+episode reward: 26,94002
+Colidiu com calçada! --5 pts | atual: 12,53498
+Colidiu com calçada! --5 pts | atual: 6,779963
+Colidiu com calçada! --5 pts | atual: 1,584963
+Colidiu com calçada! --5 pts | atual: -3,425037
+Colidiu com calçada! --5 pts | atual: -9,305058
+Colidiu com calçada! --5 pts | atual: -14,30506
+Colidiu com calçada! --5 pts | atual: -19,53002
+Colidiu com calçada! --5 pts | atual: -24,88496
+Colidiu com calçada! --5 pts | atual: -30,19991
+Colidiu com parede! --5 pts | atual: -35,50497
+episode reward: -41,00008
+episode reward: 26,98005
+Colidiu com calçada! --5 pts | atual: 22,08502
+Colidiu com calçada! --5 pts | atual: 17,00504
+Colidiu com calçada! --5 pts | atual: 12,00004
+episode reward: 11,95004
+episode reward: 27,01005
+episode reward: 26,85506
+episode reward: 26,84504
+Colidiu com calçada! --5 pts | atual: 21,89003
+Colidiu com calçada! --5 pts | atual: 16,89003
+episode reward: 16,75003
+episode reward: 27,04004
+Colidiu com calçada! --5 pts | atual: 12,53498
+Colidiu com calçada! --5 pts | atual: 4,0149
+Colidiu com calçada! --5 pts | atual: -0,9850998
+episode reward: -6,0001
+episode reward: 26,76006
+episode reward: 26,68005
+episode reward: 26,99004
+episode reward: 26,82005
+episode reward: 27,08504
+Colidiu com calçada! --5 pts | atual: 22,08503
+Colidiu com calçada! --5 pts | atual: 17,08003
+Colidiu com calçada! --5 pts | atual: 11,55001
+Colidiu com calçada! --5 pts | atual: 5,254985
+episode reward: -1,000014
+Colidiu com calçada! --5 pts | atual: 21,11518
+episode reward: 14,00016
+episode reward: 26,95005
+episode reward: 26,79504
+episode reward: 26,95005
+episode reward: 26,91505
+episode reward: 26,91504
+episode reward: 26,66505
+episode reward: 26,85504
+episode reward: 26,89506
+episode reward: 26,94505
+episode reward: 26,92005
+episode reward: 26,98005
+episode reward: 26,90005
+episode reward: 26,99504
+Colidiu com calçada! --5 pts | atual: 21,49508
+Colidiu com calçada! --5 pts | atual: 16,06515
+Colidiu com calçada! --5 pts | atual: 10,77514
+Colidiu com calçada! --5 pts | atual: 4,430112
+Colidiu com calçada! --5 pts | atual: -0,5698881
+episode reward: -5,999898
+episode reward: 27,01004
+Colidiu com calçada! --5 pts | atual: 21,95004
+episode reward: 21,94504
+episode reward: 27,16004
+episode reward: 26,83505
+episode reward: 27,04505
+episode reward: 26,92005
+episode reward: 27,07005
+episode reward: 27,22004
+episode reward: 27,04504
+episode reward: 27,17505
+episode reward: 27,11505
+Colidiu com calçada! --5 pts | atual: 14,61998
+episode reward: 22,26001
+episode reward: 27,01004
+episode reward: 26,92505
+episode reward: 27,14504
+episode reward: 26,90505
+Colidiu com calçada! --5 pts | atual: 22,11505
+Colidiu com calçada! --5 pts | atual: 17,10505
+Colidiu com calçada! --5 pts | atual: 11,98505
+episode reward: 11,94005
+episode reward: 27,20004
+episode reward: 27,04504
+episode reward: 27,15005
+episode reward: 26,95005
+episode reward: 27,12505
+episode reward: 27,21005
+episode reward: 26,97005
+Colidiu com calçada! --5 pts | atual: 18,305
+Colidiu com calçada! --5 pts | atual: 13,29
+episode reward: 13,11
+episode reward: 27,13006
+episode reward: 27,16005
+episode reward: 27,26004
+episode reward: 27,21004
+episode reward: 26,93003
+episode reward: 27,22005
+Colidiu com calçada! --5 pts | atual: 14,60498
+Colidiu com calçada! --5 pts | atual: 11,39998
+Colidiu com calçada! --5 pts | atual: 6,399977
+Colidiu com calçada! --5 pts | atual: 3,274976
+Colidiu com calçada! --5 pts | atual: -1,730024
+Colidiu com calçada! --5 pts | atual: -6,805026
+Colidiu com calçada! --5 pts | atual: -11,80503
+episode reward: -11,83502
+episode reward: 26,99505
+episode reward: 26,99505
+episode reward: 27,07506
+episode reward: 25,04503
+episode reward: 27,26005
+episode reward: 27,18006
+episode reward: 27,18005
+Colidiu com calçada! --5 pts | atual: 14,67998
+episode reward: 18,31998
+episode reward: 27,10503
+Colidiu com calçada! --5 pts | atual: 22,29001
+Colidiu com calçada! --5 pts | atual: 17,22502
+episode reward: 17,15002
+Colidiu com calçada! --5 pts | atual: 14,04497
+episode reward: 19,70996
+episode reward: 27,34003
+episode reward: 27,12504
+Colidiu com calçada! --5 pts | atual: 13,96497
+Colidiu com calçada! --5 pts | atual: 8,859965
+episode reward: 8,599959
+Colidiu com calçada! --5 pts | atual: 16,52499
+Colidiu com calçada! --5 pts | atual: 11,51499
+episode reward: 17,22498
+episode reward: 27,24504
+Colidiu com calçada! --5 pts | atual: 16,56998
+Colidiu com calçada! --5 pts | atual: 15,41998
+Colidiu com calçada! --5 pts | atual: 12,37998
+episode reward: 12,19498
+Colidiu com calçada! --5 pts | atual: 12,64498
+Colidiu com calçada! --5 pts | atual: 7,619983
+Colidiu com calçada! --5 pts | atual: 4,51498
+Colidiu com calçada! --5 pts | atual: -0,4850197
+episode reward: 1,139972
+episode reward: 27,12006
+episode reward: 27,15505
+episode reward: 27,00504
+episode reward: 27,14005
+episode reward: 27,10004
+episode reward: 27,15005
+Colidiu com calçada! --5 pts | atual: 14,65498
+Colidiu com calçada! --5 pts | atual: 9,569981
+Colidiu com calçada! --5 pts | atual: 6,414977
+Colidiu com calçada! --5 pts | atual: 1,374977
+Colidiu com calçada! --5 pts | atual: -3,625023
+episode reward: -3,645023
+episode reward: 27,26003
+episode reward: 27,12004
+episode reward: 25,09502
+episode reward: 27,15504
+Colidiu com calçada! --5 pts | atual: 14,39498
+Colidiu com calçada! --5 pts | atual: 17,035
+episode reward: 16,975
+episode reward: 27,22003
+episode reward: 27,21005
+Colidiu com calçada! --5 pts | atual: 14,71498
+Colidiu com calçada! --5 pts | atual: 9,639982
+episode reward: 9,394977
+Colidiu com calçada! --5 pts | atual: 14,63498
+Colidiu com calçada! --5 pts | atual: 9,564982
+episode reward: 9,319977
+Colidiu com calçada! --5 pts | atual: 14,70498
+Colidiu com calçada! --5 pts | atual: 9,369977
+episode reward: 11,01497
+Colidiu com calçada! --5 pts | atual: 14,62998
+Colidiu com calçada! --5 pts | atual: 11,56498
+episode reward: 17,19997
+Colidiu com calçada! --5 pts | atual: 14,59498
+Colidiu com calçada! --5 pts | atual: 9,50498
+episode reward: 17,12997
+Colidiu com calçada! --5 pts | atual: 14,66998
+Colidiu com calçada! --5 pts | atual: 9,584983
+Colidiu com calçada! --5 pts | atual: 3,914968
+Colidiu com calçada! --5 pts | atual: -2,440042
+Colidiu com calçada! --5 pts | atual: -8,600068
+Colidiu com parede! --5 pts | atual: -13,91008
+episode reward: -19,00006
+Colidiu com calçada! --5 pts | atual: 14,70498
+Colidiu com calçada! --5 pts | atual: 11,62998
+episode reward: 17,25497
+episode reward: 27,18504
+Colidiu com calçada! --5 pts | atual: 14,68499
+Colidiu com calçada! --5 pts | atual: 11,61998
+episode reward: 17,37498
+episode reward: 27,11003
+episode reward: 24,96504
+Colidiu com calçada! --5 pts | atual: 18,465
+Colidiu com calçada! --5 pts | atual: 15,405
+episode reward: 17,28999
+Colidiu com calçada! --5 pts | atual: 14,62498
+episode reward: 22,29501
+Colidiu com calçada! --5 pts | atual: 21,8001
+Colidiu com calçada! --5 pts | atual: 16,17521
+Colidiu com calçada! --5 pts | atual: 11,17021
+Colidiu com calçada! --5 pts | atual: 5,7952
+Colidiu com calçada! --5 pts | atual: -0,009799035
+Colidiu com calçada! --5 pts | atual: -5,009799
+episode reward: -10,99982
+Colidiu com calçada! --5 pts | atual: 22,30004
+episode reward: 22,26505
+episode reward: 27,20503
+episode reward: 27,08504
+episode reward: 27,33503
+episode reward: 27,19504
+episode reward: 27,16004
+episode reward: 27,16005
+episode reward: 27,03504
+episode reward: 27,25504
+Colidiu com calçada! --5 pts | atual: 14,54498
+episode reward: 22,23
+episode reward: 27,09505
+episode reward: 27,12504
+episode reward: 27,13005
+Colidiu com calçada! --5 pts | atual: 16,44998
+Colidiu com calçada! --5 pts | atual: 13,34498
+Colidiu com calçada! --5 pts | atual: 10,28498
+episode reward: 12,12997
+episode reward: 27,09505
+episode reward: 27,20505
+Colidiu com calçada! --5 pts | atual: 16,52498
+episode reward: 22,245
+episode reward: 27,03505
+Colidiu com calçada! --5 pts | atual: 14,66998
+Colidiu com calçada! --5 pts | atual: 9,189973
+episode reward: 8,809964
+episode reward: 27,23504
+episode reward: 26,94006
+episode reward: 27,08005
+Colidiu com calçada! --5 pts | atual: 20,32001
+Colidiu com calçada! --5 pts | atual: 17,28502
+Colidiu com calçada! --5 pts | atual: 12,27001
+Colidiu com calçada! --5 pts | atual: 7,135012
+Colidiu com calçada! --5 pts | atual: 2,130012
+episode reward: 2,085011
+episode reward: 27,17505
+Colidiu com calçada! --5 pts | atual: 21,98007
+episode reward: 21,92008
+episode reward: 24,92503
+episode reward: 27,10504
+Colidiu com calçada! --5 pts | atual: 21,99504
+episode reward: 21,98504
+episode reward: 27,06505
+episode reward: 27,05505
+episode reward: 27,14505
+episode reward: 26,92005
+episode reward: 27,12505
+episode reward: 26,93006
+episode reward: 27,03004
+episode reward: 27,25004
+episode reward: 26,98005
+episode reward: 27,24505
+episode reward: 27,21005
+episode reward: 27,18004
+Colidiu com calçada! --5 pts | atual: 14,60498
+Colidiu com calçada! --5 pts | atual: 15,44998
+episode reward: 17,30997
+episode reward: 27,06004
+episode reward: 27,12503
+episode reward: 27,00505
+episode reward: 26,96505
+Colidiu com calçada! --5 pts | atual: 16,26998
+episode reward: 21,88001
+episode reward: 25,17005
+episode reward: 25,22503
+episode reward: 27,27004
+episode reward: 27,08006
+episode reward: 27,21004
+Colidiu com calçada! --5 pts | atual: 22,18004
+episode reward: 22,12005
+episode reward: 21,12004
+episode reward: 27,15506
+Colidiu com calçada! --5 pts | atual: 22,38501
+episode reward: 22,18505
+Colidiu com calçada! --5 pts | atual: 14,62498
+Colidiu com calçada! --5 pts | atual: 9,539982
+episode reward: 9,344977
+episode reward: 23,18503
+episode reward: 26,96507
+Colidiu com calçada! --5 pts | atual: 14,38998
+Colidiu com calçada! --5 pts | atual: 9,284975
+Colidiu com calçada! --5 pts | atual: 2,219928
+Colidiu com calçada! --5 pts | atual: -2,935076
+Colidiu com calçada! --5 pts | atual: -7,945076
+episode reward: -14,0001
+episode reward: 25,12504
+episode reward: 27,10004
+Colidiu com calçada! --5 pts | atual: 16,52998
+Colidiu com calçada! --5 pts | atual: 15,35998
+episode reward: 15,21997
+episode reward: 27,02506
+Colidiu com calçada! --5 pts | atual: 20,20038
+episode reward: 14,00035
+episode reward: 27,08507
+Colidiu com calçada! --5 pts | atual: 22,06505
+episode reward: 22,05006
+Colidiu com calçada! --5 pts | atual: 17,19498
+episode reward: 17,08998
+Colidiu com calçada! --5 pts | atual: 21,68505
+episode reward: 21,61006
+episode reward: 26,96506
+Colidiu com calçada! --5 pts | atual: 21,90506
+episode reward: 21,89507
+episode reward: 27,10505
+episode reward: 26,88006
+episode reward: 26,71005
+episode reward: 27,06505
+episode reward: 27,26504
+episode reward: 25,00004
+Colidiu com calçada! --5 pts | atual: 20,23002
+Colidiu com calçada! --5 pts | atual: 15,23002
+episode reward: 15,20502
+episode reward: 27,10506
+Colidiu com calçada! --5 pts | atual: 22,36502
+episode reward: 22,11006
+Colidiu com calçada! --5 pts | atual: 16,30999
+Colidiu com calçada! --5 pts | atual: 13,28499
+episode reward: 16,83998
+episode reward: 26,99006
+Colidiu com calçada! --5 pts | atual: 15,74499
+episode reward: 15,73999
+Colidiu com calçada! --5 pts | atual: 3,274997
+Colidiu com calçada! --5 pts | atual: 0,1799976
+Colidiu com calçada! --5 pts | atual: 8,544986
+episode reward: 12,23498
+episode reward: 23,18002
+episode reward: 24,69506
+Colidiu com calçada! --5 pts | atual: 20,11505
+Colidiu com calçada! --5 pts | atual: 15,11005
+episode reward: 15,06004
+episode reward: 27,14505
+episode reward: 27,06504
+episode reward: 24,98503
+Colidiu com calçada! --5 pts | atual: 14,19997
+episode reward: 13,93497
+episode reward: 27,01505
+episode reward: 27,17505
+Colidiu com calçada! --5 pts | atual: 3,324998
+Colidiu com calçada! --5 pts | atual: -1,680002
+Colidiu com calçada! --5 pts | atual: -6,715003
+episode reward: 12,05997
+Colidiu com calçada! --5 pts | atual: 16,035
+Colidiu com calçada! --5 pts | atual: 11,015
+episode reward: 11,005
+episode reward: 27,25505
+episode reward: 25,10504
+episode reward: 27,19505
+episode reward: 27,23504
+episode reward: 23,18501
+Colidiu com calçada! --5 pts | atual: 19,96003
+Colidiu com calçada! --5 pts | atual: 14,94003
+episode reward: 14,92003
+episode reward: 23,02006
+episode reward: 27,14005
+episode reward: 26,98506
+episode reward: 27,15504
+episode reward: 27,12005
+episode reward: 27,17006
+episode reward: 26,98507
+episode reward: 26,87006
+episode reward: 24,94505
+episode reward: 27,05004
+episode reward: 26,83006
+episode reward: 26,94504
+episode reward: 26,89005
+episode reward: 27,03504
+episode reward: 26,88005
+episode reward: 26,99507
+Colidiu com calçada! --5 pts | atual: 16,25002
+episode reward: 15,92501
+Colidiu com calçada! --5 pts | atual: 22,24002
+episode reward: 22,11004
+episode reward: 27,04503
+episode reward: 24,93507
+episode reward: 27,06005
+episode reward: 27,09505
+episode reward: 27,08506
+Colidiu com calçada! --5 pts | atual: 21,74007
+Colidiu com calçada! --5 pts | atual: 14,89517
+episode reward: 9,000147
+episode reward: 25,07503
+episode reward: 27,04505
+episode reward: 21,24004
+episode reward: 25,08505
+episode reward: 24,79005
+episode reward: 26,95506
+episode reward: 26,85506
+episode reward: 24,85005
+episode reward: 26,96007
+episode reward: 26,82504
+episode reward: 27,02004
+episode reward: 24,89004
+episode reward: 24,77004
+episode reward: 26,66006
+Colidiu com calçada! --5 pts | atual: 10,16997
+Colidiu com calçada! --5 pts | atual: 7,144971
+Colidiu com calçada! --5 pts | atual: 5,814963
+episode reward: 5,749963
+episode reward: 26,91006
+episode reward: 25,04503
+episode reward: 24,93003
+episode reward: 26,67504
+Colidiu com calçada! --5 pts | atual: 16,20001
+episode reward: 15,89
+episode reward: 26,95005
+episode reward: 25,24504
+episode reward: 27,12004
+episode reward: 21,12505
+episode reward: 21,00506
+episode reward: 27,03506
+Colidiu com calçada! --5 pts | atual: 22,10005
+Colidiu com calçada! --5 pts | atual: 16,55014
+Colidiu com calçada! --5 pts | atual: 11,54514
+episode reward: 4,000086
+episode reward: 20,95004
+episode reward: 27,03505
+Colidiu com calçada! --5 pts | atual: 16,375
+Colidiu com calçada! --5 pts | atual: 16,33513
+Colidiu com calçada! --5 pts | atual: 11,33013
+Colidiu com calçada! --5 pts | atual: 4,755095
+Colidiu com calçada! --5 pts | atual: -0,2499055
+episode reward: -5,999923
+episode reward: 26,79007
+episode reward: 27,12506
+episode reward: 27,17004
+Colidiu com calçada! --5 pts | atual: 22,04504
+episode reward: 22,03005
+episode reward: 25,07505
+episode reward: 27,13505
+episode reward: 27,15005
+episode reward: 26,98507
+episode reward: 27,29004
+Colidiu com calçada! --5 pts | atual: 22,40503
+episode reward: 22,23006
+Colidiu com calçada! --5 pts | atual: 18,43
+episode reward: 22,01004
+episode reward: 27,04506
+episode reward: 27,11005
+episode reward: 27,25005
+episode reward: 27,15505
+episode reward: 27,22504
+episode reward: 27,23505
+episode reward: 27,21006
+episode reward: 27,21006
+Colidiu com calçada! --5 pts | atual: 14,74498
+Colidiu com calçada! --5 pts | atual: 9,679983
+episode reward: 9,434978
+Colidiu com calçada! --5 pts | atual: 14,68998
+Colidiu com calçada! --5 pts | atual: 9,609982
+episode reward: 11,38498
+episode reward: 27,04505
+episode reward: 27,18004
+episode reward: 26,98505
+episode reward: 26,76508
+episode reward: 26,93506
+episode reward: 26,97007
+episode reward: 27,02005
+Colidiu com calçada! --5 pts | atual: 21,89507
+Colidiu com calçada! --5 pts | atual: 16,89507
+episode reward: 16,81507
+episode reward: 27,08006
+Colidiu com calçada! --5 pts | atual: 21,86504
+Colidiu com calçada! --5 pts | atual: 16,86504
+episode reward: 16,81504
+Colidiu com calçada! --5 pts | atual: 22,14505
+episode reward: 22,07007
+episode reward: 26,80505
+Colidiu com calçada! --5 pts | atual: 14,35498
+episode reward: 22,04499
+episode reward: 26,96004
+episode reward: 26,96504
+episode reward: 26,98003
+episode reward: 27,18004
+episode reward: 27,21003
+Colidiu com calçada! --5 pts | atual: 14,37998
+episode reward: 18,05497
+Colidiu com calçada! --5 pts | atual: 20,26
+episode reward: 20,13
+episode reward: 27,03003
+Colidiu com calçada! --5 pts | atual: 22,27502
+episode reward: 22,12504
+episode reward: 26,80507
+episode reward: 26,81505
+episode reward: 27,09004
+episode reward: 26,86004
+episode reward: 26,91005
+Colidiu com calçada! --5 pts | atual: 14,43498
+episode reward: 18,10497
+episode reward: 27,10504
+Colidiu com calçada! --5 pts | atual: 21,97505
+episode reward: 21,94506
+episode reward: 26,97006
+episode reward: 27,12004
+Colidiu com calçada! --5 pts | atual: 16,40498
+episode reward: 22,10001
+episode reward: 27,00005
+episode reward: 26,97505
+episode reward: 27,06505
+episode reward: 26,99006
+episode reward: 27,12005
+episode reward: 27,15504
+Colidiu com calçada! --5 pts | atual: 14,53998
+Colidiu com calçada! --5 pts | atual: 11,44498
+episode reward: 13,23497
+episode reward: 27,20004
+episode reward: 27,17005
+episode reward: 19,00057
+episode reward: 26,93006
+episode reward: 27,05505
+episode reward: 27,23006
+episode reward: 27,17504
+Colidiu com calçada! --5 pts | atual: 20,02503
+episode reward: 19,96503
+Colidiu com calçada! --5 pts | atual: 22,19006
+Colidiu com calçada! --5 pts | atual: 17,19006
+episode reward: 17,16006
+episode reward: 27,12006
+episode reward: 27,08006
+Colidiu com calçada! --5 pts | atual: 22,26504
+Colidiu com calçada! --5 pts | atual: 16,72013
+Colidiu com calçada! --5 pts | atual: 11,30012
+Colidiu com calçada! --5 pts | atual: 4,130068
+episode reward: -0,9999321
+episode reward: 27,22005
+Colidiu com calçada! --5 pts | atual: 20,24002
+Colidiu com calçada! --5 pts | atual: 15,23502
+Colidiu com calçada! --5 pts | atual: 10,14001
+Colidiu com calçada! --5 pts | atual: 5,140015
+episode reward: 5,070014
+episode reward: 27,13006
+episode reward: 27,20005
+episode reward: 25,17504
+episode reward: 25,20504
+episode reward: 27,22004
+episode reward: 27,06507
+episode reward: 26,94007
+episode reward: 27,21005
+episode reward: 27,12506
+episode reward: 25,06005
+episode reward: 27,24506
+episode reward: 25,06004
+episode reward: 27,19005
+episode reward: 27,16505
+episode reward: 27,21004
+episode reward: 27,19505
+episode reward: 27,13505
+episode reward: 25,25503
+episode reward: 27,15004
+episode reward: 26,98505
+Colidiu com calçada! --5 pts | atual: 21,97509
+Colidiu com calçada! --5 pts | atual: 16,47517
+Colidiu com calçada! --5 pts | atual: 11,25517
+Colidiu com calçada! --5 pts | atual: 6,175163
+Colidiu com calçada! --5 pts | atual: 0,385164
+Colidiu com calçada! --5 pts | atual: -4,654837
+Colidiu com calçada! --5 pts | atual: -9,659837
+Colidiu com parede! --5 pts | atual: -15,86986
+Colidiu com parede! --5 pts | atual: -20,91986
+episode reward: -25,99984
+episode reward: 27,17005
+episode reward: 27,25505
+episode reward: 27,26504
+episode reward: 27,25005
+episode reward: 27,25005
+episode reward: 27,19004
+episode reward: 25,08003
+episode reward: 27,24005
+episode reward: 27,24005
+episode reward: 26,98504
+episode reward: 27,09507
+episode reward: 27,28005
+episode reward: 27,23005
+episode reward: 27,18005
+episode reward: 15,00039
+Colidiu com calçada! --5 pts | atual: 21,12022
+Colidiu com calçada! --5 pts | atual: 15,40022
+Colidiu com calçada! --5 pts | atual: 9,585204
+Colidiu com calçada! --5 pts | atual: 4,585204
+Colidiu com parede! --5 pts | atual: -0,6297957
+episode reward: -5,999804
+Colidiu com calçada! --5 pts | atual: 18,21038
+Colidiu com calçada! --5 pts | atual: 13,19038
+Colidiu com calçada! --5 pts | atual: 8,140375
+Colidiu com calçada! --5 pts | atual: 2,415359
+Colidiu com calçada! --5 pts | atual: -2,679644
+Colidiu com calçada! --5 pts | atual: -7,799646
+episode reward: -12,99965
+episode reward: 17,00057
+episode reward: 27,34003
+episode reward: 27,10507
+Colidiu com calçada! --5 pts | atual: 14,64498
+episode reward: 22,28
+episode reward: 27,16004
+episode reward: 27,07006
+episode reward: 27,23505
+episode reward: 27,21506
+episode reward: 27,30004
+episode reward: 27,24504
+episode reward: 27,25005
+Colidiu com calçada! --5 pts | atual: 22,22504
+Colidiu com calçada! --5 pts | atual: 16,71513
+Colidiu com calçada! --5 pts | atual: 10,76011
+Colidiu com parede! --5 pts | atual: 4,670081
+episode reward: -0,9999182
+episode reward: 17,00059
+episode reward: 27,15506
+Colidiu com calçada! --5 pts | atual: 14,73498
+Colidiu com calçada! --5 pts | atual: 9,044969
+episode reward: 8,68996
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 12,73498
+Colidiu com calçada! --5 pts | atual: 8,374953
+Colidiu com calçada! --5 pts | atual: 2,749939
+Colidiu com calçada! --5 pts | atual: -3,105081
+Colidiu com parede! --5 pts | atual: -8,350086
+Colidiu com parede! --5 pts | atual: -13,68009
+episode reward: -19,00004
+episode reward: 27,25004
+episode reward: 27,26505
+episode reward: 27,08004
+episode reward: 27,28005
+Colidiu com calçada! --5 pts | atual: 14,77999
+Colidiu com calçada! --5 pts | atual: 9,729984
+episode reward: 9,52998
+Colidiu com calçada! --5 pts | atual: 16,69498
+Colidiu com calçada! --5 pts | atual: 17,435
+episode reward: 17,405
+episode reward: 27,35503
+episode reward: 27,19504
+episode reward: 27,26004
+episode reward: 27,16004
+episode reward: 27,28004
+episode reward: 27,26505
+episode reward: 27,26004
+episode reward: 27,35503
+episode reward: 27,16503
+episode reward: 27,30503
+episode reward: 27,27503
+episode reward: 27,32503
+episode reward: 27,28003
+episode reward: 27,23503
+Colidiu com calçada! --5 pts | atual: 18,54999
+Colidiu com calçada! --5 pts | atual: 13,54999
+episode reward: 17,29499
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 14,67998
+Colidiu com calçada! --5 pts | atual: 11,60498
+Colidiu com calçada! --5 pts | atual: 8,519979
+Colidiu com calçada! --5 pts | atual: 3,519979
+Colidiu com calçada! --5 pts | atual: 2,374978
+Colidiu com calçada! --5 pts | atual: -2,780026
+Colidiu com calçada! --5 pts | atual: -8,225036
+Colidiu com calçada! --5 pts | atual: -14,02005
+Colidiu com calçada! --5 pts | atual: -19,64495
+Colidiu com calçada! --5 pts | atual: -24,66994
+Colidiu com calçada! --5 pts | atual: -29,88991
+Colidiu com parede! --5 pts | atual: -35,52004
+Colidiu com parede! --5 pts | atual: -40,8001
+episode reward: -46,00014
+episode reward: 27,22503
+episode reward: 27,20004
+Colidiu com calçada! --5 pts | atual: 14,56998
+Colidiu com calçada! --5 pts | atual: 9,48998
+episode reward: 9,264975
+Colidiu com calçada! --5 pts | atual: 14,53998
+Colidiu com calçada! --5 pts | atual: 13,43998
+episode reward: 17,23497
+episode reward: 27,31503
+episode reward: 27,21004
+episode reward: 27,07504
+Colidiu com calçada! --5 pts | atual: 14,59498
+Colidiu com calçada! --5 pts | atual: 13,28498
+episode reward: 13,23997
+episode reward: 27,15504
+episode reward: 27,18503
+episode reward: 27,38003
+episode reward: 27,28004
+episode reward: 27,30503
+Colidiu com calçada! --5 pts | atual: 16,46999
+Colidiu com calçada! --5 pts | atual: 11,45499
+Colidiu com calçada! --5 pts | atual: 6,444985
+Colidiu com calçada! --5 pts | atual: 7,21498
+episode reward: 7,20998
+Colidiu com calçada! --5 pts | atual: 16,46498
+episode reward: 22,205
+episode reward: 27,30003
+episode reward: 27,26004
+Colidiu com calçada! --5 pts | atual: 14,51998
+Colidiu com calçada! --5 pts | atual: 17,33998
+episode reward: 17,19497
+Colidiu com calçada! --5 pts | atual: 22,21504
+episode reward: 22,15505
+episode reward: 27,21504
+episode reward: 27,12504
+episode reward: 27,08504
+episode reward: 27,14504
+Colidiu com calçada! --5 pts | atual: 20,24002
+episode reward: 20,14001
+episode reward: 27,07003
+episode reward: 27,16504
+episode reward: 25,12503
+Colidiu com calçada! --5 pts | atual: 20,22502
+episode reward: 20,11002
+Colidiu com calçada! --5 pts | atual: 18,45499
+Colidiu com calçada! --5 pts | atual: 13,44999
+episode reward: 17,21999
+episode reward: 27,10003
+episode reward: 27,14504
+episode reward: 27,12503
+episode reward: 27,29503
+episode reward: 27,22504
+episode reward: 27,23503
+episode reward: 27,16504
+episode reward: 27,01505
+episode reward: 27,22503
+episode reward: 27,15503
+episode reward: 27,21004
+episode reward: 27,17003
+episode reward: 27,27003
+episode reward: 27,30003
+Colidiu com calçada! --5 pts | atual: 22,26003
+episode reward: 22,21504
+episode reward: 27,26003
+episode reward: 27,22003
+episode reward: 27,08502
+Colidiu com calçada! --5 pts | atual: 14,46998
+Colidiu com calçada! --5 pts | atual: 17,14999
+Colidiu com calçada! --5 pts | atual: 12,08499
+Colidiu com calçada! --5 pts | atual: 5,674954
+Colidiu com calçada! --5 pts | atual: 0,2349548
+Colidiu com calçada! --5 pts | atual: -4,96005
+Colidiu com calçada! --5 pts | atual: -10,23506
+Colidiu com parede! --5 pts | atual: -15,41006
+episode reward: -20,99996
+episode reward: 27,22504
+Colidiu com calçada! --5 pts | atual: 20,30502
+Colidiu com calçada! --5 pts | atual: 15,24001
+episode reward: 15,19501
+Colidiu com calçada! --5 pts | atual: 20,18001
+episode reward: 20,07501
+episode reward: 27,19003
+episode reward: 27,19003
+episode reward: 27,23002
+episode reward: 27,20003
+Colidiu com calçada! --5 pts | atual: 22,23003
+Colidiu com calçada! --5 pts | atual: 16,75511
+Colidiu com calçada! --5 pts | atual: 10,61508
+Colidiu com parede! --5 pts | atual: 4,67006
+episode reward: -0,9999392
+episode reward: 27,21503
+episode reward: 27,25504
+episode reward: 27,24004
+episode reward: 27,15504
+episode reward: 27,15003
+episode reward: 27,24004
+episode reward: 27,22003
+Colidiu com calçada! --5 pts | atual: 22,27003
+episode reward: 22,17505
+Colidiu com calçada! --5 pts | atual: 22,24502
+Colidiu com calçada! --5 pts | atual: 17,18503
+Colidiu com calçada! --5 pts | atual: 11,09501
+Colidiu com calçada! --5 pts | atual: 6,095009
+Colidiu com calçada! --5 pts | atual: 0,895009
+Colidiu com calçada! --5 pts | atual: -4,329996
+Colidiu com parede! --5 pts | atual: -10,03501
+Colidiu com parede! --5 pts | atual: -15,34502
+episode reward: -20,99991
+episode reward: 27,10505
+Colidiu com calçada! --5 pts | atual: 22,15503
+episode reward: 22,14004
+Colidiu com calçada! --5 pts | atual: 22,37002
+Colidiu com calçada! --5 pts | atual: 17,31003
+Colidiu com calçada! --5 pts | atual: 12,07003
+Colidiu com calçada! --5 pts | atual: 6,670019
+Colidiu com calçada! --5 pts | atual: 1,10502
+Colidiu com calçada! --5 pts | atual: -4,354991
+Colidiu com calçada! --5 pts | atual: -9,384992
+Colidiu com parede! --5 pts | atual: -14,48999
+episode reward: -20,99974
+episode reward: 27,28004
+episode reward: 27,29504
+episode reward: 27,27004
+episode reward: 27,15004
+Colidiu com calçada! --5 pts | atual: 14,64498
+Colidiu com calçada! --5 pts | atual: 17,31499
+Colidiu com calçada! --5 pts | atual: 12,24999
+Colidiu com calçada! --5 pts | atual: 6,054964
+Colidiu com calçada! --5 pts | atual: 0,9449642
+Colidiu com calçada! --5 pts | atual: -5,235063
+Colidiu com parede! --5 pts | atual: -10,50007
+Colidiu com parede! --5 pts | atual: -15,60507
+episode reward: -21,00001
+episode reward: 27,09003
+episode reward: 27,23004
+episode reward: 27,11004
+episode reward: 27,36004
+episode reward: 27,34004
+episode reward: 27,19004
+episode reward: 27,09003
+episode reward: 27,29005
+episode reward: 27,09003
+episode reward: 27,13504
+episode reward: 27,31004
+Colidiu com calçada! --5 pts | atual: 14,07497
+Colidiu com calçada! --5 pts | atual: 10,97497
+episode reward: 14,71496
+episode reward: 27,20503
+episode reward: 27,09003
+episode reward: 27,16004
+episode reward: 27,05505
+episode reward: 27,10004
+episode reward: 27,25003
+episode reward: 27,20503
+episode reward: 27,20004
+episode reward: 27,17504
+Colidiu com calçada! --5 pts | atual: 18,11499
+episode reward: 19,91999
+Colidiu com calçada! --5 pts | atual: 21,1902
+Colidiu com calçada! --5 pts | atual: 15,59022
+Colidiu com calçada! --5 pts | atual: 10,53022
+episode reward: -0,01479435
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 20,15503
+Colidiu com calçada! --5 pts | atual: 15,15003
+episode reward: 15,13503
+Colidiu com calçada! --5 pts | atual: 14,59498
+Colidiu com calçada! --5 pts | atual: 9,594981
+Colidiu com calçada! --5 pts | atual: 4,54498
+Colidiu com calçada! --5 pts | atual: -0,4600199
+Colidiu com calçada! --5 pts | atual: -6,180037
+Colidiu com calçada! --5 pts | atual: -11,73505
+Colidiu com calçada! --5 pts | atual: -17,04
+Colidiu com calçada! --5 pts | atual: -22,59991
+Colidiu com parede! --5 pts | atual: -28,16481
+Colidiu com parede! --5 pts | atual: -33,49988
+episode reward: -38,99999
+Colidiu com calçada! --5 pts | atual: 14,72998
+Colidiu com calçada! --5 pts | atual: 9,264974
+Colidiu com calçada! --5 pts | atual: 3,454955
+Colidiu com calçada! --5 pts | atual: -2,075046
+Colidiu com calçada! --5 pts | atual: -7,100047
+Colidiu com calçada! --5 pts | atual: -12,15005
+episode reward: -22,72495
+episode reward: 24,81502
+Colidiu com calçada! --5 pts | atual: 22,23005
+episode reward: 22,19006
+episode reward: 27,29004
+Colidiu com calçada! --5 pts | atual: 18,31001
+episode reward: 20,15
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 18,45
+Colidiu com calçada! --5 pts | atual: 13,395
+Colidiu com calçada! --5 pts | atual: 7,814986
+Colidiu com calçada! --5 pts | atual: 2,744985
+Colidiu com calçada! --5 pts | atual: -2,940031
+Colidiu com calçada! --5 pts | atual: -8,535045
+Colidiu com parede! --5 pts | atual: -13,98005
+episode reward: -19,99988
+episode reward: 19,00055
+episode reward: 27,20004
+episode reward: 27,17004
+episode reward: 27,29504
+episode reward: 25,23003
+episode reward: 27,10504
+Colidiu com calçada! --5 pts | atual: 16,56499
+Colidiu com calçada! --5 pts | atual: 11,55999
+Colidiu com calçada! --5 pts | atual: 6,494986
+Colidiu com calçada! --5 pts | atual: 1,494986
+Colidiu com calçada! --5 pts | atual: -4,020026
+Colidiu com calçada! --5 pts | atual: -9,080028
+Colidiu com calçada! --5 pts | atual: -14,12503
+Colidiu com calçada! --5 pts | atual: -20,00488
+Colidiu com calçada! --5 pts | atual: -25,00988
+Colidiu com calçada! --5 pts | atual: -30,08987
+Colidiu com calçada! --5 pts | atual: -35,77001
+Colidiu com calçada! --5 pts | atual: -40,77001
+Colidiu com parede! --5 pts | atual: -45,99506
+episode reward: -52,00027
+Colidiu com calçada! --5 pts | atual: 16,18499
+episode reward: 18,01499
+episode reward: 26,98503
+episode reward: 27,11004
+episode reward: 27,26004
+episode reward: 27,18504
+episode reward: 27,30004
+episode reward: 27,30505
+Colidiu com calçada! --5 pts | atual: 22,30005
+Colidiu com calçada! --5 pts | atual: 17,29005
+episode reward: 17,26505
+episode reward: 27,19004
+episode reward: 27,26504
+episode reward: 27,26504
+episode reward: 25,20504
+episode reward: 27,14504
+episode reward: 27,25504
+episode reward: 27,09005
+episode reward: 27,18004
+episode reward: 27,22504
+episode reward: 27,17505
+episode reward: 27,14505
+episode reward: 27,13505
+episode reward: 27,05507
+episode reward: 27,21005
+episode reward: 27,14005
+Colidiu com calçada! --5 pts | atual: 22,16506
+Colidiu com calçada! --5 pts | atual: 17,15506
+episode reward: 17,11506
+episode reward: 27,04004
+episode reward: 27,19505
+episode reward: 27,20004
+episode reward: 27,06004
+episode reward: 25,14503
+Colidiu com calçada! --5 pts | atual: 20,29502
+Colidiu com calçada! --5 pts | atual: 17,19003
+episode reward: 17,13503
+episode reward: 23,07504
+episode reward: 27,06504
+Colidiu com calçada! --5 pts | atual: 14,66998
+Colidiu com calçada! --5 pts | atual: 9,639983
+Colidiu com calçada! --5 pts | atual: 8,404978
+Colidiu com calçada! --5 pts | atual: 3,349977
+Colidiu com calçada! --5 pts | atual: 0,3449765
+Colidiu com calçada! --5 pts | atual: -4,750026
+episode reward: -4,800027
+Colidiu com calçada! --5 pts | atual: 21,87009
+Colidiu com calçada! --5 pts | atual: 16,43017
+Colidiu com calçada! --5 pts | atual: 10,74015
+Colidiu com calçada! --5 pts | atual: 5,74015
+Colidiu com calçada! --5 pts | atual: -0,5948486
+Colidiu com calçada! --5 pts | atual: -5,594849
+Colidiu com parede! --5 pts | atual: -10,83485
+Colidiu com parede! --5 pts | atual: -15,93486
+episode reward: -20,99985
+episode reward: 27,20505
+Colidiu com calçada! --5 pts | atual: 21,13523
+Colidiu com calçada! --5 pts | atual: 15,24024
+Colidiu com calçada! --5 pts | atual: 10,01523
+Colidiu com calçada! --5 pts | atual: 4,970234
+episode reward: -0,9997653
+Colidiu com calçada! --5 pts | atual: 20,26001
+Colidiu com calçada! --5 pts | atual: 15,19001
+episode reward: 15,13501
+episode reward: 27,05005
+episode reward: 27,09504
+Colidiu com calçada! --5 pts | atual: 18,25
+episode reward: 20,02999
+Colidiu com calçada! --5 pts | atual: 16,00497
+episode reward: 17,71497
+episode reward: 27,21506
+episode reward: 26,83505
+episode reward: 26,73005
+episode reward: 26,89005
+episode reward: 24,66009
+episode reward: 27,02507
+episode reward: 27,04008
+episode reward: 27,07007
+Colidiu com calçada! --5 pts | atual: 20,22502
+episode reward: 20,05001
+episode reward: 27,07006
+episode reward: 26,94004
+episode reward: 27,17006
+episode reward: 27,07006
+episode reward: 19,00058
+episode reward: 26,84511
+episode reward: 27,05507
+episode reward: 26,99009
+episode reward: 26,96507
+episode reward: 26,89007
+episode reward: 27,00506
+episode reward: 26,99504
+episode reward: 26,76504
+episode reward: 27,12505
+Colidiu com calçada! --5 pts | atual: 14,69498
+episode reward: 22,26501
+episode reward: 27,15505
+episode reward: 27,17006
+episode reward: 27,12505
+episode reward: 27,11506
+episode reward: 27,13506
+episode reward: 27,11005
+episode reward: 27,12506
+episode reward: 27,05005
+episode reward: 27,03505
+episode reward: 27,10504
+episode reward: 27,20004
+episode reward: 27,10005
+episode reward: 27,12504
+episode reward: 27,17504
+episode reward: 27,17005
+episode reward: 27,13504
+Colidiu com calçada! --5 pts | atual: 22,11006
+episode reward: 22,10506
+episode reward: 27,18004
+episode reward: 27,12505
+Colidiu com calçada! --5 pts | atual: 18,52501
+Colidiu com calçada! --5 pts | atual: 13,52501
+episode reward: 17,16
+episode reward: 27,03505
+episode reward: 27,18506
+Colidiu com calçada! --5 pts | atual: 20,35004
+Colidiu com calçada! --5 pts | atual: 17,26004
+Colidiu com calçada! --5 pts | atual: 11,78503
+Colidiu com calçada! --5 pts | atual: 6,335023
+Colidiu com calçada! --5 pts | atual: 0,205024
+Colidiu com calçada! --5 pts | atual: -5,219986
+Colidiu com calçada! --5 pts | atual: -10,26999
+Colidiu com calçada! --5 pts | atual: -15,895
+episode reward: -20,99998
+episode reward: 27,04506
+Colidiu com calçada! --5 pts | atual: 14,74999
+Colidiu com calçada! --5 pts | atual: 9,724985
+Colidiu com calçada! --5 pts | atual: 3,324953
+Colidiu com calçada! --5 pts | atual: -1,680047
+Colidiu com calçada! --5 pts | atual: -6,865051
+Colidiu com calçada! --5 pts | atual: -13,27008
+Colidiu com calçada! --5 pts | atual: -18,37007
+Colidiu com calçada! --5 pts | atual: -23,765
+episode reward: -28,99996
+episode reward: 27,18005
+Colidiu com calçada! --5 pts | atual: 22,09505
+Colidiu com calçada! --5 pts | atual: 16,32518
+Colidiu com calçada! --5 pts | atual: 11,25518
+Colidiu com calçada! --5 pts | atual: 5,470162
+Colidiu com calçada! --5 pts | atual: 0,4001625
+Colidiu com calçada! --5 pts | atual: -4,879844
+episode reward: -14,93484
+episode reward: 27,07006
+Colidiu com calçada! --5 pts | atual: 22,10005
+episode reward: 22,08006
+episode reward: 27,15505
+episode reward: 27,13505
+Colidiu com calçada! --5 pts | atual: 18,40501
+episode reward: 22,15003
+episode reward: 26,99006
+episode reward: 27,27505
+episode reward: 27,04505
+episode reward: 27,16506
+Colidiu com calçada! --5 pts | atual: 18,37502
+episode reward: 18,34502
+episode reward: 25,13004
+episode reward: 27,08505
+episode reward: 27,14506
+episode reward: 27,14006
+episode reward: 26,89506
+episode reward: 26,94006
+Colidiu com calçada! --5 pts | atual: 16,505
+Colidiu com calçada! --5 pts | atual: 11,505
+episode reward: 15,22999
+episode reward: 27,19005
+episode reward: 27,06506
+episode reward: 27,03505
+episode reward: 27,17507
+episode reward: 27,02005
+episode reward: 26,99505
+Colidiu com calçada! --5 pts | atual: 14,65498
+Colidiu com calçada! --5 pts | atual: 9,179974
+episode reward: 8,809965
+Colidiu com calçada! --5 pts | atual: 22,24502
+Colidiu com calçada! --5 pts | atual: 17,20502
+episode reward: 17,07502
+episode reward: 27,10005
+episode reward: 27,17505
+episode reward: 27,05505
+Colidiu com calçada! --5 pts | atual: 20,17004
+episode reward: 20,12503
+episode reward: 27,03004
+episode reward: 26,93006
+episode reward: 27,11006
+episode reward: 27,12004
+episode reward: 26,91504
+episode reward: 27,14504
+Colidiu com calçada! --5 pts | atual: 18,49501
+Colidiu com calçada! --5 pts | atual: 13,49501
+episode reward: 17,245
+Colidiu com calçada! --5 pts | atual: 18,28
+Colidiu com calçada! --5 pts | atual: 13,28
+Colidiu com calçada! --5 pts | atual: 10,215
+Colidiu com calçada! --5 pts | atual: 5,099995
+Colidiu com calçada! --5 pts | atual: 0,09999466
+episode reward: 0,07499409
+episode reward: 27,08505
+episode reward: 27,15006
+episode reward: 26,98005
+Colidiu com calçada! --5 pts | atual: 20,07541
+Colidiu com calçada! --5 pts | atual: 15,07541
+Colidiu com calçada! --5 pts | atual: 9,520396
+episode reward: 4,000384
+episode reward: 27,10505
+episode reward: 27,12506
+episode reward: 26,79007
+episode reward: 27,18506
+episode reward: 27,02505
+Colidiu com calçada! --5 pts | atual: 14,67998
+Colidiu com calçada! --5 pts | atual: 9,04997
+episode reward: 8,61996
+Colidiu com calçada! --5 pts | atual: 22,07006
+episode reward: 22,06006
+episode reward: 27,08006
+episode reward: 27,11005
+Colidiu com calçada! --5 pts | atual: 22,23505
+episode reward: 22,22505
+episode reward: 27,14505
+episode reward: 27,15506
+episode reward: 27,15006
+episode reward: 27,11506
+episode reward: 27,16005
+episode reward: 27,15505
+episode reward: 27,15006
+episode reward: 27,15004
+episode reward: 27,21005
+episode reward: 27,13506
+Colidiu com calçada! --5 pts | atual: 22,33004
+episode reward: 22,22505
+episode reward: 27,13005
+episode reward: 27,22504
+episode reward: 27,22004
+episode reward: 27,20006
+episode reward: 27,14004
+Colidiu com calçada! --5 pts | atual: 22,17006
+episode reward: 22,16506
+episode reward: 27,27505
+episode reward: 27,26004
+episode reward: 27,19506
+Colidiu com calçada! --5 pts | atual: 14,71998
+Colidiu com calçada! --5 pts | atual: 13,63498
+episode reward: 17,36998
+episode reward: 27,29005
+episode reward: 27,22006
+episode reward: 27,11505
+episode reward: 27,15506
+episode reward: 27,30505
+episode reward: 27,18006
+episode reward: 27,28506
+episode reward: 27,16506
+episode reward: 27,16007
+episode reward: 27,14506
+episode reward: 27,12506
+Colidiu com calçada! --5 pts | atual: 18,54502
+episode reward: 22,19005
+episode reward: 27,18007
+episode reward: 27,21506
+episode reward: 27,19505
+Colidiu com calçada! --5 pts | atual: 22,03507
+episode reward: 22,02507
+Colidiu com calçada! --5 pts | atual: 22,23006
+Colidiu com calçada! --5 pts | atual: 17,22506
+episode reward: 17,20006
+episode reward: 27,18005
+episode reward: 27,02007
+episode reward: 27,18005
+episode reward: 25,23004
+Colidiu com calçada! --5 pts | atual: 18,58501
+episode reward: 22,30503
+episode reward: 27,19506
+episode reward: 27,21506
+episode reward: 25,00504
+episode reward: 27,27005
+episode reward: 27,22505
+episode reward: 27,20506
+Colidiu com calçada! --5 pts | atual: 10,51498
+Colidiu com calçada! --5 pts | atual: 9,334975
+Colidiu com calçada! --5 pts | atual: 4,189972
+Colidiu com calçada! --5 pts | atual: -1,320028
+Colidiu com calçada! --5 pts | atual: -7,73006
+Colidiu com calçada! --5 pts | atual: -12,91006
+Colidiu com calçada! --5 pts | atual: -18,66494
+episode reward: -23,99988
+Colidiu com calçada! --5 pts | atual: 18,40501
+episode reward: 18,32501
+episode reward: 27,23006
+episode reward: 27,24005
+episode reward: 27,18506
+episode reward: 27,20006
+Colidiu com calçada! --5 pts | atual: 22,25505
+episode reward: 22,24006
+episode reward: 27,28505
+Colidiu com calçada! --5 pts | atual: 22,25005
+Colidiu com calçada! --5 pts | atual: 17,25005
+episode reward: 17,20005
+episode reward: 27,15007
+episode reward: 27,23505
+episode reward: 27,20004
+episode reward: 27,17505
+episode reward: 27,28505
+episode reward: 27,22505
+Colidiu com calçada! --5 pts | atual: 22,40004
+episode reward: 22,27506
+episode reward: 27,21004
+Colidiu com calçada! --5 pts | atual: 18,45499
+Colidiu com calçada! --5 pts | atual: 17,24499
+Colidiu com calçada! --5 pts | atual: 11,31997
+Colidiu com calçada! --5 pts | atual: 6,219968
+Colidiu com calçada! --5 pts | atual: 0,4699686
+Colidiu com calçada! --5 pts | atual: -4,625033
+Colidiu com calçada! --5 pts | atual: -9,710035
+Colidiu com calçada! --5 pts | atual: -15,31005
+Colidiu com parede! --5 pts | atual: -20,81996
+episode reward: -25,99993
+episode reward: 27,22005
+episode reward: 27,17007
+episode reward: 27,25006
+episode reward: 27,24504
+episode reward: 27,24005
+episode reward: 27,24504
+episode reward: 27,22505
+episode reward: 27,32004
+episode reward: 25,21503
+episode reward: 25,12506
+episode reward: 27,31005
+episode reward: 27,28004
+episode reward: 27,23504
+episode reward: 27,24005
+episode reward: 27,30004
+episode reward: 27,30004
+episode reward: 27,35504
+episode reward: 27,23504
+episode reward: 27,33003
+episode reward: 27,33004
+episode reward: 27,26504
+episode reward: 27,25504
+episode reward: 27,26505
+episode reward: 27,29505
+episode reward: 27,24005
+episode reward: 27,26004
+episode reward: 27,21005
+episode reward: 27,33004
+episode reward: 27,22504
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 14,68498
+Colidiu com calçada! --5 pts | atual: 13,43498
+Colidiu com calçada! --5 pts | atual: 8,424977
+episode reward: 10,21497
+episode reward: 27,18504
+episode reward: 27,28004
+episode reward: 27,18505
+episode reward: 27,23504
+episode reward: 27,23004
+episode reward: 27,31003
+episode reward: 27,26004
+episode reward: 27,24504
+episode reward: 27,27504
+episode reward: 27,26004
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 14,74998
+Colidiu com calçada! --5 pts | atual: 8,574958
+Colidiu com calçada! --5 pts | atual: 3,474956
+Colidiu com calçada! --5 pts | atual: -1,750044
+Colidiu com calçada! --5 pts | atual: -7,125053
+Colidiu com calçada! --5 pts | atual: -13,27008
+Colidiu com parede! --5 pts | atual: -18,55503
+episode reward: -23,99996
+episode reward: 27,30503
+episode reward: 27,25504
+episode reward: 27,28504
+episode reward: 27,28504
+episode reward: 27,26504
+episode reward: 27,18004
+episode reward: 27,20004
+Colidiu com calçada! --5 pts | atual: 22,25504
+episode reward: 22,12506
+episode reward: 27,24003
+episode reward: 27,16005
+episode reward: 27,12004
+episode reward: 27,20004
+episode reward: 27,14004
+episode reward: 27,23504
+episode reward: 27,22504
+episode reward: 27,13004
+episode reward: 27,25504
+episode reward: 27,28504
+episode reward: 27,30503
+Colidiu com calçada! --5 pts | atual: 14,73998
+Colidiu com calçada! --5 pts | atual: 7,729939
+Colidiu com parede! --5 pts | atual: 1,544922
+episode reward: -4,00009
+episode reward: 27,25504
+episode reward: 27,25004
+episode reward: 27,25003
+Colidiu com calçada! --5 pts | atual: 22,27504
+Colidiu com calçada! --5 pts | atual: 15,86525
+Colidiu com calçada! --5 pts | atual: 10,86525
+Colidiu com calçada! --5 pts | atual: 5,050228
+Colidiu com parede! --5 pts | atual: -0,1547719
+episode reward: -5,999791
+episode reward: 27,22504
+episode reward: 27,24003
+episode reward: 27,23004
+episode reward: 27,21503
+Colidiu com calçada! --5 pts | atual: 22,31003
+Colidiu com calçada! --5 pts | atual: 16,9201
+Colidiu com calçada! --5 pts | atual: 10,89008
+Colidiu com calçada! --5 pts | atual: 5,070057
+Colidiu com calçada! --5 pts | atual: 0,07005692
+Colidiu com parede! --5 pts | atual: -5,119947
+episode reward: -10,99997
+episode reward: 27,29004
+episode reward: 27,33503
+episode reward: 27,26004
+episode reward: 27,26004
+episode reward: 27,31504
+episode reward: 27,23505
+Colidiu com calçada! --5 pts | atual: 22,18004
+Colidiu com calçada! --5 pts | atual: 17,13005
+episode reward: 17,04005
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 22,27003
+Colidiu com calçada! --5 pts | atual: 17,24003
+Colidiu com calçada! --5 pts | atual: 12,24003
+Colidiu com calçada! --5 pts | atual: 7,160032
+episode reward: 7,140032
+Colidiu com calçada! --5 pts | atual: 14,65498
+Colidiu com calçada! --5 pts | atual: 13,35998
+episode reward: 17,18497
+episode reward: 27,07504
+episode reward: 27,19004
+episode reward: 27,15005
+Colidiu com calçada! --5 pts | atual: 14,69999
+Colidiu com calçada! --5 pts | atual: 6,784919
+episode reward: 0,9999195
+episode reward: 27,21504
+Colidiu com calçada! --5 pts | atual: 22,36003
+episode reward: 22,32004
+episode reward: 27,26004
+episode reward: 27,12505
+episode reward: 27,28504
+episode reward: 27,13504
+Colidiu com calçada! --5 pts | atual: 22,22504
+Colidiu com calçada! --5 pts | atual: 16,69013
+Colidiu com calçada! --5 pts | atual: 11,69013
+Colidiu com calçada! --5 pts | atual: 6,49513
+Colidiu com calçada! --5 pts | atual: 1,36013
+Colidiu com calçada! --5 pts | atual: -4,369887
+Colidiu com calçada! --5 pts | atual: -9,52989
+Colidiu com parede! --5 pts | atual: -15,38491
+episode reward: -20,99981
+episode reward: 27,19004
+episode reward: 27,22004
+episode reward: 27,17004
+episode reward: 27,26504
+episode reward: 27,16005
+episode reward: 27,19004
+episode reward: 27,18504
+episode reward: 27,11004
+episode reward: 27,12505
+episode reward: 27,23504
+episode reward: 27,16504
+episode reward: 27,12505
+episode reward: 27,23004
+episode reward: 27,03004
+episode reward: 27,25504
+Colidiu com calçada! --5 pts | atual: 22,22504
+Colidiu com calçada! --5 pts | atual: 16,68013
+Colidiu com calçada! --5 pts | atual: 10,93511
+Colidiu com calçada! --5 pts | atual: 5,820108
+Colidiu com calçada! --5 pts | atual: 0,6401086
+Colidiu com calçada! --5 pts | atual: -4,384892
+Colidiu com calçada! --5 pts | atual: -9,444893
+Colidiu com calçada! --5 pts | atual: -14,98991
+Colidiu com calçada! --5 pts | atual: -20,20987
+Colidiu com parede! --5 pts | atual: -25,35984
+Colidiu com parede! --5 pts | atual: -30,42983
+episode reward: -35,99995
+episode reward: 27,21504
+episode reward: 27,20504
+episode reward: 27,15504
+episode reward: 27,24504
+episode reward: 27,21504
+episode reward: 27,15004
+episode reward: 27,06504
+episode reward: 27,07504
+episode reward: 27,19504
+episode reward: 27,24004
+episode reward: 27,12004
+episode reward: 27,10004
+episode reward: 27,23004
+episode reward: 27,12504
+Colidiu com calçada! --5 pts | atual: 22,19005
+episode reward: 22,17505
+episode reward: 27,15504
+episode reward: 27,16504
+episode reward: 27,24503
+episode reward: 27,25004
+episode reward: 27,17505
+episode reward: 27,10505
+episode reward: 27,13005
+Colidiu com calçada! --5 pts | atual: 22,24503
+Colidiu com calçada! --5 pts | atual: 17,17004
+Colidiu com calçada! --5 pts | atual: 11,48003
+Colidiu com calçada! --5 pts | atual: 6,435025
+Colidiu com calçada! --5 pts | atual: 0,4150262
+Colidiu com parede! --5 pts | atual: -5,27499
+Colidiu com parede! --5 pts | atual: -10,31499
+Colidiu com parede! --5 pts | atual: -15,555
+episode reward: -20,99992
+episode reward: 27,15504
+Colidiu com calçada! --5 pts | atual: 22,20003
+episode reward: 22,13004
+episode reward: 27,19005
+episode reward: 27,17005
+Colidiu com calçada! --5 pts | atual: 22,21504
+Colidiu com calçada! --5 pts | atual: 15,93524
+Colidiu com calçada! --5 pts | atual: 10,92024
+Colidiu com calçada! --5 pts | atual: 5,795236
+Colidiu com calçada! --5 pts | atual: 0,7152357
+Colidiu com calçada! --5 pts | atual: -4,649773
+Colidiu com calçada! --5 pts | atual: -9,649773
+episode reward: -19,80978
+episode reward: 27,21504
+episode reward: 27,26005
+episode reward: 27,24005
+Colidiu com calçada! --5 pts | atual: 22,25004
+episode reward: 22,21504
+episode reward: 27,11503
+episode reward: 27,19505
+episode reward: 27,21504
+episode reward: 27,25504
+episode reward: 27,23504
+episode reward: 27,29504
+Colidiu com calçada! --5 pts | atual: 14,72998
+Colidiu com calçada! --5 pts | atual: 15,09997
+Colidiu com calçada! --5 pts | atual: 10,00997
+Colidiu com calçada! --5 pts | atual: 4,434955
+Colidiu com calçada! --5 pts | atual: -1,130045
+Colidiu com calçada! --5 pts | atual: -6,145045
+Colidiu com calçada! --5 pts | atual: -11,49505
+Colidiu com parede! --5 pts | atual: -17,29492
+episode reward: -22,9998
+episode reward: 27,26004
+episode reward: 27,28504
+episode reward: 27,29004
+Colidiu com calçada! --5 pts | atual: 14,71998
+Colidiu com calçada! --5 pts | atual: 9,589981
+episode reward: 17,25497
+episode reward: 27,32004
+Colidiu com calçada! --5 pts | atual: 22,23503
+Colidiu com calçada! --5 pts | atual: 17,16504
+Colidiu com calçada! --5 pts | atual: 11,81004
+Colidiu com calçada! --5 pts | atual: 6,610032
+Colidiu com calçada! --5 pts | atual: 1,325032
+Colidiu com calçada! --5 pts | atual: -3,704968
+Colidiu com calçada! --5 pts | atual: -8,954974
+Colidiu com calçada! --5 pts | atual: -13,98497
+Colidiu com parede! --5 pts | atual: -19,29992
+Colidiu com parede! --5 pts | atual: -24,82983
+episode reward: -30,99964
+episode reward: 27,25005
+episode reward: 27,22504
+episode reward: 27,12504
+episode reward: 27,22005
+episode reward: 27,18504
+episode reward: 27,18004
+episode reward: 27,29504
+episode reward: 27,29505
+episode reward: 27,06005
+episode reward: 27,18005
+episode reward: 27,19005
+episode reward: 27,18005
+episode reward: 27,16006
+episode reward: 27,14505
+episode reward: 27,22505
+episode reward: 27,13005
+Colidiu com calçada! --5 pts | atual: 12,68498
+Colidiu com calçada! --5 pts | atual: 9,669983
+Colidiu com calçada! --5 pts | atual: 4,569981
+Colidiu com calçada! --5 pts | atual: 5,369979
+episode reward: 7,164974
+episode reward: 27,01505
+episode reward: 27,01506
+episode reward: 27,19505
+episode reward: 27,26005
+episode reward: 27,25005
+Colidiu com calçada! --5 pts | atual: 22,32003
+Colidiu com calçada! --5 pts | atual: 17,26004
+episode reward: 17,25004
+episode reward: 27,24004
+episode reward: 27,28004
+Colidiu com calçada! --5 pts | atual: 14,52998
+Colidiu com calçada! --5 pts | atual: 11,39498
+episode reward: 17,10497
+episode reward: 27,16004
+episode reward: 27,27004
+episode reward: 27,21004
+episode reward: 27,20004
+episode reward: 27,16505
+episode reward: 27,18004
+episode reward: 27,16504
+episode reward: 27,23004
+episode reward: 27,19504
+episode reward: 27,12004
+episode reward: 27,21504
+episode reward: 27,16004
+episode reward: 27,18504
+Colidiu com calçada! --5 pts | atual: 22,04506
+Colidiu com calçada! --5 pts | atual: 16,19521
+Colidiu com calçada! --5 pts | atual: 10,9252
+Colidiu com calçada! --5 pts | atual: 5,885199
+Colidiu com calçada! --5 pts | atual: 0,8301986
+Colidiu com calçada! --5 pts | atual: -4,474808
+Colidiu com calçada! --5 pts | atual: -9,519809
+Colidiu com calçada! --5 pts | atual: -14,54481
+Colidiu com calçada! --5 pts | atual: -19,54481
+Colidiu com calçada! --5 pts | atual: -24,6248
+episode reward: -34,70478
+episode reward: 27,22004
+episode reward: 27,18505
+episode reward: 27,27004
+episode reward: 27,26504
+episode reward: 27,21004
+episode reward: 27,27004
+episode reward: 27,25504
+episode reward: 27,22004
+episode reward: 27,21004
+episode reward: 27,20504
+episode reward: 27,23004
+episode reward: 27,15504
+episode reward: 27,12005
+Colidiu com calçada! --5 pts | atual: 22,26503
+episode reward: 22,25504
+episode reward: 27,27503
+episode reward: 27,18504
+episode reward: 27,23503
+Colidiu com calçada! --5 pts | atual: 22,32002
+Colidiu com calçada! --5 pts | atual: 17,27003
+episode reward: 17,22503
+episode reward: 27,21504
+episode reward: 27,25004
+episode reward: 27,10504
+episode reward: 27,28505
+episode reward: 27,20004
+episode reward: 27,22004
+episode reward: 27,29004
+episode reward: 27,17004
+episode reward: 27,25004
+episode reward: 27,22504
+episode reward: 27,22504
+episode reward: 27,19004
+episode reward: 27,14003
+episode reward: 27,10504
+episode reward: 27,11004
+episode reward: 25,12503
+episode reward: 27,16004
+episode reward: 27,25003
+episode reward: 27,15504
+episode reward: 27,10504
+episode reward: 27,17504
+episode reward: 27,15503
+episode reward: 27,12503
+episode reward: 27,21504
+episode reward: 27,03505
+episode reward: 27,10503
+episode reward: 27,18003
+episode reward: 27,24004
+episode reward: 27,23004
+Colidiu com calçada! --5 pts | atual: 22,28004
+Colidiu com calçada! --5 pts | atual: 17,26004
+episode reward: 17,22504
+episode reward: 27,21004
+episode reward: 27,15005
+episode reward: 27,18004
+episode reward: 27,23004
+episode reward: 27,24004
+episode reward: 27,30005
+episode reward: 27,11503
+Colidiu com calçada! --5 pts | atual: 14,68498
+Colidiu com calçada! --5 pts | atual: 11,58998
+Colidiu com calçada! --5 pts | atual: 12,36998
+Colidiu com calçada! --5 pts | atual: 7,299974
+episode reward: 7,214972
+episode reward: 27,20004
+episode reward: 27,22504
+episode reward: 27,27504
+episode reward: 27,19004
+episode reward: 27,15503
+episode reward: 27,16003
+Colidiu com calçada! --5 pts | atual: 14,50998
+episode reward: 22,195
+episode reward: 27,16504
+episode reward: 27,23504
+episode reward: 27,23004
+episode reward: 27,26005
+Colidiu com calçada! --5 pts | atual: 22,13001
+Colidiu com calçada! --5 pts | atual: 17,09501
+episode reward: 16,99001
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 22,39503
+Colidiu com calçada! --5 pts | atual: 17,38503
+episode reward: 17,17502
+Colidiu com calçada! --5 pts | atual: 20,38002
+Colidiu com calçada! --5 pts | atual: 15,31502
+episode reward: 15,27002
+episode reward: 27,27004
+episode reward: 27,25004
+episode reward: 27,20004
+episode reward: 27,25004
+episode reward: 27,09503
+episode reward: 27,13003
+episode reward: 27,20003
+episode reward: 27,15503
+episode reward: 27,16003
+episode reward: 27,16504
+episode reward: 27,22503
+Colidiu com calçada! --5 pts | atual: 14,41998
+Colidiu com calçada! --5 pts | atual: 9,419978
+Colidiu com calçada! --5 pts | atual: 4,05497
+Colidiu com calçada! --5 pts | atual: -1,01503
+Colidiu com calçada! --5 pts | atual: -6,100032
+Colidiu com calçada! --5 pts | atual: -11,14503
+episode reward: -21,35
+episode reward: 27,22004
+episode reward: 27,21503
+episode reward: 27,22504
+episode reward: 27,10504
+episode reward: 27,14504
+episode reward: 27,18004
+episode reward: 27,22004
+episode reward: 27,16003
+episode reward: 27,24003
+episode reward: 27,15503
+episode reward: 27,14503
+episode reward: 27,04503
+Colidiu com calçada! --5 pts | atual: 22,33002
+episode reward: 22,21503
+episode reward: 27,15503
+episode reward: 27,23003
+episode reward: 27,15503
+episode reward: 27,17504
+episode reward: 27,14504
+Colidiu com calçada! --5 pts | atual: 22,07504
+episode reward: 22,07004
+Colidiu com calçada! --5 pts | atual: 22,20004
+Colidiu com calçada! --5 pts | atual: 17,19505
+episode reward: 17,14005
+Colidiu com calçada! --5 pts | atual: 22,39503
+Colidiu com calçada! --5 pts | atual: 17,33504
+Colidiu com calçada! --5 pts | atual: 11,95003
+Colidiu com calçada! --5 pts | atual: 6,945028
+Colidiu com calçada! --5 pts | atual: 1,740029
+Colidiu com calçada! --5 pts | atual: -5,010012
+episode reward: -15,21502
+episode reward: 27,35004
+episode reward: 27,25003
+episode reward: 27,33004
+episode reward: 27,35504
+episode reward: 27,23003
+episode reward: 27,26004
+Colidiu com calçada! --5 pts | atual: 16,52998
+episode reward: 22,23
+episode reward: 27,21003
+episode reward: 27,24003
+episode reward: 27,27504
+episode reward: 27,27003
+episode reward: 27,26503
+Colidiu com calçada! --5 pts | atual: 14,72998
+Colidiu com calçada! --5 pts | atual: 9,624982
+episode reward: 13,36998
+Colidiu com calçada! --5 pts | atual: 14,53498
+episode reward: 22,2
+Colidiu com calçada! --5 pts | atual: 14,55998
+episode reward: 22,25
+episode reward: 27,35503
+episode reward: 27,19503
+episode reward: 27,31503
+Colidiu com calçada! --5 pts | atual: 14,69998
+episode reward: 22,37
+episode reward: 27,20502
+Colidiu com calçada! --5 pts | atual: 14,69998
+Colidiu com calçada! --5 pts | atual: 13,61498
+episode reward: 17,36497
+episode reward: 27,27003
+episode reward: 27,19003
+episode reward: 27,30003
+episode reward: 27,31504
+episode reward: 27,29503
+Colidiu com calçada! --5 pts | atual: 22,35001
+episode reward: 22,23003
+episode reward: 27,38504
+episode reward: 27,27504
+episode reward: 27,32503
+episode reward: 27,15003
+episode reward: 27,40004
+episode reward: 27,19003
+episode reward: 27,19503
+episode reward: 27,15503
+episode reward: 27,26503
+episode reward: 27,35003
+episode reward: 27,27003
+Colidiu com calçada! --5 pts | atual: 14,72998
+Colidiu com calçada! --5 pts | atual: 15,44998
+episode reward: 15,41998
+episode reward: 27,19003
+episode reward: 27,31003
+episode reward: 27,33003
+episode reward: 27,40503
+episode reward: 27,37503
+episode reward: 27,34503
+episode reward: 27,34504
+Colidiu com calçada! --5 pts | atual: 16,71499
+episode reward: 22,50001
+episode reward: 27,47503
+episode reward: 27,38003
+episode reward: 27,19503
+episode reward: 27,38503
+Colidiu com calçada! --5 pts | atual: 10,73998
+Colidiu com calçada! --5 pts | atual: 5,439978
+episode reward: 9,184972
+episode reward: 27,36003
+Colidiu com calçada! --5 pts | atual: 16,65998
+episode reward: 22,375
+Colidiu com calçada! --5 pts | atual: 20,32002
+episode reward: 20,29502
+Colidiu com calçada! --5 pts | atual: 14,58998
+Colidiu com calçada! --5 pts | atual: 11,55998
+Colidiu com calçada! --5 pts | atual: 10,42498
+episode reward: 12,29998
+episode reward: 25,32002
+episode reward: 27,32004
+episode reward: 27,14003
+episode reward: 27,25003
+episode reward: 27,37003
+episode reward: 27,14003
+episode reward: 27,21504
+Colidiu com calçada! --5 pts | atual: 20,36001
+Colidiu com calçada! --5 pts | atual: 17,29501
+episode reward: 17,24501
+episode reward: 27,15504
+episode reward: 25,29002
+Colidiu com calçada! --5 pts | atual: 22,44502
+episode reward: 22,35003
+episode reward: 27,22503
+Colidiu com calçada! --5 pts | atual: 20,35002
+episode reward: 20,31502
+episode reward: 25,21002
+episode reward: 25,30002
+episode reward: 27,24504
+episode reward: 27,33504
+episode reward: 25,32002
+episode reward: 27,37003
+episode reward: 27,33504
+episode reward: 27,31504
+episode reward: 27,35004
+episode reward: 27,39503
+episode reward: 27,36504
+episode reward: 27,38003
+episode reward: 27,41004
+episode reward: 27,32004
+episode reward: 25,34002
+episode reward: 25,32503
+episode reward: 27,39503
+episode reward: 27,34504
+episode reward: 27,37504
+episode reward: 27,38004
+episode reward: 27,35504
+episode reward: 27,41004
+episode reward: 27,42003
+episode reward: 27,36004
+episode reward: 27,33504
+episode reward: 27,27504
+episode reward: 27,35004
+episode reward: 27,29004
+episode reward: 27,31504
+episode reward: 27,41504
+episode reward: 27,34504
+episode reward: 27,41504
+episode reward: 27,39004
+Colidiu com calçada! --5 pts | atual: 20,45
+episode reward: 22,32002
+episode reward: 27,33003
+episode reward: 27,24003
+episode reward: 27,29004
+episode reward: 27,17504
+episode reward: 27,32003
+episode reward: 27,35003
+episode reward: 27,26003
+episode reward: 27,31003
+episode reward: 27,22504
+episode reward: 27,26503
+episode reward: 27,27504
+episode reward: 27,30503
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 22,22504
+episode reward: 22,19504
+episode reward: 21,325
+episode reward: 27,32003
+Colidiu com calçada! --5 pts | atual: 20,32501
+episode reward: 20,22501
+episode reward: 27,26003
+episode reward: 27,28503
+episode reward: 27,25004
+episode reward: 27,32504
+episode reward: 27,28504
+episode reward: 27,36003
+episode reward: 27,19004
+episode reward: 27,39503
+episode reward: 27,31504
+episode reward: 27,34003
+episode reward: 27,39004
+Colidiu com calçada! --5 pts | atual: 14,69998
+Colidiu com calçada! --5 pts | atual: 11,61498
+episode reward: 17,33998
+episode reward: 27,30504
+episode reward: 27,31503
+Colidiu com calçada! --5 pts | atual: 20,40001
+Colidiu com calçada! --5 pts | atual: 15,34001
+episode reward: 15,30001
+episode reward: 27,38503
+episode reward: 27,32003
+episode reward: 25,30003
+Colidiu com calçada! --5 pts | atual: 20,42002
+episode reward: 20,38002
+episode reward: 27,30004
+episode reward: 27,35003
+episode reward: 23,28003
+episode reward: 27,34504
+Colidiu com calçada! --5 pts | atual: 22,42502
+episode reward: 22,31503
+episode reward: 27,31503
+episode reward: 23,25502
+episode reward: 27,20503
+episode reward: 27,29003
+episode reward: 27,43503
+episode reward: 27,34004
+episode reward: 27,36503
+episode reward: 27,24504
+episode reward: 27,31504
+Colidiu com calçada! --5 pts | atual: 16,465
+episode reward: 20,295
+Colidiu com calçada! --5 pts | atual: 22,27504
+episode reward: 22,27004
+episode reward: 25,34003
+episode reward: 27,17003
+episode reward: 27,30503
+episode reward: 27,28004
+episode reward: 27,23004
+episode reward: 27,22004
+episode reward: 27,32004
+episode reward: 25,32503
+episode reward: 25,34003
+episode reward: 27,33003
+episode reward: 25,19003
+episode reward: 27,42504
+Colidiu com calçada! --5 pts | atual: 22,49002
+episode reward: 22,34004
+episode reward: 27,39004
+Colidiu com calçada! --5 pts | atual: 20,31502
+episode reward: 20,27002
+episode reward: 27,41004
+episode reward: 25,20003
+Colidiu com calçada! --5 pts | atual: 16,64499
+episode reward: 22,36501
+episode reward: 27,31004
+Colidiu com calçada! --5 pts | atual: 22,50001
+episode reward: 22,38003
+episode reward: 27,33503
+Colidiu com calçada! --5 pts | atual: 22,30504
+episode reward: 22,29004
+episode reward: 27,30504
+episode reward: 27,26004
+episode reward: 27,40004
+episode reward: 27,34004
+episode reward: 27,38004
+episode reward: 27,32504
+episode reward: 27,36504
+episode reward: 27,32005
+episode reward: 27,30004
+episode reward: 27,32504
+episode reward: 27,33004
+episode reward: 27,39004
+episode reward: 27,43004
+Colidiu com calçada! --5 pts | atual: 14,77499
+Colidiu com calçada! --5 pts | atual: 8,804963
+Colidiu com calçada! --5 pts | atual: 3,519957
+Colidiu com calçada! --5 pts | atual: -1,990043
+Colidiu com calçada! --5 pts | atual: -7,020043
+Colidiu com calçada! --5 pts | atual: -12,06004
+Colidiu com calçada! --5 pts | atual: -17,295
+Colidiu com parede! --5 pts | atual: -22,49497
+episode reward: -28,99972
+episode reward: 27,29004
+episode reward: 27,35504
+episode reward: 27,33004
+episode reward: 27,35003
+Colidiu com calçada! --5 pts | atual: 22,35503
+episode reward: 22,32004
+episode reward: 27,31003
+Colidiu com calçada! --5 pts | atual: 22,38003
+Colidiu com calçada! --5 pts | atual: 17,31005
+Colidiu com calçada! --5 pts | atual: 11,86504
+Colidiu com calçada! --5 pts | atual: 6,860035
+Colidiu com calçada! --5 pts | atual: 1,130036
+Colidiu com calçada! --5 pts | atual: -3,869964
+Colidiu com parede! --5 pts | atual: -9,609982
+Colidiu com parede! --5 pts | atual: -15,10499
+episode reward: -20,99984
+episode reward: 27,36004
+episode reward: 27,36504
+episode reward: 27,29005
+episode reward: 27,35004
+episode reward: 27,37003
+episode reward: 27,29003
+episode reward: 27,29004
+episode reward: 27,35003
+episode reward: 27,33504
+episode reward: 27,33004
+episode reward: 27,40504
+Colidiu com calçada! --5 pts | atual: 22,27505
+episode reward: 22,25505
+episode reward: 27,39503
+episode reward: 27,30004
+episode reward: 27,32504
+episode reward: 27,35504
+episode reward: 27,37504
+Colidiu com calçada! --5 pts | atual: 14,69998
+Colidiu com calçada! --5 pts | atual: 9,259974
+episode reward: 8,929967
+episode reward: 27,30504
+episode reward: 27,32004
+episode reward: 27,35504
+episode reward: 27,33504
+episode reward: 27,41503
+episode reward: 27,32004
+Colidiu com calçada! --5 pts | atual: 22,39504
+episode reward: 22,38504
+Colidiu com calçada! --5 pts | atual: 14,64998
+episode reward: 22,35
+episode reward: 27,35003
+episode reward: 27,28503
+episode reward: 27,31004
+episode reward: 27,34503
+episode reward: 27,36503
+episode reward: 27,35503
+episode reward: 27,27003
+Colidiu com calçada! --5 pts | atual: 22,35003
+episode reward: 22,29504
+Colidiu com calçada! --5 pts | atual: 18,52
+episode reward: 22,37001
+episode reward: 27,31003
+episode reward: 27,33003
+episode reward: 27,37003
+episode reward: 25,30503
+episode reward: 27,31503
+episode reward: 27,31004
+episode reward: 27,33003
+episode reward: 27,31504
+Colidiu com calçada! --5 pts | atual: 21,4802
+Colidiu com calçada! --5 pts | atual: 15,64527
+Colidiu com calçada! --5 pts | atual: 10,42527
+Colidiu com calçada! --5 pts | atual: 5,380264
+Colidiu com calçada! --5 pts | atual: 0,3252643
+Colidiu com calçada! --5 pts | atual: -4,87474
+Colidiu com calçada! --5 pts | atual: -9,929742
+episode reward: -20,28975
+episode reward: 27,49503
+episode reward: 27,31003
+episode reward: 27,30503
+episode reward: 27,35504
+Colidiu com calçada! --5 pts | atual: 22,35504
+episode reward: 22,31504
+episode reward: 27,48503
+episode reward: 27,34503
+Colidiu com calçada! --5 pts | atual: 22,34004
+episode reward: 22,31004
+episode reward: 27,34003
+episode reward: 27,33503
+episode reward: 27,35503
+episode reward: 27,28003
+episode reward: 27,36504
+episode reward: 27,34004
+episode reward: 27,26503
+episode reward: 27,32003
+Colidiu com calçada! --5 pts | atual: 22,33003
+episode reward: 22,31504
+episode reward: 27,33503
+episode reward: 27,36503
+episode reward: 27,38003
+episode reward: 27,26503
+episode reward: 27,35504
+episode reward: 27,36504
+Colidiu com calçada! --5 pts | atual: 22,24503
+episode reward: 22,23503
+Colidiu com calçada! --5 pts | atual: 10,56498
+Colidiu com calçada! --5 pts | atual: 7,54998
+episode reward: 11,20497
+episode reward: 27,32003
+episode reward: 27,22003
+Colidiu com calçada! --5 pts | atual: 22,20004
+Colidiu com calçada! --5 pts | atual: 16,8951
+Colidiu com calçada! --5 pts | atual: 11,78009
+Colidiu com calçada! --5 pts | atual: 6,735092
+Colidiu com calçada! --5 pts | atual: 1,340093
+Colidiu com calçada! --5 pts | atual: -3,689908
+episode reward: -13,80991
+Colidiu com calçada! --5 pts | atual: 22,36504
+Colidiu com calçada! --5 pts | atual: 17,36504
+episode reward: 17,32504
+episode reward: 27,14503
+episode reward: 27,25503
+Colidiu com calçada! --5 pts | atual: 20,35003
+Colidiu com calçada! --5 pts | atual: 15,35003
+episode reward: 15,29503
+Colidiu com calçada! --5 pts | atual: 22,41003
+Colidiu com calçada! --5 pts | atual: 17,35504
+episode reward: 17,35004
+episode reward: 27,29004
+episode reward: 27,25504
+episode reward: 27,33504
+episode reward: 27,33003
+episode reward: 27,29003
+Colidiu com calçada! --5 pts | atual: 22,17504
+episode reward: 10,89024
+Colidiu com calçada! --5 pts | atual: 22,36504
+Colidiu com calçada! --5 pts | atual: 17,36504
+episode reward: 17,31503
+episode reward: 25,18502
+episode reward: 27,30003
+episode reward: 27,39503
+episode reward: 27,31004
+episode reward: 27,27003
+Colidiu com calçada! --5 pts | atual: 22,13004
+episode reward: 22,12504
+episode reward: 27,32504
+episode reward: 21,27
+episode reward: 27,26004
+episode reward: 27,28504
+episode reward: 27,24504
+episode reward: 27,24003
+Colidiu com calçada! --5 pts | atual: 22,32504
+episode reward: 22,30004
+episode reward: 27,30504
+episode reward: 27,19004
+episode reward: 27,24004
+episode reward: 27,26503
+episode reward: 25,21502
+episode reward: 27,33004
+episode reward: 27,39503
+Colidiu com calçada! --5 pts | atual: 16,48998
+Colidiu com calçada! --5 pts | atual: 11,48498
+Colidiu com calçada! --5 pts | atual: 6,424983
+Colidiu com calçada! --5 pts | atual: 1,419983
+Colidiu com calçada! --5 pts | atual: -3,655019
+Colidiu com calçada! --5 pts | atual: -8,72002
+Colidiu com calçada! --5 pts | atual: -13,98503
+Colidiu com calçada! --5 pts | atual: -19,20499
+Colidiu com calçada! --5 pts | atual: -24,78489
+Colidiu com calçada! --5 pts | atual: -29,97486
+Colidiu com parede! --5 pts | atual: -35,10989
+episode reward: -42,00029
+episode reward: 27,39503
+episode reward: 25,31502
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 14,75998
+Colidiu com calçada! --5 pts | atual: 13,66498
+episode reward: 17,45998
+episode reward: 25,13003
+episode reward: 27,29003
+Colidiu com calçada! --5 pts | atual: 16,51499
+Colidiu com calçada! --5 pts | atual: 11,51499
+Colidiu com calçada! --5 pts | atual: 6,499986
+episode reward: 6,124986
+episode reward: 25,34003
+episode reward: 27,36504
+Colidiu com calçada! --5 pts | atual: 22,39503
+episode reward: 22,38004
+episode reward: 25,33002
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 22,33504
+episode reward: 22,32504
+episode reward: 27,35503
+Colidiu com calçada! --5 pts | atual: 12,70498
+Colidiu com calçada! --5 pts | atual: 9,404977
+episode reward: 11,11497
+episode reward: 27,33504
+episode reward: 27,35504
+episode reward: 27,37004
+episode reward: 27,38503
+episode reward: 27,38504
+Colidiu com calçada! --5 pts | atual: 20,50501
+episode reward: 20,39501
+episode reward: 27,41504
+episode reward: 25,24503
+episode reward: 27,45503
+episode reward: 27,34004
+episode reward: 27,30504
+episode reward: 25,31503
+episode reward: 25,12503
+episode reward: 27,41004
+episode reward: 27,38504
+episode reward: 25,31503
+episode reward: 27,34504
+Colidiu com calçada! --5 pts | atual: 14,64998
+Colidiu com calçada! --5 pts | atual: 15,48498
+Colidiu com calçada! --5 pts | atual: 10,48498
+episode reward: 12,36998
+Colidiu com calçada! --5 pts | atual: 20,43002
+episode reward: 20,39002
+episode reward: 27,38504
+episode reward: 27,38504
+Colidiu com calçada! --5 pts | atual: 22,39004
+Colidiu com calçada! --5 pts | atual: 17,39004
+episode reward: 17,36004
+episode reward: 27,25004
+Colidiu com calçada! --5 pts | atual: 22,45501
+Colidiu com calçada! --5 pts | atual: 17,40002
+episode reward: 17,33502
+episode reward: 27,31503
+episode reward: 27,32004
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 22,42504
+Colidiu com calçada! --5 pts | atual: 17,42504
+Colidiu com calçada! --5 pts | atual: 12,38004
+episode reward: 12,35004
+episode reward: 27,25004
+episode reward: 27,38004
+episode reward: 27,39004
+episode reward: 27,31004
+episode reward: 27,25503
+episode reward: 27,34004
+episode reward: 27,28504
+episode reward: 27,35004
+Colidiu com calçada! --5 pts | atual: 16,67499
+episode reward: 22,44501
+episode reward: 25,19003
+episode reward: 27,30005
+episode reward: 27,34504
+episode reward: 27,32004
+Colidiu com calçada! --5 pts | atual: 22,48503
+Colidiu com calçada! --5 pts | atual: 17,46503
+episode reward: 17,44003
+Colidiu com calçada! --5 pts | atual: 14,74498
+Colidiu com calçada! --5 pts | atual: 8,784963
+episode reward: 8,474956
+Colidiu com calçada! --5 pts | atual: 22,48003
+Colidiu com calçada! --5 pts | atual: 17,45504
+episode reward: 17,42504
+episode reward: 25,30502
+episode reward: 27,35004
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 8,769985
+Colidiu com calçada! --5 pts | atual: 5,384976
+episode reward: 5,059977
+episode reward: 27,32004
+episode reward: 27,27004
+episode reward: 27,32004
+Colidiu com calçada! --5 pts | atual: 14,71498
+Colidiu com calçada! --5 pts | atual: 11,37998
+episode reward: 13,07497
+episode reward: 27,31004
+episode reward: 27,29004
+episode reward: 27,32004
+episode reward: 27,41004
+episode reward: 27,31504
+episode reward: 27,35003
+episode reward: 27,38004
+Colidiu com calçada! --5 pts | atual: 22,41003
+episode reward: 22,39004
+episode reward: 27,34004
+episode reward: 27,33504
+episode reward: 27,32504
+episode reward: 27,28004
+episode reward: 27,35503
+episode reward: 27,27504
+episode reward: 27,43504
+episode reward: 27,34004
+episode reward: 27,30004
+episode reward: 27,33004
+episode reward: 27,34504
+episode reward: 27,26004
+episode reward: 27,29505
+episode reward: 25,15502
+episode reward: 27,31504
+episode reward: 27,32004
+episode reward: 27,42003
+Colidiu com calçada! --5 pts | atual: 20,43501
+Colidiu com calçada! --5 pts | atual: 17,35002
+episode reward: 17,29002
+episode reward: 27,19004
+episode reward: 25,19503
+episode reward: 27,30005
+episode reward: 27,21004
+Colidiu com calçada! --5 pts | atual: 16,50499
+Colidiu com calçada! --5 pts | atual: 11,49499
+Colidiu com calçada! --5 pts | atual: 8,484991
+episode reward: 12,25999
+episode reward: 27,35504
+episode reward: 27,25004
+episode reward: 27,20504
+episode reward: 25,26003
+episode reward: 27,33504
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 22,33003
+episode reward: 22,31503
+Colidiu com calçada! --5 pts | atual: 20,32002
+episode reward: 20,28502
+Colidiu com calçada! --5 pts | atual: 12,74498
+Colidiu com calçada! --5 pts | atual: 9,414977
+episode reward: 9,11997
+episode reward: 27,29505
+episode reward: 27,13504
+Colidiu com calçada! --5 pts | atual: 16,58498
+episode reward: 20,24498
+Colidiu com calçada! --5 pts | atual: 16,52999
+Colidiu com calçada! --5 pts | atual: 13,44999
+Colidiu com calçada! --5 pts | atual: 12,31499
+Colidiu com calçada! --5 pts | atual: 7,269987
+Colidiu com calçada! --5 pts | atual: 1,114982
+Colidiu com calçada! --5 pts | atual: -4,335028
+Colidiu com parede! --5 pts | atual: -9,470031
+Colidiu com parede! --5 pts | atual: -14,83004
+episode reward: -20,99984
+episode reward: 27,25504
+Colidiu com calçada! --5 pts | atual: 12,59499
+Colidiu com calçada! --5 pts | atual: 9,294978
+episode reward: 8,999971
+episode reward: 27,33004
+Colidiu com calçada! --5 pts | atual: 12,66998
+Colidiu com calçada! --5 pts | atual: 9,04997
+episode reward: 10,75496
+episode reward: 27,34004
+episode reward: 27,18004
+episode reward: 27,32504
+episode reward: 27,29504
+episode reward: 27,31504
+episode reward: 25,31503
+episode reward: 27,23004
+episode reward: 27,36004
+episode reward: 27,31004
+episode reward: 27,28004
+episode reward: 27,35004
+episode reward: 27,36004
+episode reward: 27,31504
+episode reward: 25,38003
+episode reward: 27,30504
+episode reward: 27,33004
+episode reward: 27,33504
+episode reward: 27,30504
+episode reward: 27,36504
+episode reward: 25,31502
+episode reward: 27,41503
+episode reward: 27,31504
+episode reward: 27,31503
+episode reward: 27,31004
+episode reward: 27,39504
+episode reward: 27,34504
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 16,49
+episode reward: 20,29499
+episode reward: 25,30002
+episode reward: 27,32504
+episode reward: 27,32504
+Colidiu com calçada! --5 pts | atual: 20,48502
+Colidiu com calçada! --5 pts | atual: 15,42502
+episode reward: 15,37502
+episode reward: 27,39003
+episode reward: 27,32004
+episode reward: 27,33504
+episode reward: 25,33503
+episode reward: 27,40004
+episode reward: 27,31504
+episode reward: 27,36503
+episode reward: 27,36503
+episode reward: 27,32004
+episode reward: 27,30504
+episode reward: 27,35003
+episode reward: 27,30503
+episode reward: 27,36004
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 22,44502
+episode reward: 22,34004
+episode reward: 27,27504
+Colidiu com calçada! --5 pts | atual: 20,34001
+Colidiu com calçada! --5 pts | atual: 17,27501
+episode reward: 17,22501
+episode reward: 27,23003
+episode reward: 27,17004
+episode reward: 27,30005
+episode reward: 25,23505
+Colidiu com calçada! --5 pts | atual: 22,33502
+Colidiu com calçada! --5 pts | atual: 17,29002
+episode reward: 17,18502
+Colidiu com calçada! --5 pts | atual: 22,36502
+Colidiu com calçada! --5 pts | atual: 17,30003
+episode reward: 17,24503
+Colidiu com calçada! --5 pts | atual: 22,40003
+episode reward: 22,30504
+episode reward: 27,35004
+episode reward: 27,33004
+episode reward: 27,37004
+Colidiu com calçada! --5 pts | atual: 20,32003
+episode reward: 20,29503
+episode reward: 27,26505
+episode reward: 27,40504
+episode reward: 27,34504
+Colidiu com calçada! --5 pts | atual: 20,42002
+Colidiu com calçada! --5 pts | atual: 17,35501
+episode reward: 17,30001
+episode reward: 27,39503
+episode reward: 27,35504
+episode reward: 27,29004
+episode reward: 27,18504
+episode reward: 27,28004
+episode reward: 27,22504
+Colidiu com calçada! --5 pts | atual: 20,04503
+episode reward: 20,02503
+episode reward: 27,32004
+episode reward: 27,30005
+episode reward: 27,11004
+episode reward: 27,17504
+episode reward: 27,13005
+episode reward: 27,28504
+Colidiu com calçada! --5 pts | atual: 16,63499
+episode reward: 22,34501
+Colidiu com calçada! --5 pts | atual: 20,45501
+episode reward: 22,34002
+episode reward: 27,36504
+Colidiu com calçada! --5 pts | atual: 22,32503
+episode reward: 22,24504
+episode reward: 27,36004
+episode reward: 27,31504
+episode reward: 27,21504
+episode reward: 27,36003
+episode reward: 27,24004
+episode reward: 27,23004
+episode reward: 27,30004
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 22,03504
+episode reward: 22,03004
+episode reward: 27,18004
+episode reward: 27,29504
+episode reward: 27,25504
+episode reward: 27,16504
+episode reward: 27,22004
+episode reward: 27,21505
+episode reward: 27,24004
+episode reward: 27,24004
+episode reward: 27,33504
+episode reward: 27,33005
+episode reward: 27,32004
+episode reward: 27,32004
+episode reward: 27,27504
+episode reward: 27,29004
+episode reward: 27,31505
+episode reward: 27,24003
+episode reward: 27,28004
+episode reward: 27,28504
+episode reward: 27,26504
+episode reward: 27,28504
+episode reward: 27,32504
+episode reward: 27,33004
+episode reward: 27,32504
+episode reward: 27,27004
+episode reward: 27,28004
+episode reward: 27,27004
+episode reward: 27,18004
+episode reward: 27,32004
+episode reward: 27,24004
+episode reward: 27,21503
+Colidiu com calçada! --5 pts | atual: 20,44502
+Colidiu com calçada! --5 pts | atual: 15,44502
+episode reward: 15,33502
+episode reward: 27,30504
+episode reward: 25,31002
+episode reward: 27,25004
+episode reward: 27,29003
+episode reward: 23,29501
+episode reward: 27,34004
+episode reward: 27,39004
+Colidiu com calçada! --5 pts | atual: 20,41002
+Colidiu com calçada! --5 pts | atual: 17,35502
+Colidiu com calçada! --5 pts | atual: 12,35502
+Colidiu com calçada! --5 pts | atual: 7,275021
+episode reward: 7,24502
+episode reward: 27,33004
+Colidiu com calçada! --5 pts | atual: 20,34502
+episode reward: 20,25002
+episode reward: 25,26502
+episode reward: 27,27505
+episode reward: 27,16503
+episode reward: 25,12002
+Colidiu com calçada! --5 pts | atual: 22,30504
+episode reward: 22,29504
+episode reward: 27,31004
+episode reward: 25,23503
+episode reward: 27,24004
+episode reward: 25,29004
+episode reward: 27,31504
+episode reward: 27,26004
+episode reward: 27,29503
+Colidiu com calçada! --5 pts | atual: 22,45502
+Colidiu com calçada! --5 pts | atual: 17,45502
+episode reward: 17,33002
+episode reward: 25,28503
+episode reward: 27,39504
+episode reward: 27,37503
+episode reward: 27,35003
+episode reward: 25,25502
+episode reward: 27,39005
+episode reward: 27,29504
+episode reward: 27,27504
+episode reward: 27,28503
+episode reward: 25,35502
+episode reward: 27,20004
+episode reward: 25,26002
+episode reward: 27,34504
+episode reward: 25,28502
+episode reward: 27,38003
+episode reward: 25,24502
+Colidiu com calçada! --5 pts | atual: 22,40502
+episode reward: 22,30504
+episode reward: 27,25503
+Colidiu com calçada! --5 pts | atual: 20,39501
+Colidiu com calçada! --5 pts | atual: 17,32501
+episode reward: 17,27501
+Colidiu com calçada! --5 pts | atual: 20,34002
+episode reward: 20,29502
+episode reward: 27,34503
+episode reward: 27,26003
+episode reward: 27,38003
+episode reward: 27,33003
+episode reward: 23,31504
+Colidiu com calçada! --5 pts | atual: 22,39501
+Colidiu com calçada! --5 pts | atual: 17,35002
+episode reward: 17,27002
+episode reward: 27,41002
+episode reward: 27,32003
+episode reward: 27,28004
+episode reward: 27,29503
+episode reward: 27,35003
+episode reward: 27,22503
+episode reward: 27,25504
+episode reward: 27,28004
+episode reward: 27,15504
+episode reward: 25,30503
+Colidiu com calçada! --5 pts | atual: 22,31003
+episode reward: 22,29503
+episode reward: 27,27003
+episode reward: 27,32504
+episode reward: 27,25004
+episode reward: 27,27003
+episode reward: 27,12003
+episode reward: 25,18502
+episode reward: 27,25003
+episode reward: 27,31003
+episode reward: 27,27503
+episode reward: 27,22503
+episode reward: 27,22503
+episode reward: 27,25003
+episode reward: 27,28504
+episode reward: 27,33503
+episode reward: 27,20004
+episode reward: 27,26504
+episode reward: 27,29503
+episode reward: 27,30504
+Colidiu com calçada! --5 pts | atual: 22,40503
+episode reward: 22,32005
+episode reward: 27,30504
+episode reward: 27,28004
+episode reward: 27,29504
+episode reward: 27,30004
+Colidiu com calçada! --5 pts | atual: 16,60999
+Colidiu com calçada! --5 pts | atual: 17,385
+Colidiu com calçada! --5 pts | atual: 11,80999
+Colidiu com calçada! --5 pts | atual: 6,309978
+Colidiu com calçada! --5 pts | atual: 1,064978
+Colidiu com calçada! --5 pts | atual: -4,355032
+Colidiu com calçada! --5 pts | atual: -9,505035
+Colidiu com parede! --5 pts | atual: -14,86004
+Colidiu com parede! --5 pts | atual: -19,91003
+Colidiu com parede! --5 pts | atual: -25,24498
+Colidiu com parede! --5 pts | atual: -30,36496
+Colidiu com parede! --5 pts | atual: -35,49499
+Colidiu com parede! --5 pts | atual: -40,62502
+Colidiu com parede! --5 pts | atual: -45,74504
+Colidiu com parede! --5 pts | atual: -50,86007
+Colidiu com parede! --5 pts | atual: -55,98509
+episode reward: -61,0001
+episode reward: 27,27003
+episode reward: 27,28506
+episode reward: 27,29004
+episode reward: 27,23504
+episode reward: 27,27004
+episode reward: 27,25504
+episode reward: 27,09504
+episode reward: 27,34504
+episode reward: 27,30004
+episode reward: 27,27502
+episode reward: 27,26503
+episode reward: 27,29004
+episode reward: 27,26504
+episode reward: 27,21503
+episode reward: 27,28003
+episode reward: 27,29503
+episode reward: 27,31003
+episode reward: 27,32003
+episode reward: 27,31004
+episode reward: 27,30003
+episode reward: 27,26503
+episode reward: 27,26003
+episode reward: 27,26003
+episode reward: 27,24503
+episode reward: 27,23504
+episode reward: 27,28504
+episode reward: 27,27503
+episode reward: 27,29503
+episode reward: 27,29003
+episode reward: 27,28003
+episode reward: 27,30503
+episode reward: 27,25503
+episode reward: 27,24003
+episode reward: 27,30003
+Colidiu com calçada! --5 pts | atual: 18,585
+Colidiu com calçada! --5 pts | atual: 17,30001
+episode reward: 17,16
+episode reward: 27,20504
+Colidiu com calçada! --5 pts | atual: 22,38502
+Colidiu com calçada! --5 pts | atual: 17,27004
+episode reward: 17,25504
+episode reward: 27,24504
+episode reward: 27,15503
+episode reward: 27,26003
+episode reward: 27,31504
+Colidiu com calçada! --5 pts | atual: 22,24004
+episode reward: 22,21504
+Colidiu com calçada! --5 pts | atual: 16,57499
+Colidiu com calçada! --5 pts | atual: 11,56499
+episode reward: 17,30498
+Colidiu com calçada! --5 pts | atual: 22,24004
+episode reward: 22,23504
+episode reward: 27,17504
+episode reward: 27,25504
+episode reward: 27,30003
+episode reward: 27,28004
+episode reward: 27,27003
+episode reward: 27,31503
+episode reward: 27,19003
+episode reward: 27,38004
+episode reward: 27,24003
+episode reward: 27,30003
+episode reward: 27,20504
+episode reward: 27,26503
+Colidiu com calçada! --5 pts | atual: 16,59498
+episode reward: 22,32
+Colidiu com calçada! --5 pts | atual: 16,51499
+episode reward: 22,25501
+episode reward: 27,33003
+episode reward: 27,26503
+episode reward: 27,30502
+episode reward: 27,30503
+Colidiu com calçada! --5 pts | atual: 22,38501
+Colidiu com calçada! --5 pts | atual: 17,34002
+episode reward: 17,27002
+episode reward: 27,34503
+episode reward: 27,28003
+episode reward: 27,43002
+Colidiu com calçada! --5 pts | atual: 18,56
+episode reward: 20,40999
+Colidiu com calçada! --5 pts | atual: 16,43499
+episode reward: 18,27499
+episode reward: 27,33503
+episode reward: 27,29003
+Colidiu com calçada! --5 pts | atual: 14,69998
+Colidiu com calçada! --5 pts | atual: 11,63998
+episode reward: 17,35998
+episode reward: 27,20503
+episode reward: 27,27503
+episode reward: 27,29503
+episode reward: 27,26503
+episode reward: 27,26003
+episode reward: 27,29503
+episode reward: 27,23005
+episode reward: 27,34002
+episode reward: 27,24004
+episode reward: 27,32004
+Colidiu com calçada! --5 pts | atual: 14,55498
+episode reward: 22,205
+episode reward: 27,32003
+episode reward: 27,19505
+episode reward: 27,30504
+episode reward: 27,15003
+episode reward: 27,33503
+episode reward: 27,23004
+episode reward: 27,25504
+episode reward: 27,30504
+episode reward: 27,20504
+Colidiu com calçada! --5 pts | atual: 22,25002
+Colidiu com calçada! --5 pts | atual: 17,19003
+Colidiu com calçada! --5 pts | atual: 11,66502
+Colidiu com calçada! --5 pts | atual: 6,190012
+Colidiu com calçada! --5 pts | atual: 1,030012
+Colidiu com calçada! --5 pts | atual: -4,354997
+Colidiu com calçada! --5 pts | atual: -9,354997
+Colidiu com calçada! --5 pts | atual: -14,39
+Colidiu com calçada! --5 pts | atual: -19,39
+Colidiu com parede! --5 pts | atual: -24,75994
+Colidiu com parede! --5 pts | atual: -30,19986
+episode reward: -36,00003
+episode reward: 27,19504
+episode reward: 27,23505
+episode reward: 27,11004
+episode reward: 27,20005
+episode reward: 27,18503
+episode reward: 27,18504
+episode reward: 27,24503
+Colidiu com calçada! --5 pts | atual: 16,45999
+Colidiu com calçada! --5 pts | atual: 11,44999
+Colidiu com calçada! --5 pts | atual: 6,439985
+episode reward: 12,19998
+episode reward: 27,22004
+episode reward: 27,22004
+episode reward: 27,28503
+episode reward: 27,29004
+episode reward: 27,15006
+episode reward: 27,32004
+episode reward: 27,25504
+episode reward: 27,21005
+episode reward: 27,22503
+episode reward: 27,28004
+Colidiu com calçada! --5 pts | atual: 16,59498
+episode reward: 22,29
+episode reward: 27,18004
+episode reward: 27,26505
+Colidiu com calçada! --5 pts | atual: 14,63998
+Colidiu com calçada! --5 pts | atual: 13,53498
+episode reward: 17,29997
+episode reward: 27,24506
+episode reward: 27,24004
+episode reward: 27,30004
+episode reward: 27,21505
+episode reward: 27,17006
+episode reward: 27,23004
+Colidiu com calçada! --5 pts | atual: 5,199996
+Colidiu com calçada! --5 pts | atual: 0,184996
+episode reward: 17,24998
+episode reward: 27,26004
+episode reward: 27,15504
+episode reward: 27,06504
+episode reward: 27,16506
+episode reward: 27,20004
+episode reward: 27,20505
+episode reward: 27,22504
+episode reward: 27,29003
+episode reward: 27,24504
+episode reward: 27,25003
+episode reward: 27,28504
+episode reward: 27,12506
+episode reward: 27,24005
+episode reward: 27,32504
+episode reward: 27,20504
+episode reward: 27,20504
+episode reward: 27,24504
+episode reward: 27,22005
+episode reward: 27,17004
+episode reward: 27,24504
+episode reward: 27,22004
+episode reward: 23,18005
+episode reward: 27,30003
+episode reward: 27,24005
+episode reward: 27,25503
+episode reward: 27,24004
+episode reward: 27,15005
+episode reward: 27,20506
+episode reward: 27,21006
+episode reward: 27,23504
+episode reward: 27,22504
+Colidiu com calçada! --5 pts | atual: 14,59998
+Colidiu com calçada! --5 pts | atual: 11,49498
+Colidiu com calçada! --5 pts | atual: 8,429977
+Colidiu com calçada! --5 pts | atual: 3,429977
+Colidiu com calçada! --5 pts | atual: -1,625023
+Colidiu com calçada! --5 pts | atual: -6,625022
+Colidiu com calçada! --5 pts | atual: -7,715025
+episode reward: -7,755026
+Colidiu com calçada! --5 pts | atual: 14,65998
+Colidiu com calçada! --5 pts | atual: 8,314953
+Colidiu com calçada! --5 pts | atual: 3,19495
+Colidiu com calçada! --5 pts | atual: -2,340058
+Colidiu com calçada! --5 pts | atual: -7,350058
+Colidiu com calçada! --5 pts | atual: -12,40506
+Colidiu com calçada! --5 pts | atual: -17,47505
+Colidiu com calçada! --5 pts | atual: -22,50504
+Colidiu com calçada! --5 pts | atual: -27,89498
+Colidiu com calçada! --5 pts | atual: -32,92999
+Colidiu com calçada! --5 pts | atual: -37,995
+Colidiu com calçada! --5 pts | atual: -43,23505
+Colidiu com parede! --5 pts | atual: -48,4851
+episode reward: -54,00021
+episode reward: 27,15505
+episode reward: 27,21505
+episode reward: 27,24004
+episode reward: 27,15504
+episode reward: 27,19504
+episode reward: 27,27504
+episode reward: 27,16504
+episode reward: 27,22504
+episode reward: 27,21504
+episode reward: 27,21504
+episode reward: 27,24004
+episode reward: 27,19004
+Colidiu com calçada! --5 pts | atual: 22,28505
+episode reward: 22,26505
+episode reward: 27,22504
+Colidiu com calçada! --5 pts | atual: 22,22505
+episode reward: 22,22005
+episode reward: 27,10505
+episode reward: 26,93504
+episode reward: 27,17004
+Colidiu com calçada! --5 pts | atual: 22,19003
+episode reward: 22,18003
+episode reward: 26,97504
+Colidiu com calçada! --5 pts | atual: 22,11505
+episode reward: 22,11005
+episode reward: 27,24504
+episode reward: 27,11505
+episode reward: 27,15504
+episode reward: 27,27504
+episode reward: 27,21504
+episode reward: 27,26004
+episode reward: 27,24004
+episode reward: 27,20505
+episode reward: 27,18504
+episode reward: 27,26505
+episode reward: 27,12004
+episode reward: 27,25004
+episode reward: 27,27004
+episode reward: 27,28505
+Colidiu com calçada! --5 pts | atual: 22,20505
+Colidiu com calçada! --5 pts | atual: 17,18505
+episode reward: 17,14505
+episode reward: 27,35003
+Colidiu com calçada! --5 pts | atual: 22,24004
+Colidiu com calçada! --5 pts | atual: 17,24004
+episode reward: 17,22504
+Colidiu com calçada! --5 pts | atual: 22,17006
+episode reward: 22,14506
+episode reward: 27,17504
+episode reward: 27,15506
+episode reward: 27,30003
+episode reward: 27,21505
+episode reward: 27,21004
+episode reward: 27,23004
+episode reward: 27,21003
+episode reward: 27,33503
+episode reward: 27,25503
+episode reward: 27,28004
+episode reward: 27,35003
+episode reward: 27,30503
+episode reward: 27,27504
+episode reward: 27,29004
+episode reward: 27,30003
+Colidiu com calçada! --5 pts | atual: 18,56999
+episode reward: 22,15002
+episode reward: 27,20503
+Colidiu com calçada! --5 pts | atual: 16,54999
+episode reward: 22,31501
+episode reward: 27,23503
+episode reward: 27,23003
+episode reward: 27,30003
+episode reward: 27,26003
+episode reward: 27,24004
+episode reward: 27,20505
+episode reward: 27,34003
+episode reward: 27,29003
+episode reward: 27,32503
+episode reward: 27,33003
+Colidiu com calçada! --5 pts | atual: 14,56998
+Colidiu com calçada! --5 pts | atual: 9,494979
+Colidiu com calçada! --5 pts | atual: 6,299974
+episode reward: 6,269975
+episode reward: 27,40002
+episode reward: 27,37003
+episode reward: 27,26503
+Colidiu com calçada! --5 pts | atual: 14,58998
+Colidiu com calçada! --5 pts | atual: 11,50498
+episode reward: 13,28997
+episode reward: 27,36003
+episode reward: 27,29503
+episode reward: 27,31002
+Colidiu com calçada! --5 pts | atual: 20,28502
+episode reward: 22,23002
+episode reward: 27,32003
+episode reward: 27,31003
+episode reward: 27,31503
+Colidiu com calçada! --5 pts | atual: 14,61998
+Colidiu com calçada! --5 pts | atual: 15,48498
+episode reward: 17,35998
+episode reward: 27,35002
+Colidiu com calçada! --5 pts | atual: 18,505
+Colidiu com calçada! --5 pts | atual: 15,415
+episode reward: 15,395
+Colidiu com calçada! --5 pts | atual: 14,63498
+Colidiu com calçada! --5 pts | atual: 9,554981
+episode reward: 17,32498
+episode reward: 27,36003
+Colidiu com calçada! --5 pts | atual: 18,56999
+Colidiu com calçada! --5 pts | atual: 15,51999
+Colidiu com calçada! --5 pts | atual: 12,44499
+episode reward: 12,41499
+Colidiu com calçada! --5 pts | atual: 16,46999
+episode reward: 18,29999
+episode reward: 27,35502
+episode reward: 27,33003
+Colidiu com calçada! --5 pts | atual: 14,64998
+Colidiu com calçada! --5 pts | atual: 11,60498
+Colidiu com calçada! --5 pts | atual: 12,39498
+Colidiu com calçada! --5 pts | atual: 7,354976
+Colidiu com calçada! --5 pts | atual: 2,059969
+Colidiu com calçada! --5 pts | atual: -3,135036
+Colidiu com calçada! --5 pts | atual: -8,78005
+Colidiu com calçada! --5 pts | atual: -14,09506
+Colidiu com parede! --5 pts | atual: -20,70479
+episode reward: -25,99974
+Colidiu com calçada! --5 pts | atual: 18,57999
+Colidiu com calçada! --5 pts | atual: 13,57999
+episode reward: 17,34999
+episode reward: 27,33003
+Colidiu com calçada! --5 pts | atual: 20,40001
+episode reward: 22,31502
+episode reward: 27,34003
+episode reward: 27,37003
+episode reward: 25,29002
+episode reward: 27,36503
+Colidiu com calçada! --5 pts | atual: 22,42
+Colidiu com calçada! --5 pts | atual: 17,37501
+episode reward: 17,32001
+episode reward: 27,40003
+Colidiu com calçada! --5 pts | atual: 20,33502
+episode reward: 20,30001
+episode reward: 27,34502
+episode reward: 27,40503
+episode reward: 27,29003
+episode reward: 27,27003
+episode reward: 27,34002
+episode reward: 27,40502
+Colidiu com calçada! --5 pts | atual: 16,56498
+episode reward: 22,315
+episode reward: 27,38503
+Colidiu com calçada! --5 pts | atual: 22,33504
+episode reward: 22,33004
+episode reward: 27,30503
+Colidiu com calçada! --5 pts | atual: 22,29004
+episode reward: 22,28504
+episode reward: 27,33003
+episode reward: 27,25503
+episode reward: 27,28003
+Colidiu com calçada! --5 pts | atual: 22,33
+episode reward: 22,21502
+episode reward: 27,33002
+Colidiu com calçada! --5 pts | atual: 14,60498
+episode reward: 22,32
+Colidiu com calçada! --5 pts | atual: 16,57499
+Colidiu com calçada! --5 pts | atual: 11,56499
+episode reward: 17,31498
+Colidiu com calçada! --5 pts | atual: 16,58499
+Colidiu com calçada! --5 pts | atual: 13,55499
+episode reward: 17,30498
+Colidiu com calçada! --5 pts | atual: 16,51999
+Colidiu com calçada! --5 pts | atual: 13,50999
+episode reward: 17,24499
+episode reward: 27,35003
+episode reward: 27,35503
+episode reward: 27,32503
+episode reward: 27,18003
+episode reward: 27,33003
+Colidiu com calçada! --5 pts | atual: 16,58498
+Colidiu com calçada! --5 pts | atual: 17,335
+episode reward: 17,3
+Colidiu com calçada! --5 pts | atual: 14,53998
+Colidiu com calçada! --5 pts | atual: 9,52998
+Colidiu com calçada! --5 pts | atual: 12,37998
+Colidiu com calçada! --5 pts | atual: 7,264974
+episode reward: 7,239973
+Colidiu com calçada! --5 pts | atual: 14,66498
+Colidiu com calçada! --5 pts | atual: 9,654983
+episode reward: 15,38998
+episode reward: 27,32504
+episode reward: 27,27502
+episode reward: 27,33003
+episode reward: 27,32503
+episode reward: 27,33503
+episode reward: 27,27002
+episode reward: 27,37003
+episode reward: 27,22503
+episode reward: 27,20003
+episode reward: 27,35503
+episode reward: 27,25503
+episode reward: 27,33503
+episode reward: 27,18503
+episode reward: 27,25003
+episode reward: 27,26003
+episode reward: 27,32003
+Colidiu com calçada! --5 pts | atual: 14,49998
+episode reward: 22,195
+episode reward: 27,36503
+episode reward: 27,24503
+episode reward: 27,27502
+episode reward: 27,24503
+episode reward: 27,21503
+episode reward: 27,22503
+episode reward: 27,26004
+episode reward: 27,22003
+episode reward: 27,29503
+episode reward: 27,26003
+episode reward: 27,18004
+episode reward: 27,26503
+episode reward: 27,22003
+episode reward: 27,30504
+episode reward: 27,20503
+episode reward: 27,22504
+episode reward: 27,25004
+episode reward: 27,30503
+episode reward: 27,22503
+episode reward: 27,29504
+Colidiu com calçada! --5 pts | atual: 22,38004
+Colidiu com calçada! --5 pts | atual: 17,38004
+episode reward: 17,29504
+episode reward: 25,31002
+episode reward: 27,28503
+episode reward: 27,33003
+episode reward: 27,33003
+episode reward: 27,12505
+episode reward: 27,30503
+episode reward: 27,25504
+episode reward: 27,23503
+episode reward: 27,28504
+episode reward: 27,22003
+episode reward: 27,33504
+episode reward: 27,30504
+episode reward: 27,34504
+episode reward: 27,32004
+episode reward: 27,23503
+Colidiu com calçada! --5 pts | atual: 22,35001
+episode reward: 22,25003
+episode reward: 27,32003
+episode reward: 27,32004
+episode reward: 27,23003
+episode reward: 27,26504
+episode reward: 27,22504
+episode reward: 27,12504
+episode reward: 27,24003
+episode reward: 27,23003
+episode reward: 27,26504
+episode reward: 27,21503
+episode reward: 27,27004
+episode reward: 27,29003
+episode reward: 27,23503
+Colidiu com calçada! --5 pts | atual: 18,45
+Colidiu com calçada! --5 pts | atual: 15,4
+Colidiu com calçada! --5 pts | atual: 10,325
+episode reward: 10,29
+Colidiu com calçada! --5 pts | atual: 14,39998
+episode reward: 22,11
+Colidiu com calçada! --5 pts | atual: 14,60998
+Colidiu com calçada! --5 pts | atual: 13,52498
+episode reward: 17,30497
+episode reward: 27,15503
+episode reward: 27,14504
+episode reward: 27,22503
+episode reward: 27,19503
+episode reward: 27,21503
+episode reward: 27,24504
+episode reward: 27,29003
+episode reward: 27,28503
+Colidiu com calçada! --5 pts | atual: 22,42001
+episode reward: 22,32503
+Colidiu com calçada! --5 pts | atual: 22,37501
+Colidiu com calçada! --5 pts | atual: 17,32002
+episode reward: 17,26002
+Colidiu com calçada! --5 pts | atual: 22,22005
+episode reward: 22,20505
+Colidiu com calçada! --5 pts | atual: 22,32504
+Colidiu com calçada! --5 pts | atual: 16,58517
+Colidiu com calçada! --5 pts | atual: 11,40516
+Colidiu com calçada! --5 pts | atual: 6,345161
+Colidiu com calçada! --5 pts | atual: 1,010162
+Colidiu com calçada! --5 pts | atual: -4,134841
+Colidiu com calçada! --5 pts | atual: -9,389848
+Colidiu com calçada! --5 pts | atual: -14,49985
+Colidiu com calçada! --5 pts | atual: -19,51485
+Colidiu com calçada! --5 pts | atual: -25,12475
+Colidiu com parede! --5 pts | atual: -30,32971
+episode reward: -35,99986
+episode reward: 27,26505
+episode reward: 27,29505
+episode reward: 27,12007
+episode reward: 27,35504
+episode reward: 27,26504
+episode reward: 27,22506
+episode reward: 27,27505
+episode reward: 27,20006
+episode reward: 27,30005
+episode reward: 27,36004
+episode reward: 27,30005
+episode reward: 27,30004
+episode reward: 27,33503
+Colidiu com calçada! --5 pts | atual: 14,72999
+Colidiu com calçada! --5 pts | atual: 9,389977
+episode reward: 11,00497
+Colidiu com calçada! --5 pts | atual: 16,57999
+episode reward: 22,32501
+episode reward: 27,29004
+episode reward: 27,32504
+episode reward: 27,31004
+episode reward: 27,33003
+episode reward: 27,35503
+episode reward: 27,35004
+episode reward: 27,35003
+episode reward: 27,30004
+episode reward: 27,27005
+episode reward: 27,32504
+episode reward: 25,27003
+episode reward: 23,27501
+episode reward: 27,32003
+episode reward: 27,40503
+episode reward: 27,36003
+Colidiu com calçada! --5 pts | atual: 20,34002
+episode reward: 20,31002
+episode reward: 27,30003
+Colidiu com calçada! --5 pts | atual: 20,40502
+episode reward: 20,24001
+episode reward: 27,33504
+episode reward: 27,32003
+episode reward: 27,18504
+episode reward: 27,39503
+episode reward: 27,40003
+episode reward: 27,42503
+Colidiu com calçada! --5 pts | atual: 14,60998
+Colidiu com calçada! --5 pts | atual: 9,55498
+Colidiu com calçada! --5 pts | atual: 4,209972
+Colidiu com calçada! --5 pts | atual: -1,025027
+Colidiu com calçada! --5 pts | atual: -6,535039
+Colidiu com calçada! --5 pts | atual: -12,03505
+Colidiu com parede! --5 pts | atual: -17,77992
+Colidiu com parede! --5 pts | atual: -23,27984
+episode reward: -28,99972
+episode reward: 27,29005
+episode reward: 23,32003
+episode reward: 27,34504
+episode reward: 27,32504
+episode reward: 27,30004
+episode reward: 27,37003
+episode reward: 27,28504
+Colidiu com calçada! --5 pts | atual: 14,74499
+Colidiu com calçada! --5 pts | atual: 9,364977
+episode reward: 11,00997
+episode reward: 27,34005
+episode reward: 27,28504
+episode reward: 27,23005
+episode reward: 27,21005
+episode reward: 27,25505
+episode reward: 27,23004
+episode reward: 27,33504
+episode reward: 27,21503
+Colidiu com calçada! --5 pts | atual: 16,43499
+episode reward: 22,16002
+Colidiu com calçada! --5 pts | atual: 16,51499
+episode reward: 22,26001
+episode reward: 27,24504
+episode reward: 27,25005
+episode reward: 27,18504
+episode reward: 27,26004
+episode reward: 27,29003
+episode reward: 27,26504
+episode reward: 27,26504
+episode reward: 27,26504
+episode reward: 27,20004
+episode reward: 27,25503
+episode reward: 27,24003
+episode reward: 27,32004
+episode reward: 27,25004
+episode reward: 27,23504
+episode reward: 27,22003
+episode reward: 27,14504
+episode reward: 27,22503
+episode reward: 27,22504
+episode reward: 27,25004
+episode reward: 27,25504
+episode reward: 27,23004
+episode reward: 27,29504
+episode reward: 27,16004
+episode reward: 27,29504
+episode reward: 27,30503
+episode reward: 27,29004
+episode reward: 27,24005
+episode reward: 27,35003
+episode reward: 27,34003
+episode reward: 27,28503
+Colidiu com calçada! --5 pts | atual: 20,38502
+episode reward: 20,23501
+episode reward: 27,25504
+episode reward: 27,18006
+episode reward: 27,30004
+episode reward: 27,32003
+episode reward: 27,27004
+episode reward: 27,23504
+episode reward: 27,24504
+episode reward: 27,26504
+episode reward: 27,11006
+episode reward: 27,25504
+episode reward: 27,22504
+episode reward: 27,24004
+episode reward: 27,20505
+episode reward: 27,31504
+episode reward: 27,28503
+Colidiu com calçada! --5 pts | atual: 22,15005
+episode reward: 22,12506
+episode reward: 27,19506
+episode reward: 27,26004
+episode reward: 27,25005
+Colidiu com calçada! --5 pts | atual: 22,15005
+Colidiu com calçada! --5 pts | atual: 17,15005
+episode reward: 17,09505
+Colidiu com calçada! --5 pts | atual: 20,35502
+episode reward: 20,22501
+episode reward: 27,23005
+episode reward: 27,15505
+episode reward: 27,24005
+episode reward: 27,23005
+episode reward: 27,21504
+Colidiu com calçada! --5 pts | atual: 22,32004
+Colidiu com calçada! --5 pts | atual: 17,31504
+Colidiu com calçada! --5 pts | atual: 12,10004
+episode reward: 12,09004
+episode reward: 27,33004
+episode reward: 27,16506
+Colidiu com calçada! --5 pts | atual: 22,20506
+episode reward: 22,18506
+episode reward: 27,21505
+episode reward: 27,30004
+episode reward: 27,25504
+episode reward: 27,15505
+Colidiu com calçada! --5 pts | atual: 22,30005
+Colidiu com calçada! --5 pts | atual: 17,30005
+episode reward: 17,15504
+episode reward: 27,24505
+episode reward: 27,25005
+episode reward: 27,20505
+episode reward: 27,29505
+episode reward: 27,22004
+Colidiu com calçada! --5 pts | atual: 22,28504
+Colidiu com calçada! --5 pts | atual: 17,28504
+Colidiu com calçada! --5 pts | atual: 12,27004
+Colidiu com calçada! --5 pts | atual: 7,27004
+episode reward: 7,210038
+episode reward: 27,22005
+Colidiu com calçada! --5 pts | atual: 22,25504
+episode reward: 22,20005
+episode reward: 27,26505
+episode reward: 27,16505
+episode reward: 27,28004
+episode reward: 27,27503
+episode reward: 27,26004
+episode reward: 27,23005
+episode reward: 27,28004
+Colidiu com calçada! --5 pts | atual: 22,10006
+Colidiu com calçada! --5 pts | atual: 16,12522
+Colidiu com calçada! --5 pts | atual: 11,10522
+Colidiu com calçada! --5 pts | atual: 6,050221
+Colidiu com calçada! --5 pts | atual: 0,6702218
+Colidiu com calçada! --5 pts | atual: -4,359779
+Colidiu com calçada! --5 pts | atual: -9,38478
+Colidiu com calçada! --5 pts | atual: -14,42978
+Colidiu com calçada! --5 pts | atual: -19,80472
+Colidiu com calçada! --5 pts | atual: -24,8997
+Colidiu com calçada! --5 pts | atual: -29,97969
+Colidiu com calçada! --5 pts | atual: -34,99969
+Colidiu com calçada! --5 pts | atual: -40,0447
+Colidiu com calçada! --5 pts | atual: -45,52481
+Colidiu com parede! --5 pts | atual: -50,70485
+episode reward: -55,99991
+Colidiu com calçada! --5 pts | atual: 22,34003
+Colidiu com calçada! --5 pts | atual: 17,33003
+Colidiu com calçada! --5 pts | atual: 12,27003
+Colidiu com calçada! --5 pts | atual: 7,190027
+Colidiu com calçada! --5 pts | atual: 1,660023
+Colidiu com calçada! --5 pts | atual: -3,389978
+Colidiu com calçada! --5 pts | atual: -8,599983
+Colidiu com calçada! --5 pts | atual: -13,70499
+Colidiu com calçada! --5 pts | atual: -19,2249
+Colidiu com calçada! --5 pts | atual: -24,43986
+Colidiu com calçada! --5 pts | atual: -29,84979
+Colidiu com calçada! --5 pts | atual: -35,29989
+Colidiu com parede! --5 pts | atual: -40,68497
+episode reward: -46,00004
+episode reward: 27,31004
+episode reward: 25,18003
+episode reward: 27,24004
+episode reward: 27,27004
+episode reward: 27,26003
+episode reward: 27,29504
+episode reward: 27,24504
+episode reward: 27,28004
+episode reward: 27,29503
+episode reward: 27,23004
+episode reward: 27,30504
+episode reward: 27,26504
+episode reward: 27,27504
+episode reward: 27,26504
+episode reward: 27,34504
+episode reward: 27,27503
+episode reward: 27,37504
+episode reward: 27,30004
+episode reward: 27,24504
+episode reward: 27,30004
+episode reward: 27,31504
+episode reward: 27,30004
+episode reward: 27,30004
+episode reward: 27,26004
+Colidiu com calçada! --5 pts | atual: 22,33004
+episode reward: 22,31505
+episode reward: 27,26003
+episode reward: 27,27504
+episode reward: 27,29003
+episode reward: 27,27503
+Colidiu com calçada! --5 pts | atual: 22,35503
+Colidiu com calçada! --5 pts | atual: 17,30004
+Colidiu com calçada! --5 pts | atual: 11,52502
+Colidiu com calçada! --5 pts | atual: 6,465022
+Colidiu com calçada! --5 pts | atual: 0,7050228
+Colidiu com calçada! --5 pts | atual: -4,529983
+Colidiu com calçada! --5 pts | atual: -9,574984
+Colidiu com calçada! --5 pts | atual: -14,66999
+Colidiu com calçada! --5 pts | atual: -20,24489
+Colidiu com parede! --5 pts | atual: -25,58983
+episode reward: -30,99976
+Colidiu com calçada! --5 pts | atual: 18,425
+episode reward: 20,225
+Colidiu com calçada! --5 pts | atual: 22,32004
+Colidiu com calçada! --5 pts | atual: 17,32004
+episode reward: 17,22004
+Colidiu com calçada! --5 pts | atual: 22,45503
+Colidiu com calçada! --5 pts | atual: 17,38504
+Colidiu com calçada! --5 pts | atual: 11,33002
+Colidiu com calçada! --5 pts | atual: 6,275017
+Colidiu com calçada! --5 pts | atual: 0,9550171
+Colidiu com calçada! --5 pts | atual: -4,154985
+Colidiu com calçada! --5 pts | atual: -9,529994
+Colidiu com parede! --5 pts | atual: -15,65502
+Colidiu com parede! --5 pts | atual: -20,69001
+episode reward: -25,99996
+episode reward: 27,24504
+episode reward: 27,28004
+episode reward: 27,29504
+episode reward: 27,24505
+episode reward: 27,23004
+episode reward: 27,26005
+episode reward: 27,29504
+episode reward: 27,27504
+Colidiu com calçada! --5 pts | atual: 22,42003
+Colidiu com calçada! --5 pts | atual: 17,37004
+episode reward: 17,18004
+episode reward: 27,32504
+episode reward: 27,32504
+episode reward: 27,29504
+Colidiu com calçada! --5 pts | atual: 18,475
+Colidiu com calçada! --5 pts | atual: 13,475
+Colidiu com calçada! --5 pts | atual: 8,414997
+Colidiu com calçada! --5 pts | atual: 3,414997
+episode reward: 5,284997
+episode reward: 27,27504
+episode reward: 27,24505
+episode reward: 27,30504
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 22,39503
+Colidiu com calçada! --5 pts | atual: 15,94526
+Colidiu com calçada! --5 pts | atual: 10,64025
+Colidiu com calçada! --5 pts | atual: 5,60525
+Colidiu com calçada! --5 pts | atual: 0,5402504
+Colidiu com calçada! --5 pts | atual: -5,079764
+Colidiu com calçada! --5 pts | atual: -10,13476
+Colidiu com calçada! --5 pts | atual: -15,17477
+Colidiu com calçada! --5 pts | atual: -20,25975
+Colidiu com calçada! --5 pts | atual: -25,43972
+Colidiu com calçada! --5 pts | atual: -30,43972
+Colidiu com parede! --5 pts | atual: -35,67977
+Colidiu com parede! --5 pts | atual: -40,8198
+episode reward: -45,99984
+episode reward: 27,28005
+episode reward: 27,36003
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 22,36004
+Colidiu com calçada! --5 pts | atual: 17,36004
+episode reward: 17,18504
+Colidiu com calçada! --5 pts | atual: 22,32505
+episode reward: 22,31505
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 22,23505
+Colidiu com calçada! --5 pts | atual: 17,18006
+Colidiu com calçada! --5 pts | atual: 11,33504
+Colidiu com calçada! --5 pts | atual: 6,050034
+Colidiu com calçada! --5 pts | atual: 0,9550337
+Colidiu com calçada! --5 pts | atual: -4,674981
+Colidiu com calçada! --5 pts | atual: -9,744982
+Colidiu com calçada! --5 pts | atual: -14,74998
+Colidiu com calçada! --5 pts | atual: -19,92995
+Colidiu com parede! --5 pts | atual: -25,13992
+episode reward: -30,99977
+episode reward: 27,33504
+episode reward: 27,31504
+episode reward: 27,34003
+episode reward: 27,30504
+Colidiu com calçada! --5 pts | atual: 16,45499
+Colidiu com calçada! --5 pts | atual: 11,44999
+Colidiu com calçada! --5 pts | atual: 6,389989
+episode reward: 6,244989
+Colidiu com calçada! --5 pts | atual: 14,78499
+Colidiu com calçada! --5 pts | atual: 9,684983
+episode reward: 9,384976
+episode reward: 27,32003
+episode reward: 27,32504
+episode reward: 27,33504
+episode reward: 27,34003
+Colidiu com calçada! --5 pts | atual: 14,74499
+Colidiu com calçada! --5 pts | atual: 9,399978
+Colidiu com calçada! --5 pts | atual: 6,04497
+episode reward: 6,019969
+episode reward: 27,31003
+Colidiu com calçada! --5 pts | atual: 22,39501
+episode reward: 22,26504
+episode reward: 27,26503
+episode reward: 27,35004
+Colidiu com calçada! --5 pts | atual: 22,31004
+episode reward: 22,29004
+episode reward: 27,30003
+episode reward: 27,26504
+episode reward: 27,24004
+episode reward: 27,29004
+Colidiu com calçada! --5 pts | atual: 14,57498
+Colidiu com calçada! --5 pts | atual: 13,48998
+episode reward: 17,28498
+Colidiu com calçada! --5 pts | atual: 20,44501
+episode reward: 22,31503
+episode reward: 27,32504
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 12,67998
+Colidiu com calçada! --5 pts | atual: 9,319976
+Colidiu com calçada! --5 pts | atual: 4,314976
+episode reward: 3,924976
+episode reward: 27,32003
+episode reward: 25,26503
+episode reward: 27,34503
+episode reward: 27,33004
+Colidiu com calçada! --5 pts | atual: 22,39503
+Colidiu com calçada! --5 pts | atual: 17,33504
+Colidiu com calçada! --5 pts | atual: 12,33504
+Colidiu com calçada! --5 pts | atual: 6,945026
+Colidiu com calçada! --5 pts | atual: 1,945026
+Colidiu com calçada! --5 pts | atual: -3,434982
+Colidiu com calçada! --5 pts | atual: -8,77999
+Colidiu com calçada! --5 pts | atual: -13,81999
+Colidiu com calçada! --5 pts | atual: -18,81999
+Colidiu com calçada! --5 pts | atual: -23,85999
+episode reward: -34,18493
+Colidiu com calçada! --5 pts | atual: 20,30001
+episode reward: 22,18502
+episode reward: 27,35003
+episode reward: 27,35504
+episode reward: 27,33003
+episode reward: 27,29503
+episode reward: 27,37003
+Colidiu com calçada! --5 pts | atual: 22,41503
+Colidiu com calçada! --5 pts | atual: 17,36504
+episode reward: 17,34004
+episode reward: 27,27504
+episode reward: 27,36503
+Colidiu com calçada! --5 pts | atual: 22,43503
+Colidiu com calçada! --5 pts | atual: 17,39004
+Colidiu com calçada! --5 pts | atual: 11,41001
+Colidiu com calçada! --5 pts | atual: 5,970003
+Colidiu com calçada! --5 pts | atual: 0,9550031
+episode reward: -9,089998
+episode reward: 27,25503
+Colidiu com calçada! --5 pts | atual: 14,58998
+Colidiu com calçada! --5 pts | atual: 13,31498
+episode reward: 13,27497
+episode reward: 27,28004
+episode reward: 27,29003
+episode reward: 27,25504
+Colidiu com calçada! --5 pts | atual: 14,67498
+Colidiu com calçada! --5 pts | atual: 9,649982
+Colidiu com calçada! --5 pts | atual: 6,639982
+Colidiu com calçada! --5 pts | atual: 1,629982
+episode reward: 7,374979
+Colidiu com calçada! --5 pts | atual: 14,60998
+episode reward: 22,275
+episode reward: 27,32504
+episode reward: 27,18004
+episode reward: 27,26504
+Colidiu com calçada! --5 pts | atual: 16,51999
+episode reward: 22,25001
+Colidiu com calçada! --5 pts | atual: 16,48999
+episode reward: 22,18501
+episode reward: 27,28004
+Colidiu com calçada! --5 pts | atual: 16,59498
+episode reward: 22,285
+episode reward: 27,25504
+episode reward: 27,24004
+Colidiu com calçada! --5 pts | atual: 22,41001
+episode reward: 22,28503
+episode reward: 27,32003
+episode reward: 27,23503
+episode reward: 27,26503
+episode reward: 27,23004
+episode reward: 27,25005
+episode reward: 27,23005
+episode reward: 27,25004
+episode reward: 27,25504
+episode reward: 27,29005
+episode reward: 27,23504
+Colidiu com calçada! --5 pts | atual: 14,62498
+episode reward: 22,31
+episode reward: 27,29004
+episode reward: 27,21504
+episode reward: 27,33503
+episode reward: 27,28004
+episode reward: 27,27504
+episode reward: 27,26004
+Colidiu com calçada! --5 pts | atual: 14,71499
+Colidiu com calçada! --5 pts | atual: 9,314977
+episode reward: 10,95497
+episode reward: 27,28004
+episode reward: 27,30505
+episode reward: 27,21004
+episode reward: 27,25004
+episode reward: 27,12005
+episode reward: 27,26004
+episode reward: 27,25004
+episode reward: 27,09506
+episode reward: 27,25505
+Colidiu com calçada! --5 pts | atual: 22,24505
+episode reward: 22,24005
+episode reward: 27,23005
+episode reward: 27,22004
+Colidiu com calçada! --5 pts | atual: 22,11506
+Colidiu com calçada! --5 pts | atual: 16,14522
+Colidiu com calçada! --5 pts | atual: 11,01022
+Colidiu com calçada! --5 pts | atual: 5,545206
+Colidiu com calçada! --5 pts | atual: -0,1597935
+Colidiu com calçada! --5 pts | atual: -5,794808
+episode reward: -10,99981
+episode reward: 27,28005
+episode reward: 27,21005
+episode reward: 27,27504
+Colidiu com calçada! --5 pts | atual: 22,17005
+episode reward: 22,14505
+episode reward: 27,24505
+episode reward: 27,22504
+episode reward: 27,22504
+episode reward: 27,24005
+episode reward: 27,20004
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 22,36503
+Colidiu com calçada! --5 pts | atual: 17,35503
+Colidiu com calçada! --5 pts | atual: 12,30003
+Colidiu com calçada! --5 pts | atual: 6,785015
+Colidiu com calçada! --5 pts | atual: 1,380015
+Colidiu com calçada! --5 pts | atual: -5,225021
+Colidiu com calçada! --5 pts | atual: -10,23002
+episode reward: -16,00004
+Colidiu com calçada! --5 pts | atual: 22,30503
+Colidiu com calçada! --5 pts | atual: 17,20005
+Colidiu com calçada! --5 pts | atual: 10,87502
+Colidiu com calçada! --5 pts | atual: 5,830021
+Colidiu com calçada! --5 pts | atual: 0,690021
+Colidiu com calçada! --5 pts | atual: -4,35498
+Colidiu com calçada! --5 pts | atual: -9,419982
+Colidiu com calçada! --5 pts | atual: -14,80499
+Colidiu com calçada! --5 pts | atual: -19,91997
+Colidiu com calçada! --5 pts | atual: -24,91997
+Colidiu com calçada! --5 pts | atual: -29,97996
+Colidiu com calçada! --5 pts | atual: -35,06998
+Colidiu com calçada! --5 pts | atual: -40,34504
+Colidiu com parede! --5 pts | atual: -45,71512
+episode reward: -51,00018
+episode reward: 27,24504
+episode reward: 27,26504
+episode reward: 27,14505
+Colidiu com calçada! --5 pts | atual: 5,179996
+Colidiu com calçada! --5 pts | atual: 0,1749955
+Colidiu com calçada! --5 pts | atual: -4,895006
+episode reward: 12,23498
+episode reward: 27,23004
+episode reward: 27,21004
+episode reward: 27,27004
+Colidiu com calçada! --5 pts | atual: 22,29503
+Colidiu com calçada! --5 pts | atual: 17,24504
+episode reward: 17,19004
+episode reward: 27,18505
+episode reward: 27,27004
+episode reward: 27,25004
+episode reward: 27,20005
+episode reward: 27,17505
+episode reward: 27,19006
+episode reward: 27,24004
+episode reward: 27,16504
+episode reward: 27,22503
+episode reward: 27,13007
+episode reward: 27,13007
+episode reward: 27,20005
+Colidiu com calçada! --5 pts | atual: 22,15006
+episode reward: 22,14006
+episode reward: 27,19507
+episode reward: 27,19507
+episode reward: 27,28004
+episode reward: 27,19005
+episode reward: 27,17505
+episode reward: 27,26505
+episode reward: 27,29005
+episode reward: 27,30005
+episode reward: 27,30005
+episode reward: 27,28004
+episode reward: 27,26005
+episode reward: 27,25004
+Colidiu com calçada! --5 pts | atual: 14,65998
+episode reward: 22,325
+episode reward: 27,25504
+episode reward: 27,26505
+episode reward: 27,25005
+episode reward: 27,24506
+episode reward: 27,20004
+episode reward: 27,23505
+episode reward: 27,30505
+episode reward: 27,23505
+episode reward: 27,19006
+Colidiu com calçada! --5 pts | atual: 22,26005
+Colidiu com calçada! --5 pts | atual: 17,26005
+episode reward: 17,17505
+episode reward: 27,22505
+episode reward: 27,13006
+episode reward: 27,23006
+Colidiu com calçada! --5 pts | atual: 22,28005
+episode reward: 22,26505
+Colidiu com calçada! --5 pts | atual: 14,64998
+episode reward: 22,295
+episode reward: 27,14506
+Colidiu com calçada! --5 pts | atual: 22,30502
+episode reward: 22,15005
+episode reward: 27,26506
+episode reward: 27,23006
+episode reward: 27,23005
+episode reward: 27,20006
+episode reward: 27,17007
+episode reward: 27,20505
+episode reward: 27,21504
+episode reward: 27,22005
+Colidiu com calçada! --5 pts | atual: 14,49498
+episode reward: 22,12
+episode reward: 27,19504
+Colidiu com calçada! --5 pts | atual: 22,21506
+episode reward: 22,18506
+episode reward: 27,22006
+episode reward: 27,17505
+episode reward: 27,11005
+episode reward: 27,21005
+Unable to save timers to file C:/Users/vitor/SimuladorDeDirecao/Build/SimuladorDeDirecao_Data\ML-Agents\Timers\SampleScene_timers.json
+Setting up 6 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 70280 frames, [8.0 KB-16.0 KB]: 166 frames, [32.0 KB-64.0 KB]: 2773 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 270 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 288.0 KB
+      Peak Allocated Bytes 181.4 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 14.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 5
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.4 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 73220 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 15.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 73220 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 18.0 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 3
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.4 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 73219 frames, [2.0 MB-4.0 MB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 2.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 2 frames, [1.0 MB-2.0 MB]: 17 frames, [2.0 MB-4.0 MB]: 73201 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.4 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 73220 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 73219 frames, [4.0 MB-8.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 2
+      Peak Allocated memory 5.2 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.4 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 73220 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.0 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 73220 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.7 KB
+      Peak Large allocation bytes 0 B
