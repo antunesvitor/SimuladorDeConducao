@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499987,
+                "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-499987.onnx",
+                "reward": -0.9980000257492065,
+                "creation_time": 1692324264.6397455,
+                "auxillary_file_paths": [
+                    "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-499987.pt"
+                ]
+            },
+            {
+                "steps": 999964,
+                "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-999964.onnx",
+                "reward": null,
+                "creation_time": 1692325439.9042444,
+                "auxillary_file_paths": [
+                    "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-999964.pt"
+                ]
+            },
+            {
+                "steps": 1499954,
+                "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-1499954.onnx",
+                "reward": null,
+                "creation_time": 1692326610.5532238,
+                "auxillary_file_paths": [
+                    "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-1499954.pt"
+                ]
+            },
+            {
+                "steps": 1999946,
+                "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-1999946.onnx",
+                "reward": 15.491998672485352,
+                "creation_time": 1692327754.1365256,
+                "auxillary_file_paths": [
+                    "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-1999946.pt"
+                ]
+            },
+            {
+                "steps": 2000004,
+                "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-2000004.onnx",
+                "reward": 9.245999336242676,
+                "creation_time": 1692327754.204684,
+                "auxillary_file_paths": [
+                    "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-2000004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000004,
+            "file_path": "results/CarSim6.2.3_ALL_ArchL/MoveToTarget.onnx",
+            "reward": 9.245999336242676,
+            "creation_time": 1692327754.204684,
+            "auxillary_file_paths": [
+                "results/CarSim6.2.3_ALL_ArchL/MoveToTarget/MoveToTarget-2000004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

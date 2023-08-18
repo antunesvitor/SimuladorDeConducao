@@ -1,0 +1,4243 @@
+Mono path[0] = '/home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/Managed'
+Mono config path = '/home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Display 0 'LS27A600U 27"': 2560x1440 (primary device).
+Display 1 'LG ULTRAWIDE 34"': 2560x1080 (secondary device).
+Desktop is 2560 x 1440 @ 75 Hz
+Invalid initial resolution 84 x 84 - forcing to 100 x 100
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path /home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Renderer: AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.52, 6.4.10-arch1-1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 23.1.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_
+clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_
+buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc
+ GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_in
+t64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 10165360
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.095 seconds
+- Finished resetting the current domain, in  0.001 seconds
+Default vsync count 1
+requesting resize 84 x 84
+resizing window to 84 x 84
+Desktop is 2560 x 1440 @ 75 Hz
+UnloadTime: 0.679540 ms
+Step Punishment: -0.002
+requesting resize 84 x 84
+resizing window to 84 x 84
+Desktop is 2560 x 1440 @ 75 Hz
+episode reward: 3.000213
+Colidiu com cal�ada! --2 pts | atual: 12.23208
+episode reward: 7.000319
+Colidiu com cal�ada! --2 pts | atual: 12.54607
+Colidiu com cal�ada! --2 pts | atual: 10.44608
+Colidiu com cal�ada! --2 pts | atual: 8.44408
+Colidiu com cal�ada! --2 pts | atual: 6.252094
+Colidiu com cal�ada! --2 pts | atual: 3.7241
+Colidiu com cal�ada! --2 pts | atual: 1.7241
+episode reward: -2.999928
+episode reward: -1.000056
+Colidiu com cal�ada! --2 pts | atual: 3.042065
+episode reward: -0.999923
+Colidiu com cal�ada! --2 pts | atual: 7.498011
+episode reward: 1.000039
+Colidiu com cal�ada! --2 pts | atual: 7.054283
+Colidiu com cal�ada! --2 pts | atual: 5.054283
+episode reward: 3.000281
+episode reward: 17.26609
+Colidiu com cal�ada! --2 pts | atual: 7.628011
+Colidiu com cal�ada! --2 pts | atual: 5.626011
+episode reward: -1.000041
+Colidiu com cal�ada! --2 pts | atual: 5.660006
+episode reward: -1.000047
+episode reward: 16.03005
+Colidiu com cal�ada! --2 pts | atual: 5.494141
+episode reward: 1.000084
+episode reward: -1.000054
+Colidiu com cal�ada! --2 pts | atual: 5.419998
+Colidiu com cal�ada! --2 pts | atual: 5.375997
+Colidiu com cal�ada! --2 pts | atual: 3.373996
+Colidiu com cal�ada! --2 pts | atual: 6.374022
+episode reward: 0.9999691
+Colidiu com cal�ada! --2 pts | atual: 9.522012
+Colidiu com cal�ada! --2 pts | atual: 7.450017
+Colidiu com cal�ada! --2 pts | atual: 5.350024
+Colidiu com cal�ada! --2 pts | atual: 3.350024
+episode reward: -2.999994
+Colidiu com cal�ada! --2 pts | atual: 3.69
+episode reward: 2.999963
+Colidiu com cal�ada! --2 pts | atual: 7.658006
+Colidiu com cal�ada! --2 pts | atual: 3.512104
+Colidiu com cal�ada! --2 pts | atual: 1.510104
+episode reward: -2.999924
+episode reward: 3.000224
+Colidiu com parede! --2 pts | atual: 3.487998
+Colidiu com parede! --2 pts | atual: 4.853992
+Colidiu com parede! --2 pts | atual: 4.550007
+Colidiu com parede! --2 pts | atual: 7.970029
+Colidiu com parede! --2 pts | atual: 11.33807
+episode reward: 17.33615
+episode reward: 1.000012
+episode reward: -3.000011
+Colidiu com cal�ada! --2 pts | atual: 5.618003
+Colidiu com parede! --2 pts | atual: 2.813965
+Colidiu com parede! --2 pts | atual: 0.605968
+Colidiu com cal�ada! --2 pts | atual: -1.784027
+episode reward: -6.99982
+Colidiu com parede! --2 pts | atual: 5.496015
+Colidiu com cal�ada! --2 pts | atual: 3.494015
+episode reward: -3.000001
+Colidiu com cal�ada! --2 pts | atual: 3.475988
+Colidiu com cal�ada! --2 pts | atual: -2.051984
+episode reward: -4.999915
+episode reward: -1.000042
+Colidiu com cal�ada! --2 pts | atual: 3.445986
+Colidiu com cal�ada! --2 pts | atual: 1.223989
+Colidiu com cal�ada! --2 pts | atual: -0.8420103
+Colidiu com cal�ada! --2 pts | atual: -2.84201
+Colidiu com cal�ada! --2 pts | atual: -5.019998
+episode reward: -10.99971
+Colidiu com cal�ada! --2 pts | atual: 5.706003
+episode reward: -1.000052
+episode reward: 1.000038
+episode reward: 27.81565
+episode reward: 3.000191
+Colidiu com parede! --2 pts | atual: 5.626137
+Colidiu com parede! --2 pts | atual: 3.26212
+Colidiu com parede! --2 pts | atual: 1.080122
+Colidiu com parede! --2 pts | atual: -1.241874
+Colidiu com parede! --2 pts | atual: -3.361879
+Colidiu com parede! --2 pts | atual: -5.597862
+Colidiu com parede! --2 pts | atual: -7.913839
+Colidiu com parede! --2 pts | atual: -10.05583
+Colidiu com parede! --2 pts | atual: -12.16982
+Colidiu com parede! --2 pts | atual: -14.54179
+Colidiu com parede! --2 pts | atual: -16.92595
+episode reward: -18.99998
+Colidiu com cal�ada! --2 pts | atual: 5.664001
+Colidiu com cal�ada! --2 pts | atual: 3.634
+Colidiu com cal�ada! --2 pts | atual: 5.532
+Colidiu com cal�ada! --2 pts | atual: 3.513999
+episode reward: -3.000017
+Colidiu com cal�ada! --2 pts | atual: 5.531997
+episode reward: -1.00005
+episode reward: 11.00033
+Colidiu com cal�ada! --2 pts | atual: 3.551996
+Colidiu com cal�ada! --2 pts | atual: 1.547997
+Colidiu com cal�ada! --2 pts | atual: 3.447997
+Colidiu com cal�ada! --2 pts | atual: 1.441997
+Colidiu com cal�ada! --2 pts | atual: 0.6720068
+Colidiu com cal�ada! --2 pts | atual: -1.697988
+Colidiu com cal�ada! --2 pts | atual: -3.701989
+episode reward: -8.99975
+episode reward: 3.000195
+episode reward: -1.000049
+Colidiu com parede! --2 pts | atual: 4.982045
+Colidiu com parede! --2 pts | atual: 2.938043
+Colidiu com parede! --2 pts | atual: 0.870044
+Colidiu com parede! --2 pts | atual: -1.60995
+episode reward: -6.999751
+Colidiu com cal�ada! --2 pts | atual: 1.758001
+Colidiu com cal�ada! --2 pts | atual: 1.514004
+Colidiu com cal�ada! --2 pts | atual: -0.543996
+Colidiu com cal�ada! --2 pts | atual: -2.543996
+episode reward: -8.999673
+episode reward: 3.000196
+Colidiu com cal�ada! --2 pts | atual: 5.308021
+Colidiu com parede! --2 pts | atual: 3.274019
+Colidiu com cal�ada! --2 pts | atual: 1.272019
+Colidiu com parede! --2 pts | atual: -0.9759778
+Colidiu com parede! --2 pts | atual: -3.133985
+Colidiu com parede! --2 pts | atual: -5.443963
+Colidiu com parede! --2 pts | atual: -7.553955
+Colidiu com parede! --2 pts | atual: -9.769939
+Colidiu com parede! --2 pts | atual: -12.03792
+Colidiu com parede! --2 pts | atual: -14.71787
+Colidiu com parede! --2 pts | atual: -17.09002
+Colidiu com parede! --2 pts | atual: -19.20207
+Colidiu com parede! --2 pts | atual: -21.47618
+Colidiu com parede! --2 pts | atual: -23.93036
+Colidiu com parede! --2 pts | atual: -26.07042
+Colidiu com parede! --2 pts | atual: -28.50859
+Colidiu com parede! --2 pts | atual: -30.99079
+episode reward: -33.00079
+Colidiu com parede! --2 pts | atual: 4.978038
+Colidiu com parede! --2 pts | atual: 1.787995
+Colidiu com parede! --2 pts | atual: -0.4160054
+Colidiu com parede! --2 pts | atual: -3.112038
+Colidiu com parede! --2 pts | atual: -5.466012
+Colidiu com parede! --2 pts | atual: -8.703922
+episode reward: -10.9999
+episode reward: 5.000144
+Colidiu com parede! --2 pts | atual: 4.306077
+Colidiu com parede! --2 pts | atual: 2.232074
+Colidiu com parede! --2 pts | atual: -0.01992658
+Colidiu com parede! --2 pts | atual: -2.621955
+Colidiu com parede! --2 pts | atual: -5.743874
+Colidiu com parede! --2 pts | atual: -8.173842
+Colidiu com parede! --2 pts | atual: -10.90579
+episode reward: -12.99978
+Colidiu com parede! --2 pts | atual: 3.127982
+Colidiu com parede! --2 pts | atual: 0.9859837
+Colidiu com parede! --2 pts | atual: -1.036016
+Colidiu com parede! --2 pts | atual: 7.11999
+Colidiu com parede! --2 pts | atual: 6.840011
+Colidiu com parede! --2 pts | atual: 4.742018
+Colidiu com parede! --2 pts | atual: 4.546017
+episode reward: 12.56606
+Colidiu com cal�ada! --2 pts | atual: 5.596005
+Colidiu com parede! --2 pts | atual: 3.411997
+Colidiu com parede! --2 pts | atual: 1.349998
+Colidiu com parede! --2 pts | atual: -0.7120016
+Colidiu com parede! --2 pts | atual: -2.810006
+Colidiu com parede! --2 pts | atual: -5.17398
+Colidiu com parede! --2 pts | atual: -7.739939
+Colidiu com parede! --2 pts | atual: -10.19191
+Colidiu com cal�ada! --2 pts | atual: -12.3059
+episode reward: -17.00018
+Colidiu com cal�ada! --2 pts | atual: 7.554006
+Colidiu com cal�ada! --2 pts | atual: 3.302086
+Colidiu com cal�ada! --2 pts | atual: -0.7839017
+episode reward: -2.999912
+Colidiu com cal�ada! --2 pts | atual: 7.598004
+Colidiu com cal�ada! --2 pts | atual: 5.008047
+Colidiu com cal�ada! --2 pts | atual: -0.9719759
+episode reward: -2.999977
+Colidiu com parede! --2 pts | atual: 9.300019
+Colidiu com parede! --2 pts | atual: 7.254023
+episode reward: 1.000033
+episode reward: 17.39219
+Colidiu com parede! --2 pts | atual: 1.74392
+Colidiu com parede! --2 pts | atual: -0.4500804
+Colidiu com parede! --2 pts | atual: -2.634089
+Colidiu com parede! --2 pts | atual: -4.784078
+Colidiu com parede! --2 pts | atual: -6.934067
+Colidiu com parede! --2 pts | atual: -9.43603
+Colidiu com parede! --2 pts | atual: -11.60602
+Colidiu com parede! --2 pts | atual: -13.98799
+Colidiu com parede! --2 pts | atual: -16.50819
+Colidiu com parede! --2 pts | atual: -18.79431
+episode reward: -21.00039
+Colidiu com cal�ada! --2 pts | atual: 10.60807
+Colidiu com cal�ada! --2 pts | atual: 8.604066
+Colidiu com cal�ada! --2 pts | atual: 6.080104
+Colidiu com cal�ada! --2 pts | atual: 4.038107
+episode reward: -0.9998704
+Colidiu com cal�ada! --2 pts | atual: 3.542001
+Colidiu com cal�ada! --2 pts | atual: 1.158006
+Colidiu com cal�ada! --2 pts | atual: 3.018007
+Colidiu com cal�ada! --2 pts | atual: 2.854007
+Colidiu com cal�ada! --2 pts | atual: -2.938014
+Colidiu com cal�ada! --2 pts | atual: -4.940014
+Colidiu com cal�ada! --2 pts | atual: -6.99201
+Colidiu com cal�ada! --2 pts | atual: -8.99201
+episode reward: -11.00001
+Colidiu com cal�ada! --2 pts | atual: 12.93003
+Colidiu com cal�ada! --2 pts | atual: 10.87804
+Colidiu com cal�ada! --2 pts | atual: 8.280082
+episode reward: 3.0002
+Colidiu com cal�ada! --2 pts | atual: 11.56401
+Colidiu com cal�ada! --2 pts | atual: 9.366024
+Colidiu com cal�ada! --2 pts | atual: 6.586081
+Colidiu com cal�ada! --2 pts | atual: 4.562082
+Colidiu com parede! --2 pts | atual: -0.5299256
+Colidiu com parede! --2 pts | atual: -2.727935
+episode reward: -4.999915
+Colidiu com cal�ada! --2 pts | atual: 10.66005
+episode reward: 5.000318
+episode reward: 3.000226
+episode reward: -1.000055
+episode reward: 3.000211
+episode reward: 5.000308
+episode reward: 7.000318
+Colidiu com cal�ada! --2 pts | atual: 8.990038
+Colidiu com cal�ada! --2 pts | atual: 7.070177
+Colidiu com cal�ada! --2 pts | atual: 5.068177
+Colidiu com cal�ada! --2 pts | atual: 2.998174
+Colidiu com cal�ada! --2 pts | atual: 0.9441746
+Colidiu com cal�ada! --2 pts | atual: -1.063825
+Colidiu com cal�ada! --2 pts | atual: -3.129828
+episode reward: -6.999693
+episode reward: 7.000315
+Colidiu com cal�ada! --2 pts | atual: 3.692
+episode reward: -0.9999791
+Colidiu com cal�ada! --2 pts | atual: 5.854039
+Colidiu com cal�ada! --2 pts | atual: 3.846039
+Colidiu com cal�ada! --2 pts | atual: 3.835975
+Colidiu com cal�ada! --2 pts | atual: 1.729976
+Colidiu com cal�ada! --2 pts | atual: -0.3720239
+Colidiu com cal�ada! --2 pts | atual: -2.520031
+Colidiu com cal�ada! --2 pts | atual: -4.612024
+episode reward: -1.914002
+episode reward: 7.000293
+episode reward: 0.9999834
+Colidiu com cal�ada! --2 pts | atual: 6.374073
+Colidiu com cal�ada! --2 pts | atual: 4.374073
+episode reward: -0.99992
+episode reward: 5.000307
+Colidiu com cal�ada! --2 pts | atual: 10.73605
+episode reward: 5.000324
+episode reward: 1.000043
+Colidiu com cal�ada! --2 pts | atual: 6.624043
+Colidiu com cal�ada! --2 pts | atual: 4.610044
+Colidiu com cal�ada! --2 pts | atual: 6.400056
+Colidiu com cal�ada! --2 pts | atual: 4.400056
+Colidiu com cal�ada! --2 pts | atual: 2.368054
+Colidiu com cal�ada! --2 pts | atual: 0.3680544
+Colidiu com cal�ada! --2 pts | atual: -1.757944
+Colidiu com cal�ada! --2 pts | atual: -3.757944
+Colidiu com cal�ada! --2 pts | atual: -5.841938
+Colidiu com cal�ada! --2 pts | atual: -7.841938
+Colidiu com cal�ada! --2 pts | atual: -9.865936
+Colidiu com cal�ada! --2 pts | atual: -11.92593
+Colidiu com cal�ada! --2 pts | atual: -13.92593
+Colidiu com cal�ada! --2 pts | atual: -16.28204
+Colidiu com cal�ada! --2 pts | atual: -18.28604
+Colidiu com cal�ada! --2 pts | atual: -20.49212
+Colidiu com cal�ada! --2 pts | atual: -22.63418
+episode reward: -25.00033
+episode reward: 5.000335
+Colidiu com cal�ada! --2 pts | atual: 9.014014
+Colidiu com cal�ada! --2 pts | atual: 8.964018
+Colidiu com cal�ada! --2 pts | atual: 6.964018
+Colidiu com cal�ada! --2 pts | atual: 4.960018
+Colidiu com cal�ada! --2 pts | atual: 2.932017
+episode reward: 5.920017
+episode reward: 15.83603
+episode reward: -1.000053
+Colidiu com cal�ada! --2 pts | atual: 12.82804
+Colidiu com cal�ada! --2 pts | atual: 12.78004
+episode reward: 21.48402
+episode reward: 1.00003
+episode reward: -1.000046
+episode reward: -1.000044
+Colidiu com cal�ada! --2 pts | atual: 2.046023
+Colidiu com cal�ada! --2 pts | atual: 3.680022
+episode reward: 1.000031
+episode reward: 3.00011
+Colidiu com cal�ada! --2 pts | atual: 7.552008
+Colidiu com cal�ada! --2 pts | atual: 5.544008
+Colidiu com cal�ada! --2 pts | atual: 3.339999
+Colidiu com cal�ada! --2 pts | atual: 1.268
+Colidiu com cal�ada! --2 pts | atual: 4.558002
+episode reward: -0.999999
+Colidiu com cal�ada! --2 pts | atual: 6.874047
+Colidiu com cal�ada! --2 pts | atual: 4.874047
+Colidiu com parede! --2 pts | atual: 2.810044
+Colidiu com cal�ada! --2 pts | atual: 0.8000444
+Colidiu com cal�ada! --2 pts | atual: -1.241955
+Colidiu com parede! --2 pts | atual: -4.017989
+Colidiu com parede! --2 pts | atual: -6.249972
+episode reward: -10.99977
+Colidiu com cal�ada! --2 pts | atual: 13.21002
+Colidiu com parede! --2 pts | atual: 11.13802
+Colidiu com parede! --2 pts | atual: 8.676058
+Colidiu com parede! --2 pts | atual: 6.384079
+Colidiu com parede! --2 pts | atual: 3.944104
+Colidiu com parede! --2 pts | atual: 1.358112
+Colidiu com parede! --2 pts | atual: -1.375879
+Colidiu com parede! --2 pts | atual: -3.507885
+Colidiu com parede! --2 pts | atual: -5.807863
+Colidiu com parede! --2 pts | atual: -8.019848
+Colidiu com parede! --2 pts | atual: -10.32183
+Colidiu com parede! --2 pts | atual: -12.83179
+episode reward: -14.99978
+episode reward: -1.000043
+Colidiu com cal�ada! --2 pts | atual: 1.588003
+Colidiu com cal�ada! --2 pts | atual: 3.218007
+episode reward: -1.000013
+Colidiu com cal�ada! --2 pts | atual: 3.032076
+episode reward: -0.9999121
+episode reward: 15.88602
+episode reward: 13.00033
+Colidiu com cal�ada! --2 pts | atual: 5.394004
+episode reward: -1.000036
+episode reward: 3.000176
+Colidiu com cal�ada! --2 pts | atual: 10.98202
+Colidiu com cal�ada! --2 pts | atual: 16.40005
+Colidiu com cal�ada! --2 pts | atual: 14.39805
+Colidiu com cal�ada! --2 pts | atual: 12.35005
+episode reward: 17.15606
+episode reward: 16.06402
+episode reward: 25.03989
+episode reward: 25.00388
+Colidiu com cal�ada! --2 pts | atual: 5.348022
+episode reward: -1.000017
+Colidiu com cal�ada! --2 pts | atual: 7.576005
+Colidiu com cal�ada! --2 pts | atual: 7.51001
+Colidiu com cal�ada! --2 pts | atual: 7.502011
+Colidiu com cal�ada! --2 pts | atual: 4.808061
+Colidiu com cal�ada! --2 pts | atual: 6.802184
+Colidiu com cal�ada! --2 pts | atual: 4.30422
+Colidiu com cal�ada! --2 pts | atual: 1.552212
+episode reward: -0.9997819
+episode reward: 1.000033
+episode reward: 7.000336
+episode reward: 1.000022
+episode reward: 11.00031
+episode reward: 1.00003
+episode reward: 1.000024
+episode reward: -1.000044
+Colidiu com cal�ada! --2 pts | atual: 10.97603
+episode reward: 5.000315
+episode reward: 9.000325
+Colidiu com cal�ada! --2 pts | atual: 7.358009
+Colidiu com cal�ada! --2 pts | atual: 5.324011
+Colidiu com cal�ada! --2 pts | atual: 3.262008
+episode reward: -3.00001
+episode reward: -1.000048
+Colidiu com cal�ada! --2 pts | atual: 1.776001
+episode reward: -3.000012
+episode reward: 7.000312
+episode reward: 1.000013
+episode reward: 16.99946
+episode reward: 3.000188
+episode reward: 0.9999605
+Colidiu com parede! --2 pts | atual: 1.618004
+episode reward: -0.9999897
+episode reward: -1.000051
+Colidiu com cal�ada! --2 pts | atual: 3.65
+Colidiu com cal�ada! --2 pts | atual: 1.648
+episode reward: 3.000155
+Colidiu com cal�ada! --2 pts | atual: 3.33599
+Colidiu com cal�ada! --2 pts | atual: -2.806019
+episode reward: -5.000005
+episode reward: 9.000292
+episode reward: -3.000012
+Colidiu com cal�ada! --2 pts | atual: 8.982019
+Colidiu com cal�ada! --2 pts | atual: 3.850229
+Colidiu com cal�ada! --2 pts | atual: 1.850229
+episode reward: -0.9997658
+episode reward: 12.99991
+episode reward: -1.000046
+episode reward: -3.000013
+Colidiu com cal�ada! --2 pts | atual: 10.94801
+episode reward: 5.000298
+episode reward: 9.000291
+episode reward: 1.000021
+episode reward: 21.07178
+episode reward: 26.74368
+Colidiu com cal�ada! --2 pts | atual: 3.333984
+episode reward: -3.000034
+Colidiu com cal�ada! --2 pts | atual: 4.772214
+episode reward: 1.000191
+Colidiu com cal�ada! --2 pts | atual: 10.90402
+Colidiu com parede! --2 pts | atual: 8.132072
+Colidiu com parede! --2 pts | atual: 6.018081
+Colidiu com parede! --2 pts | atual: 2.978034
+episode reward: -0.9999545
+episode reward: 9.00033
+Colidiu com cal�ada! --2 pts | atual: 8.90601
+Colidiu com cal�ada! --2 pts | atual: 6.89601
+Colidiu com cal�ada! --2 pts | atual: 4.876012
+Colidiu com cal�ada! --2 pts | atual: 2.876012
+Colidiu com cal�ada! --2 pts | atual: 0.7400136
+Colidiu com parede! --2 pts | atual: -1.337985
+Colidiu com parede! --2 pts | atual: -3.772006
+episode reward: -8.999772
+episode reward: 1.000003
+episode reward: 27.75178
+episode reward: 9.000338
+Colidiu com cal�ada! --2 pts | atual: 4.922007
+Colidiu com cal�ada! --2 pts | atual: 2.461985
+Colidiu com cal�ada! --2 pts | atual: -0.6920136
+episode reward: -5.000002
+episode reward: 7.000307
+Colidiu com cal�ada! --2 pts | atual: 3.627999
+Colidiu com cal�ada! --2 pts | atual: 1.593999
+episode reward: -5.000003
+Colidiu com parede! --2 pts | atual: 3.435995
+Colidiu com parede! --2 pts | atual: 1.399995
+episode reward: -5.000008
+Colidiu com parede! --2 pts | atual: 3.475994
+Colidiu com parede! --2 pts | atual: 1.449994
+episode reward: -5.000008
+Colidiu com parede! --2 pts | atual: 2.311938
+Colidiu com parede! --2 pts | atual: 0.08193751
+Colidiu com parede! --2 pts | atual: -2.370079
+episode reward: -6.999888
+Colidiu com cal�ada! --2 pts | atual: 3.629996
+Colidiu com cal�ada! --2 pts | atual: 1.601997
+episode reward: -5.000005
+Colidiu com parede! --2 pts | atual: 4.640045
+Colidiu com parede! --2 pts | atual: 2.072018
+Colidiu com parede! --2 pts | atual: -0.617981
+Colidiu com parede! --2 pts | atual: -2.893994
+Colidiu com parede! --2 pts | atual: -5.055982
+Colidiu com parede! --2 pts | atual: -7.511949
+Colidiu com parede! --2 pts | atual: -9.667938
+Colidiu com parede! --2 pts | atual: -11.95392
+Colidiu com parede! --2 pts | atual: -14.01391
+Colidiu com parede! --2 pts | atual: -16.232
+Colidiu com parede! --2 pts | atual: -18.70619
+Colidiu com parede! --2 pts | atual: -20.85825
+episode reward: -23.00031
+episode reward: 28.23363
+episode reward: 16.99891
+episode reward: 1.000043
+episode reward: 11.00031
+episode reward: 18.99867
+episode reward: 1.000043
+Colidiu com cal�ada! --2 pts | atual: 1.656003
+Colidiu com cal�ada! --2 pts | atual: -0.3699975
+episode reward: -6.999856
+Colidiu com cal�ada! --2 pts | atual: 5.605996
+episode reward: 1.000022
+Colidiu com cal�ada! --2 pts | atual: 10.96203
+Colidiu com cal�ada! --2 pts | atual: 8.934028
+Colidiu com cal�ada! --2 pts | atual: 6.708044
+Colidiu com cal�ada! --2 pts | atual: 4.520058
+episode reward: -0.9999422
+episode reward: -1.000053
+episode reward: -1.000057
+Colidiu com cal�ada! --2 pts | atual: 13.19803
+episode reward: 7.000331
+Colidiu com cal�ada! --2 pts | atual: 3.593996
+Colidiu com cal�ada! --2 pts | atual: 1.565996
+Colidiu com cal�ada! --2 pts | atual: -2.037986
+episode reward: -6.999772
+Colidiu com cal�ada! --2 pts | atual: 7.498007
+Colidiu com cal�ada! --2 pts | atual: 5.478008
+Colidiu com cal�ada! --2 pts | atual: 3.470008
+Colidiu com cal�ada! --2 pts | atual: -0.8759761
+Colidiu com cal�ada! --2 pts | atual: -4.425998
+Colidiu com cal�ada! --2 pts | atual: -6.425998
+episode reward: -8.999956
+Colidiu com parede! --2 pts | atual: 7.33602
+Colidiu com parede! --2 pts | atual: 1.148034
+episode reward: -0.9999642
+Colidiu com cal�ada! --2 pts | atual: 7.288013
+episode reward: 3.000205
+episode reward: 7.000324
+Colidiu com cal�ada! --2 pts | atual: 5.758128
+Colidiu com cal�ada! --2 pts | atual: 2.450067
+episode reward: -0.9999282
+Colidiu com cal�ada! --2 pts | atual: 14.74002
+episode reward: 14.99903
+episode reward: 5.000328
+episode reward: 3.000156
+Colidiu com cal�ada! --2 pts | atual: 9.062018
+Colidiu com cal�ada! --2 pts | atual: 7.060019
+episode reward: 1.000015
+Colidiu com parede! --2 pts | atual: 6.114103
+Colidiu com parede! --2 pts | atual: 2.844058
+Colidiu com parede! --2 pts | atual: 0.1740613
+Colidiu com parede! --2 pts | atual: -2.341952
+Colidiu com parede! --2 pts | atual: -4.625932
+episode reward: -6.999905
+Colidiu com cal�ada! --2 pts | atual: 20.87395
+episode reward: 14.99886
+Colidiu com parede! --2 pts | atual: 5.520002
+Colidiu com parede! --2 pts | atual: 3.48
+Colidiu com parede! --2 pts | atual: 3.28
+Colidiu com parede! --2 pts | atual: 1.236001
+episode reward: 20.75208
+episode reward: 7.000308
+episode reward: 1.000046
+episode reward: -0.9999655
+episode reward: 11.00012
+Colidiu com cal�ada! --2 pts | atual: 6.406207
+episode reward: 3.00019
+episode reward: 2.999956
+episode reward: 1.000044
+episode reward: 5.000312
+episode reward: 13.00014
+episode reward: 5.0003
+Colidiu com cal�ada! --2 pts | atual: 6.252046
+episode reward: 0.9999834
+episode reward: -0.999994
+episode reward: 3.000223
+episode reward: 3.000148
+Colidiu com cal�ada! --2 pts | atual: 0.09401658
+episode reward: -3.000029
+Colidiu com cal�ada! --2 pts | atual: 3.491997
+episode reward: 7.000293
+Colidiu com cal�ada! --2 pts | atual: 0.5099409
+Colidiu com cal�ada! --2 pts | atual: -1.490059
+episode reward: -3.000108
+episode reward: 16.99956
+episode reward: -1.000021
+Colidiu com parede! --2 pts | atual: 3.558205
+Colidiu com parede! --2 pts | atual: 1.372208
+Colidiu com parede! --2 pts | atual: -0.8457894
+episode reward: -2.999797
+Colidiu com cal�ada! --2 pts | atual: 0.01799418
+episode reward: -3.000052
+episode reward: 20.08817
+episode reward: 7.000249
+episode reward: 5.000313
+Colidiu com cal�ada! --2 pts | atual: 1.534001
+Colidiu com cal�ada! --2 pts | atual: 4.188006
+Colidiu com cal�ada! --2 pts | atual: 2.114003
+Colidiu com cal�ada! --2 pts | atual: 3.120005
+episode reward: -0.9999818
+Colidiu com parede! --2 pts | atual: 6.454072
+Colidiu com parede! --2 pts | atual: 2.650042
+episode reward: -0.9999511
+episode reward: -1
+episode reward: 3.000192
+Colidiu com cal�ada! --2 pts | atual: 1.598001
+episode reward: -5
+Colidiu com parede! --2 pts | atual: 6.464208
+Colidiu com parede! --2 pts | atual: 4.29622
+Colidiu com parede! --2 pts | atual: 2.074209
+Colidiu com parede! --2 pts | atual: -0.1877906
+Colidiu com parede! --2 pts | atual: -2.257794
+Colidiu com parede! --2 pts | atual: -4.753758
+episode reward: -6.99974
+episode reward: 11.00031
+episode reward: -3.000015
+episode reward: -1.000024
+episode reward: -3.000016
+episode reward: 11.00031
+episode reward: 7.000299
+episode reward: 5.000247
+episode reward: 13.00032
+episode reward: 18.78826
+Colidiu com cal�ada! --2 pts | atual: 1.768001
+Colidiu com cal�ada! --2 pts | atual: 1.530002
+Colidiu com cal�ada! --2 pts | atual: 1.270005
+Colidiu com cal�ada! --2 pts | atual: -0.7299953
+Colidiu com cal�ada! --2 pts | atual: -2.755996
+episode reward: -8.999689
+episode reward: 3.000189
+episode reward: 11.00031
+episode reward: 5.000231
+episode reward: 3.000224
+episode reward: -1.000041
+episode reward: 3.000173
+episode reward: 7.000245
+episode reward: 3.000176
+Colidiu com cal�ada! --2 pts | atual: -1.385977
+Colidiu com cal�ada! --2 pts | atual: -4.465972
+Colidiu com cal�ada! --2 pts | atual: -6.723953
+episode reward: -8.999933
+Colidiu com cal�ada! --2 pts | atual: 1.268005
+Colidiu com cal�ada! --2 pts | atual: -0.7339953
+Colidiu com cal�ada! --2 pts | atual: -5.535943
+Colidiu com cal�ada! --2 pts | atual: -7.925915
+Colidiu com cal�ada! --2 pts | atual: -10.24389
+episode reward: -12.99984
+Colidiu com cal�ada! --2 pts | atual: 7.086015
+Colidiu com cal�ada! --2 pts | atual: 4.304071
+Colidiu com cal�ada! --2 pts | atual: 1.532063
+episode reward: -2.999964
+Colidiu com parede! --2 pts | atual: 7.046013
+episode reward: 26.09587
+episode reward: 5.000297
+episode reward: 11.00033
+Colidiu com cal�ada! --2 pts | atual: 6.486063
+Colidiu com cal�ada! --2 pts | atual: 4.478064
+Colidiu com cal�ada! --2 pts | atual: 2.450063
+Colidiu com cal�ada! --2 pts | atual: 0.1320621
+episode reward: -4.999957
+episode reward: -3.000016
+episode reward: 5.000069
+episode reward: 9.000268
+episode reward: 0.9999243
+episode reward: -3.000016
+Colidiu com cal�ada! --2 pts | atual: 0.7920084
+Colidiu com cal�ada! --2 pts | atual: -1.207992
+Colidiu com cal�ada! --2 pts | atual: -1.542007
+Colidiu com cal�ada! --2 pts | atual: -3.794019
+Colidiu com cal�ada! --2 pts | atual: -6.861941
+episode reward: -10.99979
+Colidiu com cal�ada! --2 pts | atual: -0.7920007
+Colidiu com cal�ada! --2 pts | atual: -2.876005
+episode reward: -4.999996
+episode reward: 18.99872
+episode reward: -3.000016
+episode reward: 7.000309
+episode reward: -1.000028
+episode reward: -3.000016
+episode reward: -3.000016
+episode reward: -3.000011
+episode reward: 0.9998449
+episode reward: 26.09362
+Colidiu com cal�ada! --2 pts | atual: 2.661994
+episode reward: -3.000032
+episode reward: 7.000291
+Colidiu com cal�ada! --2 pts | atual: 1.170015
+episode reward: -3.000016
+Colidiu com cal�ada! --2 pts | atual: 0.8880123
+Colidiu com cal�ada! --2 pts | atual: 0.6040159
+Colidiu com cal�ada! --2 pts | atual: -1.453983
+Colidiu com cal�ada! --2 pts | atual: -1.593985
+episode reward: -5.000006
+Colidiu com cal�ada! --2 pts | atual: 1.328002
+episode reward: -5.000002
+Colidiu com cal�ada! --2 pts | atual: 7.304274
+Colidiu com cal�ada! --2 pts | atual: 5.304274
+episode reward: 3.000259
+episode reward: 27.21766
+Colidiu com cal�ada! --2 pts | atual: 12.52816
+episode reward: 9.000275
+episode reward: 7.000316
+episode reward: 7.000282
+Colidiu com cal�ada! --2 pts | atual: 1.606003
+Colidiu com cal�ada! --2 pts | atual: -0.393997
+episode reward: -3.000019
+episode reward: 20.03419
+episode reward: 3.000214
+episode reward: 1.000027
+episode reward: 1.000031
+Colidiu com cal�ada! --2 pts | atual: 7.910216
+episode reward: 5.000282
+episode reward: 5.000301
+episode reward: 0.99993
+episode reward: 0.9998926
+episode reward: 1.000019
+episode reward: 7.000316
+episode reward: 1.000018
+Colidiu com parede! --2 pts | atual: 1.178004
+Colidiu com parede! --2 pts | atual: -1.32999
+Colidiu com cal�ada! --2 pts | atual: -4.15001
+Colidiu com cal�ada! --2 pts | atual: -6.240004
+Colidiu com cal�ada! --2 pts | atual: -8.260002
+episode reward: -12.9998
+Colidiu com cal�ada! --2 pts | atual: 16.79603
+Colidiu com cal�ada! --2 pts | atual: 16.78203
+Colidiu com cal�ada! --2 pts | atual: 18.29594
+episode reward: 13.00004
+Colidiu com parede! --2 pts | atual: 1.176006
+Colidiu com parede! --2 pts | atual: -1.14199
+Colidiu com parede! --2 pts | atual: -3.404002
+Colidiu com parede! --2 pts | atual: -5.649984
+Colidiu com parede! --2 pts | atual: -7.873968
+Colidiu com parede! --2 pts | atual: -10.01996
+Colidiu com parede! --2 pts | atual: -12.12995
+Colidiu com parede! --2 pts | atual: -13.71383
+Colidiu com parede! --2 pts | atual: -16.26192
+Colidiu com parede! --2 pts | atual: -18.39797
+Colidiu com parede! --2 pts | atual: -20.462
+episode reward: -23.00022
+Colidiu com parede! --2 pts | atual: 6.77004
+Colidiu com parede! --2 pts | atual: 4.62605
+Colidiu com parede! --2 pts | atual: 2.256033
+Colidiu com parede! --2 pts | atual: -0.09196742
+Colidiu com parede! --2 pts | atual: -2.755998
+Colidiu com parede! --2 pts | atual: -5.033978
+Colidiu com parede! --2 pts | atual: -8.131899
+episode reward: -10.99984
+episode reward: 11.00024
+Colidiu com parede! --2 pts | atual: 7.20803
+Colidiu com parede! --2 pts | atual: 3.082075
+episode reward: -0.9999125
+Colidiu com parede! --2 pts | atual: 7.024045
+episode reward: 1.000039
+Colidiu com cal�ada! --2 pts | atual: 11.19204
+episode reward: 5.000343
+Colidiu com cal�ada! --2 pts | atual: 11.54001
+Colidiu com cal�ada! --2 pts | atual: 9.538013
+Colidiu com cal�ada! --2 pts | atual: 8.896059
+Colidiu com cal�ada! --2 pts | atual: 6.74007
+episode reward: 13.24811
+Colidiu com cal�ada! --2 pts | atual: 13.16403
+Colidiu com cal�ada! --2 pts | atual: 11.15403
+Colidiu com cal�ada! --2 pts | atual: 10.76206
+episode reward: 7.000331
+Colidiu com cal�ada! --2 pts | atual: 6.456011
+Colidiu com cal�ada! --2 pts | atual: 4.452011
+Colidiu com cal�ada! --2 pts | atual: 2.416009
+Colidiu com cal�ada! --2 pts | atual: 1.265998
+episode reward: -0.9999987
+Colidiu com cal�ada! --2 pts | atual: 8.444027
+episode reward: 16.99894
+Colidiu com parede! --2 pts | atual: 7.080025
+Colidiu com parede! --2 pts | atual: 4.162091
+Colidiu com parede! --2 pts | atual: 2.010084
+Colidiu com parede! --2 pts | atual: -0.1319158
+Colidiu com parede! --2 pts | atual: -2.329925
+episode reward: -6.999732
+episode reward: 28.46197
+Colidiu com cal�ada! --2 pts | atual: 2.414042
+Colidiu com cal�ada! --2 pts | atual: 0.1140417
+Colidiu com cal�ada! --2 pts | atual: -2.379975
+Colidiu com cal�ada! --2 pts | atual: -4.381974
+episode reward: -6.999929
+episode reward: 9.000309
+Colidiu com cal�ada! --2 pts | atual: 1.064007
+episode reward: -5
+episode reward: 11.00031
+Colidiu com parede! --2 pts | atual: 7.084022
+Colidiu com parede! --2 pts | atual: 1.934008
+Colidiu com parede! --2 pts | atual: -0.3459923
+Colidiu com parede! --2 pts | atual: -2.526001
+Colidiu com parede! --2 pts | atual: -4.741985
+Colidiu com parede! --2 pts | atual: -6.847978
+episode reward: -8.999967
+Colidiu com parede! --2 pts | atual: 2.209951
+Colidiu com parede! --2 pts | atual: 0.1819513
+Colidiu com parede! --2 pts | atual: -2.762082
+Colidiu com parede! --2 pts | atual: -5.642018
+Colidiu com parede! --2 pts | atual: -8.285972
+episode reward: -10.99992
+episode reward: 9.000312
+Colidiu com parede! --2 pts | atual: 0.7240093
+Colidiu com parede! --2 pts | atual: -1.29999
+Colidiu com parede! --2 pts | atual: -4.353997
+Colidiu com parede! --2 pts | atual: -6.531984
+Colidiu com parede! --2 pts | atual: -9.801892
+episode reward: -12.99981
+Colidiu com parede! --2 pts | atual: 7.048028
+episode reward: 1.000023
+Colidiu com cal�ada! --2 pts | atual: 1.092033
+Colidiu com cal�ada! --2 pts | atual: -0.9079669
+episode reward: -2.999971
+Colidiu com cal�ada! --2 pts | atual: 8.094042
+Colidiu com cal�ada! --2 pts | atual: 6.938126
+Colidiu com cal�ada! --2 pts | atual: 8.026192
+Colidiu com cal�ada! --2 pts | atual: 7.656219
+episode reward: 18.03226
+Colidiu com parede! --2 pts | atual: 6.850035
+episode reward: 1.000016
+Colidiu com parede! --2 pts | atual: 23.62571
+episode reward: 26.56568
+episode reward: 1.000032
+Colidiu com cal�ada! --2 pts | atual: 1.460005
+Colidiu com cal�ada! --2 pts | atual: -0.5819943
+episode reward: -3.000014
+Colidiu com cal�ada! --2 pts | atual: -0.778015
+episode reward: -3.000026
+Colidiu com cal�ada! --2 pts | atual: 4.36201
+episode reward: -0.9999824
+Colidiu com cal�ada! --2 pts | atual: 18.98327
+Colidiu com cal�ada! --2 pts | atual: 16.04289
+Colidiu com cal�ada! --2 pts | atual: 13.02497
+episode reward: 10.99897
+episode reward: -1.00004
+episode reward: 21.52398
+episode reward: 1.000024
+Colidiu com parede! --2 pts | atual: 0.1599851
+episode reward: -3.00006
+Colidiu com parede! --2 pts | atual: 6.722048
+episode reward: 1.00002
+episode reward: 1.000035
+episode reward: 11.0003
+episode reward: -3.000015
+Colidiu com cal�ada! --2 pts | atual: 20.12197
+Colidiu com cal�ada! --2 pts | atual: 18.11197
+episode reward: 16.99952
+episode reward: 28.40575
+episode reward: -0.9999659
+Colidiu com cal�ada! --2 pts | atual: 1.969993
+episode reward: -3.000035
+Colidiu com cal�ada! --2 pts | atual: 8.744033
+Colidiu com cal�ada! --2 pts | atual: 6.742033
+Colidiu com cal�ada! --2 pts | atual: 7.95209
+Colidiu com cal�ada! --2 pts | atual: 5.95209
+Colidiu com cal�ada! --2 pts | atual: 2.096004
+episode reward: -0.9999906
+Colidiu com cal�ada! --2 pts | atual: 7.668042
+episode reward: 5.000091
+episode reward: 1.000025
+Colidiu com cal�ada! --2 pts | atual: 2.263988
+episode reward: -3.00004
+episode reward: 11.00029
+episode reward: -0.999971
+episode reward: 17.03609
+episode reward: 3.000037
+episode reward: 16.99857
+episode reward: 16.99849
+episode reward: -3.000016
+episode reward: 28.09171
+episode reward: 5.000302
+Colidiu com cal�ada! --2 pts | atual: 4.261996
+episode reward: -0.9999919
+Colidiu com cal�ada! --2 pts | atual: 2.039982
+Colidiu com cal�ada! --2 pts | atual: 0.0379816
+episode reward: -5.000039
+Colidiu com parede! --2 pts | atual: 1.931947
+Colidiu com parede! --2 pts | atual: -0.07005265
+episode reward: -5.00007
+Colidiu com cal�ada! --2 pts | atual: 8.284029
+episode reward: 5.000122
+episode reward: 7.000296
+episode reward: 7.000237
+Colidiu com cal�ada! --2 pts | atual: 1.5419
+Colidiu com cal�ada! --2 pts | atual: -0.4600996
+episode reward: -3.000125
+Colidiu com parede! --2 pts | atual: 4.570208
+episode reward: 1.000194
+episode reward: 0.9999424
+Colidiu com cal�ada! --2 pts | atual: 8.674049
+episode reward: 5.000171
+episode reward: 1.000039
+episode reward: 0.9999608
+episode reward: 14.99897
+Colidiu com cal�ada! --2 pts | atual: 8.622026
+episode reward: 3.00017
+Colidiu com cal�ada! --2 pts | atual: 11.50801
+Colidiu com cal�ada! --2 pts | atual: 9.444016
+Colidiu com cal�ada! --2 pts | atual: 7.438016
+Colidiu com cal�ada! --2 pts | atual: 7.24803
+episode reward: 13.52008
+episode reward: 28.20168
+Colidiu com parede! --2 pts | atual: 7.164021
+episode reward: 1.000025
+episode reward: 7.000163
+episode reward: 13.57009
+Colidiu com cal�ada! --2 pts | atual: 11.43602
+Colidiu com cal�ada! --2 pts | atual: 11.30403
+Colidiu com cal�ada! --2 pts | atual: 11.23203
+Colidiu com cal�ada! --2 pts | atual: 10.79006
+Colidiu com cal�ada! --2 pts | atual: 8.790065
+episode reward: 11.65807
+episode reward: -1.000026
+Colidiu com cal�ada! --2 pts | atual: 4.476084
+episode reward: -0.9999136
+episode reward: 27.99767
+episode reward: 7.000263
+episode reward: 7.000297
+Colidiu com cal�ada! --2 pts | atual: 9.772082
+episode reward: 5.000283
+episode reward: 1.00001
+Colidiu com parede! --2 pts | atual: 0.9280093
+Colidiu com parede! --2 pts | atual: -1.09599
+Colidiu com parede! --2 pts | atual: -3.834025
+Colidiu com parede! --2 pts | atual: -5.890021
+Colidiu com parede! --2 pts | atual: -7.938017
+Colidiu com parede! --2 pts | atual: -11.84788
+episode reward: -14.99979
+episode reward: 11.0003
+episode reward: -1.000029
+episode reward: -1.000046
+episode reward: 28.73789
+episode reward: 3.000196
+Colidiu com parede! --2 pts | atual: 6.466059
+episode reward: 1.000012
+episode reward: 3.000203
+Colidiu com parede! --2 pts | atual: 6.652044
+episode reward: 1.000011
+Colidiu com cal�ada! --2 pts | atual: 1.368004
+Colidiu com parede! --2 pts | atual: -1.735982
+Colidiu com cal�ada! --2 pts | atual: -4.363968
+episode reward: -8.999777
+Colidiu com parede! --2 pts | atual: 8.944037
+Colidiu com parede! --2 pts | atual: 6.728053
+Colidiu com parede! --2 pts | atual: 4.450073
+Colidiu com parede! --2 pts | atual: 1.848054
+episode reward: -2.999974
+episode reward: 28.94177
+Colidiu com cal�ada! --2 pts | atual: 3.091986
+Colidiu com cal�ada! --2 pts | atual: 1.089986
+episode reward: -5.000021
+episode reward: 7.000273
+episode reward: 7.000296
+Colidiu com cal�ada! --2 pts | atual: 18.862
+episode reward: 12.99987
+Colidiu com cal�ada! --2 pts | atual: 18.20601
+Colidiu com cal�ada! --2 pts | atual: 16.05995
+Colidiu com cal�ada! --2 pts | atual: 13.48799
+Colidiu com cal�ada! --2 pts | atual: 11.48599
+episode reward: 7.00017
+episode reward: 28.32996
+Colidiu com cal�ada! --2 pts | atual: 3.001984
+Colidiu com cal�ada! --2 pts | atual: -0.1560098
+episode reward: -5.000023
+episode reward: -3.000013
+episode reward: -1.000021
+Colidiu com parede! --2 pts | atual: 1.134006
+Colidiu com parede! --2 pts | atual: -0.8959941
+episode reward: -6.999828
+Colidiu com parede! --2 pts | atual: 2.967983
+episode reward: -3.000039
+Colidiu com cal�ada! --2 pts | atual: 7.206019
+episode reward: 1.000026
+Colidiu com cal�ada! --2 pts | atual: 3.199991
+Colidiu com cal�ada! --2 pts | atual: 1.103992
+Colidiu com parede! --2 pts | atual: -1.184004
+Colidiu com parede! --2 pts | atual: -3.31001
+Colidiu com parede! --2 pts | atual: -5.71998
+Colidiu com parede! --2 pts | atual: -8.041957
+Colidiu com cal�ada! --2 pts | atual: -10.07795
+Colidiu com parede! --2 pts | atual: -12.09795
+Colidiu com parede! --2 pts | atual: -14.16995
+Colidiu com cal�ada! --2 pts | atual: -16.22797
+episode reward: -21.00109
+Colidiu com cal�ada! --2 pts | atual: 9.150017
+episode reward: 11.00032
+episode reward: 5.000316
+Colidiu com cal�ada! --2 pts | atual: 7.306147
+episode reward: 3.000195
+episode reward: 28.59372
+episode reward: 7.000307
+episode reward: 28.73177
+Colidiu com cal�ada! --2 pts | atual: 2.581983
+episode reward: -3.000045
+episode reward: 7.000316
+Colidiu com cal�ada! --2 pts | atual: 6.904035
+episode reward: 1.00002
+episode reward: 1.000035
+episode reward: 28.1597
+episode reward: 1.000033
+episode reward: -1.000029
+episode reward: -1.000018
+episode reward: 9.0003
+Colidiu com parede! --2 pts | atual: 7.296025
+episode reward: 1.000038
+Colidiu com cal�ada! --2 pts | atual: 3.105991
+Colidiu com parede! --2 pts | atual: 0.9239937
+Colidiu com parede! --2 pts | atual: -2.534019
+episode reward: -6.999841
+Colidiu com cal�ada! --2 pts | atual: 10.26804
+Colidiu com cal�ada! --2 pts | atual: 10.15005
+Colidiu com cal�ada! --2 pts | atual: 8.066054
+Colidiu com cal�ada! --2 pts | atual: 17.41805
+episode reward: 20.41405
+episode reward: 3.000194
+Colidiu com cal�ada! --2 pts | atual: 1.442002
+Colidiu com cal�ada! --2 pts | atual: 3.945956
+episode reward: 0.9999679
+Colidiu com cal�ada! --2 pts | atual: 2.759994
+Colidiu com cal�ada! --2 pts | atual: 0.7599936
+episode reward: -5.000018
+Colidiu com cal�ada! --2 pts | atual: 0.9900087
+episode reward: -5
+episode reward: 11.0003
+Colidiu com cal�ada! --2 pts | atual: 1.360002
+Colidiu com cal�ada! --2 pts | atual: 6.668012
+Colidiu com cal�ada! --2 pts | atual: 19.64402
+episode reward: 22.52598
+Colidiu com parede! --2 pts | atual: 0.8280085
+episode reward: -5.000001
+Colidiu com cal�ada! --2 pts | atual: 0.7060096
+episode reward: -5.000002
+Colidiu com parede! --2 pts | atual: 7.182012
+episode reward: 1.000017
+Colidiu com cal�ada! --2 pts | atual: 1.770001
+Colidiu com cal�ada! --2 pts | atual: -0.2539988
+episode reward: 7.00028
+Colidiu com parede! --2 pts | atual: 7.130014
+Colidiu com parede! --2 pts | atual: 5.104016
+episode reward: -1.000011
+Colidiu com cal�ada! --2 pts | atual: 7.758172
+episode reward: 5.000227
+episode reward: 16.99857
+episode reward: 0.9999467
+episode reward: 11.0003
+episode reward: 5.000307
+Colidiu com cal�ada! --2 pts | atual: 0.9560064
+Colidiu com cal�ada! --2 pts | atual: -1.045994
+episode reward: -5.00001
+episode reward: 29.21184
+episode reward: 18.99861
+episode reward: 21.53999
+Colidiu com parede! --2 pts | atual: 7.192017
+episode reward: 1.000022
+episode reward: -0.9999644
+Colidiu com cal�ada! --2 pts | atual: 17.22557
+Colidiu com cal�ada! --2 pts | atual: 15.17157
+episode reward: 10.99973
+Colidiu com parede! --2 pts | atual: 9.302014
+Colidiu com parede! --2 pts | atual: 7.258018
+Colidiu com parede! --2 pts | atual: 5.210021
+Colidiu com parede! --2 pts | atual: 0.1639832
+Colidiu com parede! --2 pts | atual: -2.200024
+Colidiu com parede! --2 pts | atual: -4.685989
+Colidiu com parede! --2 pts | atual: -6.753984
+episode reward: -8.999967
+Colidiu com parede! --2 pts | atual: 6.544048
+episode reward: 1.000007
+Colidiu com cal�ada! --2 pts | atual: 6.674059
+Colidiu com cal�ada! --2 pts | atual: 4.674059
+episode reward: -0.9999481
+Colidiu com parede! --2 pts | atual: -0.3459887
+Colidiu com cal�ada! --2 pts | atual: -2.345989
+Colidiu com cal�ada! --2 pts | atual: -4.455981
+Colidiu com parede! --2 pts | atual: -6.47198
+episode reward: -10.9998
+Colidiu com parede! --2 pts | atual: 7.014037
+episode reward: 1.00003
+Colidiu com parede! --2 pts | atual: 1.959995
+Colidiu com parede! --2 pts | atual: -0.05600461
+episode reward: -5.000023
+Colidiu com cal�ada! --2 pts | atual: 0.9280066
+episode reward: 1.000036
+Colidiu com cal�ada! --2 pts | atual: 1.146004
+Colidiu com cal�ada! --2 pts | atual: -0.9939942
+episode reward: -1.000003
+Colidiu com parede! --2 pts | atual: 7.966087
+Colidiu com parede! --2 pts | atual: 5.862095
+Colidiu com parede! --2 pts | atual: 2.356025
+episode reward: -0.9999701
+Colidiu com cal�ada! --2 pts | atual: 16.27189
+Colidiu com cal�ada! --2 pts | atual: 14.06991
+Colidiu com parede! --2 pts | atual: 11.99591
+Colidiu com parede! --2 pts | atual: 9.92592
+episode reward: 5.000132
+Colidiu com parede! --2 pts | atual: 1.98999
+episode reward: -3.000038
+episode reward: -0.999979
+episode reward: 29.03776
+episode reward: 21.87598
+Colidiu com cal�ada! --2 pts | atual: 2.528
+Colidiu com cal�ada! --2 pts | atual: -0.1740002
+Colidiu com cal�ada! --2 pts | atual: -2.236003
+Colidiu com parede! --2 pts | atual: -4.260001
+episode reward: -8.999803
+episode reward: 1.00004
+Colidiu com cal�ada! --2 pts | atual: 2.692009
+Colidiu com cal�ada! --2 pts | atual: 0.6920087
+Colidiu com cal�ada! --2 pts | atual: -1.581983
+episode reward: -3.000026
+Colidiu com cal�ada! --2 pts | atual: -0.2499771
+episode reward: -0.9999747
+episode reward: 4.999942
+episode reward: -0.9999651
+episode reward: 5.000048
+Colidiu com cal�ada! --2 pts | atual: 14.2961
+episode reward: 19.05012
+episode reward: 28.97175
+Colidiu com parede! --2 pts | atual: 7.406012
+episode reward: 1.000033
+episode reward: 0.9999684
+Colidiu com cal�ada! --2 pts | atual: 3.393989
+Colidiu com cal�ada! --2 pts | atual: 0.9159955
+Colidiu com cal�ada! --2 pts | atual: -1.408
+Colidiu com cal�ada! --2 pts | atual: -4.447996
+Colidiu com cal�ada! --2 pts | atual: -7.933888
+Colidiu com cal�ada! --2 pts | atual: -10.56584
+episode reward: -12.99981
+episode reward: 28.63172
+Colidiu com parede! --2 pts | atual: 5.028042
+episode reward: -0.9999812
+episode reward: 16.99852
+Colidiu com cal�ada! --2 pts | atual: 14.53207
+Colidiu com cal�ada! --2 pts | atual: 11.86812
+episode reward: 7.00033
+Colidiu com cal�ada! --2 pts | atual: 5.526006
+Colidiu com cal�ada! --2 pts | atual: 3.526006
+episode reward: -3.00001
+Colidiu com parede! --2 pts | atual: 7.208017
+episode reward: 1.000024
+Colidiu com cal�ada! --2 pts | atual: 2.043996
+episode reward: -0.9999979
+Colidiu com parede! --2 pts | atual: 7.186018
+episode reward: 1.000023
+episode reward: -0.9999701
+Colidiu com parede! --2 pts | atual: 7.242016
+episode reward: 1.000025
+episode reward: -3.00001
+Colidiu com cal�ada! --2 pts | atual: 6.996049
+Colidiu com parede! --2 pts | atual: 4.664073
+episode reward: -0.9999336
+episode reward: 5.000319
+Colidiu com cal�ada! --2 pts | atual: 1.892013
+episode reward: -3.000015
+episode reward: 28.84781
+Colidiu com parede! --2 pts | atual: 7.276014
+episode reward: 1.000026
+episode reward: 11.00031
+episode reward: -0.9999831
+Colidiu com cal�ada! --2 pts | atual: 0.6920098
+episode reward: 1.000008
+episode reward: 16.99975
+Colidiu com cal�ada! --2 pts | atual: 1.114004
+Colidiu com cal�ada! --2 pts | atual: -0.9499949
+episode reward: -0.9999784
+episode reward: 21.582
+Colidiu com parede! --2 pts | atual: 6.508074
+episode reward: 1.00003
+Colidiu com cal�ada! --2 pts | atual: 14.35005
+episode reward: 9.000298
+episode reward: 1.000036
+Colidiu com parede! --2 pts | atual: 7.146019
+episode reward: 1.000021
+episode reward: 11.00025
+Colidiu com parede! --2 pts | atual: 2.389995
+episode reward: -3.000033
+episode reward: 21.454
+Colidiu com parede! --2 pts | atual: 2.351994
+episode reward: -3.000034
+episode reward: 21.52596
+episode reward: 7.00027
+episode reward: 1.00003
+episode reward: 7.000277
+episode reward: 16.99863
+Colidiu com parede! --2 pts | atual: 7.230015
+episode reward: 1.000023
+episode reward: 28.58173
+Colidiu com cal�ada! --2 pts | atual: 2.169972
+episode reward: -3.000056
+Colidiu com cal�ada! --2 pts | atual: 18.38601
+Colidiu com cal�ada! --2 pts | atual: 15.94986
+episode reward: 11.00008
+episode reward: -1.000022
+episode reward: 5.000151
+Colidiu com parede! --2 pts | atual: 7.080015
+episode reward: 1.000013
+Colidiu com parede! --2 pts | atual: 1.363981
+episode reward: -3.000048
+episode reward: 16.99873
+episode reward: 1.00002
+Colidiu com parede! --2 pts | atual: 6.602066
+episode reward: 1.000029
+Colidiu com parede! --2 pts | atual: 7.042017
+episode reward: 1.000013
+Colidiu com parede! --2 pts | atual: 2.029973
+episode reward: -3.000055
+episode reward: 27.24778
+episode reward: -3.000013
+Colidiu com parede! --2 pts | atual: 1.15398
+episode reward: -3.000052
+Colidiu com parede! --2 pts | atual: 6.888017
+episode reward: 1.000001
+Colidiu com parede! --2 pts | atual: 6.918047
+episode reward: 1.000033
+episode reward: 5.000293
+Colidiu com cal�ada! --2 pts | atual: 18.64801
+Colidiu com cal�ada! --2 pts | atual: 16.64601
+Colidiu com cal�ada! --2 pts | atual: 14.20605
+episode reward: 9.000278
+Colidiu com parede! --2 pts | atual: 6.878047
+episode reward: 1.000031
+Colidiu com cal�ada! --2 pts | atual: 23.03789
+Colidiu com cal�ada! --2 pts | atual: 20.93585
+Colidiu com cal�ada! --2 pts | atual: 18.5717
+episode reward: 14.99954
+Colidiu com cal�ada! --2 pts | atual: 3.054007
+episode reward: 0.9999865
+Colidiu com cal�ada! --2 pts | atual: 6.740151
+episode reward: 3.000158
+episode reward: 7.000317
+Colidiu com parede! --2 pts | atual: -0.427989
+episode reward: -4.99999
+Colidiu com parede! --2 pts | atual: 1.623963
+episode reward: -3.000065
+Colidiu com parede! --2 pts | atual: 6.912171
+episode reward: 3.000191
+Colidiu com cal�ada! --2 pts | atual: 7.062003
+Colidiu com cal�ada! --2 pts | atual: 5.022006
+episode reward: -1.000017
+Colidiu com cal�ada! --2 pts | atual: 11.49801
+episode reward: 19.55208
+Colidiu com parede! --2 pts | atual: 7.06403
+episode reward: 1.000026
+episode reward: 9.000308
+episode reward: 7.000118
+Colidiu com cal�ada! --2 pts | atual: 2.790004
+Colidiu com cal�ada! --2 pts | atual: 0.7460043
+episode reward: -5.000007
+episode reward: 28.336
+episode reward: 25.97405
+Colidiu com parede! --2 pts | atual: 5.590004
+Colidiu com parede! --2 pts | atual: 3.554003
+episode reward: -3.000012
+Colidiu com cal�ada! --2 pts | atual: 19.174
+Colidiu com cal�ada! --2 pts | atual: 17.172
+Colidiu com cal�ada! --2 pts | atual: 13.39613
+Colidiu com cal�ada! --2 pts | atual: 10.60219
+episode reward: 7.000301
+Colidiu com cal�ada! --2 pts | atual: 18.53502
+Colidiu com parede! --2 pts | atual: 16.2389
+episode reward: 12.99899
+Colidiu com cal�ada! --2 pts | atual: 16.91317
+Colidiu com cal�ada! --2 pts | atual: 14.90917
+Colidiu com parede! --2 pts | atual: 12.5252
+episode reward: 8.999312
+Colidiu com parede! --2 pts | atual: -0.6519868
+episode reward: -4.999977
+Colidiu com cal�ada! --2 pts | atual: 3.119969
+Colidiu com cal�ada! --2 pts | atual: 0.5159764
+Colidiu com cal�ada! --2 pts | atual: -1.648021
+Colidiu com cal�ada! --2 pts | atual: -4.064033
+Colidiu com cal�ada! --2 pts | atual: -6.266018
+Colidiu com cal�ada! --2 pts | atual: -8.755982
+episode reward: -12.99982
+Colidiu com parede! --2 pts | atual: 7.190027
+episode reward: 1.000033
+Colidiu com cal�ada! --2 pts | atual: 20.8198
+Colidiu com cal�ada! --2 pts | atual: 18.3416
+episode reward: 14.99954
+Colidiu com parede! --2 pts | atual: 6.900044
+episode reward: 1.000029
+episode reward: -3.000016
+Colidiu com cal�ada! --2 pts | atual: 6.890018
+Colidiu com cal�ada! --2 pts | atual: 4.032081
+Colidiu com cal�ada! --2 pts | atual: 2.030081
+episode reward: -2.999948
+Colidiu com cal�ada! --2 pts | atual: 16.83607
+Colidiu com cal�ada! --2 pts | atual: 14.83407
+Colidiu com cal�ada! --2 pts | atual: 12.81407
+episode reward: 9.000206
+Colidiu com parede! --2 pts | atual: 7.046022
+episode reward: 1.000018
+episode reward: 21.22994
+Colidiu com cal�ada! --2 pts | atual: 4.104107
+Colidiu com cal�ada! --2 pts | atual: 1.130113
+Colidiu com cal�ada! --2 pts | atual: -1.217882
+episode reward: -4.999846
+episode reward: 5.000182
+Colidiu com cal�ada! --2 pts | atual: 3.83422
+episode reward: 1.00023
+Colidiu com parede! --2 pts | atual: -0.0779855
+episode reward: -5.000003
+Colidiu com cal�ada! --2 pts | atual: 8.184149
+episode reward: 5.000235
+Colidiu com cal�ada! --2 pts | atual: 12.32006
+Colidiu com cal�ada! --2 pts | atual: 8.208213
+episode reward: 5.0003
+episode reward: 16.9986
+Colidiu com cal�ada! --2 pts | atual: 8.868127
+episode reward: 5.000262
+episode reward: -1.000006
+episode reward: -1.000021
+episode reward: -1.000007
+Colidiu com parede! --2 pts | atual: 7.100017
+episode reward: 1.000016
+Colidiu com cal�ada! --2 pts | atual: 11.30803
+episode reward: 19.00012
+episode reward: 21.07397
+Colidiu com cal�ada! --2 pts | atual: 6.912021
+Colidiu com cal�ada! --2 pts | atual: 9.902094
+Colidiu com parede! --2 pts | atual: 6.700181
+episode reward: 3.000185
+Colidiu com parede! --2 pts | atual: 2.307991
+episode reward: -3.000037
+Colidiu com parede! --2 pts | atual: 7.118015
+episode reward: 1.000016
+Colidiu com cal�ada! --2 pts | atual: 18.95184
+Colidiu com cal�ada! --2 pts | atual: 16.95184
+Colidiu com cal�ada! --2 pts | atual: 14.33788
+Colidiu com parede! --2 pts | atual: 11.27396
+episode reward: 8.999977
+Colidiu com parede! --2 pts | atual: 6.83002
+episode reward: 0.9999996
+episode reward: 21.09803
+Colidiu com cal�ada! --2 pts | atual: 22.86401
+episode reward: 25.81399
+episode reward: 27.95776
+episode reward: 7.00025
+Colidiu com cal�ada! --2 pts | atual: 2.66397
+Colidiu com parede! --2 pts | atual: 0.1819719
+Colidiu com cal�ada! --2 pts | atual: -3.332088
+Colidiu com parede! --2 pts | atual: -5.354086
+Colidiu com cal�ada! --2 pts | atual: -8.230023
+episode reward: -10.99997
+Colidiu com cal�ada! --2 pts | atual: 2.661972
+Colidiu com parede! --2 pts | atual: 0.1879735
+episode reward: -5.000045
+episode reward: -3.000013
+Colidiu com cal�ada! --2 pts | atual: 4.566025
+episode reward: -0.9999766
+Colidiu com cal�ada! --2 pts | atual: 8.670036
+Colidiu com cal�ada! --2 pts | atual: 6.130075
+Colidiu com cal�ada! --2 pts | atual: 4.106077
+Colidiu com cal�ada! --2 pts | atual: 2.104077
+episode reward: -2.999951
+episode reward: -1.000016
+episode reward: 1.000032
+episode reward: 21.20195
+Colidiu com cal�ada! --2 pts | atual: 8.916119
+episode reward: 5.000257
+episode reward: 20.84803
+Colidiu com parede! --2 pts | atual: 2.207971
+Colidiu com parede! --2 pts | atual: 0.1779708
+episode reward: -5.000048
+Colidiu com cal�ada! --2 pts | atual: 19.67184
+episode reward: 14.99924
+episode reward: 1.000034
+episode reward: 7.000222
+episode reward: -3.000012
+episode reward: 5.000305
+Colidiu com cal�ada! --2 pts | atual: 19.60799
+episode reward: 14.99942
+episode reward: 0.9999748
+Colidiu com cal�ada! --2 pts | atual: 2.295993
+episode reward: -3.000036
+episode reward: 1.000029
+Colidiu com cal�ada! --2 pts | atual: 4.416034
+Colidiu com cal�ada! --2 pts | atual: 2.402034
+episode reward: -2.999995
+episode reward: 27.56377
+episode reward: 7.000258
+Colidiu com cal�ada! --2 pts | atual: 2.631973
+Colidiu com cal�ada! --2 pts | atual: 0.4199748
+Colidiu com cal�ada! --2 pts | atual: -1.650024
+episode reward: -6.999823
+episode reward: 28.04774
+Colidiu com parede! --2 pts | atual: 0.6379681
+episode reward: -3.000071
+Colidiu com cal�ada! --2 pts | atual: 8.644131
+episode reward: 5.00025
+Colidiu com cal�ada! --2 pts | atual: 4.802064
+episode reward: -0.9999491
+episode reward: 7.00024
+episode reward: 0.9999853
+episode reward: 7.000255
+episode reward: 28.70388
+Colidiu com cal�ada! --2 pts | atual: 2.539958
+Colidiu com cal�ada! --2 pts | atual: 0.3639577
+Colidiu com parede! --2 pts | atual: -1.858039
+episode reward: -6.999828
+episode reward: 0.9999787
+episode reward: 3.000202
+Colidiu com cal�ada! --2 pts | atual: 11.45614
+episode reward: 7.000317
+Colidiu com cal�ada! --2 pts | atual: 3.388003
+Colidiu com cal�ada! --2 pts | atual: 1.388003
+episode reward: 3.000019
+episode reward: 28.07561
+Colidiu com cal�ada! --2 pts | atual: 7.32201
+episode reward: 1.000025
+episode reward: 20.96795
+Colidiu com cal�ada! --2 pts | atual: 16.13003
+Colidiu com cal�ada! --2 pts | atual: 14.32211
+episode reward: 11.00021
+episode reward: 7.000292
+Colidiu com cal�ada! --2 pts | atual: 9.544066
+episode reward: 5.000251
+episode reward: 27.14359
+Colidiu com parede! --2 pts | atual: 5.700221
+Colidiu com parede! --2 pts | atual: 3.516212
+episode reward: 1.000219
+episode reward: 21.32998
+Colidiu com parede! --2 pts | atual: 6.730024
+episode reward: 0.9999968
+episode reward: 18.99862
+Colidiu com cal�ada! --2 pts | atual: 10.62204
+episode reward: 5.000299
+Colidiu com cal�ada! --2 pts | atual: 16.31604
+Colidiu com cal�ada! --2 pts | atual: 14.30804
+Colidiu com cal�ada! --2 pts | atual: 14.22205
+Colidiu com cal�ada! --2 pts | atual: 12.22205
+Colidiu com cal�ada! --2 pts | atual: 10.20405
+episode reward: 7.000284
+episode reward: 28.39994
+episode reward: 0.9999987
+Colidiu com cal�ada! --2 pts | atual: 10.32207
+episode reward: 5.000309
+episode reward: 7.000269
+episode reward: 27.6657
+episode reward: 3.00019
+episode reward: 5.000319
+Colidiu com cal�ada! --2 pts | atual: 7.276007
+episode reward: 1.000019
+Colidiu com cal�ada! --2 pts | atual: 8.814032
+Colidiu com cal�ada! --2 pts | atual: 6.810032
+episode reward: 5.000308
+episode reward: 28.54199
+episode reward: 27.46771
+episode reward: 5.000301
+Colidiu com cal�ada! --2 pts | atual: 9.562099
+episode reward: 5.000285
+episode reward: 27.23171
+Colidiu com cal�ada! --2 pts | atual: 2.717968
+Colidiu com cal�ada! --2 pts | atual: 0.717968
+Colidiu com cal�ada! --2 pts | atual: -1.488029
+episode reward: -6.999836
+episode reward: -1.000021
+episode reward: -1.000026
+episode reward: 11.00028
+Colidiu com cal�ada! --2 pts | atual: 4.700023
+episode reward: -0.9999855
+Colidiu com cal�ada! --2 pts | atual: 2.217944
+Colidiu com parede! --2 pts | atual: -0.0920559
+Colidiu com cal�ada! --2 pts | atual: -2.962096
+Colidiu com cal�ada! --2 pts | atual: -5.04209
+Colidiu com cal�ada! --2 pts | atual: -7.206079
+Colidiu com cal�ada! --2 pts | atual: -9.252075
+Colidiu com cal�ada! --2 pts | atual: -11.28207
+Colidiu com cal�ada! --2 pts | atual: -13.34807
+Colidiu com cal�ada! --2 pts | atual: -15.35407
+Colidiu com cal�ada! --2 pts | atual: -17.38208
+Colidiu com cal�ada! --2 pts | atual: -19.4381
+Colidiu com cal�ada! --2 pts | atual: -21.49212
+Colidiu com cal�ada! --2 pts | atual: -23.61217
+Colidiu com cal�ada! --2 pts | atual: -25.64819
+Colidiu com cal�ada! --2 pts | atual: -27.91229
+Colidiu com cal�ada! --2 pts | atual: -29.94831
+Colidiu com cal�ada! --2 pts | atual: -32.00033
+Colidiu com cal�ada! --2 pts | atual: -34.08228
+Colidiu com cal�ada! --2 pts | atual: -36.14825
+Colidiu com cal�ada! --2 pts | atual: -38.24619
+Colidiu com cal�ada! --2 pts | atual: -40.32815
+Colidiu com cal�ada! --2 pts | atual: -42.39211
+Colidiu com cal�ada! --2 pts | atual: -44.64997
+Colidiu com cal�ada! --2 pts | atual: -46.85586
+Colidiu com cal�ada! --2 pts | atual: -48.87785
+episode reward: -50.99978
+Colidiu com cal�ada! --2 pts | atual: 3.732101
+episode reward: -0.999878
+Colidiu com cal�ada! --2 pts | atual: 0.99401
+episode reward: -4.999998
+episode reward: 7.000239
+episode reward: -3.000013
+Colidiu com parede! --2 pts | atual: 8.256228
+episode reward: 5.000319
+episode reward: 28.13176
+episode reward: 5.000322
+Colidiu com parede! --2 pts | atual: 6.750043
+episode reward: 1.000017
+Colidiu com cal�ada! --2 pts | atual: 4.618016
+episode reward: -0.9999881
+Colidiu com cal�ada! --2 pts | atual: 16.81202
+Colidiu com cal�ada! --2 pts | atual: 15.73972
+episode reward: 10.99992
+Colidiu com cal�ada! --2 pts | atual: 8.700123
+episode reward: 11.21016
+episode reward: 28.75793
+episode reward: 17.00021
+episode reward: 7.000285
+Colidiu com cal�ada! --2 pts | atual: 9.746073
+episode reward: 5.000272
+episode reward: 7.000318
+episode reward: 28.74388
+Colidiu com cal�ada! --2 pts | atual: 8.706127
+episode reward: 10.97618
+episode reward: 7.000274
+episode reward: 0.9999858
+episode reward: -1.00002
+episode reward: 1.000039
+Colidiu com cal�ada! --2 pts | atual: 5.436007
+Colidiu com cal�ada! --2 pts | atual: 3.276
+Colidiu com cal�ada! --2 pts | atual: 1.27
+Colidiu com cal�ada! --2 pts | atual: -0.8999982
+Colidiu com cal�ada! --2 pts | atual: -4.208035
+Colidiu com cal�ada! --2 pts | atual: -7.405948
+Colidiu com cal�ada! --2 pts | atual: -9.409947
+Colidiu com parede! --2 pts | atual: -11.75592
+Colidiu com parede! --2 pts | atual: -13.79392
+episode reward: -17.00031
+Colidiu com cal�ada! --2 pts | atual: 4.696022
+episode reward: -0.9999864
+episode reward: 7.000242
+Colidiu com parede! --2 pts | atual: 6.936034
+episode reward: 1.000021
+episode reward: 13.00024
+episode reward: 28.36991
+episode reward: 17.00023
+episode reward: 22.28619
+Colidiu com cal�ada! --2 pts | atual: 18.378
+episode reward: 13.00006
+episode reward: 13.65413
+episode reward: 13.69614
+Colidiu com cal�ada! --2 pts | atual: 4.832023
+episode reward: -0.9999912
+Colidiu com cal�ada! --2 pts | atual: 4.626026
+Colidiu com cal�ada! --2 pts | atual: 2.624026
+episode reward: -3.000001
+Colidiu com cal�ada! --2 pts | atual: 4.648021
+Colidiu com cal�ada! --2 pts | atual: 2.644021
+episode reward: -3.000006
+Colidiu com cal�ada! --2 pts | atual: 4.646023
+Colidiu com cal�ada! --2 pts | atual: 2.424012
+episode reward: -3.000016
+Colidiu com cal�ada! --2 pts | atual: 2.505958
+Colidiu com cal�ada! --2 pts | atual: 0.4999581
+episode reward: -5.000056
+episode reward: 18.44015
+episode reward: 21.32196
+episode reward: 13.69014
+Colidiu com parede! --2 pts | atual: 6.844038
+episode reward: 1.000019
+episode reward: 13.81013
+Colidiu com cal�ada! --2 pts | atual: 10.54407
+Colidiu com cal�ada! --2 pts | atual: 8.542068
+episode reward: 3.000205
+episode reward: 13.92212
+episode reward: 28.08175
+episode reward: 3.000197
+Colidiu com cal�ada! --2 pts | atual: 9.834079
+Colidiu com cal�ada! --2 pts | atual: 7.828079
+episode reward: 3.000165
+Colidiu com cal�ada! --2 pts | atual: 6.088095
+episode reward: 1.000021
+Colidiu com cal�ada! --2 pts | atual: 2.541958
+episode reward: -3.00007
+episode reward: 21.43197
+Colidiu com parede! --2 pts | atual: 3.529996
+episode reward: -3.000019
+episode reward: 22.79197
+episode reward: 14.66609
+episode reward: 9.000316
+Colidiu com parede! --2 pts | atual: 8.498055
+Colidiu com parede! --2 pts | atual: 5.404135
+Colidiu com parede! --2 pts | atual: 1.798072
+episode reward: -0.9999225
+Colidiu com cal�ada! --2 pts | atual: 2.513959
+episode reward: -3.000069
+Colidiu com parede! --2 pts | atual: 3.187984
+Colidiu com parede! --2 pts | atual: 1.157984
+Colidiu com parede! --2 pts | atual: -0.8960149
+Colidiu com parede! --2 pts | atual: -2.960018
+Colidiu com parede! --2 pts | atual: -5.024014
+Colidiu com parede! --2 pts | atual: -7.088009
+Colidiu com parede! --2 pts | atual: -9.174003
+Colidiu com parede! --2 pts | atual: -11.276
+Colidiu com parede! --2 pts | atual: -13.37799
+Colidiu com parede! --2 pts | atual: -15.44798
+Colidiu com parede! --2 pts | atual: -17.51001
+Colidiu com parede! --2 pts | atual: -19.57003
+Colidiu com parede! --2 pts | atual: -21.64406
+Colidiu com parede! --2 pts | atual: -23.70209
+Colidiu com parede! --2 pts | atual: -25.77612
+Colidiu com parede! --2 pts | atual: -27.85615
+Colidiu com parede! --2 pts | atual: -29.91417
+Colidiu com parede! --2 pts | atual: -31.9862
+Colidiu com parede! --2 pts | atual: -34.06216
+Colidiu com parede! --2 pts | atual: -36.12212
+Colidiu com parede! --2 pts | atual: -38.15411
+Colidiu com parede! --2 pts | atual: -40.20008
+Colidiu com parede! --2 pts | atual: -42.20808
+Colidiu com parede! --2 pts | atual: -44.22407
+Colidiu com parede! --2 pts | atual: -46.24206
+Colidiu com parede! --2 pts | atual: -48.26405
+Colidiu com parede! --2 pts | atual: -50.27004
+Colidiu com parede! --2 pts | atual: -52.29803
+Colidiu com parede! --2 pts | atual: -54.36199
+Colidiu com parede! --2 pts | atual: -56.39797
+Colidiu com parede! --2 pts | atual: -58.43995
+Colidiu com parede! --2 pts | atual: -60.46793
+Colidiu com parede! --2 pts | atual: -62.47793
+Colidiu com parede! --2 pts | atual: -64.82174
+episode reward: -68.99854
+episode reward: 11.0003
+Colidiu com cal�ada! --2 pts | atual: 23.35791
+episode reward: 26.3539
+episode reward: 21.40398
+Colidiu com cal�ada! --2 pts | atual: 3.592091
+Colidiu com cal�ada! --2 pts | atual: 0.9120994
+Colidiu com parede! --2 pts | atual: -1.685893
+episode reward: -4.999835
+Colidiu com parede! --2 pts | atual: 6.718037
+episode reward: 1.000009
+Colidiu com parede! --2 pts | atual: 2.241946
+episode reward: -3.000082
+Colidiu com cal�ada! --2 pts | atual: 7.004169
+Colidiu com parede! --2 pts | atual: 4.232225
+episode reward: 1.000227
+episode reward: 14.27409
+Colidiu com cal�ada! --2 pts | atual: 19.30145
+Colidiu com cal�ada! --2 pts | atual: 17.29945
+episode reward: 12.99962
+Colidiu com cal�ada! --2 pts | atual: 2.70197
+Colidiu com cal�ada! --2 pts | atual: 0.6359712
+episode reward: -5.000041
+Colidiu com cal�ada! --2 pts | atual: 4.506078
+Colidiu com cal�ada! --2 pts | atual: 1.634059
+Colidiu com cal�ada! --2 pts | atual: -1.011935
+Colidiu com parede! --2 pts | atual: -3.249946
+episode reward: -6.999819
+Colidiu com cal�ada! --2 pts | atual: 9.732094
+episode reward: 5.000292
+episode reward: 3.00017
+Colidiu com cal�ada! --2 pts | atual: 9.554099
+episode reward: 5.000284
+episode reward: 1.000002
+episode reward: 18.99868
+episode reward: 14.25411
+Colidiu com cal�ada! --2 pts | atual: 14.28407
+Colidiu com cal�ada! --2 pts | atual: 11.57812
+Colidiu com cal�ada! --2 pts | atual: 9.554119
+episode reward: 5.000304
+Colidiu com cal�ada! --2 pts | atual: 8.356068
+Colidiu com cal�ada! --2 pts | atual: 6.202079
+Colidiu com cal�ada! --2 pts | atual: 4.200079
+Colidiu com cal�ada! --2 pts | atual: 2.01007
+Colidiu com cal�ada! --2 pts | atual: -0.9659246
+Colidiu com cal�ada! --2 pts | atual: -2.997926
+episode reward: -6.999781
+episode reward: 28.44774
+episode reward: 28.56373
+Colidiu com cal�ada! --2 pts | atual: 18.40723
+Colidiu com parede! --2 pts | atual: 15.80508
+episode reward: 12.99914
+Colidiu com cal�ada! --2 pts | atual: 3.908109
+Colidiu com parede! --2 pts | atual: 1.02012
+episode reward: -2.999913
+Colidiu com cal�ada! --2 pts | atual: 8.254082
+Colidiu com cal�ada! --2 pts | atual: 6.254082
+Colidiu com cal�ada! --2 pts | atual: 3.512077
+Colidiu com parede! --2 pts | atual: 0.9460846
+episode reward: -2.99995
+episode reward: 21.472
+Colidiu com cal�ada! --2 pts | atual: 9.134123
+episode reward: 5.000278
+Colidiu com parede! --2 pts | atual: 8.480206
+episode reward: 5.000313
+Colidiu com cal�ada! --2 pts | atual: 5.010039
+Colidiu com cal�ada! --2 pts | atual: 3.010039
+Colidiu com cal�ada! --2 pts | atual: -0.1299552
+Colidiu com cal�ada! --2 pts | atual: -2.177957
+Colidiu com cal�ada! --2 pts | atual: -5.261879
+Colidiu com parede! --2 pts | atual: -7.445866
+episode reward: -10.99975
+episode reward: 14.19211
+Colidiu com cal�ada! --2 pts | atual: 5.290018
+Colidiu com parede! --2 pts | atual: 1.095969
+episode reward: -3.000064
+Colidiu com cal�ada! --2 pts | atual: 10.89616
+episode reward: 7.000299
+episode reward: 28.98186
+episode reward: 1.000002
+episode reward: 28.91175
+episode reward: 28.76586
+Colidiu com parede! --2 pts | atual: 7.246022
+episode reward: 1.000032
+episode reward: 28.96183
+Colidiu com cal�ada! --2 pts | atual: 14.86604
+Colidiu com parede! --2 pts | atual: 11.44814
+episode reward: 7.000321
+episode reward: 21.576
+episode reward: 28.91376
+Colidiu com parede! --2 pts | atual: 3.106077
+episode reward: -0.9999101
+Colidiu com cal�ada! --2 pts | atual: 8.914032
+Colidiu com cal�ada! --2 pts | atual: 6.882034
+Colidiu com cal�ada! --2 pts | atual: 12.99217
+Colidiu com cal�ada! --2 pts | atual: 10.99217
+Colidiu com cal�ada! --2 pts | atual: 8.87618
+Colidiu com cal�ada! --2 pts | atual: 6.836183
+episode reward: 3.000196
+Colidiu com parede! --2 pts | atual: 7.298018
+episode reward: 1.000031
+Colidiu com cal�ada! --2 pts | atual: 9.55609
+episode reward: 12.3681
+episode reward: 23.46402
+Colidiu com parede! --2 pts | atual: 11.06616
+episode reward: 7.000315
+episode reward: 1.000003
+Colidiu com cal�ada! --2 pts | atual: 7.382158
+Colidiu com parede! --2 pts | atual: 5.190172
+episode reward: 1.000129
+Colidiu com cal�ada! --2 pts | atual: 4.344091
+Colidiu com cal�ada! --2 pts | atual: 2.342091
+Colidiu com parede! --2 pts | atual: -0.7459065
+episode reward: -4.999893
+Colidiu com parede! --2 pts | atual: 1.167927
+episode reward: -3.000105
+Colidiu com cal�ada! --2 pts | atual: 10.02207
+episode reward: 12.54011
+episode reward: 1.000009
+episode reward: 21.73798
+Colidiu com parede! --2 pts | atual: 7.272021
+episode reward: 1.000033
+episode reward: 16.99861
+episode reward: 1.000003
+episode reward: 21.56404
+episode reward: -1.000047
+Colidiu com cal�ada! --2 pts | atual: 8.074109
+Colidiu com parede! --2 pts | atual: 5.390159
+episode reward: 1.000107
+Colidiu com cal�ada! --2 pts | atual: 8.032115
+Colidiu com parede! --2 pts | atual: 5.576148
+episode reward: 1.000087
+Colidiu com parede! --2 pts | atual: 7.528285
+episode reward: 5.000323
+Colidiu com parede! --2 pts | atual: 8.704191
+episode reward: 5.000315
+Colidiu com parede! --2 pts | atual: 7.042025
+Colidiu com parede! --2 pts | atual: 4.97003
+episode reward: -0.9999909
+Colidiu com parede! --2 pts | atual: 18.51511
+Colidiu com parede! --2 pts | atual: 16.50111
+Colidiu com parede! --2 pts | atual: 14.44911
+episode reward: 10.99922
+Colidiu com cal�ada! --2 pts | atual: 5.368011
+Colidiu com cal�ada! --2 pts | atual: 2.997994
+Colidiu com cal�ada! --2 pts | atual: -0.4740007
+Colidiu com cal�ada! --2 pts | atual: -2.474001
+Colidiu com parede! --2 pts | atual: -4.607991
+Colidiu com parede! --2 pts | atual: -6.673986
+episode reward: -10.99982
+episode reward: 19.77811
+Colidiu com cal�ada! --2 pts | atual: 2.625945
+Colidiu com cal�ada! --2 pts | atual: 0.3779467
+Colidiu com cal�ada! --2 pts | atual: -1.622053
+Colidiu com parede! --2 pts | atual: -4.690021
+Colidiu com parede! --2 pts | atual: -6.70802
+episode reward: -10.99985
+Colidiu com parede! --2 pts | atual: 9.678114
+Colidiu com parede! --2 pts | atual: 7.626118
+Colidiu com parede! --2 pts | atual: 4.790178
+episode reward: 1.000154
+Colidiu com cal�ada! --2 pts | atual: 18.49322
+Colidiu com cal�ada! --2 pts | atual: 16.49322
+Colidiu com parede! --2 pts | atual: 14.33323
+episode reward: 10.99933
+Colidiu com cal�ada! --2 pts | atual: 10.87205
+Colidiu com parede! --2 pts | atual: 7.260163
+Colidiu com parede! --2 pts | atual: 5.16217
+episode reward: 1.000129
+episode reward: 1.000006
+Colidiu com parede! --2 pts | atual: 8.452065
+episode reward: 3.000196
+episode reward: 19.8101
+episode reward: 21.91999
+Colidiu com cal�ada! --2 pts | atual: 3.538
+Colidiu com cal�ada! --2 pts | atual: 1.53
+Colidiu com cal�ada! --2 pts | atual: 1.250004
+Colidiu com cal�ada! --2 pts | atual: 4.272017
+episode reward: -0.9999717
+episode reward: 15.09208
+Colidiu com parede! --2 pts | atual: 7.210023
+episode reward: 1.00003
+Colidiu com cal�ada! --2 pts | atual: 5.002016
+episode reward: -1.000007
+Colidiu com cal�ada! --2 pts | atual: 12.71006
+Colidiu com cal�ada! --2 pts | atual: 10.31209
+Colidiu com cal�ada! --2 pts | atual: 8.144097
+Colidiu com parede! --2 pts | atual: 5.602137
+Colidiu com parede! --2 pts | atual: 3.528133
+episode reward: -0.9998485
+Colidiu com cal�ada! --2 pts | atual: 5.262033
+Colidiu com cal�ada! --2 pts | atual: 3.010021
+Colidiu com cal�ada! --2 pts | atual: 1.006021
+Colidiu com cal�ada! --2 pts | atual: -1.593971
+Colidiu com cal�ada! --2 pts | atual: -4.035988
+Colidiu com cal�ada! --2 pts | atual: -6.037988
+Colidiu com parede! --2 pts | atual: -8.193976
+episode reward: -12.99977
+episode reward: 14.70809
+episode reward: 29.35582
+Colidiu com cal�ada! --2 pts | atual: 1.702001
+episode reward: 5.000299
+episode reward: 21.84399
+Colidiu com cal�ada! --2 pts | atual: 7.132013
+Colidiu com cal�ada! --2 pts | atual: 5.122014
+episode reward: -1.000014
+episode reward: 29.34388
+Colidiu com cal�ada! --2 pts | atual: 14.87404
+Colidiu com cal�ada! --2 pts | atual: 12.87204
+Colidiu com cal�ada! --2 pts | atual: 10.62406
+Colidiu com cal�ada! --2 pts | atual: 8.318085
+Colidiu com cal�ada! --2 pts | atual: 6.290087
+Colidiu com cal�ada! --2 pts | atual: 4.290087
+Colidiu com parede! --2 pts | atual: 1.712077
+episode reward: -2.999951
+Colidiu com parede! --2 pts | atual: 7.354015
+episode reward: 1.000033
+Colidiu com cal�ada! --2 pts | atual: 10.26607
+Colidiu com cal�ada! --2 pts | atual: 9.790107
+Colidiu com cal�ada! --2 pts | atual: 5.236292
+episode reward: 3.000281
+Colidiu com cal�ada! --2 pts | atual: 5.510014
+Colidiu com cal�ada! --2 pts | atual: 3.093994
+Colidiu com cal�ada! --2 pts | atual: 1.073994
+Colidiu com cal�ada! --2 pts | atual: -1.088004
+Colidiu com parede! --2 pts | atual: -3.238011
+episode reward: -8.999738
+Colidiu com cal�ada! --2 pts | atual: 5.268032
+Colidiu com parede! --2 pts | atual: 1.701976
+episode reward: -3.000051
+Colidiu com cal�ada! --2 pts | atual: 10.26806
+episode reward: 7.000298
+episode reward: 7.000319
+episode reward: 14.4201
+Colidiu com parede! --2 pts | atual: 7.046033
+episode reward: 1.000028
+Colidiu com parede! --2 pts | atual: 13.48614
+episode reward: 9.000322
+Colidiu com cal�ada! --2 pts | atual: 2.109934
+Colidiu com parede! --2 pts | atual: -0.3200661
+episode reward: -5.000072
+Colidiu com cal�ada! --2 pts | atual: 22.13588
+Colidiu com cal�ada! --2 pts | atual: 20.11987
+Colidiu com cal�ada! --2 pts | atual: 19.99182
+Colidiu com cal�ada! --2 pts | atual: 17.58566
+Colidiu com cal�ada! --2 pts | atual: 14.50374
+Colidiu com cal�ada! --2 pts | atual: 12.42974
+episode reward: 8.999846
+Colidiu com parede! --2 pts | atual: 7.546145
+episode reward: 3.000211
+Colidiu com cal�ada! --2 pts | atual: 5.332026
+Colidiu com cal�ada! --2 pts | atual: 3.308025
+Colidiu com cal�ada! --2 pts | atual: 0.6160343
+Colidiu com parede! --2 pts | atual: -3.32202
+episode reward: -6.999898
+episode reward: -1.000047
+Colidiu com cal�ada! --2 pts | atual: 10.03008
+episode reward: 12.89609
+Colidiu com parede! --2 pts | atual: 7.10403
+episode reward: 1.000029
+episode reward: 1.000042
+Colidiu com cal�ada! --2 pts | atual: 5.276029
+episode reward: -1.000006
+episode reward: 18.99859
+Colidiu com cal�ada! --2 pts | atual: 6.950033
+episode reward: 1.000021
+Colidiu com cal�ada! --2 pts | atual: 21.7377
+episode reward: 16.99859
+Colidiu com cal�ada! --2 pts | atual: 1.702001
+Colidiu com cal�ada! --2 pts | atual: 8.45204
+episode reward: 3.000171
+episode reward: 28.81375
+episode reward: -1.000047
+episode reward: 7.000331
+Colidiu com cal�ada! --2 pts | atual: 10.49206
+Colidiu com cal�ada! --2 pts | atual: 7.182302
+Colidiu com cal�ada! --2 pts | atual: 5.178303
+Colidiu com cal�ada! --2 pts | atual: 3.020295
+Colidiu com cal�ada! --2 pts | atual: 1.018295
+episode reward: -0.9997044
+episode reward: 18.9985
+episode reward: 3.000195
+Colidiu com parede! --2 pts | atual: 7.050028
+episode reward: 1.000024
+Colidiu com parede! --2 pts | atual: 6.942029
+episode reward: 1.000017
+episode reward: 5.000326
+episode reward: 28.86174
+episode reward: 3.000218
+episode reward: 14.6841
+Colidiu com parede! --2 pts | atual: 8.946041
+episode reward: 3.000208
+episode reward: 17.91204
+Colidiu com cal�ada! --2 pts | atual: 6.954034
+Colidiu com cal�ada! --2 pts | atual: 5.776119
+episode reward: 1.000049
+Colidiu com cal�ada! --2 pts | atual: 12.04809
+Colidiu com cal�ada! --2 pts | atual: 11.8561
+Colidiu com cal�ada! --2 pts | atual: 9.454133
+episode reward: 5.000311
+episode reward: 28.84783
+episode reward: 1.000009
+episode reward: 14.81607
+episode reward: 11.00031
+episode reward: 23.902
+Colidiu com cal�ada! --2 pts | atual: 3.137981
+episode reward: -3.00004
+episode reward: 15.24807
+Colidiu com cal�ada! --2 pts | atual: 10.61406
+Colidiu com cal�ada! --2 pts | atual: 5.030321
+episode reward: 3.00032
+Colidiu com parede! --2 pts | atual: 6.824185
+episode reward: 3.000198
+Colidiu com cal�ada! --2 pts | atual: 8.704045
+Colidiu com cal�ada! --2 pts | atual: 8.454063
+Colidiu com cal�ada! --2 pts | atual: 17.388
+episode reward: 13.00017
+Colidiu com cal�ada! --2 pts | atual: 15.92208
+Colidiu com cal�ada! --2 pts | atual: 15.81609
+Colidiu com cal�ada! --2 pts | atual: 15.49012
+Colidiu com cal�ada! --2 pts | atual: 15.40012
+Colidiu com cal�ada! --2 pts | atual: 15.32613
+Colidiu com cal�ada! --2 pts | atual: 12.69617
+Colidiu com cal�ada! --2 pts | atual: 9.430264
+Colidiu com cal�ada! --2 pts | atual: 7.382268
+episode reward: 5.000296
+episode reward: 1.000035
+Colidiu com cal�ada! --2 pts | atual: 15.3599
+Colidiu com cal�ada! --2 pts | atual: 13.3599
+episode reward: 9.000073
+Colidiu com cal�ada! --2 pts | atual: 10.38007
+Colidiu com cal�ada! --2 pts | atual: 8.378068
+Colidiu com cal�ada! --2 pts | atual: 6.34607
+Colidiu com cal�ada! --2 pts | atual: 7.872105
+Colidiu com cal�ada! --2 pts | atual: 5.860106
+Colidiu com cal�ada! --2 pts | atual: 9.550124
+Colidiu com cal�ada! --2 pts | atual: 9.382136
+Colidiu com cal�ada! --2 pts | atual: 9.32814
+Colidiu com cal�ada! --2 pts | atual: 7.322141
+Colidiu com cal�ada! --2 pts | atual: 4.522199
+episode reward: 1.000187
+episode reward: 27.48194
+episode reward: 26.66978
+episode reward: 14.60809
+episode reward: 23.65795
+episode reward: 17.70005
+Colidiu com parede! --2 pts | atual: 9.002033
+Colidiu com parede! --2 pts | atual: 6.986034
+episode reward: 1.000025
+episode reward: 1.000034
+Colidiu com cal�ada! --2 pts | atual: 8.764031
+Colidiu com cal�ada! --2 pts | atual: 8.086081
+Colidiu com cal�ada! --2 pts | atual: 6.074081
+Colidiu com cal�ada! --2 pts | atual: 7.900094
+Colidiu com cal�ada! --2 pts | atual: 5.808101
+Colidiu com cal�ada! --2 pts | atual: 3.780099
+Colidiu com cal�ada! --2 pts | atual: 1.774099
+Colidiu com cal�ada! --2 pts | atual: 3.312092
+episode reward: 5.030102
+Colidiu com cal�ada! --2 pts | atual: 13.38013
+Colidiu com cal�ada! --2 pts | atual: 11.31413
+Colidiu com cal�ada! --2 pts | atual: 8.022225
+episode reward: 5.000299
+Colidiu com cal�ada! --2 pts | atual: 10.65204
+episode reward: 5.000307
+Colidiu com cal�ada! --2 pts | atual: 5.144013
+episode reward: -1.000016
+Colidiu com parede! --2 pts | atual: 8.764041
+Colidiu com parede! --2 pts | atual: 6.726044
+Colidiu com parede! --2 pts | atual: 4.08609
+Colidiu com parede! --2 pts | atual: 1.940087
+episode reward: 7.000118
+Colidiu com cal�ada! --2 pts | atual: 8.23807
+Colidiu com cal�ada! --2 pts | atual: 7.244143
+episode reward: 3.000186
+episode reward: 1.000016
+episode reward: 14.60208
+Colidiu com cal�ada! --2 pts | atual: 5.362004
+Colidiu com cal�ada! --2 pts | atual: 3.360004
+Colidiu com cal�ada! --2 pts | atual: 8.934021
+episode reward: 13.67804
+episode reward: 16.99856
+episode reward: 1.000035
+episode reward: 26.55959
+episode reward: 21.89397
+Colidiu com cal�ada! --2 pts | atual: 8.154089
+episode reward: 3.000198
+episode reward: 24.70371
+episode reward: 15.06608
+episode reward: 14.74608
+Colidiu com parede! --2 pts | atual: 6.96403
+Colidiu com parede! --2 pts | atual: 4.940032
+Colidiu com parede! --2 pts | atual: 1.86399
+episode reward: 4.999993
+episode reward: 21.77198
+Colidiu com cal�ada! --2 pts | atual: 6.970026
+Colidiu com parede! --2 pts | atual: 5.370142
+episode reward: 1.000091
+Colidiu com cal�ada! --2 pts | atual: 4.610074
+Colidiu com cal�ada! --2 pts | atual: 2.234056
+Colidiu com cal�ada! --2 pts | atual: 0.1140563
+Colidiu com cal�ada! --2 pts | atual: -1.925943
+episode reward: -6.99973
+Colidiu com cal�ada! --2 pts | atual: 12.10207
+Colidiu com cal�ada! --2 pts | atual: 9.720246
+episode reward: 7.000299
+Colidiu com cal�ada! --2 pts | atual: 5.182008
+episode reward: -1.000023
+episode reward: 15.05407
+episode reward: 23.41186
+Colidiu com cal�ada! --2 pts | atual: 5.116016
+episode reward: -1.000011
+episode reward: 29.04978
+episode reward: 23.61202
+Colidiu com cal�ada! --2 pts | atual: 6.822031
+Colidiu com cal�ada! --2 pts | atual: 6.318068
+Colidiu com cal�ada! --2 pts | atual: 4.308068
+Colidiu com parede! --2 pts | atual: 1.344062
+episode reward: -2.999967
+Colidiu com cal�ada! --2 pts | atual: 21.84374
+Colidiu com cal�ada! --2 pts | atual: 19.05543
+episode reward: 14.99907
+Colidiu com cal�ada! --2 pts | atual: 9.308026
+Colidiu com cal�ada! --2 pts | atual: 7.304027
+Colidiu com cal�ada! --2 pts | atual: 5.198034
+episode reward: 9.674069
+episode reward: 28.62136
+Colidiu com cal�ada! --2 pts | atual: 22.27389
+episode reward: 25.18785
+episode reward: 21.59799
+episode reward: 19.61006
+episode reward: 21.81799
+Colidiu com cal�ada! --2 pts | atual: 22.49795
+Colidiu com cal�ada! --2 pts | atual: 20.30787
+Colidiu com cal�ada! --2 pts | atual: 17.76965
+Colidiu com cal�ada! --2 pts | atual: 15.47167
+Colidiu com cal�ada! --2 pts | atual: 12.76572
+Colidiu com cal�ada! --2 pts | atual: 9.625807
+episode reward: 6.999852
+episode reward: 22.01796
+Colidiu com cal�ada! --2 pts | atual: 11.72625
+Colidiu com cal�ada! --2 pts | atual: 9.324277
+episode reward: 7.0003
+Colidiu com cal�ada! --2 pts | atual: 5.062001
+episode reward: -1.000024
+Colidiu com cal�ada! --2 pts | atual: 7.860109
+episode reward: 9.624199
+episode reward: 15.06808
+Colidiu com cal�ada! --2 pts | atual: 22.36991
+episode reward: 16.99855
+episode reward: 23.7
+Colidiu com cal�ada! --2 pts | atual: 10.26207
+Colidiu com cal�ada! --2 pts | atual: 8.262068
+Colidiu com cal�ada! --2 pts | atual: 9.328135
+Colidiu com cal�ada! --2 pts | atual: 7.326136
+Colidiu com cal�ada! --2 pts | atual: 4.810173
+Colidiu com cal�ada! --2 pts | atual: 2.810173
+Colidiu com parede! --2 pts | atual: -0.9058191
+episode reward: -2.999823
+Colidiu com cal�ada! --2 pts | atual: 10.74005
+Colidiu com cal�ada! --2 pts | atual: 8.740048
+episode reward: 24.73804
+Colidiu com cal�ada! --2 pts | atual: 9.39802
+Colidiu com cal�ada! --2 pts | atual: 7.288028
+episode reward: 11.88606
+episode reward: 27.3239
+episode reward: 19.29807
+episode reward: 29.07376
+Colidiu com cal�ada! --2 pts | atual: 15.00004
+Colidiu com cal�ada! --2 pts | atual: 20.27983
+Colidiu com cal�ada! --2 pts | atual: 18.26983
+episode reward: 12.99994
+Colidiu com cal�ada! --2 pts | atual: 13.66411
+Colidiu com cal�ada! --2 pts | atual: 10.28221
+episode reward: 7.000299
+episode reward: 1.000017
+Colidiu com cal�ada! --2 pts | atual: 6.932027
+Colidiu com cal�ada! --2 pts | atual: 6.248076
+Colidiu com parede! --2 pts | atual: 3.252059
+episode reward: -0.9999257
+episode reward: 14.89408
+episode reward: 21.96598
+Colidiu com cal�ada! --2 pts | atual: 22.40387
+episode reward: 25.33384
+episode reward: 1.000036
+Colidiu com parede! --2 pts | atual: 23.76731
+episode reward: 20.999
+Colidiu com cal�ada! --2 pts | atual: 16.91201
+Colidiu com cal�ada! --2 pts | atual: 14.91201
+episode reward: 17.85601
+Colidiu com cal�ada! --2 pts | atual: 22.00377
+episode reward: 16.99855
+episode reward: 19.53006
+episode reward: 23.65795
+Colidiu com cal�ada! --2 pts | atual: 11.40802
+episode reward: 19.84806
+Colidiu com cal�ada! --2 pts | atual: 16.63401
+episode reward: 21.33393
+Colidiu com cal�ada! --2 pts | atual: 13.04604
+episode reward: 15.98404
+episode reward: 14.78208
+episode reward: 14.99808
+episode reward: 13.08211
+Colidiu com cal�ada! --2 pts | atual: 22.08575
+episode reward: 16.9985
+Colidiu com cal�ada! --2 pts | atual: 7.108021
+Colidiu com cal�ada! --2 pts | atual: 5.096022
+Colidiu com cal�ada! --2 pts | atual: 6.728046
+Colidiu com cal�ada! --2 pts | atual: 6.510062
+Colidiu com cal�ada! --2 pts | atual: 4.422069
+Colidiu com cal�ada! --2 pts | atual: 7.844088
+episode reward: 16.39812
+Colidiu com cal�ada! --2 pts | atual: 6.760037
+Colidiu com cal�ada! --2 pts | atual: 6.212077
+Colidiu com parede! --2 pts | atual: 3.29806
+episode reward: -0.9999249
+Colidiu com cal�ada! --2 pts | atual: 8.682054
+Colidiu com cal�ada! --2 pts | atual: 6.190089
+Colidiu com cal�ada! --2 pts | atual: 2.910052
+Colidiu com cal�ada! --2 pts | atual: 0.9080521
+episode reward: -2.999983
+Colidiu com cal�ada! --2 pts | atual: 8.49208
+Colidiu com cal�ada! --2 pts | atual: 7.998116
+Colidiu com cal�ada! --2 pts | atual: 5.994116
+episode reward: 8.87611
+episode reward: 28.62537
+episode reward: 21.67797
+episode reward: 29.11134
+Colidiu com cal�ada! --2 pts | atual: 7.186033
+Colidiu com cal�ada! --2 pts | atual: 6.566078
+episode reward: 9.370092
+episode reward: 29.00387
+episode reward: 1.000011
+Colidiu com cal�ada! --2 pts | atual: 22.10774
+Colidiu com cal�ada! --2 pts | atual: 20.10574
+episode reward: 14.99896
+Colidiu com parede! --2 pts | atual: 16.66409
+Colidiu com parede! --2 pts | atual: 14.5761
+Colidiu com parede! --2 pts | atual: 12.44211
+Colidiu com parede! --2 pts | atual: 10.25612
+episode reward: 7.000214
+episode reward: 18.99841
+Colidiu com cal�ada! --2 pts | atual: 7.54201
+Colidiu com cal�ada! --2 pts | atual: 9.340025
+episode reward: 3.00022
+episode reward: 16.16603
+Colidiu com cal�ada! --2 pts | atual: 13.45212
+Colidiu com cal�ada! --2 pts | atual: 11.09414
+Colidiu com cal�ada! --2 pts | atual: 9.030149
+episode reward: 5.000297
+Colidiu com cal�ada! --2 pts | atual: 8.746046
+Colidiu com cal�ada! --2 pts | atual: 8.200086
+Colidiu com cal�ada! --2 pts | atual: 6.196086
+Colidiu com cal�ada! --2 pts | atual: 7.236111
+Colidiu com cal�ada! --2 pts | atual: 5.236111
+episode reward: 1.000066
+Colidiu com cal�ada! --2 pts | atual: 9.288025
+episode reward: 14.06804
+episode reward: 9.00031
+Colidiu com cal�ada! --2 pts | atual: 20.99525
+Colidiu com cal�ada! --2 pts | atual: 18.99525
+Colidiu com cal�ada! --2 pts | atual: 16.90922
+Colidiu com cal�ada! --2 pts | atual: 14.90922
+Colidiu com cal�ada! --2 pts | atual: 12.88922
+Colidiu com cal�ada! --2 pts | atual: 10.82322
+Colidiu com cal�ada! --2 pts | atual: 8.823224
+Colidiu com cal�ada! --2 pts | atual: 6.517246
+Colidiu com cal�ada! --2 pts | atual: 4.517246
+Colidiu com cal�ada! --2 pts | atual: 2.38724
+Colidiu com cal�ada! --2 pts | atual: 0.3872402
+Colidiu com cal�ada! --2 pts | atual: -1.836757
+Colidiu com cal�ada! --2 pts | atual: -3.840757
+Colidiu com cal�ada! --2 pts | atual: -6.158734
+Colidiu com cal�ada! --2 pts | atual: -8.158734
+episode reward: -11.00067
+Colidiu com cal�ada! --2 pts | atual: 13.49012
+Colidiu com cal�ada! --2 pts | atual: 9.170286
+Colidiu com cal�ada! --2 pts | atual: 7.134289
+episode reward: 5.000299
+episode reward: 19.76005
+episode reward: 1.000017
+episode reward: 23.814
+episode reward: 27.03764
+episode reward: 9.000322
+episode reward: 23.49202
+episode reward: 19.75805
+episode reward: 17.99815
+Colidiu com cal�ada! --2 pts | atual: 11.39601
+episode reward: 27.35971
+Colidiu com cal�ada! --2 pts | atual: 7.554009
+Colidiu com cal�ada! --2 pts | atual: 7.504013
+Colidiu com cal�ada! --2 pts | atual: 4.424236
+Colidiu com cal�ada! --2 pts | atual: 2.424236
+Colidiu com parede! --2 pts | atual: -0.601764
+episode reward: -2.999783
+episode reward: 7.000326
+Colidiu com cal�ada! --2 pts | atual: 9.526119
+Colidiu com cal�ada! --2 pts | atual: 7.478123
+Colidiu com cal�ada! --2 pts | atual: 7.046154
+episode reward: 5.000302
+Colidiu com cal�ada! --2 pts | atual: 13.18413
+Colidiu com cal�ada! --2 pts | atual: 9.68824
+episode reward: 7.00029
+episode reward: 14.76007
+episode reward: 14.91208
+Colidiu com parede! --2 pts | atual: 24.30971
+Colidiu com cal�ada! --2 pts | atual: 21.85752
+Colidiu com parede! --2 pts | atual: 19.82951
+episode reward: 14.99885
+Colidiu com parede! --2 pts | atual: 14.24409
+Colidiu com parede! --2 pts | atual: 12.1661
+Colidiu com parede! --2 pts | atual: 8.096247
+Colidiu com parede! --2 pts | atual: 5.808268
+episode reward: 3.00023
+episode reward: 15.06007
+Colidiu com cal�ada! --2 pts | atual: 21.52541
+Colidiu com cal�ada! --2 pts | atual: 19.41137
+episode reward: 14.99887
+episode reward: 1.000013
+episode reward: 15.05607
+episode reward: 29.27133
+episode reward: 19.83404
+episode reward: 21.75998
+episode reward: 14.93607
+episode reward: 1.000017
+Colidiu com cal�ada! --2 pts | atual: 7.306009
+Colidiu com cal�ada! --2 pts | atual: 5.29601
+Colidiu com parede! --2 pts | atual: 1.12796
+episode reward: -3.000072
+episode reward: 21.74197
+Colidiu com cal�ada! --2 pts | atual: 5.11201
+Colidiu com cal�ada! --2 pts | atual: 3.11201
+episode reward: -3.000011
+Colidiu com cal�ada! --2 pts | atual: 12.13022
+episode reward: 9.000299
+Colidiu com cal�ada! --2 pts | atual: 16.95403
+episode reward: 19.85604
+episode reward: 17.91204
+Colidiu com cal�ada! --2 pts | atual: 18.78397
+Colidiu com cal�ada! --2 pts | atual: 16.78197
+episode reward: 16.99847
+episode reward: 14.88208
+episode reward: 28.84575
+episode reward: 14.92408
+episode reward: 15.01008
+episode reward: 16.06804
+Colidiu com cal�ada! --2 pts | atual: 13.57411
+Colidiu com cal�ada! --2 pts | atual: 9.494266
+episode reward: 7.000301
+Colidiu com parede! --2 pts | atual: 23.81177
+episode reward: 26.68371
+episode reward: 23.30192
+Colidiu com parede! --2 pts | atual: 7.182025
+Colidiu com parede! --2 pts | atual: 3.532089
+Colidiu com parede! --2 pts | atual: 1.232093
+episode reward: 3.000099
+episode reward: 23.11187
+Colidiu com cal�ada! --2 pts | atual: 5.046002
+episode reward: 13.10007
+episode reward: 23.2279
+Colidiu com cal�ada! --2 pts | atual: 8.636051
+Colidiu com parede! --2 pts | atual: 5.866107
+episode reward: 1.000033
+Colidiu com cal�ada! --2 pts | atual: 10.29208
+episode reward: 20.33815
+Colidiu com cal�ada! --2 pts | atual: 7.178015
+episode reward: 1.00002
+episode reward: 17.82205
+Colidiu com cal�ada! --2 pts | atual: 13.15614
+Colidiu com cal�ada! --2 pts | atual: 10.44419
+Colidiu com cal�ada! --2 pts | atual: 8.144213
+Colidiu com cal�ada! --2 pts | atual: 5.848234
+Colidiu com cal�ada! --2 pts | atual: 3.250206
+Colidiu com cal�ada! --2 pts | atual: 1.248206
+Colidiu com cal�ada! --2 pts | atual: -0.9797908
+Colidiu com cal�ada! --2 pts | atual: -2.979791
+episode reward: -4.999789
+Colidiu com cal�ada! --2 pts | atual: 10.10809
+Colidiu com cal�ada! --2 pts | atual: 7.562133
+episode reward: 3.000199
+episode reward: 17.86404
+episode reward: 28.66573
+episode reward: 23.77601
+episode reward: 17.91004
+episode reward: 23.74001
+episode reward: 15.04808
+Colidiu com parede! --2 pts | atual: 7.31402
+episode reward: 1.000034
+episode reward: 3.000196
+episode reward: 21.71798
+episode reward: 21.70997
+Colidiu com cal�ada! --2 pts | atual: 8.498062
+Colidiu com parede! --2 pts | atual: 5.630125
+episode reward: 1.000062
+episode reward: 29.23387
+Colidiu com parede! --2 pts | atual: 7.214025
+Colidiu com parede! --2 pts | atual: 2.792056
+episode reward: -0.999935
+Colidiu com parede! --2 pts | atual: 7.146029
+Colidiu com parede! --2 pts | atual: 4.554071
+Colidiu com parede! --2 pts | atual: 2.362062
+Colidiu com parede! --2 pts | atual: -0.2599381
+episode reward: 8.252011
+episode reward: 29.1539
+episode reward: 28.6437
+episode reward: 14.76009
+Colidiu com cal�ada! --2 pts | atual: 7.094012
+Colidiu com cal�ada! --2 pts | atual: 5.094012
+episode reward: -1.000014
+Colidiu com parede! --2 pts | atual: 7.202024
+episode reward: 1.000031
+episode reward: 14.9991
+Colidiu com cal�ada! --2 pts | atual: 5.11201
+episode reward: -1.000017
+episode reward: 17.91404
+episode reward: 29.19189
+episode reward: 14.78409
+Colidiu com cal�ada! --2 pts | atual: 13.08803
+Colidiu com cal�ada! --2 pts | atual: 12.75205
+Colidiu com cal�ada! --2 pts | atual: 10.1201
+Colidiu com cal�ada! --2 pts | atual: 8.044103
+episode reward: 3.000204
+episode reward: 29.6993
+episode reward: 28.50771
+Colidiu com cal�ada! --2 pts | atual: 11.16403
+episode reward: 27.40985
+Colidiu com cal�ada! --2 pts | atual: 22.20572
+Colidiu com parede! --2 pts | atual: 20.05966
+episode reward: 14.9989
+Colidiu com cal�ada! --2 pts | atual: 6.876035
+Colidiu com cal�ada! --2 pts | atual: 4.700047
+Colidiu com cal�ada! --2 pts | atual: 4.194073
+episode reward: -0.9999114
+Colidiu com cal�ada! --2 pts | atual: 13.17002
+Colidiu com cal�ada! --2 pts | atual: 11.16202
+episode reward: 15.85604
+Colidiu com cal�ada! --2 pts | atual: 10.59207
+episode reward: 13.45408
+Colidiu com cal�ada! --2 pts | atual: 5.114011
+Colidiu com cal�ada! --2 pts | atual: 3.09401
+episode reward: -3.000011
+episode reward: 17.91604
+episode reward: 17.88204
+episode reward: 3.000189
+episode reward: 14.91608
+Colidiu com cal�ada! --2 pts | atual: 11.22002
+episode reward: 27.55787
+episode reward: 28.83376
+episode reward: 19.92405
+Colidiu com cal�ada! --2 pts | atual: 16.59003
+Colidiu com cal�ada! --2 pts | atual: 14.55804
+episode reward: 19.32205
+episode reward: 23.624
+Colidiu com cal�ada! --2 pts | atual: 13.41812
+Colidiu com cal�ada! --2 pts | atual: 11.06014
+Colidiu com cal�ada! --2 pts | atual: 8.118211
+Colidiu com cal�ada! --2 pts | atual: 5.802234
+Colidiu com cal�ada! --2 pts | atual: 3.748231
+episode reward: 1.000241
+episode reward: 23.894
+Colidiu com cal�ada! --2 pts | atual: 5.32
+episode reward: 20.89806
+episode reward: 17.92004
+episode reward: 15.04407
+Colidiu com cal�ada! --2 pts | atual: 7.150017
+Colidiu com cal�ada! --2 pts | atual: 7.148017
+Colidiu com cal�ada! --2 pts | atual: 6.866037
+episode reward: 23.16202
+Colidiu com cal�ada! --2 pts | atual: 3.621998
+Colidiu com cal�ada! --2 pts | atual: 1.621998
+Colidiu com cal�ada! --2 pts | atual: 4.964013
+Colidiu com cal�ada! --2 pts | atual: 2.962013
+Colidiu com parede! --2 pts | atual: 0.9580131
+Colidiu com parede! --2 pts | atual: -1.127986
+Colidiu com cal�ada! --2 pts | atual: -3.395998
+Colidiu com parede! --2 pts | atual: -5.457994
+Colidiu com cal�ada! --2 pts | atual: -7.467993
+Colidiu com parede! --2 pts | atual: -9.537988
+Colidiu com cal�ada! --2 pts | atual: -11.54999
+Colidiu com parede! --2 pts | atual: -13.71997
+Colidiu com cal�ada! --2 pts | atual: -15.73797
+Colidiu com parede! --2 pts | atual: -17.77799
+Colidiu com cal�ada! --2 pts | atual: -20.18815
+Colidiu com cal�ada! --2 pts | atual: -22.18815
+Colidiu com cal�ada! --2 pts | atual: -24.19816
+Colidiu com cal�ada! --2 pts | atual: -26.20416
+episode reward: -31.00129
+Colidiu com cal�ada! --2 pts | atual: 13.12414
+Colidiu com cal�ada! --2 pts | atual: 9.378271
+Colidiu com cal�ada! --2 pts | atual: 7.376271
+Colidiu com cal�ada! --2 pts | atual: 5.338274
+Colidiu com cal�ada! --2 pts | atual: 3.302272
+episode reward: 1.000276
+Colidiu com cal�ada! --2 pts | atual: 5.486003
+episode reward: 18.14202
+Colidiu com cal�ada! --2 pts | atual: 15.17603
+episode reward: 27.63385
+Colidiu com cal�ada! --2 pts | atual: 16.68603
+Colidiu com cal�ada! --2 pts | atual: 16.52999
+episode reward: 19.47799
+episode reward: 14.93608
+Colidiu com cal�ada! --2 pts | atual: 12.13622
+Colidiu com cal�ada! --2 pts | atual: 9.462265
+Colidiu com cal�ada! --2 pts | atual: 7.156287
+episode reward: 5.000299
+Colidiu com cal�ada! --2 pts | atual: 18.38594
+episode reward: 21.2859
+episode reward: 21.76599
+Colidiu com cal�ada! --2 pts | atual: 8.594046
+Colidiu com cal�ada! --2 pts | atual: 8.416059
+Colidiu com cal�ada! --2 pts | atual: 6.414059
+Colidiu com cal�ada! --2 pts | atual: 4.26207
+Colidiu com cal�ada! --2 pts | atual: 6.004076
+Colidiu com cal�ada! --2 pts | atual: 7.4081
+episode reward: 10.20012
+episode reward: 23.784
+episode reward: 22.21197
+Colidiu com cal�ada! --2 pts | atual: 13.46212
+Colidiu com cal�ada! --2 pts | atual: 10.2622
+Colidiu com cal�ada! --2 pts | atual: 8.052217
+Colidiu com cal�ada! --2 pts | atual: 6.052217
+episode reward: 3.000175
+episode reward: 23.854
+Colidiu com cal�ada! --2 pts | atual: 12.23021
+Colidiu com cal�ada! --2 pts | atual: 9.686247
+Colidiu com cal�ada! --2 pts | atual: 7.544257
+episode reward: 5.000297
+episode reward: 29.63534
+Colidiu com cal�ada! --2 pts | atual: 15.17002
+episode reward: 17.92204
+episode reward: 19.95004
+Colidiu com cal�ada! --2 pts | atual: 11.96809
+Colidiu com cal�ada! --2 pts | atual: 11.47812
+Colidiu com cal�ada! --2 pts | atual: 9.152144
+episode reward: 5.0003
+Colidiu com cal�ada! --2 pts | atual: 19.08002
+Colidiu com cal�ada! --2 pts | atual: 19.01799
+Colidiu com parede! --2 pts | atual: 19.94756
+Colidiu com cal�ada! --2 pts | atual: 17.22727
+Colidiu com parede! --2 pts | atual: 15.15927
+Colidiu com parede! --2 pts | atual: 13.03528
+Colidiu com parede! --2 pts | atual: 11.01528
+Colidiu com parede! --2 pts | atual: 8.831295
+episode reward: 4.999428
+episode reward: 17.89204
+episode reward: 28.90375
+episode reward: 29.9354
+Colidiu com cal�ada! --2 pts | atual: 10.83005
+Colidiu com cal�ada! --2 pts | atual: 14.59807
+episode reward: 24.99788
+Colidiu com cal�ada! --2 pts | atual: 16.41208
+Colidiu com cal�ada! --2 pts | atual: 16.32007
+episode reward: 24.67581
+Colidiu com cal�ada! --2 pts | atual: 8.10811
+episode reward: 11.10411
+Colidiu com cal�ada! --2 pts | atual: 16.71805
+Colidiu com cal�ada! --2 pts | atual: 14.71805
+Colidiu com cal�ada! --2 pts | atual: 14.53206
+episode reward: 17.44007
+Colidiu com cal�ada! --2 pts | atual: 8.918029
+Colidiu com cal�ada! --2 pts | atual: 8.90403
+Colidiu com cal�ada! --2 pts | atual: 19.76587
+episode reward: 22.72785
+episode reward: 21.81599
+episode reward: 22.22197
+Colidiu com cal�ada! --2 pts | atual: 15.54613
+Colidiu com cal�ada! --2 pts | atual: 13.54213
+episode reward: 9.000319
+episode reward: 15.09007
+Colidiu com cal�ada! --2 pts | atual: 13.37213
+episode reward: 16.23014
+Colidiu com cal�ada! --2 pts | atual: 6.794058
+Colidiu com cal�ada! --2 pts | atual: 4.292094
+Colidiu com cal�ada! --2 pts | atual: 3.318088
+Colidiu com cal�ada! --2 pts | atual: 1.136091
+Colidiu com cal�ada! --2 pts | atual: 2.346075
+episode reward: -0.9999198
+episode reward: 28.81172
+Colidiu com cal�ada! --2 pts | atual: 6.818009
+episode reward: 13.12806
+episode reward: 3.000195
+episode reward: 23.18988
+Colidiu com cal�ada! --2 pts | atual: 16.57602
+episode reward: 21.36396
+episode reward: 1.000029
+episode reward: 23.80601
+episode reward: 3.000196
+Colidiu com cal�ada! --2 pts | atual: 13.46212
+episode reward: 16.11214
+episode reward: 29.11782
+Colidiu com cal�ada! --2 pts | atual: 5.194011
+Colidiu com cal�ada! --2 pts | atual: 3.17001
+episode reward: -1.000018
+Colidiu com cal�ada! --2 pts | atual: 18.29592
+episode reward: 21.26991
+episode reward: 15.05607
+episode reward: 16.06004
+Colidiu com cal�ada! --2 pts | atual: 15.53013
+Colidiu com cal�ada! --2 pts | atual: 13.52813
+episode reward: 9.000318
+episode reward: 29.7093
+episode reward: 23.26195
+episode reward: 16.00805
+episode reward: 14.94408
+episode reward: 18.42412
+episode reward: 28.83976
+episode reward: 22.42993
+episode reward: 15.17606
+episode reward: 29.64929
+Colidiu com cal�ada! --2 pts | atual: 14.87604
+Colidiu com cal�ada! --2 pts | atual: 12.76405
+Colidiu com cal�ada! --2 pts | atual: 10.54807
+Colidiu com cal�ada! --2 pts | atual: 8.544066
+episode reward: 7.000323
+episode reward: 17.99004
+episode reward: 19.96604
+episode reward: 15.09407
+episode reward: 22.24202
+episode reward: 30.06143
+episode reward: 3.000189
+episode reward: 29.70792
+Colidiu com parede! --2 pts | atual: 16.13803
+episode reward: 11.00026
+episode reward: 3.000191
+episode reward: 3.000198
+episode reward: 29.39188
+episode reward: 17.86004
+Colidiu com cal�ada! --2 pts | atual: 9.092039
+Colidiu com cal�ada! --2 pts | atual: 6.684069
+Colidiu com cal�ada! --2 pts | atual: 4.652071
+Colidiu com cal�ada! --2 pts | atual: 2.586068
+Colidiu com cal�ada! --2 pts | atual: 0.5840679
+Colidiu com cal�ada! --2 pts | atual: 0.5340686
+Colidiu com cal�ada! --2 pts | atual: -2.003925
+Colidiu com cal�ada! --2 pts | atual: -4.005924
+Colidiu com parede! --2 pts | atual: -6.253906
+episode reward: -10.99971
+Colidiu com cal�ada! --2 pts | atual: 15.21602
+Colidiu com cal�ada! --2 pts | atual: 13.20202
+episode reward: 16.05404
+episode reward: 22.96786
+Colidiu com cal�ada! --2 pts | atual: 20.81517
+episode reward: 16.99843
+episode reward: 15.07007
+episode reward: 24.00807
+episode reward: 28.85376
+episode reward: 18.40813
+Colidiu com cal�ada! --2 pts | atual: 13.19602
+Colidiu com cal�ada! --2 pts | atual: 11.19402
+Colidiu com cal�ada! --2 pts | atual: 9.14802
+Colidiu com cal�ada! --2 pts | atual: 9.054027
+Colidiu com cal�ada! --2 pts | atual: 7.036028
+episode reward: 9.910037
+Colidiu com parede! --2 pts | atual: 24.73145
+episode reward: 20.99875
+episode reward: 29.79743
+episode reward: 20.99852
+episode reward: 27.38979
+episode reward: 17.94804
+episode reward: 28.92976
+episode reward: 15.10607
+episode reward: 15.13408
+episode reward: 21.69398
+Colidiu com cal�ada! --2 pts | atual: 13.61011
+episode reward: 16.09815
+episode reward: 23.846
+episode reward: 22.30396
+Colidiu com cal�ada! --2 pts | atual: 13.44812
+episode reward: 16.30613
+episode reward: 27.56584
+episode reward: 23.71601
+Colidiu com cal�ada! --2 pts | atual: 10.06607
+episode reward: 12.85009
+episode reward: 30.00535
+Colidiu com cal�ada! --2 pts | atual: 7.200012
+Colidiu com cal�ada! --2 pts | atual: 14.70605
+Colidiu com cal�ada! --2 pts | atual: 12.70405
+Colidiu com cal�ada! --2 pts | atual: 10.67405
+Colidiu com cal�ada! --2 pts | atual: 8.654052
+episode reward: 3.000197
+Colidiu com cal�ada! --2 pts | atual: 13.50612
+episode reward: 16.36213
+Colidiu com cal�ada! --2 pts | atual: 7.252028
+Colidiu com cal�ada! --2 pts | atual: 6.766063
+Colidiu com cal�ada! --2 pts | atual: 6.610074
+episode reward: 9.600075
+episode reward: 28.93376
+Colidiu com cal�ada! --2 pts | atual: 7.266025
+Colidiu com cal�ada! --2 pts | atual: 8.886052
+episode reward: 11.87205
+episode reward: 18.48213
+episode reward: 15.11207
+Colidiu com cal�ada! --2 pts | atual: 9.282026
+episode reward: 14.06004
+Colidiu com cal�ada! --2 pts | atual: 14.94804
+Colidiu com cal�ada! --2 pts | atual: 12.94804
+episode reward: 15.81605
+Colidiu com cal�ada! --2 pts | atual: 17.60611
+episode reward: 20.34813
+Colidiu com cal�ada! --2 pts | atual: 13.72611
+episode reward: 16.40814
+episode reward: 29.1958
+Colidiu com cal�ada! --2 pts | atual: 22.28781
+Colidiu com cal�ada! --2 pts | atual: 19.86564
+Colidiu com cal�ada! --2 pts | atual: 17.86564
+Colidiu com cal�ada! --2 pts | atual: 14.89171
+Colidiu com cal�ada! --2 pts | atual: 11.6118
+Colidiu com cal�ada! --2 pts | atual: 9.609804
+Colidiu com parede! --2 pts | atual: 7.309826
+Colidiu com parede! --2 pts | atual: 5.279828
+Colidiu com parede! --2 pts | atual: 3.221825
+Colidiu com parede! --2 pts | atual: 1.175826
+Colidiu com parede! --2 pts | atual: -0.8661735
+Colidiu com parede! --2 pts | atual: -2.908175
+Colidiu com parede! --2 pts | atual: -4.948173
+Colidiu com parede! --2 pts | atual: -6.99017
+episode reward: -9.000169
+Colidiu com cal�ada! --2 pts | atual: 24.78591
+Colidiu com cal�ada! --2 pts | atual: 22.16366
+Colidiu com cal�ada! --2 pts | atual: 20.16166
+Colidiu com cal�ada! --2 pts | atual: 18.10163
+Colidiu com cal�ada! --2 pts | atual: 16.09363
+episode reward: 10.99986
+episode reward: 27.55383
+episode reward: 23.952
+Colidiu com cal�ada! --2 pts | atual: 12.79206
+Colidiu com cal�ada! --2 pts | atual: 8.780203
+Colidiu com cal�ada! --2 pts | atual: 6.752205
+Colidiu com cal�ada! --2 pts | atual: 4.702209
+Colidiu com parede! --2 pts | atual: 2.250187
+episode reward: -0.999807
+episode reward: 29.35589
+episode reward: 21.76198
+episode reward: 22.35795
+episode reward: 29.00178
+Colidiu com cal�ada! --2 pts | atual: 14.71605
+episode reward: 21.132
+episode reward: 19.95404
+Colidiu com cal�ada! --2 pts | atual: 13.56211
+Colidiu com cal�ada! --2 pts | atual: 11.19414
+Colidiu com cal�ada! --2 pts | atual: 8.62418
+Colidiu com cal�ada! --2 pts | atual: 6.330201
+episode reward: 3.000178
+episode reward: 16.04404
+episode reward: 29.01177
+Colidiu com cal�ada! --2 pts | atual: 15.17003
+episode reward: 17.93404
+episode reward: 19.91004
+Colidiu com cal�ada! --2 pts | atual: 11.24802
+Colidiu com cal�ada! --2 pts | atual: 9.248017
+episode reward: 25.53987
+episode reward: 29.70329
+Colidiu com cal�ada! --2 pts | atual: 11.22202
+Colidiu com cal�ada! --2 pts | atual: 9.222022
+Colidiu com cal�ada! --2 pts | atual: 20.51787
+episode reward: 23.38182
+episode reward: 29.10578
+episode reward: 23.92796
+episode reward: 15.92605
+episode reward: 3.000196
+episode reward: 29.02977
+Colidiu com cal�ada! --2 pts | atual: 3.589996
+episode reward: 25.58788
+Colidiu com cal�ada! --2 pts | atual: 3.633996
+episode reward: 25.48388
+episode reward: 18.99842
+episode reward: 23.828
+episode reward: 18.11603
+episode reward: 28.99178
+Colidiu com cal�ada! --2 pts | atual: 15.86011
+episode reward: 20.22815
+Colidiu com cal�ada! --2 pts | atual: 23.25344
+Colidiu com cal�ada! --2 pts | atual: 21.19542
+Colidiu com cal�ada! --2 pts | atual: 18.78725
+Colidiu com cal�ada! --2 pts | atual: 16.78325
+Colidiu com cal�ada! --2 pts | atual: 14.75325
+episode reward: 10.99938
+episode reward: 15.19007
+episode reward: 29.93147
+episode reward: 28.85375
+Colidiu com cal�ada! --2 pts | atual: 14.72605
+episode reward: 21.34601
+episode reward: 23.1439
+Colidiu com cal�ada! --2 pts | atual: 13.63411
+episode reward: 16.35013
+episode reward: 21.79398
+episode reward: 22.43798
+episode reward: 18.10203
+Colidiu com cal�ada! --2 pts | atual: 11.27602
+Colidiu com cal�ada! --2 pts | atual: 11.03404
+episode reward: 15.64007
+Colidiu com cal�ada! --2 pts | atual: 9.246028
+episode reward: 14.04804
+episode reward: 23.88598
+episode reward: 18.03404
+Colidiu com cal�ada! --2 pts | atual: 16.26596
+Colidiu com parede! --2 pts | atual: 15.28593
+episode reward: 11.0001
+Colidiu com cal�ada! --2 pts | atual: 22.85792
+Colidiu com cal�ada! --2 pts | atual: 22.10962
+episode reward: 25.0656
+Colidiu com cal�ada! --2 pts | atual: 13.54611
+episode reward: 16.26814
+Colidiu com cal�ada! --2 pts | atual: 18.40995
+episode reward: 21.38394
+Colidiu com cal�ada! --2 pts | atual: 13.59211
+episode reward: 16.12014
+Colidiu com cal�ada! --2 pts | atual: 24.72795
+Colidiu com cal�ada! --2 pts | atual: 22.72595
+episode reward: 28.77757
+episode reward: 22.36401
+Colidiu com cal�ada! --2 pts | atual: 17.00411
+Colidiu com cal�ada! --2 pts | atual: 18.58008
+Colidiu com cal�ada! --2 pts | atual: 16.57408
+Colidiu com cal�ada! --2 pts | atual: 14.40009
+Colidiu com cal�ada! --2 pts | atual: 12.40009
+episode reward: 9.000196
+episode reward: 18.42813
+episode reward: 23.87793
+episode reward: 16.00005
+episode reward: 22.40794
+Colidiu com cal�ada! --2 pts | atual: 22.62788
+episode reward: 25.46381
+episode reward: 24.09001
+episode reward: 18.10003
+episode reward: 22.498
+episode reward: 29.52783
+episode reward: 15.15607
+Colidiu com cal�ada! --2 pts | atual: 22.4798
+Colidiu com cal�ada! --2 pts | atual: 20.13166
+Colidiu com cal�ada! --2 pts | atual: 18.13166
+Colidiu com cal�ada! --2 pts | atual: 15.56764
+Colidiu com cal�ada! --2 pts | atual: 12.98168
+Colidiu com cal�ada! --2 pts | atual: 10.92769
+Colidiu com cal�ada! --2 pts | atual: 8.921686
+Colidiu com cal�ada! --2 pts | atual: 5.667777
+Colidiu com cal�ada! --2 pts | atual: 3.09175
+episode reward: 0.9997513
+episode reward: 29.82343
+Colidiu com cal�ada! --2 pts | atual: 13.09603
+episode reward: 16.07203
+episode reward: 18.22614
+episode reward: 15.04607
+episode reward: 29.36387
+episode reward: 28.90975
+episode reward: 28.90176
+Colidiu com cal�ada! --2 pts | atual: 8.156204
+Colidiu com parede! --2 pts | atual: 5.792231
+episode reward: 3.000194
+episode reward: 29.29185
+Colidiu com cal�ada! --2 pts | atual: 14.85605
+episode reward: 17.83205
+episode reward: 22.50801
+episode reward: 29.41184
+Colidiu com cal�ada! --2 pts | atual: 22.22776
+Colidiu com parede! --2 pts | atual: 17.64471
+episode reward: 14.99876
+episode reward: 29.63982
+episode reward: 20.99854
+episode reward: 15.23007
+episode reward: 27.76588
+Colidiu com cal�ada! --2 pts | atual: 11.24403
+Colidiu com cal�ada! --2 pts | atual: 11.14603
+Colidiu com cal�ada! --2 pts | atual: 12.60607
+Colidiu com cal�ada! --2 pts | atual: 12.33009
+Colidiu com cal�ada! --2 pts | atual: 10.33009
+Colidiu com parede! --2 pts | atual: 15.05418
+episode reward: 11.00033
+episode reward: 21.73797
+Colidiu com cal�ada! --2 pts | atual: 23.7676
+Colidiu com cal�ada! --2 pts | atual: 20.7772
+Colidiu com cal�ada! --2 pts | atual: 18.06291
+Colidiu com cal�ada! --2 pts | atual: 15.92289
+Colidiu com cal�ada! --2 pts | atual: 13.16294
+episode reward: 10.99896
+episode reward: 15.01207
+episode reward: 15.18807
+Colidiu com cal�ada! --2 pts | atual: 12.95403
+episode reward: 27.41192
+episode reward: 29.41388
+episode reward: 23.97398
+Colidiu com cal�ada! --2 pts | atual: 11.42002
+episode reward: 27.92152
+Colidiu com cal�ada! --2 pts | atual: 15.27002
+episode reward: 17.94205
+episode reward: 21.828
+episode reward: 15.11807
+episode reward: 27.65187
+Colidiu com cal�ada! --2 pts | atual: 16.64397
+Colidiu com cal�ada! --2 pts | atual: 14.41599
+Colidiu com cal�ada! --2 pts | atual: 11.67604
+Colidiu com parede! --2 pts | atual: 7.220222
+episode reward: 5.000238
+episode reward: 15.19206
+episode reward: 28.97976
+Colidiu com cal�ada! --2 pts | atual: 15.10203
+Colidiu com cal�ada! --2 pts | atual: 13.10003
+Colidiu com parede! --2 pts | atual: 15.4217
+episode reward: 10.99988
+episode reward: 29.32985
+Colidiu com cal�ada! --2 pts | atual: 17.62012
+episode reward: 20.36814
+Colidiu com cal�ada! --2 pts | atual: 3.641997
+Colidiu com cal�ada! --2 pts | atual: 1.637997
+Colidiu com cal�ada! --2 pts | atual: 10.57805
+Colidiu com cal�ada! --2 pts | atual: 8.568055
+Colidiu com cal�ada! --2 pts | atual: 10.0141
+Colidiu com cal�ada! --2 pts | atual: 8.014095
+episode reward: 17.88618
+episode reward: 21.75598
+episode reward: 21.71198
+Colidiu com cal�ada! --2 pts | atual: 8.976045
+Colidiu com cal�ada! --2 pts | atual: 8.824056
+episode reward: 11.75006
+episode reward: 15.24206
+Colidiu com parede! --2 pts | atual: 17.76968
+episode reward: 12.99988
+episode reward: 15.15207
+Colidiu com cal�ada! --2 pts | atual: 3.671997
+episode reward: 3.000207
+Colidiu com cal�ada! --2 pts | atual: 24.1318
+episode reward: 18.99853
+episode reward: 23.51993
+episode reward: 27.53985
+episode reward: 29.06779
+episode reward: 29.36185
+Colidiu com parede! --2 pts | atual: 19.77772
+episode reward: 14.99907
+episode reward: 18.07603
+episode reward: 28.90776
+Colidiu com cal�ada! --2 pts | atual: 13.00803
+Colidiu com cal�ada! --2 pts | atual: 10.96004
+Colidiu com cal�ada! --2 pts | atual: 10.94404
+Colidiu com cal�ada! --2 pts | atual: 8.856043
+Colidiu com cal�ada! --2 pts | atual: 16.23596
+Colidiu com cal�ada! --2 pts | atual: 12.80206
+Colidiu com parede! --2 pts | atual: 9.544151
+episode reward: 7.000191
+Colidiu com cal�ada! --2 pts | atual: 9.328026
+episode reward: 14.16804
+Colidiu com cal�ada! --2 pts | atual: 11.11802
+episode reward: 27.33591
+Colidiu com cal�ada! --2 pts | atual: 8.970027
+episode reward: 20.04217
+Colidiu com cal�ada! --2 pts | atual: 7.096012
+Colidiu com cal�ada! --2 pts | atual: 5.096012
+Colidiu com cal�ada! --2 pts | atual: 5.336169
+episode reward: 3.000154
+episode reward: 15.25605
+episode reward: 29.60384
+episode reward: 22.26796
+Colidiu com cal�ada! --2 pts | atual: 24.89594
+episode reward: 27.63383
+episode reward: 15.15406
+episode reward: 27.66789
+Colidiu com cal�ada! --2 pts | atual: 10.90604
+episode reward: 13.76405
+episode reward: 15.09407
+Colidiu com cal�ada! --2 pts | atual: 8.766015
+Colidiu com cal�ada! --2 pts | atual: 6.544031
+Colidiu com cal�ada! --2 pts | atual: 4.544031
+episode reward: 9.248048
+episode reward: 27.57787
+episode reward: 29.01778
+episode reward: 29.54582
+episode reward: 28.89573
+episode reward: 30.13142
+Colidiu com cal�ada! --2 pts | atual: 7.150022
+Colidiu com cal�ada! --2 pts | atual: 6.47807
+episode reward: 1.000024
+episode reward: 23.99999
+episode reward: 29.00977
+Colidiu com cal�ada! --2 pts | atual: 12.18621
+Colidiu com cal�ada! --2 pts | atual: 9.390272
+Colidiu com cal�ada! --2 pts | atual: 7.094294
+Colidiu com cal�ada! --2 pts | atual: 5.084294
+episode reward: 3.00029
+episode reward: 21.716
+Colidiu com cal�ada! --2 pts | atual: 3.375994
+Colidiu com cal�ada! --2 pts | atual: 11.25812
+Colidiu com cal�ada! --2 pts | atual: 7.85622
+Colidiu com cal�ada! --2 pts | atual: 5.852221
+episode reward: 3.000181
+Colidiu com cal�ada! --2 pts | atual: 13.22413
+Colidiu com cal�ada! --2 pts | atual: 10.3342
+Colidiu com cal�ada! --2 pts | atual: 8.062219
+Colidiu com cal�ada! --2 pts | atual: 6.062219
+Colidiu com cal�ada! --2 pts | atual: 3.106181
+Colidiu com cal�ada! --2 pts | atual: 1.050182
+episode reward: -0.9998173
+Colidiu com cal�ada! --2 pts | atual: 12.3482
+Colidiu com cal�ada! --2 pts | atual: 10.09022
+Colidiu com cal�ada! --2 pts | atual: 8.088218
+Colidiu com cal�ada! --2 pts | atual: 5.054293
+episode reward: 3.00029
+Colidiu com cal�ada! --2 pts | atual: 7.450009
+Colidiu com parede! --2 pts | atual: 5.434011
+Colidiu com parede! --2 pts | atual: 3.41401
+episode reward: -3.000007
+Colidiu com cal�ada! --2 pts | atual: 24.30785
+Colidiu com cal�ada! --2 pts | atual: 20.83926
+Colidiu com cal�ada! --2 pts | atual: 18.207
+Colidiu com cal�ada! --2 pts | atual: 16.205
+Colidiu com parede! --2 pts | atual: 13.87102
+episode reward: 10.99909
+Colidiu com cal�ada! --2 pts | atual: 9.712107
+Colidiu com cal�ada! --2 pts | atual: 6.338206
+Colidiu com cal�ada! --2 pts | atual: 4.338206
+Colidiu com cal�ada! --2 pts | atual: 2.314205
+Colidiu com cal�ada! --2 pts | atual: 0.3102052
+episode reward: -2.999837
+Colidiu com cal�ada! --2 pts | atual: 11.13402
+Colidiu com cal�ada! --2 pts | atual: 21.87369
+Colidiu com cal�ada! --2 pts | atual: 19.87169
+Colidiu com cal�ada! --2 pts | atual: 16.86529
+Colidiu com cal�ada! --2 pts | atual: 14.86529
+Colidiu com parede! --2 pts | atual: 11.58538
+episode reward: 8.999421
+Colidiu com cal�ada! --2 pts | atual: 16.43403
+episode reward: 21.276
+Colidiu com cal�ada! --2 pts | atual: 15.20602
+Colidiu com cal�ada! --2 pts | atual: 13.17402
+episode reward: 15.99604
+episode reward: 20.20403
+Colidiu com cal�ada! --2 pts | atual: 7.178013
+Colidiu com cal�ada! --2 pts | atual: 6.926031
+Colidiu com cal�ada! --2 pts | atual: 8.626053
+Colidiu com cal�ada! --2 pts | atual: 6.624053
+Colidiu com cal�ada! --2 pts | atual: 5.478136
+Colidiu com cal�ada! --2 pts | atual: 3.478136
+Colidiu com cal�ada! --2 pts | atual: 0.2641482
+Colidiu com cal�ada! --2 pts | atual: -1.735852
+Colidiu com parede! --2 pts | atual: -3.91786
+episode reward: -6.999782
+Colidiu com cal�ada! --2 pts | atual: 18.55196
+episode reward: 21.54796
+episode reward: 27.50384
+episode reward: 28.80973
+episode reward: 15.10806
+episode reward: 29.45179
+episode reward: 23.48394
+Colidiu com cal�ada! --2 pts | atual: 17.77205
+episode reward: 20.49407
+episode reward: 21.71197
+Colidiu com cal�ada! --2 pts | atual: 13.60811
+episode reward: 16.45612
+Colidiu com cal�ada! --2 pts | atual: 15.17003
+Colidiu com cal�ada! --2 pts | atual: 13.15803
+episode reward: 25.57988
+episode reward: 22.49999
+Colidiu com cal�ada! --2 pts | atual: 23.72363
+Colidiu com cal�ada! --2 pts | atual: 21.72163
+Colidiu com cal�ada! --2 pts | atual: 19.4055
+Colidiu com cal�ada! --2 pts | atual: 16.43311
+Colidiu com parede! --2 pts | atual: 14.18313
+episode reward: 10.99921
+episode reward: 18.09604
+Colidiu com cal�ada! --2 pts | atual: 9.284024
+episode reward: 14.16603
+Colidiu com cal�ada! --2 pts | atual: 22.99928
+episode reward: 18.99847
+Colidiu com cal�ada! --2 pts | atual: 18.46999
+episode reward: 21.32393
+Colidiu com cal�ada! --2 pts | atual: 16.47996
+Colidiu com cal�ada! --2 pts | atual: 14.47996
+episode reward: 17.26798
+episode reward: 30.15745
+Colidiu com cal�ada! --2 pts | atual: 11.25203
+episode reward: 14.13804
+episode reward: 16.01604
+Colidiu com cal�ada! --2 pts | atual: 8.936029
+Colidiu com cal�ada! --2 pts | atual: 6.756042
+episode reward: 18.46614
+episode reward: 24.062
+Colidiu com cal�ada! --2 pts | atual: 16.37604
+episode reward: 21.14998
+Colidiu com cal�ada! --2 pts | atual: 22.54783
+Colidiu com cal�ada! --2 pts | atual: 20.12366
+Colidiu com cal�ada! --2 pts | atual: 18.12166
+Colidiu com cal�ada! --2 pts | atual: 13.78177
+Colidiu com parede! --2 pts | atual: 11.57579
+episode reward: 8.999827
+Colidiu com cal�ada! --2 pts | atual: 17.74401
+Colidiu com cal�ada! --2 pts | atual: 15.74201
+Colidiu com cal�ada! --2 pts | atual: 13.62602
+episode reward: 16.62402
+episode reward: 23.936
+Colidiu com parede! --2 pts | atual: 0.8420131
+episode reward: -4.999997
+episode reward: 29.4878
+episode reward: 29.85535
+episode reward: 23.47596
+episode reward: 20.05404
+episode reward: 18.33413
+episode reward: 27.59783
+Colidiu com cal�ada! --2 pts | atual: 13.02202
+Colidiu com cal�ada! --2 pts | atual: 19.71079
+episode reward: 16.9985
+episode reward: 29.65782
+episode reward: 29.01777
+Colidiu com cal�ada! --2 pts | atual: 24.5819
+Colidiu com cal�ada! --2 pts | atual: 21.02527
+Colidiu com cal�ada! --2 pts | atual: 18.98326
+Colidiu com cal�ada! --2 pts | atual: 16.52107
+Colidiu com parede! --2 pts | atual: 14.1011
+episode reward: 10.99918
+Colidiu com cal�ada! --2 pts | atual: 14.91218
+Colidiu com cal�ada! --2 pts | atual: 18.45616
+Colidiu com cal�ada! --2 pts | atual: 16.44616
+Colidiu com cal�ada! --2 pts | atual: 13.27824
+Colidiu com cal�ada! --2 pts | atual: 11.02026
+episode reward: 9.000262
+Colidiu com cal�ada! --2 pts | atual: 8.764057
+Colidiu com cal�ada! --2 pts | atual: 6.750058
+Colidiu com cal�ada! --2 pts | atual: 6.436081
+Colidiu com cal�ada! --2 pts | atual: 4.426082
+episode reward: 14.44813
+Colidiu com cal�ada! --2 pts | atual: 13.6701
+Colidiu com cal�ada! --2 pts | atual: 11.35413
+Colidiu com cal�ada! --2 pts | atual: 7.64025
+Colidiu com cal�ada! --2 pts | atual: 5.64025
+Colidiu com cal�ada! --2 pts | atual: 3.618249
+episode reward: 1.000257
+Colidiu com cal�ada! --2 pts | atual: 11.16803
+Colidiu com cal�ada! --2 pts | atual: 13.04403
+Colidiu com cal�ada! --2 pts | atual: 20.77398
+episode reward: 23.5779
+Colidiu com parede! --2 pts | atual: 7.416014
+Colidiu com parede! --2 pts | atual: 5.394015
+episode reward: -1.000025
+Colidiu com cal�ada! --2 pts | atual: 9.450019
+Colidiu com cal�ada! --2 pts | atual: 7.446019
+Colidiu com cal�ada! --2 pts | atual: 20.70802
+episode reward: 23.65199
+episode reward: 18.39212
+Colidiu com cal�ada! --2 pts | atual: 5.214009
+Colidiu com cal�ada! --2 pts | atual: 12.57405
+Colidiu com cal�ada! --2 pts | atual: 10.57205
+Colidiu com cal�ada! --2 pts | atual: 7.458131
+Colidiu com cal�ada! --2 pts | atual: 4.5102
+Colidiu com cal�ada! --2 pts | atual: 2.5102
+Colidiu com parede! --2 pts | atual: 0.2721992
+episode reward: -2.999844
+episode reward: 15.15608
+Colidiu com cal�ada! --2 pts | atual: 3.675997
+Colidiu com cal�ada! --2 pts | atual: 8.912043
+Colidiu com cal�ada! --2 pts | atual: 14.48607
+Colidiu com parede! --2 pts | atual: 17.57778
+episode reward: 12.99997
+Colidiu com cal�ada! --2 pts | atual: 7.154013
+Colidiu com cal�ada! --2 pts | atual: 4.816038
+Colidiu com cal�ada! --2 pts | atual: 8.47003
+episode reward: 15.12006
+Colidiu com cal�ada! --2 pts | atual: 11.18803
+Colidiu com cal�ada! --2 pts | atual: 9.140035
+episode reward: 12.12404
+episode reward: 23.38993
+Colidiu com parede! --2 pts | atual: 8.810173
+episode reward: 5.000304
+Colidiu com cal�ada! --2 pts | atual: 3.685997
+Colidiu com cal�ada! --2 pts | atual: 8.888045
+episode reward: 25.29597
+episode reward: 16.05804
+Colidiu com cal�ada! --2 pts | atual: 11.20002
+episode reward: 16.03204
+episode reward: 23.40796
+Colidiu com cal�ada! --2 pts | atual: 17.73605
+Colidiu com cal�ada! --2 pts | atual: 15.65006
+Colidiu com cal�ada! --2 pts | atual: 12.89211
+Colidiu com cal�ada! --2 pts | atual: 10.87011
+Colidiu com cal�ada! --2 pts | atual: 7.506213
+Colidiu com cal�ada! --2 pts | atual: 5.506213
+Colidiu com cal�ada! --2 pts | atual: 3.482212
+Colidiu com cal�ada! --2 pts | atual: 1.482212
+episode reward: -0.9997817
+episode reward: 15.06607
+episode reward: 28.88775
+Colidiu com cal�ada! --2 pts | atual: 3.604001
+Colidiu com cal�ada! --2 pts | atual: 1.406003
+episode reward: 11.21204
+episode reward: 27.55988
+episode reward: 18.32013
+episode reward: 29.99342
+episode reward: 21.77998
+Colidiu com cal�ada! --2 pts | atual: 7.058018
+Colidiu com cal�ada! --2 pts | atual: 12.70204
+Colidiu com cal�ada! --2 pts | atual: 10.70204
+Colidiu com cal�ada! --2 pts | atual: 8.440063
+Colidiu com cal�ada! --2 pts | atual: 4.448207
+Colidiu com cal�ada! --2 pts | atual: 2.006186
+Colidiu com cal�ada! --2 pts | atual: -0.4358143
+episode reward: 2.110164
+episode reward: 21.80197
+Colidiu com cal�ada! --2 pts | atual: 7.134014
+Colidiu com cal�ada! --2 pts | atual: 6.906031
+Colidiu com cal�ada! --2 pts | atual: 10.64405
+Colidiu com cal�ada! --2 pts | atual: 8.64405
+Colidiu com cal�ada! --2 pts | atual: 6.602053
+Colidiu com cal�ada! --2 pts | atual: 3.184058
+Colidiu com cal�ada! --2 pts | atual: 1.178058
+Colidiu com cal�ada! --2 pts | atual: -1.641931
+Colidiu com cal�ada! --2 pts | atual: -4.407918
+Colidiu com cal�ada! --2 pts | atual: -6.785891
+Colidiu com cal�ada! --2 pts | atual: -8.785891
+Colidiu com cal�ada! --2 pts | atual: -10.98188
+episode reward: -12.99988
+Colidiu com cal�ada! --2 pts | atual: 8.910047
+Colidiu com cal�ada! --2 pts | atual: 15.62814
+episode reward: 18.45615
+Colidiu com cal�ada! --2 pts | atual: 7.180012
+Colidiu com cal�ada! --2 pts | atual: 6.948029
+Colidiu com cal�ada! --2 pts | atual: 10.65805
+Colidiu com cal�ada! --2 pts | atual: 8.65805
+Colidiu com cal�ada! --2 pts | atual: 5.072165
+Colidiu com parede! --2 pts | atual: 2.908157
+episode reward: -0.9998327
+Colidiu com cal�ada! --2 pts | atual: 7.138013
+Colidiu com cal�ada! --2 pts | atual: 14.42206
+Colidiu com cal�ada! --2 pts | atual: 11.49213
+Colidiu com cal�ada! --2 pts | atual: 9.492132
+Colidiu com cal�ada! --2 pts | atual: 7.212152
+Colidiu com cal�ada! --2 pts | atual: 5.210153
+Colidiu com cal�ada! --2 pts | atual: 1.830098
+Colidiu com cal�ada! --2 pts | atual: -0.1719017
+Colidiu com cal�ada! --2 pts | atual: -2.507917
+episode reward: -4.999882
+episode reward: 24.05399
+episode reward: 18.47012
+episode reward: 22.01799
+Colidiu com cal�ada! --2 pts | atual: 13.06604
+Colidiu com cal�ada! --2 pts | atual: 11.03404
+Colidiu com parede! --2 pts | atual: 6.680209
+Colidiu com parede! --2 pts | atual: 4.600215
+episode reward: 1.0002
+Colidiu com cal�ada! --2 pts | atual: 28.29369
+episode reward: 31.13963
+episode reward: 24.00599
+Colidiu com cal�ada! --2 pts | atual: 16.71602
+episode reward: 21.54798
+Colidiu com cal�ada! --2 pts | atual: 10.91805
+Colidiu com cal�ada! --2 pts | atual: 8.462078
+Colidiu com cal�ada! --2 pts | atual: 5.708133
+Colidiu com cal�ada! --2 pts | atual: 3.700132
+Colidiu com cal�ada! --2 pts | atual: 1.632133
+Colidiu com cal�ada! --2 pts | atual: -0.8478625
+Colidiu com parede! --2 pts | atual: -3.409889
+Colidiu com parede! --2 pts | atual: -5.465885
+episode reward: -8.999774
+episode reward: 18.62812
+episode reward: 18.44013
+episode reward: 15.34406
+Colidiu com cal�ada! --2 pts | atual: 9.25401
+Colidiu com cal�ada! --2 pts | atual: 9.008028
+episode reward: 25.36997
+episode reward: 30.02343
+episode reward: 15.11408
+episode reward: 23.59797
+Colidiu com cal�ada! --2 pts | atual: 20.85791
+Colidiu com cal�ada! --2 pts | atual: 18.15762
+Colidiu com cal�ada! --2 pts | atual: 15.27361
+Colidiu com parede! --2 pts | atual: 12.89364
+episode reward: 8.999778
+episode reward: 15.14007
+Colidiu com cal�ada! --2 pts | atual: 24.56992
+Colidiu com cal�ada! --2 pts | atual: 22.56992
+episode reward: 25.5219
+Colidiu com cal�ada! --2 pts | atual: 11.30602
+episode reward: 27.64387
+Colidiu com cal�ada! --2 pts | atual: 9.170031
+Colidiu com cal�ada! --2 pts | atual: 9.072038
+episode reward: 11.97005
+Colidiu com cal�ada! --2 pts | atual: 13.62211
+Colidiu com cal�ada! --2 pts | atual: 11.33013
+Colidiu com cal�ada! --2 pts | atual: 8.474193
+Colidiu com cal�ada! --2 pts | atual: 6.264208
+Colidiu com cal�ada! --2 pts | atual: 4.262208
+Colidiu com cal�ada! --2 pts | atual: 1.326204
+episode reward: -0.9997914
+Colidiu com parede! --2 pts | atual: 1.646003
+episode reward: -5
+episode reward: 29.06779
+Colidiu com cal�ada! --2 pts | atual: 15.94007
+Colidiu com cal�ada! --2 pts | atual: 15.67409
+episode reward: 18.44611
+Colidiu com cal�ada! --2 pts | atual: 9.010023
+Colidiu com cal�ada! --2 pts | atual: 12.78204
+Colidiu com cal�ada! --2 pts | atual: 9.9521
+Colidiu com cal�ada! --2 pts | atual: 7.928102
+Colidiu com parede! --2 pts | atual: 4.752187
+episode reward: 1.000165
+Colidiu com cal�ada! --2 pts | atual: 13.25003
+Colidiu com cal�ada! --2 pts | atual: 13.16203
+episode reward: 16.15003
+Colidiu com cal�ada! --2 pts | atual: 15.14802
+episode reward: 27.55583
+episode reward: 24.17399
+episode reward: 24.16397
+episode reward: 15.21807
+Colidiu com cal�ada! --2 pts | atual: 7.166013
+Colidiu com cal�ada! --2 pts | atual: 6.748043
+Colidiu com cal�ada! --2 pts | atual: 4.618052
+Colidiu com cal�ada! --2 pts | atual: 2.618052
+Colidiu com cal�ada! --2 pts | atual: 5.624025
+Colidiu com cal�ada! --2 pts | atual: 3.388014
+Colidiu com cal�ada! --2 pts | atual: 6.84602
+Colidiu com cal�ada! --2 pts | atual: 13.94809
+Colidiu com cal�ada! --2 pts | atual: 11.60411
+episode reward: 14.47412
+episode reward: 15.15408
+Colidiu com cal�ada! --2 pts | atual: 9.268011
+episode reward: 27.45395
+episode reward: 24.33598
+Colidiu com cal�ada! --2 pts | atual: 9.376005
+Colidiu com cal�ada! --2 pts | atual: 9.244015
+episode reward: 25.60599
+episode reward: 29.95143
+episode reward: 18.50212
+Colidiu com cal�ada! --2 pts | atual: 7.23401
+Colidiu com cal�ada! --2 pts | atual: 7.062023
+Colidiu com cal�ada! --2 pts | atual: 10.83004
+Colidiu com cal�ada! --2 pts | atual: 8.830039
+Colidiu com cal�ada! --2 pts | atual: 6.802041
+Colidiu com cal�ada! --2 pts | atual: 3.932096
+Colidiu com parede! --2 pts | atual: 1.034108
+episode reward: -2.999926
+Colidiu com cal�ada! --2 pts | atual: 11.19803
+Colidiu com cal�ada! --2 pts | atual: 9.190027
+Colidiu com cal�ada! --2 pts | atual: 10.91005
+episode reward: 23.508
+Colidiu com cal�ada! --2 pts | atual: 15.33202
+Colidiu com parede! --2 pts | atual: 11.98611
+Colidiu com parede! --2 pts | atual: 9.822125
+Colidiu com parede! --2 pts | atual: 7.572144
+Colidiu com parede! --2 pts | atual: 5.230168
+Colidiu com parede! --2 pts | atual: 3.174166
+episode reward: -0.9998205
+episode reward: 28.96576
+Colidiu com cal�ada! --2 pts | atual: 22.51385
+Colidiu com cal�ada! --2 pts | atual: 20.51385
+Colidiu com cal�ada! --2 pts | atual: 17.00124
+Colidiu com cal�ada! --2 pts | atual: 14.98924
+Colidiu com cal�ada! --2 pts | atual: 12.0753
+Colidiu com parede! --2 pts | atual: 9.831323
+episode reward: 6.999383
+episode reward: 29.00976
+episode reward: 19.94804
+Colidiu com cal�ada! --2 pts | atual: 19.14607
+Colidiu com cal�ada! --2 pts | atual: 17.14607
+Colidiu com cal�ada! --2 pts | atual: 18.92601
+episode reward: 23.17971
+Colidiu com cal�ada! --2 pts | atual: 9.256005
+Colidiu com cal�ada! --2 pts | atual: 21.42551
+Colidiu com parede! --2 pts | atual: 18.51715
+episode reward: 14.99901
+Colidiu com cal�ada! --2 pts | atual: 17.16597
+Colidiu com cal�ada! --2 pts | atual: 14.48002
+Colidiu com cal�ada! --2 pts | atual: 12.45402
+Colidiu com cal�ada! --2 pts | atual: 10.32603
+Colidiu com cal�ada! --2 pts | atual: 8.326033
+Colidiu com cal�ada! --2 pts | atual: 6.304034
+Colidiu com parede! --2 pts | atual: 3.478032
+episode reward: -0.9999504
+episode reward: 15.12607
+Colidiu com parede! --2 pts | atual: 22.80317
+Colidiu com parede! --2 pts | atual: 20.77916
+episode reward: 16.99844
+episode reward: 23.74597
+episode reward: 23.97193
+episode reward: 29.02178
+episode reward: 29.23378
+Colidiu com cal�ada! --2 pts | atual: 15.05404
+episode reward: 27.59388
+episode reward: 18.10803
+Colidiu com cal�ada! --2 pts | atual: 7.158012
+Colidiu com cal�ada! --2 pts | atual: 10.63205
+Colidiu com cal�ada! --2 pts | atual: 8.632051
+Colidiu com cal�ada! --2 pts | atual: 6.162085
+Colidiu com cal�ada! --2 pts | atual: 3.546075
+Colidiu com parede! --2 pts | atual: 1.404077
+episode reward: -2.999952
+Colidiu com cal�ada! --2 pts | atual: 15.33602
+Colidiu com cal�ada! --2 pts | atual: 13.05604
+Colidiu com cal�ada! --2 pts | atual: 11.05604
+Colidiu com cal�ada! --2 pts | atual: 9.038039
+Colidiu com cal�ada! --2 pts | atual: 5.982116
+Colidiu com cal�ada! --2 pts | atual: 3.730104
+Colidiu com cal�ada! --2 pts | atual: 1.634105
+Colidiu com parede! --2 pts | atual: -0.6698929
+episode reward: -4.999883
+Colidiu com cal�ada! --2 pts | atual: 7.408
+Colidiu com cal�ada! --2 pts | atual: 7.020028
+Colidiu com cal�ada! --2 pts | atual: 3.626085
+Colidiu com cal�ada! --2 pts | atual: 1.624085
+Colidiu com cal�ada! --2 pts | atual: -0.3919154
+Colidiu com cal�ada! --2 pts | atual: -2.393915
+Colidiu com cal�ada! --2 pts | atual: -5.087865
+Colidiu com cal�ada! --2 pts | atual: -7.445839
+Colidiu com cal�ada! --2 pts | atual: -9.889807
+Colidiu com cal�ada! --2 pts | atual: -12.17779
+Colidiu com parede! --2 pts | atual: -14.37577
+episode reward: -17.00002
+Colidiu com cal�ada! --2 pts | atual: 7.244011
+Colidiu com cal�ada! --2 pts | atual: 5.240011
+Colidiu com cal�ada! --2 pts | atual: 14.63805
+episode reward: 17.61005
+Colidiu com parede! --2 pts | atual: 1.684002
+episode reward: -5
+Colidiu com cal�ada! --2 pts | atual: 24.5259
+Colidiu com cal�ada! --2 pts | atual: 22.5259
+episode reward: 25.45787
+episode reward: 29.13581
+episode reward: 15.18407
+episode reward: 29.09382
+Colidiu com cal�ada! --2 pts | atual: 3.657998
+Colidiu com cal�ada! --2 pts | atual: 6.946036
+Colidiu com cal�ada! --2 pts | atual: 4.516067
+Colidiu com cal�ada! --2 pts | atual: 1.278052
+Colidiu com parede! --2 pts | atual: -1.017944
+episode reward: -4.999918
+episode reward: 23.96799
+episode reward: 15.16207
+Colidiu com cal�ada! --2 pts | atual: 9.352013
+Colidiu com cal�ada! --2 pts | atual: 9.144028
+Colidiu com cal�ada! --2 pts | atual: 7.11603
+Colidiu com cal�ada! --2 pts | atual: 5.10803
+Colidiu com cal�ada! --2 pts | atual: 2.425998
+Colidiu com cal�ada! --2 pts | atual: -0.2880023
+Colidiu com cal�ada! --2 pts | atual: -3.116041
+Colidiu com cal�ada! --2 pts | atual: -5.594007
+Colidiu com parede! --2 pts | atual: -7.865987
+episode reward: -10.9999
+Colidiu com parede! --2 pts | atual: 10.92205
+Colidiu com parede! --2 pts | atual: 8.626074
+Colidiu com parede! --2 pts | atual: 6.352094
+Colidiu com parede! --2 pts | atual: 4.100112
+Colidiu com parede! --2 pts | atual: 1.856109
+Colidiu com parede! --2 pts | atual: -0.3778913
+Colidiu com parede! --2 pts | atual: -2.681906
+Colidiu com parede! --2 pts | atual: -4.819896
+Colidiu com parede! --2 pts | atual: -7.001883
+episode reward: -10.99974
+Colidiu com cal�ada! --2 pts | atual: 10.70205
+Colidiu com cal�ada! --2 pts | atual: 8.70205
+Colidiu com cal�ada! --2 pts | atual: 6.134091
+Colidiu com cal�ada! --2 pts | atual: 3.532079
+Colidiu com parede! --2 pts | atual: 1.364081
+episode reward: -2.999948
+episode reward: 29.25181
+episode reward: 21.94599
+Colidiu com cal�ada! --2 pts | atual: 15.34816
+Colidiu com cal�ada! --2 pts | atual: 15.09418
+Colidiu com cal�ada! --2 pts | atual: 16.79214
+Colidiu com cal�ada! --2 pts | atual: 14.78814
+Colidiu com cal�ada! --2 pts | atual: 12.74814
+Colidiu com cal�ada! --2 pts | atual: 14.34417
+episode reward: 17.10419
+Colidiu com cal�ada! --2 pts | atual: 5.201998
+Colidiu com cal�ada! --2 pts | atual: 2.60797
+Colidiu com cal�ada! --2 pts | atual: 0.60597
+Colidiu com parede! --2 pts | atual: -1.534028
+episode reward: -6.999832
+Colidiu com cal�ada! --2 pts | atual: 6.790013
+Colidiu com cal�ada! --2 pts | atual: 6.580029
+Colidiu com cal�ada! --2 pts | atual: 4.578029
+episode reward: 9.278046
+episode reward: 20.13603
+episode reward: 23.86
+Colidiu com cal�ada! --2 pts | atual: 7.184012
+Colidiu com cal�ada! --2 pts | atual: 13.49813
+Colidiu com cal�ada! --2 pts | atual: 11.48814
+Colidiu com cal�ada! --2 pts | atual: 12.95417
+Colidiu com cal�ada! --2 pts | atual: 10.95017
+Colidiu com cal�ada! --2 pts | atual: 8.902178
+Colidiu com cal�ada! --2 pts | atual: 6.896178
+Colidiu com cal�ada! --2 pts | atual: 4.854181
+Colidiu com cal�ada! --2 pts | atual: 2.854181
+episode reward: -0.999809
+Colidiu com cal�ada! --2 pts | atual: 7.434015
+episode reward: 14.15204
+Colidiu com cal�ada! --2 pts | atual: 9.268019
+Colidiu com cal�ada! --2 pts | atual: 21.8537
+Colidiu com cal�ada! --2 pts | atual: 19.5856
+Colidiu com parede! --2 pts | atual: 16.05898
+episode reward: 12.99906
+Colidiu com cal�ada! --2 pts | atual: 8.876032
+Colidiu com cal�ada! --2 pts | atual: 6.864033
+Colidiu com cal�ada! --2 pts | atual: 10.66005
+Colidiu com cal�ada! --2 pts | atual: 8.658048
+Colidiu com cal�ada! --2 pts | atual: 6.62605
+Colidiu com cal�ada! --2 pts | atual: 4.458062
+Colidiu com cal�ada! --2 pts | atual: 1.176051
+Colidiu com cal�ada! --2 pts | atual: -0.8259486
+Colidiu com cal�ada! --2 pts | atual: -4.783947
+episode reward: -6.999931
+Colidiu com cal�ada! --2 pts | atual: 12.93804
+Colidiu com cal�ada! --2 pts | atual: 22.51199
+episode reward: 25.48398
+Colidiu com parede! --2 pts | atual: 24.94738
+episode reward: 20.99859
+Colidiu com parede! --2 pts | atual: 16.34193
+episode reward: 23.63176
+episode reward: 15.26806
+Colidiu com parede! --2 pts | atual: 9.524102
+episode reward: 5.000285
+episode reward: 15.14607
+Colidiu com cal�ada! --2 pts | atual: 11.22202
+Colidiu com cal�ada! --2 pts | atual: 14.92605
+Colidiu com cal�ada! --2 pts | atual: 12.92405
+Colidiu com cal�ada! --2 pts | atual: 10.89805
+Colidiu com cal�ada! --2 pts | atual: 8.898047
+Colidiu com cal�ada! --2 pts | atual: 5.422154
+Colidiu com cal�ada! --2 pts | atual: 3.406154
+Colidiu com cal�ada! --2 pts | atual: 1.384154
+Colidiu com parede! --2 pts | atual: -1.85183
+episode reward: -4.999764
+Colidiu com cal�ada! --2 pts | atual: 7.19601
+Colidiu com cal�ada! --2 pts | atual: 12.67405
+Colidiu com cal�ada! --2 pts | atual: 10.65805
+Colidiu com cal�ada! --2 pts | atual: 8.65405
+Colidiu com cal�ada! --2 pts | atual: 8.554057
+episode reward: 13.45006
+Colidiu com cal�ada! --2 pts | atual: 16.85198
+episode reward: 19.83398
+episode reward: 18.00004
+Colidiu com cal�ada! --2 pts | atual: 10.26407
+episode reward: 13.25807
+episode reward: 17.96204
+Colidiu com cal�ada! --2 pts | atual: 13.6221
+episode reward: 16.35612
+episode reward: 21.93799
+episode reward: 21.71799
+episode reward: 28.89375
+Colidiu com cal�ada! --2 pts | atual: 22.8179
+episode reward: 25.8139
+episode reward: 19.97404
+Colidiu com cal�ada! --2 pts | atual: 13.56811
+episode reward: 16.30813
+Colidiu com cal�ada! --2 pts | atual: 16.58202
+episode reward: 21.482
+Colidiu com cal�ada! --2 pts | atual: 5.532
+Colidiu com cal�ada! --2 pts | atual: 13.12603
+episode reward: 25.57589
+episode reward: 22.33801
+Colidiu com cal�ada! --2 pts | atual: 16.55203
+episode reward: 21.40399
+episode reward: 14.96207
+Colidiu com cal�ada! --2 pts | atual: 9.372006
+Colidiu com cal�ada! --2 pts | atual: 11.08803
+Colidiu com cal�ada! --2 pts | atual: 9.056029
+Colidiu com cal�ada! --2 pts | atual: 7.056029
+Colidiu com cal�ada! --2 pts | atual: 6.856044
+Colidiu com cal�ada! --2 pts | atual: 10.40208
+Colidiu com cal�ada! --2 pts | atual: 8.300084
+Colidiu com cal�ada! --2 pts | atual: 6.290085
+Colidiu com cal�ada! --2 pts | atual: 4.270086
+Colidiu com cal�ada! --2 pts | atual: 2.270086
+Colidiu com cal�ada! --2 pts | atual: 0.0660861
+Colidiu com cal�ada! --2 pts | atual: -2.429933
+Colidiu com cal�ada! --2 pts | atual: -4.457931
+Colidiu com cal�ada! --2 pts | atual: -6.461931
+Colidiu com parede! --2 pts | atual: -9.58585
+episode reward: -12.99975
+Colidiu com cal�ada! --2 pts | atual: 13.44013
+episode reward: 16.43813
+Colidiu com cal�ada! --2 pts | atual: 15.10002
+Colidiu com cal�ada! --2 pts | atual: 13.07403
+Colidiu com cal�ada! --2 pts | atual: 13.03803
+Colidiu com cal�ada! --2 pts | atual: 11.03803
+episode reward: 21.57996
+episode reward: 23.908
+episode reward: 29.05777
+Colidiu com cal�ada! --2 pts | atual: 3.577996
+Colidiu com cal�ada! --2 pts | atual: 5.368
+Colidiu com cal�ada! --2 pts | atual: 3.368
+Colidiu com cal�ada! --2 pts | atual: 2.685968
+Colidiu com cal�ada! --2 pts | atual: -0.0300299
+Colidiu com cal�ada! --2 pts | atual: -2.620058
+Colidiu com parede! --2 pts | atual: -5.394001
+episode reward: -8.999886
+episode reward: 23.41197
+episode reward: 29.39592
+episode reward: 22.25402
+Colidiu com cal�ada! --2 pts | atual: 15.22202
+episode reward: 17.96204
+episode reward: 18.34214
+episode reward: 29.64784
+episode reward: 17.98404
+Colidiu com cal�ada! --2 pts | atual: 7.144009
+Colidiu com cal�ada! --2 pts | atual: 12.52205
+Colidiu com cal�ada! --2 pts | atual: 10.52205
+Colidiu com cal�ada! --2 pts | atual: 8.492056
+Colidiu com cal�ada! --2 pts | atual: 6.464058
+Colidiu com cal�ada! --2 pts | atual: 3.166053
+Colidiu com cal�ada! --2 pts | atual: 0.4760611
+Colidiu com cal�ada! --2 pts | atual: -1.839935
+episode reward: -4.99987
+Colidiu com cal�ada! --2 pts | atual: 7.218011
+Colidiu com cal�ada! --2 pts | atual: 6.344074
+Colidiu com cal�ada! --2 pts | atual: 7.346147
+Colidiu com cal�ada! --2 pts | atual: 7.060167
+Colidiu com cal�ada! --2 pts | atual: 19.77594
+episode reward: 16.99963
+episode reward: 28.83976
+Colidiu com cal�ada! --2 pts | atual: 13.53811
+episode reward: 16.38812
+Colidiu com cal�ada! --2 pts | atual: 15.15803
+Colidiu com cal�ada! --2 pts | atual: 15.06803
+Colidiu com cal�ada! --2 pts | atual: 13.05803
+episode reward: 23.56991
+Colidiu com cal�ada! --2 pts | atual: 7.078024
+Colidiu com cal�ada! --2 pts | atual: 6.85804
+Colidiu com cal�ada! --2 pts | atual: 13.41214
+episode reward: 16.05217
+Colidiu com cal�ada! --2 pts | atual: 9.666105
+Colidiu com cal�ada! --2 pts | atual: 7.60611
+Colidiu com cal�ada! --2 pts | atual: 4.706175
+Colidiu com cal�ada! --2 pts | atual: 2.402161
+Colidiu com cal�ada! --2 pts | atual: 0.1601602
+Colidiu com cal�ada! --2 pts | atual: -2.559864
+Colidiu com parede! --2 pts | atual: -4.75385
+episode reward: -6.999832
+episode reward: 18.41013
+episode reward: 16.20803
+Colidiu com cal�ada! --2 pts | atual: 13.59012
+episode reward: 16.39613
+Colidiu com cal�ada! --2 pts | atual: 11.24802
+Colidiu com cal�ada! --2 pts | atual: 11.09203
+Colidiu com cal�ada! --2 pts | atual: 12.84605
+Colidiu com cal�ada! --2 pts | atual: 10.84605
+Colidiu com cal�ada! --2 pts | atual: 16.55804
+episode reward: 19.52004
+Colidiu com parede! --2 pts | atual: 12.19809
+episode reward: 7.000319
+episode reward: 15.31206
+episode reward: 16.23003
+episode reward: 24.11593
+episode reward: 15.17007
+Colidiu com cal�ada! --2 pts | atual: 6.884038
+Colidiu com cal�ada! --2 pts | atual: 8.184089
+Colidiu com cal�ada! --2 pts | atual: 5.774118
+Colidiu com cal�ada! --2 pts | atual: 5.068159
+episode reward: 1.000122
+episode reward: 28.81175
+Colidiu com cal�ada! --2 pts | atual: 11.26002
+Colidiu com cal�ada! --2 pts | atual: 13.12403
+episode reward: 25.59789
+episode reward: 23.94599
+episode reward: 29.55782
+Colidiu com cal�ada! --2 pts | atual: 9.378017
+Colidiu com cal�ada! --2 pts | atual: 7.34402
+episode reward: 12.13803
+episode reward: 17.94004
+Colidiu com cal�ada! --2 pts | atual: 7.376015
+episode reward: 14.05604
+episode reward: 29.8259
+Colidiu com cal�ada! --2 pts | atual: 5.196002
+Colidiu com cal�ada! --2 pts | atual: 11.48811
+episode reward: 14.23013
+episode reward: 29.4399
+episode reward: 23.76195
+episode reward: 15.27206
+episode reward: 27.47791
+Colidiu com cal�ada! --2 pts | atual: 12.95604
+Colidiu com cal�ada! --2 pts | atual: 10.95404
+Colidiu com cal�ada! --2 pts | atual: 20.43397
+Colidiu com cal�ada! --2 pts | atual: 18.43397
+Colidiu com cal�ada! --2 pts | atual: 15.50783
+Colidiu com parede! --2 pts | atual: 12.20792
+episode reward: 9.000009
+episode reward: 28.97779
+Colidiu com cal�ada! --2 pts | atual: 3.461999
+Colidiu com cal�ada! --2 pts | atual: 1.322001
+Colidiu com cal�ada! --2 pts | atual: -0.6799988
+Colidiu com cal�ada! --2 pts | atual: -0.8199974
+Colidiu com cal�ada! --2 pts | atual: 5.392016
+episode reward: 8.272011
+Colidiu com cal�ada! --2 pts | atual: 15.19002
+Colidiu com cal�ada! --2 pts | atual: 13.18602
+episode reward: 25.55989
+Colidiu com cal�ada! --2 pts | atual: 15.13803
+Colidiu com cal�ada! --2 pts | atual: 13.12003
+episode reward: 25.59789
+Colidiu com cal�ada! --2 pts | atual: 11.30002
+Colidiu com cal�ada! --2 pts | atual: 13.17202
+Colidiu com cal�ada! --2 pts | atual: 10.23609
+Colidiu com cal�ada! --2 pts | atual: 8.236093
+Colidiu com cal�ada! --2 pts | atual: 6.198095
+Colidiu com cal�ada! --2 pts | atual: 2.522041
+Colidiu com parede! --2 pts | atual: 0.03604023
+episode reward: -3.000006
+episode reward: 29.73736
+Colidiu com cal�ada! --2 pts | atual: 9.232021
+episode reward: 27.27991
+Colidiu com cal�ada! --2 pts | atual: 17.63013
+episode reward: 20.35215
+episode reward: 29.68738
+episode reward: 19.94204
+Colidiu com cal�ada! --2 pts | atual: 7.130012
+episode reward: 21.50401
+episode reward: 29.19185
+episode reward: 15.14007
+episode reward: 29.53381
+episode reward: 16.13004
+episode reward: 29.03578
+episode reward: 29.16779
+episode reward: 18.12203
+episode reward: 21.85599
+Colidiu com cal�ada! --2 pts | atual: 17.47606
+episode reward: 20.24407
+episode reward: 27.58392
+Colidiu com cal�ada! --2 pts | atual: 24.4719
+Colidiu com cal�ada! --2 pts | atual: 21.99571
+Colidiu com cal�ada! --2 pts | atual: 19.99371
+Colidiu com cal�ada! --2 pts | atual: 17.27542
+Colidiu com cal�ada! --2 pts | atual: 15.27542
+episode reward: 10.99958
+episode reward: 22.46402
+episode reward: 17.94403
+Colidiu com cal�ada! --2 pts | atual: 3.627997
+episode reward: 27.63186
+Colidiu com cal�ada! --2 pts | atual: 11.17803
+Colidiu com cal�ada! --2 pts | atual: 10.93604
+Colidiu com cal�ada! --2 pts | atual: 18.77133
+Colidiu com cal�ada! --2 pts | atual: 16.6853
+Colidiu com parede! --2 pts | atual: 13.72336
+episode reward: 10.99942
+episode reward: 15.22407
+Colidiu com cal�ada! --2 pts | atual: 9.674103
+Colidiu com cal�ada! --2 pts | atual: 7.638105
+Colidiu com cal�ada! --2 pts | atual: 5.612107
+Colidiu com cal�ada! --2 pts | atual: 1.226042
+Colidiu com cal�ada! --2 pts | atual: -0.7739581
+episode reward: -2.999969
+episode reward: 21.84398
+episode reward: 24.08998
+Colidiu com cal�ada! --2 pts | atual: 8.886037
+Colidiu com cal�ada! --2 pts | atual: 12.61606
+Colidiu com cal�ada! --2 pts | atual: 10.61406
+Colidiu com cal�ada! --2 pts | atual: 8.576059
+Colidiu com cal�ada! --2 pts | atual: 5.696123
+Colidiu com cal�ada! --2 pts | atual: 3.166098
+Colidiu com cal�ada! --2 pts | atual: 1.142099
+Colidiu com cal�ada! --2 pts | atual: -0.8579013
+Colidiu com cal�ada! --2 pts | atual: -3.25592
+Colidiu com cal�ada! --2 pts | atual: -5.25592
+Colidiu com cal�ada! --2 pts | atual: -8.291845
+Colidiu com parede! --2 pts | atual: -10.52583
+episode reward: -12.99979
+Colidiu com parede! --2 pts | atual: 7.374019
+episode reward: 1.000038
+episode reward: 29.24788
+Colidiu com parede! --2 pts | atual: 19.67373
+episode reward: 14.99912
+Colidiu com cal�ada! --2 pts | atual: 6.998034
+Colidiu com cal�ada! --2 pts | atual: 6.64606
+Colidiu com cal�ada! --2 pts | atual: 4.638061
+Colidiu com cal�ada! --2 pts | atual: 2.496054
+Colidiu com cal�ada! --2 pts | atual: 2.286049
+Colidiu com cal�ada! --2 pts | atual: 0.1140483
+Colidiu com cal�ada! --2 pts | atual: 3.332048
+Colidiu com cal�ada! --2 pts | atual: 1.312049
+Colidiu com cal�ada! --2 pts | atual: 1.064052
+Colidiu com cal�ada! --2 pts | atual: -0.9379481
+Colidiu com cal�ada! --2 pts | atual: -1.275958
+Colidiu com cal�ada! --2 pts | atual: -1.311959
+Colidiu com cal�ada! --2 pts | atual: -4.643944
+episode reward: -6.999918
+Colidiu com cal�ada! --2 pts | atual: 18.54798
+episode reward: 21.53197
+episode reward: 21.74799
+episode reward: 15.09208
+Colidiu com cal�ada! --2 pts | atual: 15.23615
+Colidiu com cal�ada! --2 pts | atual: 15.05416
+Colidiu com cal�ada! --2 pts | atual: 16.89417
+Colidiu com cal�ada! --2 pts | atual: 14.89417
+Colidiu com cal�ada! --2 pts | atual: 19.78375
+episode reward: 16.99944
+Colidiu com cal�ada! --2 pts | atual: 8.47405
+Colidiu com cal�ada! --2 pts | atual: 6.47405
+Colidiu com cal�ada! --2 pts | atual: 4.134074
+Colidiu com parede! --2 pts | atual: 1.726071
+episode reward: -2.999956
+Colidiu com cal�ada! --2 pts | atual: 16.86213
+Colidiu com cal�ada! --2 pts | atual: 20.40009
+Colidiu com cal�ada! --2 pts | atual: 18.29405
+episode reward: 22.66179
+Colidiu com cal�ada! --2 pts | atual: 9.648111
+Colidiu com cal�ada! --2 pts | atual: 7.648111
+Colidiu com cal�ada! --2 pts | atual: 5.618114
+Colidiu com cal�ada! --2 pts | atual: 2.68807
+Colidiu com cal�ada! --2 pts | atual: 0.6340708
+Colidiu com cal�ada! --2 pts | atual: -2.349937
+Colidiu com cal�ada! --2 pts | atual: -4.485928
+episode reward: -6.99989
+episode reward: 23.98199
+episode reward: 29.10579
+episode reward: 23.842
+Colidiu com cal�ada! --2 pts | atual: 5.264009
+Colidiu com cal�ada! --2 pts | atual: 2.695983
+Colidiu com parede! --2 pts | atual: 0.4359853
+episode reward: -5.00003
+Colidiu com cal�ada! --2 pts | atual: 8.726041
+Colidiu com cal�ada! --2 pts | atual: 15.37414
+episode reward: 18.17215
+episode reward: 17.98604
+episode reward: 29.01379
+episode reward: 29.51744
+Colidiu com cal�ada! --2 pts | atual: 16.94011
+Colidiu com cal�ada! --2 pts | atual: 16.80411
+Colidiu com cal�ada! --2 pts | atual: 14.80411
+Colidiu com cal�ada! --2 pts | atual: 18.43202
+episode reward: 22.76775
+Colidiu com cal�ada! --2 pts | atual: 17.40005
+Colidiu com cal�ada! --2 pts | atual: 15.40005
+episode reward: 18.17807
+Colidiu com cal�ada! --2 pts | atual: 17.50409
+Colidiu com cal�ada! --2 pts | atual: 15.2821
+Colidiu com cal�ada! --2 pts | atual: 13.2761
+Colidiu com cal�ada! --2 pts | atual: 10.64415
+Colidiu com cal�ada! --2 pts | atual: 8.624151
+Colidiu com cal�ada! --2 pts | atual: 6.612152
+Colidiu com cal�ada! --2 pts | atual: 4.016195
+Colidiu com cal�ada! --2 pts | atual: 1.986195
+Colidiu com cal�ada! --2 pts | atual: -0.09580522
+episode reward: -2.999847
+Colidiu com cal�ada! --2 pts | atual: 16.99813
+Colidiu com cal�ada! --2 pts | atual: 18.83609
+Colidiu com cal�ada! --2 pts | atual: 16.83209
+episode reward: 26.93773
+Colidiu com cal�ada! --2 pts | atual: 8.764042
+episode reward: 20.39614
+episode reward: 7.000316
+episode reward: 18.00003
+episode reward: 27.70592
+episode reward: 23.85799
+episode reward: 24.14199
+episode reward: 23.59396
+Colidiu com cal�ada! --2 pts | atual: 9.332007
+Colidiu com cal�ada! --2 pts | atual: 11.10202
+Colidiu com cal�ada! --2 pts | atual: 9.102024
+Colidiu com cal�ada! --2 pts | atual: 6.980033
+Colidiu com cal�ada! --2 pts | atual: 4.952035
+Colidiu com cal�ada! --2 pts | atual: 2.952035
+Colidiu com cal�ada! --2 pts | atual: 9.436118
+Colidiu com cal�ada! --2 pts | atual: 6.646175
+Colidiu com cal�ada! --2 pts | atual: 4.646175
+Colidiu com parede! --2 pts | atual: 1.866147
+Colidiu com parede! --2 pts | atual: -0.2298533
+episode reward: -2.999889
+Colidiu com cal�ada! --2 pts | atual: 13.49212
+Colidiu com cal�ada! --2 pts | atual: 10.49219
+Colidiu com cal�ada! --2 pts | atual: 8.148216
+Colidiu com cal�ada! --2 pts | atual: 6.008226
+Colidiu com cal�ada! --2 pts | atual: 3.864221
+episode reward: 1.000232
+episode reward: 24.07795
+Colidiu com cal�ada! --2 pts | atual: 13.41412
+episode reward: 16.29613
+episode reward: 29.68137
+Colidiu com cal�ada! --2 pts | atual: 8.720041
+Colidiu com cal�ada! --2 pts | atual: 15.49213
+Colidiu com cal�ada! --2 pts | atual: 13.48813
+episode reward: 16.23615
+episode reward: 23.89
+Colidiu com cal�ada! --2 pts | atual: 7.232009
+Colidiu com cal�ada! --2 pts | atual: 4.758043
+Colidiu com cal�ada! --2 pts | atual: 5.752115
+Colidiu com cal�ada! --2 pts | atual: 5.682114
+Colidiu com cal�ada! --2 pts | atual: 2.872076
+Colidiu com cal�ada! --2 pts | atual: 0.5640798
+Colidiu com parede! --2 pts | atual: -1.923914
+episode reward: -4.999845
+episode reward: 22.28996
+episode reward: 16.12604
+Colidiu com cal�ada! --2 pts | atual: 7.000018
+Colidiu com cal�ada! --2 pts | atual: 8.784034
+Colidiu com cal�ada! --2 pts | atual: 10.58605
+Colidiu com cal�ada! --2 pts | atual: 8.586048
+Colidiu com cal�ada! --2 pts | atual: 6.498055
+Colidiu com cal�ada! --2 pts | atual: 3.224054
+Colidiu com cal�ada! --2 pts | atual: 0.08006298
+Colidiu com cal�ada! --2 pts | atual: -2.493959
+episode reward: -4.999922
+episode reward: 18.04403
+episode reward: 18.30612
+Colidiu com cal�ada! --2 pts | atual: 7.52401
+episode reward: 14.27003
+episode reward: 27.7759
+Colidiu com cal�ada! --2 pts | atual: 8.886021
+Colidiu com cal�ada! --2 pts | atual: 12.65204
+Colidiu com cal�ada! --2 pts | atual: 10.65204
+Colidiu com cal�ada! --2 pts | atual: 7.816098
+Colidiu com cal�ada! --2 pts | atual: 5.200143
+Colidiu com cal�ada! --2 pts | atual: 3.004134
+Colidiu com parede! --2 pts | atual: 0.2581397
+episode reward: -2.999904
+episode reward: 16.09004
+Colidiu com cal�ada! --2 pts | atual: 11.38801
+Colidiu com cal�ada! --2 pts | atual: 9.326019
+Colidiu com cal�ada! --2 pts | atual: 13.02604
+Colidiu com cal�ada! --2 pts | atual: 11.17817
+Colidiu com parede! --2 pts | atual: 8.97619
+episode reward: 5.000333
+Colidiu com cal�ada! --2 pts | atual: 15.53215
+Colidiu com cal�ada! --2 pts | atual: 13.52815
+Colidiu com cal�ada! --2 pts | atual: 16.8042
+episode reward: 21.03407
+episode reward: 15.33006
+episode reward: 23.892
+episode reward: 29.24981
+Colidiu com cal�ada! --2 pts | atual: 14.71404
+episode reward: 21.42199
+Colidiu com cal�ada! --2 pts | atual: 20.93317
+Colidiu com cal�ada! --2 pts | atual: 18.53701
+Colidiu com cal�ada! --2 pts | atual: 16.0108
+Colidiu com parede! --2 pts | atual: 13.66282
+episode reward: 10.99887
+Colidiu com cal�ada! --2 pts | atual: 8.464081
+Colidiu com cal�ada! --2 pts | atual: 5.904121
+Colidiu com cal�ada! --2 pts | atual: 3.862119
+Colidiu com cal�ada! --2 pts | atual: 1.476124
+Colidiu com cal�ada! --2 pts | atual: -1.487863
+Colidiu com cal�ada! --2 pts | atual: -4.401858
+Colidiu com parede! --2 pts | atual: -6.655839
+episode reward: -8.999815
+Colidiu com cal�ada! --2 pts | atual: 7.582006
+episode reward: 14.20803
+episode reward: 15.04408
+episode reward: 14.96408
+episode reward: 18.00003
+Colidiu com cal�ada! --2 pts | atual: 7.550006
+episode reward: 14.13404
+Colidiu com cal�ada! --2 pts | atual: 18.90007
+Colidiu com cal�ada! --2 pts | atual: 16.89607
+Colidiu com cal�ada! --2 pts | atual: 20.62597
+episode reward: 24.83165
+Colidiu com cal�ada! --2 pts | atual: 6.770016
+Colidiu com cal�ada! --2 pts | atual: 4.660024
+Colidiu com cal�ada! --2 pts | atual: 3.832049
+Colidiu com cal�ada! --2 pts | atual: 1.126058
+Colidiu com parede! --2 pts | atual: -1.01994
+episode reward: -4.999913
+Colidiu com cal�ada! --2 pts | atual: 16.72202
+episode reward: 21.59999
+episode reward: 21.25589
+Colidiu com cal�ada! --2 pts | atual: 13.52212
+episode reward: 16.36814
+episode reward: 15.17007
+Colidiu com cal�ada! --2 pts | atual: 8.720041
+Colidiu com cal�ada! --2 pts | atual: 13.55413
+Colidiu com cal�ada! --2 pts | atual: 13.43813
+episode reward: 16.24215
+Colidiu com cal�ada! --2 pts | atual: 21.32937
+Colidiu com cal�ada! --2 pts | atual: 19.32937
+Colidiu com cal�ada! --2 pts | atual: 17.30336
+Colidiu com cal�ada! --2 pts | atual: 15.29736
+Colidiu com cal�ada! --2 pts | atual: 12.16344
+Colidiu com parede! --2 pts | atual: 9.937457
+episode reward: 6.999525
+episode reward: 21.24589
+episode reward: 18.07403
+Colidiu com cal�ada! --2 pts | atual: 5.589997
+Colidiu com cal�ada! --2 pts | atual: 3.587997
+episode reward: 25.5879
+Colidiu com cal�ada! --2 pts | atual: 11.23803
+episode reward: 14.17803
+episode reward: 27.68992
+episode reward: 29.73342
+Colidiu com cal�ada! --2 pts | atual: 7.134011
+Colidiu com cal�ada! --2 pts | atual: 6.812035
+Colidiu com cal�ada! --2 pts | atual: 4.808035
+Colidiu com cal�ada! --2 pts | atual: 10.44406
+episode reward: 13.30607
+Colidiu com cal�ada! --2 pts | atual: 5.504001
+episode reward: 25.60393
+Colidiu com parede! --2 pts | atual: 7.402014
+episode reward: 1.000035
+Colidiu com cal�ada! --2 pts | atual: 11.20616
+Colidiu com parede! --2 pts | atual: 8.910177
+episode reward: 5.000316
+episode reward: 29.6593
+Colidiu com cal�ada! --2 pts | atual: 9.344012
+Colidiu com cal�ada! --2 pts | atual: 11.04203
+episode reward: 25.29191
+Colidiu com cal�ada! --2 pts | atual: 7.25001
+Colidiu com cal�ada! --2 pts | atual: 5.242011
+Colidiu com cal�ada! --2 pts | atual: 2.841992
+Colidiu com cal�ada! --2 pts | atual: 2.193987
+Colidiu com cal�ada! --2 pts | atual: 0.06198686
+Colidiu com cal�ada! --2 pts | atual: -1.940013
+Colidiu com cal�ada! --2 pts | atual: -2.176022
+Colidiu com cal�ada! --2 pts | atual: -4.312013
+Colidiu com cal�ada! --2 pts | atual: -6.312013
+Colidiu com cal�ada! --2 pts | atual: -6.62599
+Colidiu com cal�ada! --2 pts | atual: -8.62599
+Colidiu com cal�ada! --2 pts | atual: -11.34994
+episode reward: -14.99982
+episode reward: 27.5119
+Colidiu com cal�ada! --2 pts | atual: 17.63608
+Colidiu com cal�ada! --2 pts | atual: 15.59608
+episode reward: 18.3581
+Colidiu com cal�ada! --2 pts | atual: 7.124013
+Colidiu com cal�ada! --2 pts | atual: 14.50206
+Colidiu com cal�ada! --2 pts | atual: 12.50206
+episode reward: 15.33207
+episode reward: 23.60797
+Colidiu com cal�ada! --2 pts | atual: 7.064012
+Colidiu com cal�ada! --2 pts | atual: 6.786032
+Colidiu com cal�ada! --2 pts | atual: 4.772033
+Colidiu com cal�ada! --2 pts | atual: 6.696032
+Colidiu com cal�ada! --2 pts | atual: 4.690032
+episode reward: 11.31006
+Colidiu com cal�ada! --2 pts | atual: 22.33382
+Colidiu com cal�ada! --2 pts | atual: 20.2998
+Colidiu com cal�ada! --2 pts | atual: 18.2878
+Colidiu com cal�ada! --2 pts | atual: 16.27979
+Colidiu com cal�ada! --2 pts | atual: 12.48992
+Colidiu com parede! --2 pts | atual: 10.21994
+episode reward: 7.000032
+episode reward: 16.23203
+episode reward: 16.15603
+Colidiu com cal�ada! --2 pts | atual: 18.00361
+episode reward: 14.99968
+episode reward: 21.77999
+episode reward: 15.13807
+Colidiu com cal�ada! --2 pts | atual: 12.4182
+Colidiu com cal�ada! --2 pts | atual: 10.01023
+Colidiu com cal�ada! --2 pts | atual: 7.400273
+Colidiu com cal�ada! --2 pts | atual: 5.364276
+Colidiu com cal�ada! --2 pts | atual: 3.358276
+episode reward: 1.00028
+Colidiu com cal�ada! --2 pts | atual: 7.05002
+episode reward: 24.99934
+episode reward: 15.20207
+Colidiu com cal�ada! --2 pts | atual: 10.35205
+Colidiu com cal�ada! --2 pts | atual: 7.926085
+Colidiu com cal�ada! --2 pts | atual: 3.532203
+Colidiu com cal�ada! --2 pts | atual: 1.460204
+episode reward: -0.99979
+Colidiu com cal�ada! --2 pts | atual: 11.26602
+Colidiu com cal�ada! --2 pts | atual: 13.15003
+Colidiu com cal�ada! --2 pts | atual: 11.13603
+episode reward: 23.58793
+Colidiu com cal�ada! --2 pts | atual: 16.90412
+Colidiu com cal�ada! --2 pts | atual: 18.7501
+Colidiu com cal�ada! --2 pts | atual: 16.7501
+Colidiu com cal�ada! --2 pts | atual: 21.95178
+episode reward: 24.66367
+Colidiu com cal�ada! --2 pts | atual: 17.10409
+Colidiu com cal�ada! --2 pts | atual: 26.0697
+episode reward: 28.92764
+Colidiu com cal�ada! --2 pts | atual: 8.784027
+Colidiu com cal�ada! --2 pts | atual: 10.65604
+Colidiu com cal�ada! --2 pts | atual: 8.656036
+Colidiu com cal�ada! --2 pts | atual: 10.32406
+Colidiu com cal�ada! --2 pts | atual: 8.008083
+Colidiu com cal�ada! --2 pts | atual: 5.282136
+Colidiu com cal�ada! --2 pts | atual: 2.062079
+Colidiu com cal�ada! --2 pts | atual: -0.05392106
+episode reward: -2.999965
+Colidiu com cal�ada! --2 pts | atual: 3.627997
+Colidiu com cal�ada! --2 pts | atual: 5.463995
+episode reward: 25.24779
+episode reward: 19.99204
+Colidiu com cal�ada! --2 pts | atual: 13.43813
+episode reward: 16.34013
+Colidiu com cal�ada! --2 pts | atual: 22.3977
+Colidiu com cal�ada! --2 pts | atual: 20.3977
+Colidiu com cal�ada! --2 pts | atual: 17.05916
+Colidiu com cal�ada! --2 pts | atual: 15.05716
+Colidiu com cal�ada! --2 pts | atual: 13.02916
+Colidiu com cal�ada! --2 pts | atual: 10.22522
+Colidiu com cal�ada! --2 pts | atual: 7.957242
+Colidiu com parede! --2 pts | atual: 5.727259
+episode reward: 2.999225
+Setting up 6 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 173110 frames, [2.0 KB-4.0 KB]: 2866 frames, [4.0 KB-8.0 KB]: 1348 frames, [8.0 KB-16.0 KB]: 1089 frames, [16.0 KB-32.0 KB]: 12 frames, [32.0 KB-64.0 KB]: 1625 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 296.0 KB
+      Peak Allocated Bytes 181.4 KB
+      Overflow Count 5
+    [ALLOC_TEMP_Background Job.worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 158 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 29
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 180051 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 25.6 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 180051 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.8 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 180050 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.5 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 16 frames, [1.0 MB-2.0 MB]: 140 frames, [2.0 MB-4.0 MB]: 179895 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.7 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 180051 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 180050 frames, [8.0 MB-16.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 3
+      Peak Allocated memory 10.0 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 180051 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 96 B
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 180051 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.9 KB
+      Peak Large allocation bytes 0 B
