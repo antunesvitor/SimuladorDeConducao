@@ -7,24 +7,20 @@ using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
 
-public class CarAgent : Agent
+public class CarAgent: Agent
 {
-    //Controle do veÌculo
+    //Controle do ve√≠culo
     private float horizontalInput, verticalInput;
     private float currentSteerAngle, currentbreakForce;
     private bool isBreaking;
     private Rigidbody rBody;
 
-    private float carDistanceToDestination;             //dist‚ncia entre o carro e o destino no inÌcio do episÛdio
-    private float currentCarDistanceToDestination;      //dist‚ncia entre o carro e o destino a cada frame
-
-    //private float timeLimit = 20;                       //Tempo limite em segundos para atingir o objetivo
-    //private float elapsedTime = 0;                      //Tempo decorrido em segundos
-
     private CheckpointSingle nextCheckpoint;
     private Transform resetPosition;
     private float stepPunishment { get { return Constants.FEEDBACK_MAXSTEPS_REACHED / this.MaxStep; } }
-
+    private int currentPathCheckoutPointsCount;
+    private float checkpointReward;
+    private int collisionsCount = 0;
 
     // Settings
     [SerializeField] private float motorForce, breakForce, maxSteerAngle;
@@ -52,11 +48,12 @@ public class CarAgent : Agent
     {
         SetNewPath();
 
-        //atualiza as novas vari·veis de dist‚ncia entre o agente e o destino
-        this.carDistanceToDestination = Vector3.Distance(this.transform.localPosition, Target.transform.position);
-        this.currentCarDistanceToDestination = this.carDistanceToDestination;
+        //Aqui se define uma recompensa para cada checkpoint atingido com base na quantidade de checkpoints que h√° naquele Path
+        //Ent√£o se um trajeto tiver mais checkpoints, o agente recebe menos recompensa POR cada um deles
+        this.checkpointReward = Constants.FEEDBACK_MAX_CHECKPOINT_REACHED / this.currentPathCheckoutPointsCount;
 
-        //this.elapsedTime = 0;
+        //Reseta contador de colis√µes
+        this.collisionsCount = 0;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -75,32 +72,33 @@ public class CarAgent : Agent
 
         float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
-        //this.elapsedTime += Time.deltaTime;
-
-        //Aplicando puniÁ„o do step
-        //TODO: centralizar isso em uma constante
+        //Aplicado uma pequena puni√ß√£o para que o agente entenda que n√£o possa ficar parado
         AddReward(stepPunishment);
 
         if (CarIsUpsideDown())
         {
-            AddReward(Constants.FEEDBACK_CAR_UPSIDE_DOWN);
+            SetReward(Constants.FEEDBACK_CAR_UPSIDE_DOWN);
             Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
-            //FixCarPosition();
         }
 
         if (distanceToTarget < 2.5f)
         {
-            //this.elapsedTime = 0f;
-            AddReward(Constants.FEEDBACK_DESTINATION_REACHED);
-            SetNewPath();
-
-            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            float finalReward = Constants.FEEDBACK_DESTINATION_REACHED + (this.collisionsCount * Constants.FEEDBACK_COLLISION_SIDEWALK);
+            Debug.Log($"num. colis√µes ep: {this.collisionsCount}");
+            Debug.Log($"finalreward: {finalReward}");
+            SetReward(finalReward);
             EndEpisode();
         }
 
+        //Caso este seja o √∫ltimo step e o agente n√£o atingiu o objetivo
         if (this.StepCount == this.MaxStep)
         {
+            //Define a recompensa do epis√≥dio em -1 caso seja o acumulado seja menor
+            if (this.GetCumulativeReward() < -1){
+                SetReward(-1);
+            }
+
             Debug.Log($"episode reward: {this.GetCumulativeReward()}");
         }
     }
@@ -123,7 +121,6 @@ public class CarAgent : Agent
         if (CarIsUpsideDown())
         {
             FixCarPosition();
-            //Debug.Log($"episode reward: {this.GetCumulativeReward()}")EndEpisode();
         }
     }
 
@@ -182,7 +179,7 @@ public class CarAgent : Agent
     private void SetNewPath()
     {
         PathManager newPath = this.SpawnPointManager.GetNewPath();
-      
+
         Transform newCarLocation = newPath.origin.transform;
         Transform newDestination = newPath.destiny.transform;
 
@@ -191,34 +188,37 @@ public class CarAgent : Agent
 
         this.resetPosition = newCarLocation;
         this.nextCheckpoint = newPath.GetFirstCheckpoint;
+        this.currentPathCheckoutPointsCount = newPath.checkpointsCount;
+
         Target.localPosition = new Vector3(newDestination.localPosition.x, 1, newDestination.localPosition.z);
 
         ResetPhysics();
     }
 
-    //FunÁ„o que o SpawnpointManager chama informando que o checkpoint foi cruzado
+    //Fun√ß√£o que o SpawnpointManager chama informando que o checkpoint foi cruzado
     public void OnCheckedpoint(CheckpointSingle nextCheckpoint)
     {
         this.resetPosition = this.nextCheckpoint?.transform ?? this.resetPosition;
         this.nextCheckpoint = nextCheckpoint;
 
-        //Debug.Log($"Atingiu checkpoint! +{Constants.FEEDBACK_CHECKPOINT_REACHED} pts | atual: {this.GetCumulativeReward()}");
-        AddReward(Constants.FEEDBACK_CHECKPOINT_REACHED);
+        AddReward(this.checkpointReward);
     }
 
     public void OnSideWalkCollision()
     {
-        Debug.Log($"Colidiu com calÁada! -{Constants.FEEDBACK_COLLISION_SIDEWALK} pts | atual: {this.GetCumulativeReward()}");
+        Debug.Log($"Colidiu com calÔøΩada! -{Constants.FEEDBACK_COLLISION_SIDEWALK} pts | atual: {this.GetCumulativeReward()}");
+        this.collisionsCount++;
         AddReward(Constants.FEEDBACK_COLLISION_SIDEWALK);
     }
 
     public void OnWallCollsion()
     {
         Debug.Log($"Colidiu com parede! -{Constants.FEEDBACK_COLLISION_WALL} pts | atual: {this.GetCumulativeReward()}");
+        this.collisionsCount++;
         AddReward(Constants.FEEDBACK_COLLISION_WALL);
     }
 
-    //TODO: reescrever este mÈtodo 
+    //TODO: reescrever este m√©todo 
     private void ResetPhysics()
     {
         verticalInput = 0;
@@ -245,7 +245,7 @@ public class CarAgent : Agent
         this.rearRightWheelCollider.attachedRigidbody.Sleep();
     }
 
-    //Checa se o carro est· de ponta cabeÁa
+    //Checa se o carro estÔøΩ de ponta cabeÔøΩa
     private bool CarIsUpsideDown()
     {
         return Vector3.Dot(this.transform.up, Vector3.down) > 0;

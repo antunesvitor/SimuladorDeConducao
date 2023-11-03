@@ -15,6 +15,7 @@ public class PathManager : MonoBehaviour
     private int nextCheckpointSingleIndex;
 
     public int getNextCheckpointIndex { get { return this.nextCheckpointSingleIndex; } }
+    public int checkpointsCount { get; set; }
 
     public Transform origin { get { return this._origin; } }
     public Transform destiny { get { return this._destiny; } }
@@ -34,6 +35,7 @@ public class PathManager : MonoBehaviour
         this._origin = transform.Find("Origin");
         this._destiny = transform.Find("Destiny");
         this.nextCheckpointSingleIndex = 0;
+        this.checkpointsCount = this.checkpointsList.Count;
     }
 
     public void WhenPlayerCrossCheckpoint()
