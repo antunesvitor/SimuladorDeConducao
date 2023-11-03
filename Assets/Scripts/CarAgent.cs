@@ -19,8 +19,9 @@ public class CarAgent: Agent
     private Transform resetPosition;
     private float stepPunishment { get { return Constants.FEEDBACK_MAXSTEPS_REACHED / this.MaxStep; } }
     private int currentPathCheckoutPointsCount;
-    private float checkpointReward;
+    private float singleCheckpointReward;
     private int collisionsCount = 0;
+    private int currentCheckpointsCount = 0;
 
     // Settings
     [SerializeField] private float motorForce, breakForce, maxSteerAngle;
@@ -50,10 +51,11 @@ public class CarAgent: Agent
 
         //Aqui se define uma recompensa para cada checkpoint atingido com base na quantidade de checkpoints que há naquele Path
         //Então se um trajeto tiver mais checkpoints, o agente recebe menos recompensa POR cada um deles
-        this.checkpointReward = Constants.FEEDBACK_MAX_CHECKPOINT_REACHED / this.currentPathCheckoutPointsCount;
+        this.singleCheckpointReward = Constants.FEEDBACK_MAX_CHECKPOINT_REACHED / this.currentPathCheckoutPointsCount;
 
         //Reseta contador de colisões
         this.collisionsCount = 0;
+        this.currentCheckpointsCount = 0;
     }
 
     public override void CollectObservations(VectorSensor sensor)
@@ -84,8 +86,18 @@ public class CarAgent: Agent
 
         if (distanceToTarget < 2.5f)
         {
-            float finalReward = Constants.FEEDBACK_DESTINATION_REACHED + (this.collisionsCount * Constants.FEEDBACK_COLLISION_SIDEWALK);
+            
             Debug.Log($"num. colisões ep: {this.collisionsCount}");
+            Debug.Log($"num. checkpooints : {this.currentCheckpointsCount}");
+
+            float collisionsPenaty = this.collisionsCount * Constants.FEEDBACK_COLLISION_SIDEWALK;
+            float checkpointsReward = this.currentCheckpointsCount * this.singleCheckpointReward;
+
+            Debug.Log($"pen.colisões: {this.collisionsCount}");
+            Debug.Log($"rec. checkpoints: {this.currentCheckpointsCount}");
+
+            float finalReward = Constants.FEEDBACK_DESTINATION_REACHED + checkpointsReward + collisionsPenaty;
+
             Debug.Log($"finalreward: {finalReward}");
             SetReward(finalReward);
             EndEpisode();
@@ -201,7 +213,10 @@ public class CarAgent: Agent
         this.resetPosition = this.nextCheckpoint?.transform ?? this.resetPosition;
         this.nextCheckpoint = nextCheckpoint;
 
-        AddReward(this.checkpointReward);
+        //incrementa o número de checkpoints
+        this.currentCheckpointsCount ++;
+
+        AddReward(this.singleCheckpointReward);
     }
 
     public void OnSideWalkCollision()

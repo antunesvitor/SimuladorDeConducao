@@ -10,6 +10,6 @@ public static class Constants
     public const float FEEDBACK_MAXSTEPS_REACHED = -1f;
     public const float FEEDBACK_CAR_UPSIDE_DOWN = -1f;
     public const float FEEDBACK_MAX_CHECKPOINT_REACHED = .5f;
-    public const float FEEDBACK_DESTINATION_REACHED = 1f;
+    public const float FEEDBACK_DESTINATION_REACHED = .5f;
 
 }
