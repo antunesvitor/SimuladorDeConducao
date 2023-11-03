@@ -221,16 +221,31 @@ public class CarAgent: Agent
 
     public void OnSideWalkCollision()
     {
-        Debug.Log($"Colidiu com cal�ada! -{Constants.FEEDBACK_COLLISION_SIDEWALK} pts | atual: {this.GetCumulativeReward()}");
+        Debug.Log($"Colidiu com calçada! -{Constants.FEEDBACK_COLLISION_SIDEWALK} pts | atual: {this.GetCumulativeReward()}");
+
         this.collisionsCount++;
-        AddReward(Constants.FEEDBACK_COLLISION_SIDEWALK);
+
+        float currentReward = this.GetCumulativeReward() + Constants.FEEDBACK_COLLISION_SIDEWALK;
+
+        //Caso a recompensa acumulada seja menor que -1 então mantenha em -1;
+        if(currentReward < -1)
+            SetReward(-1);
+        else
+            AddReward(Constants.FEEDBACK_COLLISION_SIDEWALK);
     }
 
     public void OnWallCollsion()
     {
         Debug.Log($"Colidiu com parede! -{Constants.FEEDBACK_COLLISION_WALL} pts | atual: {this.GetCumulativeReward()}");
         this.collisionsCount++;
-        AddReward(Constants.FEEDBACK_COLLISION_WALL);
+        
+        float currentReward = this.GetCumulativeReward() + Constants.FEEDBACK_COLLISION_SIDEWALK;
+
+        //Caso a recompensa acumulada seja menor que -1 então mantenha em -1;
+        if(currentReward < -1)
+            SetReward(-1);
+        else
+            AddReward(Constants.FEEDBACK_COLLISION_SIDEWALK);
     }
 
     //TODO: reescrever este método 
