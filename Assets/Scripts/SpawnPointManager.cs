@@ -15,6 +15,8 @@ public class SpawnPointManager : MonoBehaviour
 
     private int lastRandomIndex = -1;
 
+    private int currentPathIndex = 0;
+
     void Awake()
     {
         Instance = this;
@@ -40,8 +42,30 @@ public class SpawnPointManager : MonoBehaviour
         return nearbySpawnPoints[Random.Range(0, nearbySpawnPoints.Length)];
     }
 
-    public PathManager GetNewPath()
+    public PathManager GetNewPath(bool random = true)
     {
+        if (random)
+            return GetNewRandomPath();
+        
+        return GetNextPath();
+    }
+
+    private PathManager GetNextPath()
+    {
+        this.pathManagers[currentPathIndex].ResetPath();
+        
+        currentPathIndex++;
+        if(currentPathIndex == this.pathManagers.Count)
+            currentPathIndex = 0;
+        
+        Debug.Log("index atual: " +  this.currentPathIndex);
+        PathManager nextPath = this.pathManagers[currentPathIndex];
+
+        nextPath.ActivateCheckpoints();
+        return  nextPath;
+    }
+
+    private PathManager GetNewRandomPath(){
         //Reseta o caminho anterior antes de passar um novo
         if(this.lastRandomIndex >= 0)
         {

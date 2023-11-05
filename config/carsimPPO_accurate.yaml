@@ -8,7 +8,7 @@ behaviors:
     checkpoint_interval: 600000
     hyperparameters:
       learning_rate: 1.0e-5
-      batch_size: 1024
+      batch_size: 2048
       buffer_size: 10240
       beta: 1.0e-2
       epsilon: 0.1
