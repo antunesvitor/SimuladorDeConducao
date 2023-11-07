@@ -1,0 +1,101 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 599993,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-599993.onnx",
+                "reward": -0.19853264679356167,
+                "creation_time": 1699268155.5918443,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-599993.pt"
+                ]
+            },
+            {
+                "steps": 1199956,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-1199956.onnx",
+                "reward": -0.11060035544344121,
+                "creation_time": 1699274450.6829965,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-1199956.pt"
+                ]
+            },
+            {
+                "steps": 1799987,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-1799987.onnx",
+                "reward": -0.015383796709956545,
+                "creation_time": 1699280751.2346644,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-1799987.pt"
+                ]
+            },
+            {
+                "steps": 2399960,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-2399960.onnx",
+                "reward": -0.04103437517868712,
+                "creation_time": 1699287045.2111669,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-2399960.pt"
+                ]
+            },
+            {
+                "steps": 2999989,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-2999989.onnx",
+                "reward": -0.11801108045296536,
+                "creation_time": 1699293341.8950095,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-2999989.pt"
+                ]
+            },
+            {
+                "steps": 3599957,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-3599957.onnx",
+                "reward": -0.11200409160497096,
+                "creation_time": 1699299632.784741,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-3599957.pt"
+                ]
+            },
+            {
+                "steps": 4199977,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-4199977.onnx",
+                "reward": -0.2808194663375616,
+                "creation_time": 1699305928.1657827,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-4199977.pt"
+                ]
+            },
+            {
+                "steps": 4799961,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-4799961.onnx",
+                "reward": -0.10168284676590209,
+                "creation_time": 1699312222.58812,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-4799961.pt"
+                ]
+            },
+            {
+                "steps": 5380725,
+                "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-5380725.onnx",
+                "reward": null,
+                "creation_time": 1699318310.7613463,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-5380725.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5380725,
+            "file_path": "results/CarSimPPO1.3.5-GERAL/MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1699318310.7613463,
+            "auxillary_file_paths": [
+                "results/CarSimPPO1.3.5-GERAL/MoveToTarget/MoveToTarget-5380725.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}
