@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1699145747",
+        "python_version": "3.9.13 (main, Aug 12 2023, 09:56:37) \n[GCC 13.2.1 20230801]",
+        "command_line_arguments": "/home/vitor/Documents/repos/SimuladorDeConducao/venv/bin/mlagents-learn config/carsimPPO.yaml --env=Build/CarSim --run-id=CarSimPPO1.3.2-ALL --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1699145820"
+    },
+    "total": 72.578846385004,
+    "count": 1,
+    "self": 10.004927394998958,
+    "children": {
+        "run_training.setup": {
+            "total": 0.01715655199950561,
+            "count": 1,
+            "self": 0.01715655199950561
+        },
+        "TrainerController.start_learning": {
+            "total": 62.556762438005535,
+            "count": 1,
+            "self": 6.657000631093979e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.55666438800108,
+                    "count": 1,
+                    "self": 62.55666438800108
+                },
+                "TrainerController._save_models": {
+                    "total": 3.14799981424585e-05,
+                    "count": 1,
+                    "self": 3.14799981424585e-05
+                }
+            }
+        }
+    }
+}

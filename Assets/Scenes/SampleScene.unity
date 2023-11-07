@@ -1412,7 +1412,11 @@ PrefabInstance:
       objectReference: {fileID: 617172435}
     - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: MaxStep
-      value: 1000
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
+      propertyPath: isTesting
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887037, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: DecisionPeriod
