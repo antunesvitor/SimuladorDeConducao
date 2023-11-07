@@ -749,8 +749,8 @@ MonoBehaviour:
   - wall
   - checkpoint
   - destination
-  m_RaysPerDirection: 4
-  m_MaxRayDegrees: 180
+  m_RaysPerDirection: 6
+  m_MaxRayDegrees: 70
   m_SphereCastRadius: 0.3
   m_RayLength: 8
   m_RayLayerMask:
@@ -1388,11 +1388,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_BehaviorType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_InferenceDevice
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_ObservableAttributeHandling
@@ -1413,6 +1413,10 @@ PrefabInstance:
     - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: MaxStep
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8533236714575887037, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
+      propertyPath: DecisionPeriod
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714595082468, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_IsActive
