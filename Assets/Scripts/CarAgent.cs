@@ -106,7 +106,7 @@ public class CarAgent : Agent
         //Caso este seja o último step e o agente não atingiu o objetivo
         if (this.StepCount == this.MaxStep)
         {
-            ApplyReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
+            SetReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
 
             Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
@@ -241,14 +241,16 @@ public class CarAgent : Agent
     {
         float newCumulativeReward = this.GetCumulativeReward() + rewardToApply;
         // Debug.Log("Recompensa a aplicar: " + rewardToApply);
-        if (newCumulativeReward < -1)
+        if (newCumulativeReward < -1){
             SetReward(-1);
-        else if (newCumulativeReward > 1)
+            EndEpisode();
+        }
+        else if (newCumulativeReward > 1){
             SetReward(1);
+            Debug.LogError("ISTO NÃO DEVE SER ACESSADO NUNCA");
+        }
         else
             AddReward(rewardToApply);
-
-        // Debug.Log("acumulado: " + this.GetCumulativeReward());
     }
 
     private void ResetPhysics()
