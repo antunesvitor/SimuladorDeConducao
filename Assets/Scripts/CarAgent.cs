@@ -109,6 +109,7 @@ public class CarAgent : Agent
             ApplyReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
 
             Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            EndEpisode();
         }
 
     }

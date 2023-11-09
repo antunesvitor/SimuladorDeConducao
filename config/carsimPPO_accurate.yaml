@@ -1,25 +1,25 @@
 behaviors:
   MoveToTarget:
     trainer_type: ppo
-    max_steps: 4800000
-    time_horizon: 64
-    summary_freq: 60000
-    keep_checkpoints: 16     #número de checkpoints gerados (cerebros .onnx intermediarios)
-    checkpoint_interval: 600000
+    max_steps: 1000000
+    time_horizon: 256
+    summary_freq: 10000
+    keep_checkpoints: 5     #número de checkpoints gerados (cerebros .onnx intermediarios)
+    #checkpoint_interval: 200000
     hyperparameters:
-      learning_rate: 1.0e-5
-      batch_size: 2048
+      learning_rate: 1.0e-4
+      batch_size: 1024
       buffer_size: 10240
       beta: 1.0e-2
-      epsilon: 0.1
+      epsilon: 0.2
       lambd: 0.95
       num_epoch: 8
       learning_rate_schedule: linear
-      beta_schedule: constant
+      beta_schedule: linear
       epsilon_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 64
+      hidden_units: 128
       num_layers: 2
     reward_signals:
       extrinsic:
