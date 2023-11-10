@@ -98,18 +98,15 @@ public class CarAgent : Agent
             //limitado para que não exceda nem -1 nem 1
             finalReward = Mathf.Clamp(finalReward + collisionsPenaty, -1, 1);
 
-            Debug.Log($"finalreward: {finalReward}");
+            Debug.Log($"(dest. reached) episode reward: {finalReward}");
             SetReward(finalReward);
             EndEpisode();
         }
-
-        //Caso este seja o último step e o agente não atingiu o objetivo
-        if (this.StepCount == this.MaxStep)
+        else if (this.StepCount == this.MaxStep)
         {
-            SetReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
-
-            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
-            EndEpisode();
+            //Caso este seja o último step e o agente não atingiu o objetivo
+            ApplyReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
+            Debug.Log($"(Maxstep) episode reward: {this.GetCumulativeReward()}");
         }
 
     }
