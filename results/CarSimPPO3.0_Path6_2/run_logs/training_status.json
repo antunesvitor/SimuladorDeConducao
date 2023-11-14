@@ -1,0 +1,56 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 399982,
+                "file_path": "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-399982.onnx",
+                "reward": null,
+                "creation_time": 1699867821.3588002,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-399982.pt"
+                ]
+            },
+            {
+                "steps": 599968,
+                "file_path": "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-599968.onnx",
+                "reward": 1.4658003258178147,
+                "creation_time": 1699869965.540431,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-599968.pt"
+                ]
+            },
+            {
+                "steps": 799995,
+                "file_path": "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-799995.onnx",
+                "reward": null,
+                "creation_time": 1699872119.1116292,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-799995.pt"
+                ]
+            },
+            {
+                "steps": 800026,
+                "file_path": "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-800026.onnx",
+                "reward": 1.2041666507720947,
+                "creation_time": 1699872119.159598,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-800026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 800026,
+            "file_path": "results/CarSimPPO3.0_Path6_2/MoveToTarget.onnx",
+            "reward": 1.2041666507720947,
+            "creation_time": 1699872119.159598,
+            "auxillary_file_paths": [
+                "results/CarSimPPO3.0_Path6_2/MoveToTarget/MoveToTarget-800026.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}
