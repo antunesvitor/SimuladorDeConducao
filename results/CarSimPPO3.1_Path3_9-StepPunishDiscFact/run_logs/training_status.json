@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 1799994,
+                "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-1799994.onnx",
+                "reward": 0.9300454071976921,
+                "creation_time": 1700065627.1117885,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-1799994.pt"
+                ]
+            },
+            {
+                "steps": 1999993,
+                "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-1999993.onnx",
+                "reward": 0.8980265681769837,
+                "creation_time": 1700067380.7463877,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-1999993.pt"
+                ]
+            },
+            {
+                "steps": 2199964,
+                "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2199964.onnx",
+                "reward": 1.0393964005451577,
+                "creation_time": 1700069216.8567398,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2199964.pt"
+                ]
+            },
+            {
+                "steps": 2399964,
+                "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2399964.onnx",
+                "reward": 1.0266882711939052,
+                "creation_time": 1700071115.1026835,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2399964.pt"
+                ]
+            },
+            {
+                "steps": 2400003,
+                "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2400003.onnx",
+                "reward": 1.0285365605800687,
+                "creation_time": 1700071115.1574957,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2400003.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2400003,
+            "file_path": "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget.onnx",
+            "reward": 1.0285365605800687,
+            "creation_time": 1700071115.1574957,
+            "auxillary_file_paths": [
+                "results/CarSimPPO3.1_Path3_9-StepPunishDiscFact/MoveToTarget/MoveToTarget-2400003.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

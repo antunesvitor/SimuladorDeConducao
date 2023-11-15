@@ -19,6 +19,7 @@ public class CarAgent : Agent
     private CheckpointSingle nextCheckpoint;
     private Transform resetPosition;
     private float stepPunishment { get { return Constants.FEEDBACK_MAXSTEPS_REACHED_PER_STEP / this.MaxStep; } }
+    private float currentSpeed = 0;
     private int currentPathCheckoutPointsCount;
     private float singleCheckpointReward;
     private int collisionsCount = 0;
@@ -61,8 +62,11 @@ public class CarAgent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(this.rBody.velocity.x);
-        sensor.AddObservation(this.rBody.velocity.z);
+        // sensor.AddObservation(this.rBody.velocity.x);
+        // sensor.AddObservation(this.rBody.velocity.z);
+        this.currentSpeed = 2 * (float) Math.PI * frontLeftWheelCollider.radius * frontLeftWheelCollider.rpm / 1000;
+        // Debug.Log("speed: " + speed);
+        sensor.AddObservation(this.currentSpeed);
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -75,13 +79,16 @@ public class CarAgent : Agent
 
         float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target.localPosition);
 
+        //fator de desconto se a velocidade do veiculo for positiva
+        float stepPunishmentDiscountFactor = this.currentSpeed > 0 ? 0.75f : 1f;
+
         //Aplicado uma pequena punição para que o agente entenda que não possa ficar parado
-        ApplyReward(stepPunishment);
+        ApplyReward(stepPunishment * stepPunishmentDiscountFactor);
 
         if (CarIsUpsideDown())
         {
             SetReward(Constants.FEEDBACK_CAR_UPSIDE_DOWN);
-            // Debug.Log($"episode reward: {Constants.FEEDBACK_CAR_UPSIDE_DOWN}");
+            Debug.Log($"episode reward: {Constants.FEEDBACK_CAR_UPSIDE_DOWN}");
             EndEpisode();
         }
 
@@ -98,7 +105,7 @@ public class CarAgent : Agent
             //limitado para que não exceda nem -1 nem 1
             finalReward = Mathf.Clamp(finalReward + collisionsPenaty, -1, 1);
 
-            // Debug.Log($"finalreward: {finalReward}");
+            Debug.Log($"finalreward: {finalReward}");
             SetReward(finalReward);
             EndEpisode();
         }
@@ -108,7 +115,7 @@ public class CarAgent : Agent
         {
             SetReward(Constants.FEEDBACK_MAXSTEPS_REACHED);
 
-            // Debug.Log($"episode reward: {this.GetCumulativeReward()}");
+            Debug.Log($"episode reward: {this.GetCumulativeReward()}");
             EndEpisode();
         }
 
