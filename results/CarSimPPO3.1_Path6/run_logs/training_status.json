@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 399986,
+                "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-399986.onnx",
+                "reward": 0.6702530738669183,
+                "creation_time": 1700173315.183785,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-399986.pt"
+                ]
+            },
+            {
+                "steps": 499974,
+                "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-499974.onnx",
+                "reward": 0.8459339583984443,
+                "creation_time": 1700174338.690575,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-499974.pt"
+                ]
+            },
+            {
+                "steps": 599977,
+                "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-599977.onnx",
+                "reward": 0.9176126438620928,
+                "creation_time": 1700175243.625396,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-599977.pt"
+                ]
+            },
+            {
+                "steps": 699985,
+                "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-699985.onnx",
+                "reward": 0.940205696110542,
+                "creation_time": 1700176249.189894,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-699985.pt"
+                ]
+            },
+            {
+                "steps": 706556,
+                "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-706556.onnx",
+                "reward": 0.9255882146400075,
+                "creation_time": 1700176312.6165593,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-706556.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 706556,
+            "file_path": "results/CarSimPPO3.1_Path6/MoveToTarget.onnx",
+            "reward": 0.9255882146400075,
+            "creation_time": 1700176312.6165593,
+            "auxillary_file_paths": [
+                "results/CarSimPPO3.1_Path6/MoveToTarget/MoveToTarget-706556.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 99920,
+                "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-99920.onnx",
+                "reward": -0.6068110709840601,
+                "creation_time": 1700093915.8148153,
+                "auxillary_file_paths": [
+                    "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-99920.pt"
+                ]
+            },
+            {
+                "steps": 199920,
+                "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-199920.onnx",
+                "reward": -0.652011708666881,
+                "creation_time": 1700094806.3573022,
+                "auxillary_file_paths": [
+                    "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-199920.pt"
+                ]
+            },
+            {
+                "steps": 299920,
+                "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-299920.onnx",
+                "reward": -0.6199218705296516,
+                "creation_time": 1700095693.1976454,
+                "auxillary_file_paths": [
+                    "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-299920.pt"
+                ]
+            },
+            {
+                "steps": 399958,
+                "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-399958.onnx",
+                "reward": -0.5563636503436349,
+                "creation_time": 1700096582.4495206,
+                "auxillary_file_paths": [
+                    "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-399958.pt"
+                ]
+            },
+            {
+                "steps": 400036,
+                "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-400036.onnx",
+                "reward": -0.567615638077259,
+                "creation_time": 1700096582.5067496,
+                "auxillary_file_paths": [
+                    "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-400036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 400036,
+            "file_path": "results/CarSimGAIL3.1_Path3/MoveToTarget.onnx",
+            "reward": -0.567615638077259,
+            "creation_time": 1700096582.5067496,
+            "auxillary_file_paths": [
+                "results/CarSimGAIL3.1_Path3/MoveToTarget/MoveToTarget-400036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

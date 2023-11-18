@@ -58,7 +58,7 @@ public class SpawnPointManager : MonoBehaviour
         if(currentPathIndex == this.pathManagers.Count)
             currentPathIndex = 0;
         
-        Debug.Log("index atual: " +  this.currentPathIndex);
+        // Debug.Log("index atual: " +  this.currentPathIndex);
         PathManager nextPath = this.pathManagers[currentPathIndex];
 
         nextPath.ActivateCheckpoints();

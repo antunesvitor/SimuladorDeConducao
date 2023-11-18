@@ -1,0 +1,30 @@
+behaviors:
+  MoveToTarget:
+    trainer_type: ppo
+    max_steps: 400000
+    time_horizon: 256
+    summary_freq: 20000
+    keep_checkpoints: 5     #número de checkpoints gerados (cerebros .onnx intermediarios)
+    checkpoint_interval: 100000
+    hyperparameters:
+      learning_rate: 1.0e-4
+      batch_size: 1024
+      buffer_size: 10240
+      beta: 1.0e-3
+      epsilon: 0.3
+      lambd: 0.95
+      num_epoch: 8
+      learning_rate_schedule: linear
+      beta_schedule: constant
+      epsilon_schedule: linear
+    network_settings:
+      normalize: false
+      hidden_units: 256
+      num_layers: 2
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+      gail:
+        strength: 0.9
+        demo_path: Demos/CarSimPath3.demo

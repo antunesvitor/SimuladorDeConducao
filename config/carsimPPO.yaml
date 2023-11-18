@@ -1,11 +1,11 @@
 behaviors:
   MoveToTarget:
     trainer_type: ppo
-    max_steps: 1200000
+    max_steps: 3200000
     time_horizon: 256
     summary_freq: 20000
     keep_checkpoints: 5     #número de checkpoints gerados (cerebros .onnx intermediarios)
-    checkpoint_interval: 200000
+    checkpoint_interval: 100000
     hyperparameters:
       learning_rate: 1.0e-4
       batch_size: 1024
