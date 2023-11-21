@@ -1,0 +1,47 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 599950,
+                "file_path": "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-599950.onnx",
+                "reward": null,
+                "creation_time": 1699092371.5779042,
+                "auxillary_file_paths": [
+                    "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-599950.pt"
+                ]
+            },
+            {
+                "steps": 1199982,
+                "file_path": "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-1199982.onnx",
+                "reward": null,
+                "creation_time": 1699105689.8695588,
+                "auxillary_file_paths": [
+                    "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-1199982.pt"
+                ]
+            },
+            {
+                "steps": 1213190,
+                "file_path": "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-1213190.onnx",
+                "reward": null,
+                "creation_time": 1699105987.032663,
+                "auxillary_file_paths": [
+                    "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-1213190.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1213190,
+            "file_path": "results/CarSimSAC1.3-ALL/MoveToTarget.onnx",
+            "reward": null,
+            "creation_time": 1699105987.032663,
+            "auxillary_file_paths": [
+                "results/CarSimSAC1.3-ALL/MoveToTarget/MoveToTarget-1213190.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

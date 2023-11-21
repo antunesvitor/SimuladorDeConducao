@@ -1,0 +1,3192 @@
+Mono path[0] = '/home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/Managed'
+Mono config path = '/home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Display 0 'LS27A600U 27"': 2560x1440 (primary device).
+Display 1 'LG ULTRAWIDE 34"': 2560x1080 (secondary device).
+Desktop is 2560 x 1440 @ 75 Hz
+Invalid initial resolution 84 x 84 - forcing to 100 x 100
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path /home/vitor/Documents/repos/SimuladorDeConducao/Build/CarSim_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Renderer: AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.52, 6.4.10-arch1-1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 23.1.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_
+clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_
+buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc
+ GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_in
+t64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 15503296
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.117 seconds
+- Finished resetting the current domain, in  0.001 seconds
+Default vsync count 1
+requesting resize 84 x 84
+resizing window to 84 x 84
+Desktop is 2560 x 1440 @ 75 Hz
+UnloadTime: 0.913310 ms
+Step Punishment: -0.001
+requesting resize 84 x 84
+resizing window to 84 x 84
+Desktop is 2560 x 1440 @ 75 Hz
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.04199998
+Colidiu com parede! --0.1 pts | atual: -0.2370002
+Colidiu com parede! --0.1 pts | atual: -0.5709972
+episode reward: -2.290007
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.015
+episode reward: -2.089995
+episode reward: -0.9166574
+Colidiu com parede! --0.1 pts | atual: -0.5589964
+episode reward: -2.089997
+episode reward: -0.9166574
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.07899998
+episode reward: -2.089995
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9166573
+episode reward: -0.9999907
+episode reward: -0.8928478
+episode reward: -0.9999907
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.034
+Colidiu com parede! --0.1 pts | atual: -0.2190002
+episode reward: -2.190001
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9642764
+episode reward: -0.9444351
+episode reward: -0.9999907
+episode reward: -0.9545361
+Colidiu com parede! --0.1 pts | atual: -0.279
+episode reward: -2.089997
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9166573
+episode reward: -0.9615291
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9499907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9166574
+episode reward: -0.9999907
+episode reward: -0.9642769
+episode reward: -0.9999907
+episode reward: -0.9583241
+episode reward: -0.9444354
+episode reward: -0.9166578
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.1330001
+Colidiu com parede! --0.1 pts | atual: -0.3619987
+Colidiu com parede! --0.1 pts | atual: -0.5309978
+episode reward: -2.251545
+episode reward: -0.9166574
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.9499907
+episode reward: -0.8888795
+episode reward: -0.9615291
+episode reward: -0.9999907
+Colidiu com parede! --0.1 pts | atual: -0.09100001
+episode reward: -0.9333225
+episode reward: -0.9285626
+episode reward: -0.8846061
+episode reward: -0.9999907
+episode reward: -0.9166579
+episode reward: -0.8888803
+episode reward: -0.9499907
+episode reward: -0.958324
+Colidiu com parede! --0.1 pts | atual: -0.06399995
+episode reward: -2.051531
+episode reward: -0.7499918
+episode reward: -0.9285626
+episode reward: -0.6666588
+Colidiu com parede! --0.1 pts | atual: -0.6717092
+episode reward: -0.8857077
+episode reward: -0.9166573
+episode reward: -0.9615291
+episode reward: -0.833324
+Colidiu com parede! --0.1 pts | atual: -0.4399979
+episode reward: -0.9749907
+episode reward: -0.833324
+Colidiu com cal�ada! --0.1 pts | atual: -0.7726598
+Colidiu com cal�ada! --0.1 pts | atual: -0.9746585
+Colidiu com cal�ada! --0.1 pts | atual: -1.077659
+Colidiu com cal�ada! --0.1 pts | atual: -1.20366
+episode reward: -2.30666
+episode reward: -0.9230676
+episode reward: -0.944436
+Colidiu com parede! --0.1 pts | atual: -0.5772792
+episode reward: -0.8142775
+Colidiu com cal�ada! --0.1 pts | atual: -0.6153277
+Colidiu com cal�ada! --0.1 pts | atual: -0.7293275
+episode reward: -2.023327
+episode reward: -0.8999907
+episode reward: -0.8749915
+Colidiu com parede! --0.1 pts | atual: -0.5911375
+Colidiu com parede! --0.1 pts | atual: -0.7651365
+Colidiu com parede! --0.1 pts | atual: -1.018136
+episode reward: -2.147137
+Colidiu com parede! --0.1 pts | atual: -0.4105362
+Colidiu com parede! --0.1 pts | atual: -0.5700735
+Colidiu com parede! --0.1 pts | atual: -0.7500725
+Colidiu com parede! --0.1 pts | atual: -1.031072
+Colidiu com parede! --0.1 pts | atual: -1.242077
+Colidiu com parede! --0.1 pts | atual: -1.421081
+episode reward: -2.413081
+Colidiu com cal�ada! --0.1 pts | atual: -0.1791433
+Colidiu com cal�ada! --0.1 pts | atual: -0.2961431
+Colidiu com cal�ada! --0.1 pts | atual: -0.3792844
+Colidiu com parede! --0.1 pts | atual: -0.5622833
+Colidiu com parede! --0.1 pts | atual: -0.7162826
+Colidiu com parede! --0.1 pts | atual: -1.039282
+Colidiu com parede! --0.1 pts | atual: -1.262288
+episode reward: -2.40429
+Colidiu com parede! --0.1 pts | atual: -0.5975338
+episode reward: -2.013071
+Colidiu com parede! --0.1 pts | atual: -0.3902842
+Colidiu com parede! --0.1 pts | atual: -0.6842816
+Colidiu com parede! --0.1 pts | atual: -0.8062814
+episode reward: -2.004281
+episode reward: -0.8333252
+Colidiu com parede! --0.1 pts | atual: -0.6360851
+Colidiu com parede! --0.1 pts | atual: -0.9590822
+episode reward: -2.099085
+episode reward: -0.8571346
+episode reward: -0.884606
+Colidiu com cal�ada! --0.1 pts | atual: -0.3
+episode reward: -0.8499942
+Colidiu com parede! --0.1 pts | atual: -0.033
+episode reward: -0.9076816
+episode reward: -0.8333248
+Colidiu com parede! --0.1 pts | atual: -0.1433336
+Colidiu com parede! --0.1 pts | atual: -0.4043317
+Colidiu com parede! --0.1 pts | atual: -0.5383312
+Colidiu com parede! --0.1 pts | atual: -0.7773294
+Colidiu com parede! --0.1 pts | atual: -0.9513285
+Colidiu com parede! --0.1 pts | atual: -1.08333
+Colidiu com parede! --0.1 pts | atual: -1.219332
+episode reward: -2.440008
+Colidiu com parede! --0.1 pts | atual: -0.2460909
+Colidiu com parede! --0.1 pts | atual: -0.877084
+Colidiu com parede! --0.1 pts | atual: -1.041086
+episode reward: -2.199089
+episode reward: -0.8333253
+episode reward: -0.8333247
+Colidiu com cal�ada! --0.1 pts | atual: -0.774991
+episode reward: -0.8999907
+Colidiu com parede! --0.1 pts | atual: -0.615086
+Colidiu com parede! --0.1 pts | atual: -0.9980824
+episode reward: -2.099083
+episode reward: -0.9999907
+episode reward: -0.7499919
+episode reward: -0.833324
+episode reward: -0.9374907
+Colidiu com parede! --0.1 pts | atual: -0.2113339
+Colidiu com parede! --0.1 pts | atual: -0.3413335
+Colidiu com parede! --0.1 pts | atual: -0.7639949
+Colidiu com parede! --0.1 pts | atual: -0.9439939
+episode reward: -2.139999
+episode reward: -0.8999907
+episode reward: -0.7777694
+episode reward: -0.8846064
+episode reward: -0.8846072
+episode reward: -0.8333246
+episode reward: -0.8749916
+episode reward: -0.8461455
+Colidiu com parede! --0.1 pts | atual: -0.1090911
+Colidiu com parede! --0.1 pts | atual: -0.2880907
+Colidiu com parede! --0.1 pts | atual: -0.5630885
+Colidiu com parede! --0.1 pts | atual: -1.12109
+Colidiu com parede! --0.1 pts | atual: -1.291093
+episode reward: -2.399094
+episode reward: -0.8571347
+episode reward: -0.9374916
+episode reward: -0.8333257
+episode reward: -0.7499923
+episode reward: -0.8333242
+episode reward: -0.7499908
+episode reward: -0.884606
+Colidiu com cal�ada! --0.1 pts | atual: -0.7099931
+Colidiu com cal�ada! --0.1 pts | atual: -0.8099931
+episode reward: -2.089997
+episode reward: -0.8636277
+Colidiu com parede! --0.1 pts | atual: -0.07699998
+episode reward: -2.051531
+episode reward: -0.8499907
+episode reward: -0.857134
+episode reward: -0.8571343
+episode reward: -0.8333241
+Colidiu com cal�ada! --0.1 pts | atual: -0.3166619
+Colidiu com cal�ada! --0.1 pts | atual: -0.4176619
+episode reward: -0.8666574
+episode reward: -0.6874954
+episode reward: -0.958324
+Colidiu com cal�ada! --0.1 pts | atual: -0.1233335
+episode reward: -0.9749908
+episode reward: -0.8333241
+Colidiu com cal�ada! --0.1 pts | atual: -0.7644929
+episode reward: -2.027493
+episode reward: -0.7857052
+episode reward: -0.9999907
+Colidiu com cal�ada! --0.1 pts | atual: -0.6531361
+Colidiu com parede! --0.1 pts | atual: -0.8032765
+episode reward: -0.9142764
+Colidiu com parede! --0.1 pts | atual: -0.8030829
+episode reward: -1.999082
+episode reward: -0.8749907
+Colidiu com cal�ada! --0.1 pts | atual: -0.3509983
+episode reward: -0.8499931
+episode reward: -0.863627
+Colidiu com cal�ada! --0.1 pts | atual: -0.07885717
+Colidiu com parede! --0.1 pts | atual: -0.3601417
+Colidiu com parede! --0.1 pts | atual: -0.6371394
+episode reward: -2.147143
+episode reward: -0.9999907
+episode reward: -0.9285626
+episode reward: -0.7499937
+Colidiu com cal�ada! --0.1 pts | atual: -0.1202858
+Colidiu com cal�ada! --0.1 pts | atual: -0.3752843
+Colidiu com cal�ada! --0.1 pts | atual: -1.005563
+Colidiu com cal�ada! --0.1 pts | atual: -1.183567
+Colidiu com cal�ada! --0.1 pts | atual: -1.322569
+episode reward: -2.318569
+episode reward: -0.958324
+episode reward: -0.8124907
+episode reward: -0.8749907
+episode reward: -0.9615291
+episode reward: -0.9166574
+episode reward: -0.9285621
+episode reward: -0.9374907
+episode reward: -0.9374907
+episode reward: -0.833324
+episode reward: -0.9687407
+episode reward: -0.9999907
+episode reward: -0.9285621
+episode reward: -0.9374912
+Colidiu com parede! --0.1 pts | atual: -0.03699999
+episode reward: -2.013068
+episode reward: -0.8999907
+episode reward: -0.9374912
+episode reward: -0.9230676
+episode reward: -0.9499907
+episode reward: -0.9230676
+episode reward: -0.8333241
+episode reward: -0.8749916
+Colidiu com cal�ada! --0.1 pts | atual: -0.6593263
+episode reward: -0.933324
+episode reward: -0.9615291
+Colidiu com parede! --0.1 pts | atual: -0.2190773
+Colidiu com parede! --0.1 pts | atual: -0.343077
+Colidiu com parede! --0.1 pts | atual: -0.4840765
+Colidiu com parede! --0.1 pts | atual: -0.6296139
+Colidiu com parede! --0.1 pts | atual: -0.7906131
+Colidiu com parede! --0.1 pts | atual: -1.181159
+Colidiu com parede! --0.1 pts | atual: -1.350162
+episode reward: -2.536167
+episode reward: -0.9374907
+Colidiu com parede! --0.1 pts | atual: -0.024
+episode reward: -2.013067
+episode reward: -0.8749907
+episode reward: -0.6874916
+episode reward: -0.9615292
+episode reward: -0.7999914
+episode reward: -0.9444352
+episode reward: -0.8888795
+episode reward: -0.8888796
+episode reward: -0.8999907
+episode reward: -0.874992
+Colidiu com cal�ada! --0.1 pts | atual: -0.8014908
+episode reward: -0.9124907
+episode reward: -0.7499914
+episode reward: -0.8999914
+episode reward: -0.9230676
+episode reward: -0.9687407
+episode reward: -0.857134
+episode reward: -0.8749907
+episode reward: -0.9374907
+episode reward: -0.6874954
+episode reward: -0.8333265
+Colidiu com cal�ada! --0.1 pts | atual: -0.4129975
+episode reward: -0.9749916
+episode reward: -0.8999913
+episode reward: -0.9615291
+episode reward: -0.9615291
+episode reward: -0.8888795
+episode reward: -0.7857049
+Colidiu com parede! --0.1 pts | atual: -0.6772769
+episode reward: -0.8142765
+episode reward: -0.8333253
+episode reward: -0.8461444
+episode reward: -0.7777685
+episode reward: -0.8076829
+episode reward: -0.9444351
+episode reward: -0.884606
+episode reward: -0.8999914
+episode reward: -0.7857081
+episode reward: -0.8846066
+episode reward: -0.9374907
+Colidiu com parede! --0.1 pts | atual: -0.2266158
+Colidiu com parede! --0.1 pts | atual: -0.5046135
+Colidiu com parede! --0.1 pts | atual: -0.6256133
+Colidiu com parede! --0.1 pts | atual: -0.8726114
+Colidiu com parede! --0.1 pts | atual: -1.147618
+episode reward: -2.336163
+episode reward: -0.9615291
+Colidiu com cal�ada! --0.1 pts | atual: -0.5459968
+Colidiu com cal�ada! --0.1 pts | atual: -0.7669953
+episode reward: -2.039996
+episode reward: -0.7499926
+episode reward: -0.8749907
+episode reward: -0.8461456
+Colidiu com parede! --0.1 pts | atual: -0.6372773
+episode reward: -0.8142763
+episode reward: -0.9499907
+episode reward: -0.9166573
+episode reward: -0.9285631
+episode reward: -0.9166584
+episode reward: -0.9230676
+episode reward: -0.9545361
+episode reward: -0.9615291
+Colidiu com parede! --0.1 pts | atual: -0.1460001
+Colidiu com parede! --0.1 pts | atual: -0.2799997
+Colidiu com parede! --0.1 pts | atual: -0.5549975
+episode reward: -2.251543
+episode reward: -0.9230676
+episode reward: -0.884606
+episode reward: -0.9230682
+episode reward: -0.9642764
+episode reward: -0.9230682
+Colidiu com parede! --0.1 pts | atual: -0.489664
+Colidiu com parede! --0.1 pts | atual: -0.6033294
+Colidiu com parede! --0.1 pts | atual: -0.7693286
+Colidiu com parede! --0.1 pts | atual: -1.081331
+episode reward: -2.223333
+episode reward: -0.9642764
+episode reward: -0.8749915
+episode reward: -0.8888796
+episode reward: -0.9444351
+episode reward: -0.9166574
+episode reward: -0.9615291
+episode reward: -0.8888795
+episode reward: -0.8749907
+episode reward: -0.9499907
+episode reward: -0.9615291
+episode reward: -0.8749907
+episode reward: -0.8571336
+episode reward: -0.8928489
+episode reward: -0.857134
+episode reward: -0.8636277
+episode reward: -0.9230682
+episode reward: -0.9285621
+episode reward: -0.7142785
+episode reward: -0.9444351
+episode reward: -0.833324
+episode reward: -0.8888796
+episode reward: -0.8333262
+episode reward: -0.8333248
+episode reward: -0.8846066
+episode reward: -0.9230686
+episode reward: -0.9374907
+episode reward: -0.9230676
+episode reward: -0.7777685
+episode reward: -0.8846072
+episode reward: -0.9090822
+Colidiu com cal�ada! --0.1 pts | atual: -0.4934973
+Colidiu com cal�ada! --0.1 pts | atual: -0.694496
+episode reward: -2.002493
+episode reward: -0.749993
+episode reward: -0.9444351
+episode reward: -0.9374912
+episode reward: -0.916658
+Colidiu com cal�ada! --0.1 pts | atual: -0.6023286
+Colidiu com cal�ada! --0.1 pts | atual: -0.6866616
+episode reward: -2.106664
+Colidiu com parede! --0.1 pts | atual: -0.5920863
+Colidiu com parede! --0.1 pts | atual: -0.7400857
+Colidiu com parede! --0.1 pts | atual: -0.9200847
+Colidiu com parede! --0.1 pts | atual: -1.201093
+episode reward: -2.199094
+episode reward: -0.785708
+episode reward: -0.8333253
+Colidiu com parede! --0.1 pts | atual: -0.016
+Colidiu com cal�ada! --0.1 pts | atual: -0.3500749
+episode reward: -2.036146
+Colidiu com cal�ada! --0.1 pts | atual: -0.6717726
+Colidiu com cal�ada! --0.1 pts | atual: -0.7717726
+episode reward: -0.9777713
+episode reward: -0.8124907
+Colidiu com cal�ada! --0.1 pts | atual: -0.5016115
+Colidiu com cal�ada! --0.1 pts | atual: -0.6916103
+episode reward: -2.074612
+episode reward: -0.8333246
+episode reward: -0.7777714
+episode reward: -0.7142777
+episode reward: -0.9230676
+Colidiu com parede! --0.1 pts | atual: -0.1520001
+Colidiu com parede! --0.1 pts | atual: -0.3039995
+episode reward: -2.023324
+episode reward: -0.9166586
+episode reward: -0.9285626
+episode reward: -0.8333241
+episode reward: -0.958324
+episode reward: -0.8333243
+episode reward: -0.9545361
+episode reward: -0.8846067
+episode reward: -0.9166586
+episode reward: -0.7499909
+Colidiu com parede! --0.1 pts | atual: -0.5260727
+Colidiu com parede! --0.1 pts | atual: -0.7400713
+episode reward: -2.113075
+episode reward: -0.8333242
+episode reward: -0.9166573
+episode reward: -0.9615291
+episode reward: -0.9999907
+episode reward: -0.8749912
+episode reward: -0.8749907
+episode reward: -0.958324
+episode reward: -0.9999907
+episode reward: -0.9444351
+episode reward: -0.9615291
+episode reward: -0.9166575
+Colidiu com cal�ada! --0.1 pts | atual: -0.5945675
+Colidiu com cal�ada! --0.1 pts | atual: -0.6571385
+Colidiu com cal�ada! --0.1 pts | atual: -0.7711383
+episode reward: -2.004278
+episode reward: -0.8124907
+episode reward: -0.9166574
+episode reward: -0.9999907
+episode reward: -0.8124916
+episode reward: -0.9166574
+episode reward: -0.9230676
+episode reward: -0.9615291
+episode reward: -0.8888801
+episode reward: -0.9230676
+episode reward: -0.8571341
+episode reward: -0.6249916
+episode reward: -0.8999907
+episode reward: -0.7142775
+episode reward: -0.833324
+episode reward: -0.833324
+episode reward: -0.9166573
+episode reward: -0.9999907
+episode reward: -0.9166574
+episode reward: -0.9615291
+episode reward: -0.9166574
+episode reward: -0.9230676
+episode reward: -0.9166574
+episode reward: -0.9545361
+episode reward: -0.9687412
+episode reward: -0.9374907
+episode reward: -0.9285621
+episode reward: -0.9166574
+episode reward: -0.8333253
+episode reward: -0.9230676
+episode reward: -0.9230682
+episode reward: -0.9374907
+episode reward: -0.9230679
+episode reward: -0.9285622
+episode reward: -0.8571336
+episode reward: -0.9615291
+episode reward: -0.9687407
+episode reward: -0.9687407
+episode reward: -0.8749914
+episode reward: -0.9499907
+episode reward: -0.8749907
+episode reward: -0.9687407
+episode reward: -0.8999907
+episode reward: -0.9615292
+episode reward: -0.8333265
+episode reward: -0.8749919
+episode reward: -0.8333264
+episode reward: -0.7499909
+episode reward: -0.9166574
+episode reward: -0.8749907
+episode reward: -0.9166574
+episode reward: -0.9642769
+episode reward: -0.8749907
+episode reward: -0.8888796
+episode reward: -0.9166579
+episode reward: -0.9615291
+episode reward: -0.9999907
+episode reward: -0.8571335
+episode reward: -0.9230676
+episode reward: -0.8571346
+episode reward: -0.833324
+episode reward: -0.8333252
+episode reward: -0.8333246
+episode reward: -0.9687407
+episode reward: -0.785706
+episode reward: -0.8333248
+episode reward: -0.9687407
+episode reward: -0.833324
+episode reward: -0.8333248
+episode reward: -0.8888796
+episode reward: -0.9999907
+episode reward: -0.8333253
+episode reward: -0.7499916
+episode reward: -0.8571336
+episode reward: -0.9444352
+episode reward: -0.8333247
+episode reward: -0.9374907
+episode reward: -0.7857077
+episode reward: -0.8846061
+episode reward: -0.8571336
+episode reward: -0.8499907
+episode reward: -0.8888796
+episode reward: -0.9444352
+episode reward: -0.8846067
+episode reward: -0.8499913
+episode reward: -0.8846066
+episode reward: -0.7499925
+episode reward: -0.8461451
+episode reward: -0.8749907
+episode reward: -0.8928484
+episode reward: -0.7999921
+Colidiu com cal�ada! --0.1 pts | atual: -0.4293317
+Colidiu com cal�ada! --0.1 pts | atual: -0.8103281
+Colidiu com cal�ada! --0.1 pts | atual: -1.014328
+episode reward: -2.123328
+episode reward: -0.9374907
+episode reward: -0.8499913
+episode reward: -0.8499914
+episode reward: -0.8571345
+episode reward: -0.9230682
+episode reward: -0.9615297
+episode reward: -0.9285626
+episode reward: -0.9499907
+Colidiu com cal�ada! --0.1 pts | atual: -0.7361465
+episode reward: -0.9076835
+episode reward: -0.8333248
+episode reward: -0.8749915
+episode reward: -0.9285626
+Colidiu com cal�ada! --0.1 pts | atual: -0.4949942
+Colidiu com cal�ada! --0.1 pts | atual: -0.5949942
+episode reward: -0.949991
+episode reward: -0.8124907
+episode reward: -0.9615291
+Colidiu com parede! --0.1 pts | atual: -0.3229994
+Colidiu com parede! --0.1 pts | atual: -0.4819986
+episode reward: -2.151541
+Colidiu com parede! --0.1 pts | atual: -0.6035407
+Colidiu com parede! --0.1 pts | atual: -0.897083
+episode reward: -2.099088
+episode reward: -0.9444351
+episode reward: -0.9499907
+episode reward: -0.9285621
+episode reward: -0.7499919
+episode reward: -0.8846066
+episode reward: -0.8846067
+episode reward: -0.9230682
+episode reward: -0.8333241
+episode reward: -0.884606
+episode reward: -0.9285622
+episode reward: -0.9090822
+episode reward: -0.9230676
+episode reward: -0.9444351
+episode reward: -0.9615291
+episode reward: -0.8999913
+episode reward: -0.9444351
+episode reward: -0.9615291
+episode reward: -0.9374907
+episode reward: -0.9642764
+episode reward: -0.9166574
+episode reward: -0.9615291
+episode reward: -0.833324
+episode reward: -0.8499918
+episode reward: -0.9230682
+episode reward: -0.9374907
+episode reward: -0.9615291
+episode reward: -0.9230676
+episode reward: -0.8846066
+episode reward: -0.8499907
+episode reward: -0.9285626
+episode reward: -0.9499907
+Colidiu com cal�ada! --0.1 pts | atual: -0.8875632
+episode reward: -2.018564
+episode reward: -0.9444351
+Colidiu com parede! --0.1 pts | atual: -0.06499995
+episode reward: -2.051531
+episode reward: -0.9166574
+episode reward: -0.9230676
+episode reward: -0.8999914
+episode reward: -0.9615291
+episode reward: -0.9999907
+episode reward: -0.9374907
+episode reward: -0.9499907
+episode reward: -0.9545361
+episode reward: -0.9230682
+episode reward: -0.8333265
+episode reward: -0.9285621
+episode reward: -0.9374907
+episode reward: -0.9999907
+episode reward: -0.9499907
+episode reward: -0.9642764
+episode reward: -0.9374907
+episode reward: -0.8181731
+episode reward: -0.9444351
+episode reward: -0.9583243
+episode reward: -0.8999907
+episode reward: -0.884606
+episode reward: -0.8749907
+episode reward: -0.7499918
+episode reward: -0.846145
+episode reward: -0.749992
+episode reward: -0.7857071
+Colidiu com cal�ada! --0.1 pts | atual: -0.874991
+episode reward: -0.9999907
+episode reward: -0.9499907
+episode reward: -0.9545365
+episode reward: -0.9545368
+episode reward: -0.833324
+Colidiu com cal�ada! --0.1 pts | atual: -0.7879928
+episode reward: -0.9999923
+episode reward: -0.958324
+episode reward: -0.9615297
+episode reward: -0.9444351
+episode reward: -0.8999909
+episode reward: -0.9615292
+episode reward: -0.8571345
+episode reward: -0.8888795
+episode reward: -0.9374907
+episode reward: -0.9999907
+episode reward: -0.9374912
+episode reward: -0.9615291
+episode reward: -0.9999907
+episode reward: -0.9444351
+episode reward: -0.9090822
+episode reward: -0.9285621
+episode reward: -0.9166574
+episode reward: -0.9999907
+episode reward: -0.9999907
+episode reward: -0.958324
+episode reward: -0.9374907
+episode reward: -0.9999907
+episode reward: -0.9444351
+episode reward: -0.8461447
+episode reward: -0.8571346
+episode reward: -0.8124928
+episode reward: -0.8571336
+episode reward: -0.8928478
+episode reward: -0.8333263
+episode reward: -0.9166574
+episode reward: -0.9687407
+episode reward: -0.9285621
+episode reward: -0.9444352
+episode reward: -0.884606
+episode reward: -0.8846061
+episode reward: -0.9615297
+episode reward: -0.9374907
+episode reward: -0.9166573
+episode reward: -0.9285621
+episode reward: -0.8749907
+episode reward: -0.8999921
+episode reward: -0.9374907
+episode reward: -0.8333257
+episode reward: -0.9499907
+episode reward: -0.9999907
+episode reward: -0.9166574
+episode reward: -0.9230682
+episode reward: -0.9444351
+episode reward: -0.9374907
+Colidiu com cal�ada! --0.1 pts | atual: -0.5624955
+Colidiu com cal�ada! --0.1 pts | atual: -0.8439924
+Colidiu com cal�ada! --0.1 pts | atual: -0.931991
+episode reward: -2.039992
+episode reward: -0.8749916
+episode reward: -0.8888804
+episode reward: -0.9444351
+episode reward: -0.9374907
+episode reward: -0.9499907
+episode reward: -0.8749916
+episode reward: -0.9642769
+episode reward: -0.8888796
+episode reward: -0.9230676
+episode reward: -0.8571335
+episode reward: -0.9444352
+episode reward: -0.9999907
+episode reward: -0.9230676
+episode reward: -0.9090822
+episode reward: -0.9642764
+Colidiu com parede! --0.1 pts | atual: -0.3229994
+episode reward: -0.933324
+episode reward: -0.9166574
+episode reward: -0.9230676
+episode reward: -0.9615291
+episode reward: -0.9285621
+episode reward: -0.9642769
+episode reward: -0.8571346
+episode reward: -0.8749907
+episode reward: -0.8124916
+episode reward: -0.958324
+episode reward: -0.9545361
+episode reward: -0.8999907
+episode reward: -0.9999907
+episode reward: -0.9545361
+episode reward: -0.833324
+episode reward: -0.9642764
+episode reward: -0.9545361
+episode reward: -0.9615291
+episode reward: -0.9615291
+episode reward: -0.9285626
+episode reward: -0.833324
+episode reward: -0.9615292
+episode reward: -0.9642764
+episode reward: -0.8999907
+Colidiu com parede! --0.1 pts | atual: -0.09900002
+episode reward: -2.013067
+episode reward: -0.9444351
+episode reward: -0.9999907
+episode reward: -0.9166574
+episode reward: -0.8888804
+episode reward: -0.8333241
+episode reward: -0.9285622
+episode reward: -0.9642764
+episode reward: -0.8999907
+episode reward: -0.9999907
+episode reward: -0.9687407
+episode reward: -0.7857051
+episode reward: -0.9285632
+episode reward: -0.9285626
+episode reward: -0.9230676
+episode reward: -0.9230682
+episode reward: -0.8571335
+Colidiu com cal�ada! --0.1 pts | atual: -0.2240005
+Colidiu com cal�ada! --0.1 pts | atual: -0.5529976
+Colidiu com cal�ada! --0.1 pts | atual: -0.8329953
+Colidiu com cal�ada! --0.1 pts | atual: -1.015995
+episode reward: -2.265002
+episode reward: -0.8749912
+episode reward: -0.9230677
+episode reward: -0.8999919
+episode reward: -0.8749911
+episode reward: -0.9374912
+episode reward: -0.8999907
+episode reward: -0.8749916
+episode reward: -0.9166574
+episode reward: -0.9583244
+episode reward: -0.8333253
+episode reward: -0.833324
+episode reward: -0.9999907
+episode reward: -0.8749907
+episode reward: -0.8888796
+episode reward: -0.9374907
+episode reward: -0.8888795
+episode reward: -0.9374907
+episode reward: -0.8571335
+episode reward: -0.9444351
+episode reward: -0.8124907
+episode reward: -0.833324
+episode reward: -0.8076839
+episode reward: -0.9285626
+episode reward: -0.8749907
+episode reward: -0.9642764
+episode reward: -0.9687407
+episode reward: -0.9230676
+episode reward: -0.9444352
+episode reward: -0.9444351
+episode reward: -0.9374913
+episode reward: -0.9374907
+episode reward: -0.9499907
+episode reward: -0.9615291
+episode reward: -0.9374907
+episode reward: -0.8888795
+episode reward: -0.8999907
+episode reward: -0.9374907
+episode reward: -0.8888804
+episode reward: -0.9615291
+Colidiu com cal�ada! --0.1 pts | atual: -0.6379954
+Colidiu com cal�ada! --0.1 pts | atual: -0.8609939
+episode reward: -2.09
+episode reward: -0.9230682
+episode reward: -0.833324
+episode reward: -0.9285621
+episode reward: -0.9230679
+Colidiu com parede! --0.1 pts | atual: -0.06199995
+episode reward: -2.013068
+episode reward: -0.9499907
+episode reward: -0.9230682
+Colidiu com parede! --0.1 pts | atual: -0.018
+Colidiu com parede! --0.1 pts | atual: -0.1800001
+episode reward: -2.151536
+episode reward: -0.9090822
+episode reward: -0.9687407
+episode reward: -0.8999907
+episode reward: -0.9545368
+episode reward: -0.8999914
+episode reward: -0.8333253
+episode reward: -0.9615292
+episode reward: -0.9999907
+episode reward: -0.833324
+episode reward: -0.9615292
+episode reward: -0.9285623
+episode reward: -0.9499909
+episode reward: -0.9166574
+episode reward: -0.9687412
+episode reward: -0.8571336
+episode reward: -0.9166573
+episode reward: -0.833325
+episode reward: -0.9230677
+episode reward: -0.8333253
+episode reward: -0.9687407
+episode reward: -0.9499907
+episode reward: -0.9166574
+episode reward: -0.9444351
+episode reward: -0.9230676
+episode reward: -0.9166573
+episode reward: -0.9444351
+Colidiu com cal�ada! --0.1 pts | atual: -0.7477702
+episode reward: -0.8777698
+episode reward: -0.9166573
+episode reward: -0.9642769
+episode reward: -0.9166573
+episode reward: -0.833324
+episode reward: -0.8333251
+episode reward: -0.9166573
+episode reward: -0.916658
+episode reward: -0.8461446
+episode reward: -0.7777693
+episode reward: -0.8333253
+episode reward: -0.8571335
+episode reward: -0.7499915
+episode reward: -0.8928483
+episode reward: -0.8999914
+episode reward: -0.8749907
+episode reward: -0.833324
+episode reward: -0.9230676
+episode reward: -0.9615291
+episode reward: -0.9285621
+episode reward: -0.8333251
+episode reward: -0.8333263
+episode reward: -0.9374907
+episode reward: -0.8749907
+episode reward: -0.9166573
+episode reward: -0.9615291
+episode reward: -0.8888798
+episode reward: -0.9090822
+episode reward: -0.9687407
+episode reward: -0.8749907
+episode reward: -0.8181731
+episode reward: -0.9166574
+episode reward: -0.9230676
+episode reward: -0.8846066
+episode reward: -0.8928484
+episode reward: -0.9999907
+episode reward: -0.9499914
+episode reward: -0.9090816
+episode reward: -0.833324
+episode reward: -0.9166573
+episode reward: -0.8846066
+episode reward: -0.9166574
+episode reward: -0.9642764
+episode reward: -0.958324
+episode reward: -0.9999907
+episode reward: -0.7499919
+Colidiu com parede! --0.1 pts | atual: -0.3860751
+Colidiu com parede! --0.1 pts | atual: -0.6120735
+episode reward: -2.074612
+episode reward: -0.9166586
+episode reward: -0.9230682
+episode reward: -0.9499907
+episode reward: -0.9166577
+episode reward: -0.8846068
+episode reward: -0.9583241
+episode reward: -0.9166573
+episode reward: -0.8749916
+episode reward: -0.9374907
+episode reward: -0.785706
+episode reward: -0.9230676
+episode reward: -0.9444351
+episode reward: -0.9285631
+episode reward: -0.9230682
+episode reward: -0.8333253
+Colidiu com parede! --0.1 pts | atual: -0.06099995
+Colidiu com parede! --0.1 pts | atual: -0.2300001
+episode reward: -2.113073
+episode reward: -0.9615291
+episode reward: -0.9687407
+episode reward: -0.8999914
+episode reward: -0.8846066
+episode reward: -0.9166585
+episode reward: -0.9999907
+episode reward: -0.9545368
+episode reward: -0.8749907
+episode reward: -0.958324
+episode reward: -0.9499907
+episode reward: -0.9444351
+episode reward: -0.9444351
+episode reward: -0.9499907
+episode reward: -0.9615297
+episode reward: -0.9166573
+episode reward: -0.9999907
+episode reward: -0.9166573
+episode reward: -0.7777693
+episode reward: -0.9285632
+episode reward: -0.8888804
+episode reward: -0.9166579
+episode reward: -0.8571346
+episode reward: -0.8846066
+episode reward: -0.9166573
+episode reward: -0.9230676
+episode reward: -0.9090822
+episode reward: -0.7142775
+episode reward: -0.7499919
+episode reward: -0.7499922
+episode reward: -0.8888795
+episode reward: -0.7499918
+Colidiu com cal�ada! --0.1 pts | atual: -0.7561359
+Colidiu com cal�ada! --0.1 pts | atual: -0.8561359
+episode reward: -0.9857088
+episode reward: -0.8333253
+episode reward: -0.9285621
+episode reward: -0.8999911
+episode reward: -0.8333247
+episode reward: -0.8846066
+episode reward: -0.9166574
+episode reward: -0.9090822
+episode reward: -0.8749909
+episode reward: -0.8749916
+episode reward: -0.9090822
+episode reward: -0.9230676
+episode reward: -0.9545361
+episode reward: -0.9999907
+episode reward: -0.9166573
+episode reward: -0.9642769
+episode reward: -0.9090822
+episode reward: -0.958324
+episode reward: -0.9545361
+episode reward: -0.9499907
+episode reward: -0.9687407
+episode reward: -0.9166573
+episode reward: -0.8749907
+episode reward: -0.8749912
+episode reward: -0.8333246
+episode reward: -0.8999907
+episode reward: -0.9230676
+episode reward: -0.9166574
+episode reward: -0.8888796
+episode reward: -0.9230682
+episode reward: -0.9166573
+episode reward: -0.8333247
+episode reward: -0.833324
+episode reward: -0.8749907
+episode reward: -0.833324
+episode reward: -0.9999907
+episode reward: -0.9230681
+episode reward: -0.9545361
+episode reward: -0.9374916
+episode reward: -0.9615291
+episode reward: -0.6666582
+episode reward: -0.8749911
+episode reward: -0.9999907
+episode reward: -0.9285631
+episode reward: -0.9374907
+episode reward: -0.9583241
+episode reward: -0.9615291
+episode reward: -0.7499915
+episode reward: -0.785706
+episode reward: -0.8888804
+episode reward: -0.9166574
+episode reward: -0.9999907
+episode reward: -0.9374916
+episode reward: -0.9687407
+episode reward: -0.9166583
+episode reward: -0.9374907
+episode reward: -0.9230676
+episode reward: -0.9166578
+episode reward: -0.9999907
+episode reward: -0.785705
+episode reward: -0.8888795
+episode reward: -0.9499909
+episode reward: -0.8999907
+episode reward: -0.8928478
+Colidiu com cal�ada! --0.1 pts | atual: -0.8779917
+episode reward: -0.9999914
+episode reward: -0.8333265
+episode reward: -0.9090818
+episode reward: -0.8571335
+episode reward: -0.8888796
+episode reward: -0.8846065
+episode reward: -0.8749915
+episode reward: -0.9687407
+episode reward: -0.8999907
+episode reward: -0.9499907
+episode reward: -0.8846067
+episode reward: -0.8181725
+episode reward: -0.8124907
+episode reward: -0.9166573
+episode reward: -0.9285626
+episode reward: -0.9166573
+Colidiu com cal�ada! --0.1 pts | atual: -0.6469952
+episode reward: -0.8499939
+episode reward: -0.9374907
+episode reward: -0.833324
+episode reward: -0.916658
+Colidiu com cal�ada! --0.1 pts | atual: -0.03914283
+Colidiu com cal�ada! --0.1 pts | atual: -0.1521429
+Colidiu com cal�ada! --0.1 pts | atual: -0.2521429
+Colidiu com cal�ada! --0.1 pts | atual: -0.2402855
+Colidiu com cal�ada! --0.1 pts | atual: -0.3148563
+Colidiu com parede! --0.1 pts | atual: -0.6488533
+Colidiu com parede! --0.1 pts | atual: -0.8658518
+Colidiu com parede! --0.1 pts | atual: -1.162859
+Colidiu com parede! --0.1 pts | atual: -1.320862
+Colidiu com parede! --0.1 pts | atual: -1.501866
+episode reward: -2.632867
+episode reward: -0.8636281
+episode reward: -0.9615291
+episode reward: -0.7142785
+Colidiu com cal�ada! --0.1 pts | atual: -0.5089957
+Colidiu com cal�ada! --0.1 pts | atual: -0.6229956
+Colidiu com cal�ada! --0.1 pts | atual: -0.7779949
+episode reward: -2.190003
+episode reward: -0.8333253
+episode reward: -0.9166574
+episode reward: -0.8749915
+episode reward: -0.9499907
+episode reward: -0.8888804
+episode reward: -0.9166573
+Colidiu com cal�ada! --0.1 pts | atual: -0.7734928
+Colidiu com cal�ada! --0.1 pts | atual: -0.8954926
+episode reward: -2.127499
+episode reward: -0.9615291
+episode reward: -0.9374912
+episode reward: -0.8888795
+episode reward: -0.7857068
+episode reward: -0.749992
+episode reward: -0.9615291
+episode reward: -0.8499922
+episode reward: -0.8749914
+episode reward: -0.9687407
+episode reward: -0.9499907
+episode reward: -0.8999914
+episode reward: -0.8571339
+episode reward: -0.9999907
+episode reward: -0.9285625
+episode reward: -0.9166579
+episode reward: -0.9499907
+episode reward: -0.8749916
+episode reward: -0.8888803
+episode reward: -0.9444351
+episode reward: -0.8333253
+episode reward: -0.785706
+episode reward: -0.9499907
+episode reward: -0.8888795
+episode reward: -0.6666586
+episode reward: -0.8333253
+episode reward: -0.8636283
+episode reward: -0.8333253
+episode reward: -0.9374907
+episode reward: -0.8124907
+episode reward: -0.9166574
+episode reward: -0.9166573
+episode reward: -0.8749907
+episode reward: -0.9374912
+episode reward: -0.9615291
+episode reward: -0.9230676
+episode reward: -0.9615291
+episode reward: -0.8636277
+episode reward: -0.9615291
+episode reward: -0.8333253
+episode reward: -0.7499907
+episode reward: -0.7999918
+episode reward: -0.9499914
+episode reward: -0.7499907
+episode reward: -0.8999907
+episode reward: -0.958324
+Colidiu com parede! --0.1 pts | atual: -0.6826093
+episode reward: -0.9461451
+episode reward: -0.7499907
+episode reward: -0.9615291
+episode reward: -0.8999914
+episode reward: -0.8846066
+episode reward: -0.7499927
+episode reward: -0.9166574
+episode reward: -0.9374907
+episode reward: -0.7499917
+episode reward: -0.8846063
+episode reward: -0.9285625
+Colidiu com cal�ada! --0.1 pts | atual: -0.4320745
+Colidiu com cal�ada! --0.1 pts | atual: -0.6590729
+Colidiu com cal�ada! --0.1 pts | atual: -0.7820726
+Colidiu com cal�ada! --0.1 pts | atual: -0.9120722
+episode reward: -2.197702
+episode reward: -0.857134
+episode reward: -0.9615291
+Colidiu com cal�ada! --0.1 pts | atual: -0.4890738
+episode reward: -2.01307
+episode reward: -0.9166573
+episode reward: -0.9166579
+episode reward: -0.9090822
+episode reward: -0.958324
+episode reward: -0.9090822
+episode reward: -0.9615291
+episode reward: -0.9230682
+episode reward: -0.8499922
+episode reward: -0.7499943
+episode reward: -0.71428
+episode reward: -0.9166573
+episode reward: -0.8333265
+episode reward: -0.8846067
+episode reward: -0.9583246
+episode reward: -0.8749907
+episode reward: -0.9230677
+episode reward: -0.9615291
+episode reward: -0.8888796
+episode reward: -0.8888795
+episode reward: -0.9230676
+episode reward: -0.9999907
+episode reward: -0.6666609
+episode reward: -0.8181738
+episode reward: -0.8749907
+Colidiu com parede! --0.1 pts | atual: -0.2020773
+Colidiu com parede! --0.1 pts | atual: -0.3430768
+episode reward: -2.074611
+episode reward: -0.8749916
+episode reward: -0.9090816
+episode reward: -0.9374908
+episode reward: -0.8076836
+episode reward: -0.9374907
+Colidiu com cal�ada! --0.1 pts | atual: -0.650992
+episode reward: -0.7874907
+episode reward: -0.8888809
+episode reward: -0.807683
+episode reward: -0.8333265
+episode reward: -0.9374907
+episode reward: -0.958324
+episode reward: -0.9166573
+episode reward: -0.8124916
+episode reward: -0.7499907
+episode reward: -0.9166579
+Colidiu com cal�ada! --0.1 pts | atual: -0.5889954
+episode reward: -0.9999914
+episode reward: -0.8999907
+Colidiu com parede! --0.1 pts | atual: -0.4196132
+Colidiu com parede! --0.1 pts | atual: -0.6246119
+episode reward: -2.036148
+episode reward: -0.7142774
+episode reward: -0.8749913
+episode reward: -0.8846071
+episode reward: -0.8461459
+Colidiu com parede! --0.1 pts | atual: -0.023
+episode reward: -0.9461431
+episode reward: -0.7499914
+episode reward: -0.9374907
+episode reward: -0.8888795
+episode reward: -0.8888804
+episode reward: -0.8333248
+Colidiu com cal�ada! --0.1 pts | atual: -0.1476157
+Colidiu com cal�ada! --0.1 pts | atual: -0.53315
+episode reward: -2.036147
+episode reward: -0.9166574
+episode reward: -0.8749916
+episode reward: -0.9285627
+episode reward: -0.9230676
+episode reward: -0.9166574
+episode reward: -0.8888795
+episode reward: -0.7142799
+episode reward: -0.9374907
+episode reward: -0.8333253
+episode reward: -0.9374907
+episode reward: -0.9285626
+episode reward: -0.749992
+episode reward: -0.916658
+episode reward: -0.8846071
+episode reward: -0.8124915
+episode reward: -0.9090822
+episode reward: -0.7142795
+episode reward: -0.7499925
+episode reward: -0.8461452
+episode reward: -0.9499907
+episode reward: -0.9615291
+episode reward: -0.9285621
+episode reward: -0.7499943
+episode reward: -0.9374916
+episode reward: -0.9090816
+episode reward: -0.7499931
+episode reward: -0.8749916
+episode reward: -0.9615291
+episode reward: -0.9374907
+episode reward: -0.9374907
+episode reward: -0.9444351
+episode reward: -0.833324
+episode reward: -0.8846066
+episode reward: -0.8333241
+episode reward: -0.9499907
+episode reward: -0.9499907
+episode reward: -0.884606
+episode reward: -0.9166574
+episode reward: -0.9444351
+episode reward: -0.9545363
+episode reward: -0.9687407
+episode reward: -0.8749907
+episode reward: -0.8749907
+episode reward: -0.9374916
+Colidiu com parede! --0.1 pts | atual: -0.1505387
+Colidiu com parede! --0.1 pts | atual: -0.3665372
+episode reward: -2.113074
+episode reward: -0.9444351
+episode reward: -0.7499931
+episode reward: -0.9230676
+Colidiu com parede! --0.1 pts | atual: -0.07753842
+Colidiu com parede! --0.1 pts | atual: -0.5840728
+Colidiu com parede! --0.1 pts | atual: -0.7210724
+Colidiu com parede! --0.1 pts | atual: -0.9000714
+Colidiu com parede! --0.1 pts | atual: -1.19408
+Colidiu com parede! --0.1 pts | atual: -1.351623
+episode reward: -2.474625
+episode reward: -0.8888804
+episode reward: -0.846145
+episode reward: -0.8846067
+episode reward: -0.8181732
+episode reward: -0.7499919
+episode reward: -0.9499907
+episode reward: -0.9615291
+episode reward: -0.8333253
+episode reward: -0.8461447
+episode reward: -0.8888795
+episode reward: -0.9444351
+episode reward: -0.9444351
+Colidiu com cal�ada! --0.1 pts | atual: -0.235142
+episode reward: -0.8142769
+episode reward: -0.8999914
+episode reward: -0.9166579
+episode reward: -0.9615291
+episode reward: -0.9230682
+episode reward: -0.9499907
+episode reward: -0.9615292
+episode reward: -0.9285626
+episode reward: -0.9687407
+episode reward: -0.9687407
+episode reward: -0.8333263
+episode reward: -0.9615291
+episode reward: -0.9499907
+episode reward: -0.8888795
+episode reward: -0.9166573
+episode reward: -0.9499907
+episode reward: -0.9374907
+episode reward: -0.7499944
+episode reward: -0.8333243
+episode reward: -0.9444351
+episode reward: -0.9166574
+episode reward: -0.9642769
+episode reward: -0.9499907
+episode reward: -0.8888804
+episode reward: -0.9166574
+episode reward: -0.958324
+episode reward: -0.9444351
+episode reward: -0.833324
+episode reward: -0.9583246
+episode reward: -0.9499907
+episode reward: -0.9090818
+episode reward: -0.9285626
+episode reward: -0.9499907
+episode reward: -0.958324
+episode reward: -0.8499914
+episode reward: -0.9090822
+episode reward: -0.9615291
+episode reward: -0.8888798
+episode reward: -0.9374907
+episode reward: -0.9230682
+episode reward: -0.9166573
+episode reward: -0.9615291
+episode reward: -0.916658
+episode reward: -0.9999907
+episode reward: -0.9166579
+episode reward: -0.9285621
+episode reward: -0.9687407
+episode reward: -0.9687407
+episode reward: -0.8749916
+episode reward: -0.9230676
+episode reward: -0.8749907
+episode reward: -0.8333252
+episode reward: -0.8333242
+episode reward: -0.9374907
+episode reward: -0.8636277
+episode reward: -0.9615291
+episode reward: -0.9687407
+episode reward: -0.9687407
+episode reward: -0.958324
+episode reward: -0.9615291
+episode reward: -0.8499918
+episode reward: -0.8571346
+episode reward: -0.9374907
+episode reward: -0.9230682
+episode reward: -0.8333265
+episode reward: -0.9374907
+episode reward: -0.9166579
+episode reward: -0.8888796
+episode reward: -0.8333248
+episode reward: -0.8888795
+episode reward: -0.9374907
+episode reward: -0.8571337
+episode reward: -0.8999914
+episode reward: -0.9090821
+episode reward: -0.9285626
+episode reward: -0.8333247
+episode reward: -0.916658
+episode reward: -0.9615291
+episode reward: -0.8999907
+episode reward: -0.9687407
+episode reward: -0.7857049
+episode reward: -0.8749907
+episode reward: -0.9090822
+episode reward: -0.714278
+episode reward: -0.9444352
+episode reward: -0.8999914
+episode reward: -0.785706
+episode reward: -0.9166573
+episode reward: -0.9499907
+episode reward: -0.899991
+episode reward: -0.7857062
+episode reward: -0.9374907
+episode reward: -0.9615291
+episode reward: -0.8749907
+episode reward: -0.8999907
+episode reward: -0.8846062
+episode reward: -0.8888796
+episode reward: -0.8749916
+episode reward: -0.9230682
+episode reward: -0.833324
+episode reward: -0.8749915
+episode reward: -0.8124907
+episode reward: -0.8999907
+episode reward: -0.9444351
+episode reward: -0.9615291
+episode reward: -0.9374907
+episode reward: -0.8333248
+episode reward: -0.9374907
+episode reward: -0.937491
+episode reward: -0.7499907
+episode reward: -0.9444351
+episode reward: -0.8076841
+episode reward: -0.8846072
+episode reward: -0.9090821
+episode reward: -0.8636276
+episode reward: -0.9230682
+episode reward: -0.8749912
+episode reward: -0.9230676
+episode reward: -0.833324
+episode reward: -0.9230676
+episode reward: -0.8333253
+episode reward: -0.8333248
+episode reward: -0.8499907
+episode reward: -0.8888796
+episode reward: -0.8846066
+episode reward: -0.7499918
+episode reward: -0.9285626
+episode reward: -0.8749915
+episode reward: -0.8461446
+episode reward: -0.9999907
+episode reward: -0.8749913
+episode reward: -0.8999907
+episode reward: -0.9374907
+episode reward: -0.9285621
+episode reward: -0.9166579
+episode reward: -0.833324
+episode reward: -0.8888795
+episode reward: -0.9166573
+episode reward: -0.9285626
+episode reward: -0.8333246
+episode reward: -0.9499907
+episode reward: -0.833324
+episode reward: -0.8749906
+episode reward: -0.7499924
+episode reward: -0.8999907
+episode reward: -0.8846062
+episode reward: -0.9499913
+episode reward: -0.9166577
+episode reward: -0.8888795
+episode reward: -0.9374912
+episode reward: -0.8749916
+episode reward: -0.8999907
+episode reward: -0.8124915
+episode reward: -0.9285624
+episode reward: -0.8333254
+episode reward: -0.7857069
+episode reward: -0.8928484
+episode reward: -0.7999929
+episode reward: -0.749992
+episode reward: -0.8749907
+episode reward: -0.8333247
+episode reward: -0.9374907
+episode reward: -0.8333253
+episode reward: -0.8076847
+episode reward: -0.9687407
+episode reward: -0.8888799
+episode reward: -0.7499924
+episode reward: -0.8846072
+episode reward: -0.8888795
+episode reward: -0.8499911
+episode reward: -0.6666585
+episode reward: -0.9090822
+episode reward: -0.8124909
+episode reward: -0.7777685
+episode reward: -0.9374912
+episode reward: -0.884607
+episode reward: -0.8181738
+episode reward: -0.8846061
+episode reward: -0.6874925
+episode reward: -0.9166573
+episode reward: -0.8124916
+episode reward: -0.7777684
+episode reward: -0.7999907
+episode reward: -0.9374915
+episode reward: -0.8499913
+episode reward: -0.874991
+episode reward: -0.8333247
+episode reward: -0.9374907
+episode reward: -0.8888804
+episode reward: -0.8124925
+episode reward: -0.833326
+episode reward: -0.6666582
+episode reward: -0.884606
+episode reward: -0.833324
+episode reward: -0.833324
+episode reward: -0.7499907
+episode reward: -0.8846071
+episode reward: -0.9499907
+episode reward: -0.8749907
+episode reward: -0.8999907
+episode reward: -0.7142775
+episode reward: -0.8461451
+episode reward: -0.9230686
+Colidiu com cal�ada! --0.1 pts | atual: -0.7127718
+episode reward: -0.877771
+episode reward: -0.7499936
+episode reward: -0.8333253
+episode reward: -0.9166579
+episode reward: -0.7142796
+episode reward: -0.916658
+episode reward: -0.8333245
+episode reward: -0.8076853
+episode reward: -0.9230676
+episode reward: -0.8749916
+episode reward: -0.7499939
+episode reward: -0.9166579
+episode reward: -0.9615291
+Colidiu com parede! --0.1 pts | atual: -0.2286927
+Colidiu com parede! --0.1 pts | atual: -0.7406874
+Colidiu com parede! --0.1 pts | atual: -0.9106866
+Colidiu com parede! --0.1 pts | atual: -1.035228
+episode reward: -2.15923
+episode reward: -0.8749916
+episode reward: -0.7499906
+episode reward: -0.9374912
+episode reward: -0.8749916
+episode reward: -0.833324
+episode reward: -0.8888796
+episode reward: -0.9230676
+episode reward: -0.9374912
+episode reward: -0.6999919
+episode reward: -0.8333253
+episode reward: -0.833324
+episode reward: -0.8749916
+episode reward: -0.7499925
+episode reward: -0.8124916
+episode reward: -0.8928487
+episode reward: -0.7142801
+episode reward: -0.9166573
+episode reward: -0.8124917
+episode reward: -0.8749906
+episode reward: -0.7499918
+episode reward: -0.7499927
+episode reward: -0.7777693
+episode reward: -0.8333253
+episode reward: -0.7499914
+episode reward: -0.7142785
+episode reward: -0.8076836
+episode reward: -0.8333241
+episode reward: -0.8333253
+episode reward: -0.9285621
+Colidiu com cal�ada! --0.1 pts | atual: -0.7563261
+episode reward: -0.9333252
+episode reward: -0.9687407
+episode reward: -0.9444351
+episode reward: -0.9230676
+episode reward: -0.7499931
+episode reward: -0.8999907
+episode reward: -0.8999914
+episode reward: -0.8749916
+episode reward: -0.8749907
+episode reward: -0.9374907
+episode reward: -0.8749925
+episode reward: -0.9285632
+episode reward: -0.884606
+episode reward: -0.8636277
+episode reward: -0.8749907
+episode reward: -0.8749906
+episode reward: -0.9285626
+episode reward: -0.9615291
+episode reward: -0.8888804
+episode reward: -0.8888795
+episode reward: -0.8636277
+episode reward: -0.8636283
+episode reward: -0.7499916
+episode reward: -0.7777685
+episode reward: -0.9374907
+episode reward: -0.8333252
+episode reward: -0.8888795
+episode reward: -0.9230676
+episode reward: -0.9687412
+episode reward: -0.8076832
+episode reward: -0.8749912
+episode reward: -0.9166573
+episode reward: -0.8888796
+episode reward: -0.9166579
+episode reward: -0.9166573
+episode reward: -0.7499908
+episode reward: -0.8333251
+episode reward: -0.8749916
+episode reward: -0.7499915
+episode reward: -0.7499923
+episode reward: -0.6499936
+episode reward: -0.807683
+episode reward: -0.7777685
+episode reward: -0.9615291
+episode reward: -0.8571344
+episode reward: -0.9374909
+episode reward: -0.8749907
+episode reward: -0.8888795
+episode reward: -0.8124916
+episode reward: -0.7499918
+episode reward: -0.576916
+episode reward: -0.8928484
+episode reward: -0.8499908
+episode reward: -0.8999907
+episode reward: -0.8749912
+episode reward: -0.8076841
+Colidiu com parede! --0.1 pts | atual: -0.6662809
+episode reward: -0.8142803
+episode reward: -0.9615291
+episode reward: -0.7142805
+episode reward: -0.8333246
+episode reward: -0.8076853
+episode reward: -0.7499924
+episode reward: -0.8928487
+episode reward: -0.833324
+episode reward: -0.5384563
+episode reward: -0.8636277
+episode reward: -0.7499931
+episode reward: -0.6538379
+episode reward: -0.8076845
+episode reward: -0.8124917
+episode reward: -0.8124907
+episode reward: -0.7499916
+episode reward: -0.8461468
+episode reward: -0.7777705
+episode reward: -0.749994
+episode reward: -0.6666573
+episode reward: -0.884606
+episode reward: -0.8499912
+episode reward: -0.8124921
+Colidiu com parede! --0.1 pts | atual: -0.5177649
+Colidiu com parede! --0.1 pts | atual: -0.7817628
+episode reward: -0.9307622
+episode reward: -0.6499956
+episode reward: -0.7499918
+episode reward: -0.9230676
+episode reward: -0.7777684
+episode reward: -0.833324
+episode reward: -0.6153774
+episode reward: -0.5999963
+episode reward: -0.8636276
+episode reward: -0.9230676
+episode reward: -0.8333248
+episode reward: -0.8333259
+episode reward: -0.833324
+episode reward: -0.857134
+Colidiu com cal�ada! --0.1 pts | atual: -0.07961561
+episode reward: -0.9461448
+episode reward: -0.7499943
+episode reward: -0.8571342
+episode reward: -0.6249927
+episode reward: -0.8999914
+episode reward: -0.8999907
+episode reward: -0.8333253
+episode reward: -0.8124924
+episode reward: -0.7142802
+episode reward: -0.8333247
+episode reward: -0.6874924
+episode reward: -0.6874923
+episode reward: -0.863627
+episode reward: -0.6923005
+episode reward: -0.7142803
+episode reward: -0.6999937
+episode reward: -0.8636277
+episode reward: -0.9166586
+episode reward: -0.8333248
+episode reward: -0.749994
+episode reward: -0.833324
+episode reward: -0.833324
+Colidiu com cal�ada! --0.1 pts | atual: -0.5502184
+episode reward: -0.8222162
+episode reward: -0.884606
+episode reward: -0.8571343
+episode reward: -0.7142799
+Colidiu com parede! --0.1 pts | atual: -0.575632
+episode reward: -0.9636283
+episode reward: -0.5999936
+episode reward: -0.9230676
+episode reward: -0.8499914
+episode reward: -0.7692232
+episode reward: -0.857134
+episode reward: -0.9062412
+episode reward: -0.857134
+episode reward: -0.7499918
+Colidiu com cal�ada! --0.1 pts | atual: -0.6917704
+episode reward: -0.8777693
+episode reward: -0.6874925
+episode reward: -0.8571341
+episode reward: -0.8076847
+episode reward: -0.7499936
+episode reward: -0.8749911
+episode reward: -0.8749907
+episode reward: -0.8846066
+episode reward: -0.8749923
+episode reward: -0.833324
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8636277
+episode reward: -0.8749907
+episode reward: -0.5999929
+episode reward: -0.7499943
+episode reward: -0.8999907
+episode reward: -0.8333243
+episode reward: -0.9166585
+episode reward: -0.833324
+episode reward: -0.9230676
+episode reward: -0.7777701
+episode reward: -0.8333248
+episode reward: -0.8333244
+episode reward: -0.9166574
+episode reward: -0.9615291
+episode reward: -0.8333256
+episode reward: -0.8333255
+episode reward: -0.8461456
+episode reward: -0.6499947
+episode reward: -0.8749912
+episode reward: -0.749994
+episode reward: -0.7142792
+episode reward: -0.8999907
+episode reward: -0.7777693
+episode reward: -0.9374912
+episode reward: -0.884606
+episode reward: -0.8333248
+episode reward: -0.8636277
+episode reward: -0.8999907
+Colidiu com cal�ada! --0.1 pts | atual: -0.1100002
+episode reward: -0.8499923
+episode reward: -0.8076859
+episode reward: -0.7499933
+episode reward: -0.8636277
+episode reward: -0.7499942
+episode reward: -0.9230676
+episode reward: -0.6666586
+episode reward: -0.8846066
+episode reward: -0.5999951
+episode reward: -0.9374911
+episode reward: -0.6249925
+episode reward: -0.8749907
+episode reward: -0.8846066
+episode reward: -0.9062409
+episode reward: -0.8333253
+episode reward: -0.8333242
+episode reward: -0.8888795
+episode reward: -0.71428
+Colidiu com cal�ada! --0.1 pts | atual: 0.08099994
+episode reward: -0.8499927
+episode reward: -0.8499908
+episode reward: -0.8333257
+episode reward: -0.8333253
+episode reward: -0.8928489
+episode reward: -0.8076835
+episode reward: -0.6874925
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9062416
+episode reward: -0.9230676
+episode reward: -0.8928493
+Colidiu com parede! --0.1 pts | atual: -0.3163322
+Colidiu com parede! --0.1 pts | atual: -0.4953312
+Colidiu com parede! --0.1 pts | atual: -0.576997
+episode reward: -2.040995
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9062412
+episode reward: -0.7142801
+Colidiu com cal�ada! --0.1 pts | atual: -0.4419987
+Colidiu com cal�ada! --0.1 pts | atual: -0.5429987
+Colidiu com cal�ada! --0.1 pts | atual: -0.772997
+Colidiu com cal�ada! --0.1 pts | atual: -0.874997
+episode reward: -0.9999967
+episode reward: -0.8846066
+episode reward: -0.8846061
+Colidiu com parede! --0.1 pts | atual: -0.20177
+Colidiu com parede! --0.1 pts | atual: -0.297308
+num. colisões ep: 2
+finalreward: 0.8
+episode reward: -0.7499939
+episode reward: -0.8499914
+episode reward: -0.8928488
+episode reward: -0.7499921
+episode reward: -0.6874916
+episode reward: -0.9374912
+episode reward: -0.7499936
+episode reward: -0.9374912
+Colidiu com parede! --0.1 pts | atual: -0.4800878
+Colidiu com parede! --0.1 pts | atual: -0.6640867
+Colidiu com parede! --0.1 pts | atual: -0.8640854
+episode reward: -2.16164
+episode reward: -0.8846062
+episode reward: -0.4999964
+Colidiu com cal�ada! --0.1 pts | atual: -0.3537764
+Colidiu com cal�ada! --0.1 pts | atual: -0.4577763
+episode reward: -0.9777709
+episode reward: -0.857134
+episode reward: -0.6666602
+Colidiu com parede! --0.1 pts | atual: -0.248286
+Colidiu com parede! --0.1 pts | atual: -0.4922841
+episode reward: -0.91428
+episode reward: -0.8499908
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8928489
+episode reward: -0.9285631
+episode reward: -0.6499953
+episode reward: -0.7499931
+episode reward: -0.6666591
+episode reward: -0.791658
+episode reward: -0.7499925
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8333253
+episode reward: -0.833325
+episode reward: -0.791658
+episode reward: -0.6666602
+episode reward: -0.857134
+episode reward: -0.71428
+episode reward: -0.7499925
+episode reward: -0.8333246
+episode reward: -0.8928483
+episode reward: -0.8076859
+episode reward: -0.7499939
+episode reward: -0.7142802
+episode reward: -0.8333242
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.833324
+Colidiu com cal�ada! --0.1 pts | atual: -0.5499964
+episode reward: -0.8499939
+episode reward: -0.9062412
+episode reward: -0.833324
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.5384544
+episode reward: -0.749992
+episode reward: -0.8333241
+episode reward: -0.8333248
+episode reward: -0.6666594
+episode reward: -0.9374907
+Colidiu com parede! --0.1 pts | atual: -0.3850896
+episode reward: -0.9636284
+episode reward: -0.7777701
+episode reward: -0.9230676
+episode reward: -0.749993
+episode reward: -0.857134
+episode reward: -0.6249925
+episode reward: -0.8333257
+episode reward: -0.6874924
+episode reward: -0.8999914
+episode reward: -0.7142802
+episode reward: -0.7777702
+episode reward: -0.8636276
+episode reward: -0.5999963
+episode reward: -0.8999914
+episode reward: -0.8749914
+episode reward: -0.8999907
+episode reward: -0.7142805
+episode reward: -0.7499943
+episode reward: -0.9374907
+episode reward: -0.9374912
+episode reward: -0.833324
+episode reward: -0.8124916
+episode reward: -0.8076857
+episode reward: -0.884606
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9374912
+episode reward: -0.71428
+episode reward: -0.7499944
+episode reward: -0.8333254
+episode reward: -0.4999941
+episode reward: -0.6249925
+episode reward: -0.8333244
+episode reward: -0.4999939
+episode reward: -0.8181731
+episode reward: -0.9230676
+episode reward: -0.9374912
+episode reward: -0.7777701
+episode reward: -0.8636277
+episode reward: -0.833324
+Colidiu com cal�ada! --0.1 pts | atual: -0.3746643
+episode reward: -0.7666606
+episode reward: -0.9374909
+Colidiu com cal�ada! --0.1 pts | atual: -0.1166157
+Colidiu com cal�ada! --0.1 pts | atual: -0.2226157
+episode reward: -2.045147
+episode reward: -0.8333254
+episode reward: -0.6666586
+episode reward: -0.7777702
+episode reward: -0.8749907
+episode reward: -0.8928489
+episode reward: -0.8636277
+episode reward: -0.8749913
+episode reward: -0.7499939
+episode reward: -0.833324
+episode reward: -0.71428
+episode reward: -0.6666586
+episode reward: -0.7777694
+Colidiu com parede! --0.1 pts | atual: -0.1882864
+Colidiu com parede! --0.1 pts | atual: -0.3372858
+Colidiu com parede! --0.1 pts | atual: -0.7222821
+episode reward: -2.013281
+episode reward: -0.8333248
+episode reward: -0.9374911
+episode reward: -0.8571346
+episode reward: -0.7499939
+episode reward: -0.7142801
+episode reward: -0.6666606
+episode reward: -0.8499907
+episode reward: -0.8928487
+episode reward: -0.8749907
+episode reward: -0.8749913
+episode reward: -0.8461468
+episode reward: -0.6874916
+episode reward: -0.6538419
+episode reward: -0.8333263
+episode reward: -0.833324
+episode reward: -0.8636277
+episode reward: -0.833324
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8181737
+episode reward: -0.749992
+episode reward: -0.5999944
+episode reward: -0.884606
+episode reward: -0.8333248
+episode reward: -0.8749907
+episode reward: -0.9374909
+episode reward: -0.8076859
+episode reward: -0.8333253
+episode reward: -0.8076854
+episode reward: -0.7777709
+episode reward: -0.8636279
+episode reward: -0.6666616
+episode reward: -0.6666608
+episode reward: -0.9062412
+episode reward: -0.899991
+episode reward: -0.666661
+episode reward: -0.8749916
+episode reward: -0.8333248
+episode reward: -0.8333248
+episode reward: -0.8333248
+episode reward: -0.8999907
+episode reward: -0.8124915
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9615292
+episode reward: -0.9374907
+episode reward: -0.8999907
+episode reward: -0.8999907
+episode reward: -0.812491
+num. colisões ep: 0
+finalreward: 1
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.71428
+episode reward: -0.8076858
+episode reward: -0.9230676
+episode reward: -0.7499944
+episode reward: -0.8928484
+episode reward: -0.71428
+Colidiu com cal�ada! --0.1 pts | atual: -0.2100005
+Colidiu com cal�ada! --0.1 pts | atual: -0.4759983
+episode reward: -0.7999954
+episode reward: -0.8181731
+episode reward: -0.7142801
+Colidiu com cal�ada! --0.1 pts | atual: -0.5079978
+Colidiu com cal�ada! --0.1 pts | atual: -0.6079978
+episode reward: -0.7999966
+episode reward: -0.8749916
+episode reward: -0.9374912
+episode reward: -0.833324
+episode reward: -0.8076859
+episode reward: -0.777769
+episode reward: -0.8333243
+episode reward: -0.8888795
+episode reward: -0.9499907
+episode reward: -0.599994
+Colidiu com cal�ada! --0.1 pts | atual: -0.1630007
+Colidiu com cal�ada! --0.1 pts | atual: -0.2670006
+Colidiu com cal�ada! --0.1 pts | atual: -0.309
+Colidiu com cal�ada! --0.1 pts | atual: -0.409
+Colidiu com cal�ada! --0.1 pts | atual: -0.9279934
+Colidiu com cal�ada! --0.1 pts | atual: -1.027993
+episode reward: -2.139994
+Colidiu com cal�ada! --0.1 pts | atual: -0.035
+Colidiu com cal�ada! --0.1 pts | atual: -0.27
+Colidiu com cal�ada! --0.1 pts | atual: -0.4959984
+episode reward: -2.039995
+episode reward: -0.8749907
+episode reward: -0.833324
+episode reward: -0.6666574
+episode reward: -0.6666598
+episode reward: -0.6499959
+episode reward: -0.6666586
+episode reward: -0.7499939
+episode reward: -0.8636277
+episode reward: -0.7499916
+episode reward: -0.7499939
+episode reward: -0.8124916
+episode reward: -0.8749913
+episode reward: -0.8076854
+episode reward: -0.8749916
+episode reward: -0.818173
+episode reward: -0.9230676
+episode reward: -0.9230676
+episode reward: -0.8749907
+episode reward: -0.8928484
+episode reward: -0.8333241
+episode reward: -0.5999967
+episode reward: -0.4999963
+episode reward: -0.9499907
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8999907
+episode reward: -0.8749907
+episode reward: -0.6999952
+episode reward: -0.8124915
+episode reward: -0.8749912
+episode reward: -0.6666617
+episode reward: -0.7499923
+episode reward: -0.9230676
+episode reward: -0.8076859
+episode reward: -0.7777684
+episode reward: -0.6666586
+episode reward: -0.8749913
+episode reward: -0.8749907
+episode reward: -0.8333248
+episode reward: -0.8076854
+episode reward: -0.6666595
+episode reward: -0.9374912
+episode reward: -0.6666606
+episode reward: -0.857134
+episode reward: -0.8333254
+episode reward: -0.9230676
+episode reward: -0.833324
+episode reward: -0.6666606
+episode reward: -0.7499939
+episode reward: -0.749992
+episode reward: -0.833324
+episode reward: -0.8571343
+episode reward: -0.8181737
+episode reward: -0.7777693
+episode reward: -0.7777702
+episode reward: -0.5384546
+episode reward: -0.8181736
+episode reward: -0.749994
+episode reward: -0.833324
+episode reward: -0.8749916
+episode reward: -0.6499951
+episode reward: -0.6499956
+episode reward: -0.8749913
+Colidiu com parede! --0.1 pts | atual: -0.1812312
+Colidiu com parede! --0.1 pts | atual: -0.3432304
+Colidiu com parede! --0.1 pts | atual: -0.5222294
+Colidiu com parede! --0.1 pts | atual: -0.6327673
+Colidiu com parede! --0.1 pts | atual: -0.8037664
+episode reward: -0.9999964
+episode reward: -0.8333246
+episode reward: -0.7142801
+episode reward: -0.8571341
+episode reward: -0.8999907
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8333245
+episode reward: -0.8076859
+episode reward: -0.5999964
+episode reward: -0.6499959
+episode reward: -0.7499938
+episode reward: -0.4999949
+episode reward: -0.8333243
+episode reward: -0.8846061
+episode reward: -0.749994
+episode reward: -0.818173
+episode reward: -0.8749917
+episode reward: -0.8749907
+Colidiu com cal�ada! --0.1 pts | atual: -0.7442243
+episode reward: -0.869224
+episode reward: -0.8749913
+episode reward: -0.7777711
+episode reward: -0.7499939
+episode reward: -0.8749913
+episode reward: -0.949991
+episode reward: -0.8181736
+episode reward: -0.8181737
+episode reward: -0.8749913
+episode reward: -0.833324
+episode reward: -0.8846065
+episode reward: -0.9285626
+episode reward: -0.8928484
+episode reward: -0.8333246
+episode reward: -0.7777699
+episode reward: -0.7499917
+episode reward: -0.8124916
+episode reward: -0.9062412
+episode reward: -0.8333248
+episode reward: -0.9230676
+episode reward: -0.8461467
+episode reward: -0.6666611
+episode reward: -0.7499939
+episode reward: -0.8499907
+episode reward: -0.7499939
+episode reward: -0.8571341
+episode reward: -0.8846061
+Colidiu com cal�ada! --0.1 pts | atual: -0.5026627
+episode reward: -0.7666606
+episode reward: -0.8181737
+episode reward: -0.8499907
+episode reward: -0.8499907
+episode reward: -0.8571341
+num. colisões ep: 0
+finalreward: 1
+Colidiu com cal�ada! --0.1 pts | atual: -0.5259955
+episode reward: -0.6999946
+episode reward: -0.77777
+episode reward: -0.5999967
+episode reward: -0.8636283
+episode reward: -0.884606
+episode reward: -0.8999907
+Colidiu com parede! --0.1 pts | atual: -0.205924
+Colidiu com parede! --0.1 pts | atual: -0.3744611
+num. colisões ep: 2
+finalreward: 0.8
+episode reward: -0.9230676
+episode reward: -0.5999967
+episode reward: -0.8749907
+episode reward: -0.8124919
+episode reward: -0.7499939
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8076854
+episode reward: -0.8749916
+episode reward: -0.7777693
+episode reward: -0.8499907
+episode reward: -0.8999907
+Colidiu com cal�ada! --0.1 pts | atual: -0.4957733
+episode reward: -0.8777696
+episode reward: -0.9374912
+episode reward: -0.71428
+episode reward: -0.8571345
+episode reward: -0.8333256
+episode reward: -0.8928482
+episode reward: -0.6666608
+episode reward: -0.8499911
+episode reward: -0.5999959
+episode reward: -0.8333246
+episode reward: -0.6666586
+episode reward: -0.8749917
+episode reward: -0.8333248
+episode reward: -0.9499907
+episode reward: -0.884606
+episode reward: -0.818173
+episode reward: -0.8076859
+episode reward: -0.71428
+episode reward: -0.6666607
+episode reward: -0.7142801
+episode reward: -0.8333253
+episode reward: -0.8333251
+Colidiu com cal�ada! --0.1 pts | atual: -0.09366678
+Colidiu com cal�ada! --0.1 pts | atual: -0.3416657
+Colidiu com cal�ada! --0.1 pts | atual: -0.4416657
+episode reward: -0.9666603
+episode reward: -0.6874924
+episode reward: -0.9062407
+episode reward: -0.7499939
+episode reward: -0.8888804
+episode reward: -0.9374912
+episode reward: -0.666661
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8124916
+episode reward: -0.884606
+episode reward: -0.8499907
+episode reward: -0.749992
+episode reward: -0.8749924
+episode reward: -0.818173
+episode reward: -0.8333242
+episode reward: -0.71428
+episode reward: -0.8333253
+episode reward: -0.8333255
+episode reward: -0.6666601
+episode reward: -0.6499956
+episode reward: -0.749994
+episode reward: -0.8636276
+episode reward: -0.8499907
+episode reward: -0.749994
+episode reward: -0.7499918
+episode reward: -0.8499913
+episode reward: -0.8333242
+episode reward: -0.9374912
+episode reward: -0.8333256
+episode reward: -0.8749913
+episode reward: -0.8928483
+episode reward: -0.6666605
+episode reward: -0.7142805
+episode reward: -0.6666609
+episode reward: -0.833324
+episode reward: -0.8333243
+episode reward: -0.6666597
+episode reward: -0.833324
+episode reward: -0.8333255
+episode reward: -0.8181733
+episode reward: -0.5999959
+episode reward: -0.8333248
+episode reward: -0.8928484
+episode reward: -0.8333251
+episode reward: -0.9062412
+episode reward: -0.6666611
+episode reward: -0.5999963
+episode reward: -0.8499907
+episode reward: -0.9230681
+episode reward: -0.8124922
+episode reward: -0.8333253
+episode reward: -0.9374911
+episode reward: -0.4999958
+episode reward: -0.666661
+episode reward: -0.8499914
+episode reward: -0.8076859
+episode reward: -0.8461467
+episode reward: -0.7142801
+episode reward: -0.818173
+episode reward: -0.8888804
+episode reward: -0.7499914
+episode reward: -0.8571344
+episode reward: -0.7142802
+episode reward: -0.8928487
+episode reward: -0.8928486
+episode reward: -0.884606
+episode reward: -0.6666608
+episode reward: -0.884606
+episode reward: -0.7777693
+episode reward: -0.7142805
+episode reward: -0.8076859
+episode reward: -0.8333248
+episode reward: -0.9374907
+episode reward: -0.6666604
+episode reward: -0.6666597
+Colidiu com cal�ada! --0.1 pts | atual: -0.6887711
+episode reward: -0.8777699
+episode reward: -0.9062411
+episode reward: -0.9062412
+episode reward: -0.8124917
+episode reward: -0.7499937
+episode reward: -0.8333253
+episode reward: -0.9374907
+episode reward: -0.8499914
+episode reward: -0.8928484
+episode reward: -0.7499921
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8499914
+episode reward: -0.7777685
+episode reward: -0.9062408
+episode reward: -0.8749924
+episode reward: -0.66666
+episode reward: -0.6666597
+episode reward: -0.8749916
+episode reward: -0.884606
+episode reward: -0.833324
+episode reward: -0.6666608
+episode reward: -0.8749925
+episode reward: -0.6666619
+episode reward: -0.6666604
+episode reward: -0.7777684
+episode reward: -0.7499922
+episode reward: -0.9062412
+episode reward: -0.8636282
+episode reward: -0.9374912
+episode reward: -0.7777702
+episode reward: -0.7142799
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.7499938
+episode reward: -0.8124925
+episode reward: -0.8749913
+episode reward: -0.9374912
+episode reward: -0.7777689
+Colidiu com cal�ada! --0.1 pts | atual: -0.3377766
+episode reward: -0.877771
+episode reward: -0.5999967
+episode reward: -0.7499931
+episode reward: -0.8499907
+episode reward: -0.923068
+episode reward: -0.7777702
+episode reward: -0.8333242
+episode reward: -0.9499907
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.6666608
+episode reward: -0.8333253
+episode reward: -0.9062412
+episode reward: -0.6499956
+episode reward: -0.71428
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9230676
+episode reward: -0.857134
+episode reward: -0.8749913
+episode reward: -0.7777691
+episode reward: -0.4999955
+episode reward: -0.71428
+episode reward: -0.833324
+episode reward: -0.8999907
+episode reward: -0.833324
+episode reward: -0.7499922
+episode reward: -0.7777705
+episode reward: -0.9374912
+episode reward: -0.8333246
+episode reward: -0.8333251
+episode reward: -0.8636276
+episode reward: -0.5999953
+episode reward: -0.8999907
+episode reward: -0.71428
+episode reward: -0.8333253
+episode reward: -0.7142799
+episode reward: -0.8749925
+episode reward: -0.9062412
+episode reward: -0.8076856
+episode reward: -0.8076854
+episode reward: -0.8499907
+episode reward: -0.5999933
+episode reward: -0.9062412
+episode reward: -0.6666608
+episode reward: -0.8333245
+episode reward: -0.8749916
+episode reward: -0.5999941
+episode reward: -0.8499907
+episode reward: -0.7999914
+Colidiu com cal�ada! --0.1 pts | atual: -0.5277725
+Colidiu com cal�ada! --0.1 pts | atual: -0.6397724
+episode reward: -0.9777694
+episode reward: -0.9062411
+episode reward: -0.7499915
+episode reward: -0.8124922
+episode reward: -0.7777702
+episode reward: -0.9062412
+episode reward: -0.7777701
+episode reward: -0.8499907
+Colidiu com cal�ada! --0.1 pts | atual: -0.2537775
+Colidiu com cal�ada! --0.1 pts | atual: -0.3727773
+Colidiu com cal�ada! --0.1 pts | atual: -0.6317753
+episode reward: -0.8555485
+episode reward: -0.4999948
+episode reward: -0.9230676
+episode reward: -0.8181738
+episode reward: -0.8124919
+Colidiu com cal�ada! --0.1 pts | atual: -0.1170003
+episode reward: -0.699994
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.906241
+episode reward: -0.499996
+episode reward: -0.666661
+episode reward: -0.7777694
+episode reward: -0.7499938
+episode reward: -0.8999914
+episode reward: -0.8846066
+episode reward: -0.8333251
+episode reward: -0.7499937
+episode reward: -0.8749924
+episode reward: -0.8333248
+episode reward: -0.9230676
+episode reward: -0.7777702
+episode reward: -0.6666609
+episode reward: -0.8846066
+episode reward: -0.7222153
+episode reward: -0.6499954
+episode reward: -0.8499907
+episode reward: -0.6666609
+episode reward: -0.6428524
+episode reward: -0.7499916
+episode reward: -0.8124925
+Colidiu com cal�ada! --0.1 pts | atual: -0.4479974
+episode reward: -0.6499961
+episode reward: -0.7142799
+episode reward: -0.8181736
+episode reward: -0.7777701
+episode reward: -0.7999907
+episode reward: -0.8124922
+episode reward: -0.8571346
+episode reward: -0.6666595
+episode reward: -0.7499916
+episode reward: -0.7916585
+episode reward: -0.6249924
+episode reward: -0.5999958
+episode reward: -0.8846067
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8999907
+episode reward: -0.7142802
+episode reward: -0.9062412
+episode reward: -0.499994
+episode reward: -0.8846066
+Colidiu com cal�ada! --0.1 pts | atual: -0.4799976
+episode reward: -0.6499967
+episode reward: -0.8499907
+Colidiu com cal�ada! --0.1 pts | atual: -0.2730007
+Colidiu com cal�ada! --0.1 pts | atual: -0.3730007
+episode reward: -0.7999965
+episode reward: -0.6874925
+episode reward: -0.8333256
+episode reward: -0.5555524
+episode reward: -0.6249925
+episode reward: -0.8571342
+episode reward: -0.7777694
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.833325
+episode reward: -0.7499914
+episode reward: -0.71428
+episode reward: -0.8636283
+episode reward: -0.7777693
+episode reward: -0.7142799
+episode reward: -0.8499914
+Colidiu com parede! --0.1 pts | atual: -0.1590911
+Colidiu com parede! --0.1 pts | atual: -0.4670884
+episode reward: -2.010176
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8076857
+episode reward: -0.8571346
+episode reward: -0.8076854
+episode reward: -0.6249925
+episode reward: -0.8333247
+Colidiu com cal�ada! --0.1 pts | atual: -0.7202247
+Colidiu com cal�ada! --0.1 pts | atual: -0.8212247
+episode reward: -0.9692242
+episode reward: -0.863628
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9285628
+episode reward: -0.5555496
+episode reward: -0.8181737
+episode reward: -0.71428
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8846066
+episode reward: -0.8571346
+episode reward: -0.9499907
+Colidiu com parede! --0.1 pts | atual: -0.3560895
+Colidiu com parede! --0.1 pts | atual: -0.494089
+Colidiu com parede! --0.1 pts | atual: -0.5976338
+Colidiu com parede! --0.1 pts | atual: -0.9516306
+episode reward: -2.25964
+episode reward: -0.77777
+episode reward: -0.7499938
+episode reward: -0.8846066
+episode reward: -0.833324
+episode reward: -0.8333254
+Colidiu com cal�ada! --0.1 pts | atual: -0.02766652
+Colidiu com cal�ada! --0.1 pts | atual: -0.1376665
+Colidiu com cal�ada! --0.1 pts | atual: -0.3406654
+Colidiu com cal�ada! --0.1 pts | atual: -0.4406654
+episode reward: -2.062663
+episode reward: -0.7499939
+episode reward: -0.846145
+episode reward: -0.8571345
+episode reward: -0.833324
+episode reward: -0.7142799
+episode reward: -0.5499972
+Colidiu com cal�ada! --0.1 pts | atual: -0.08299997
+Colidiu com cal�ada! --0.1 pts | atual: -0.3939982
+Colidiu com cal�ada! --0.1 pts | atual: -0.5429976
+Colidiu com cal�ada! --0.1 pts | atual: -0.7589961
+episode reward: -2.146001
+episode reward: -0.6249924
+episode reward: -0.6666607
+episode reward: -0.8571343
+episode reward: -0.8181744
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.5999953
+episode reward: -0.5999966
+episode reward: -0.6666607
+episode reward: -0.849991
+episode reward: -0.8333246
+episode reward: -0.8846066
+episode reward: -0.8571345
+episode reward: -0.7916586
+episode reward: -0.8124925
+episode reward: -0.6666595
+episode reward: -0.71428
+episode reward: -0.8499914
+episode reward: -0.8571345
+episode reward: -0.8749907
+episode reward: -0.7777684
+episode reward: -0.7916581
+num. colisões ep: 0
+finalreward: 1
+Colidiu com cal�ada! --0.1 pts | atual: -0.1610004
+Colidiu com cal�ada! --0.1 pts | atual: -0.2750002
+Colidiu com cal�ada! --0.1 pts | atual: -0.5389981
+episode reward: -0.8499954
+episode reward: -0.8181737
+episode reward: -0.833325
+episode reward: -0.6666611
+Colidiu com cal�ada! --0.1 pts | atual: -0.4942176
+episode reward: -0.8222147
+Colidiu com parede! --0.1 pts | atual: -0.087154
+Colidiu com parede! --0.1 pts | atual: -0.2376923
+Colidiu com parede! --0.1 pts | atual: -0.4656906
+episode reward: -0.7999911
+episode reward: -0.7777693
+episode reward: -0.777769
+episode reward: -0.77777
+episode reward: -0.8499913
+Colidiu com cal�ada! --0.1 pts | atual: -0.4736631
+Colidiu com cal�ada! --0.1 pts | atual: -0.5736631
+episode reward: -0.8666607
+Colidiu com parede! --0.1 pts | atual: -0.1006667
+Colidiu com parede! --0.1 pts | atual: -0.1753335
+episode reward: -0.9499904
+episode reward: -0.7777691
+episode reward: -0.9062407
+episode reward: -0.6666582
+episode reward: -0.9062412
+episode reward: -0.8076853
+episode reward: -0.8076858
+episode reward: -0.8999907
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8499913
+episode reward: -0.5999959
+episode reward: -0.77777
+episode reward: -0.8333253
+episode reward: -0.9062412
+episode reward: -0.7777693
+episode reward: -0.8124916
+episode reward: -0.6666601
+episode reward: -0.8571345
+episode reward: -0.666661
+episode reward: -0.7499939
+episode reward: -0.9062412
+episode reward: -0.8124925
+episode reward: -0.5999967
+episode reward: -0.599996
+episode reward: -0.7916585
+episode reward: -0.71428
+episode reward: -0.7916582
+episode reward: -0.8076858
+episode reward: -0.6666597
+episode reward: -0.71428
+episode reward: -0.8846061
+episode reward: -0.6666601
+episode reward: -0.9062407
+episode reward: -0.6666606
+episode reward: -0.6666597
+episode reward: -0.8999914
+episode reward: -0.9062412
+episode reward: -0.833324
+episode reward: -0.71428
+episode reward: -0.77777
+episode reward: -0.8749916
+episode reward: -0.599996
+episode reward: -0.7222151
+episode reward: -0.9062412
+episode reward: -0.9230676
+episode reward: -0.8846065
+episode reward: -0.8181738
+episode reward: -0.5999967
+episode reward: -0.8333253
+episode reward: -0.9374912
+episode reward: -0.8124925
+episode reward: -0.8333249
+episode reward: -0.8571346
+Colidiu com cal�ada! --0.1 pts | atual: -0.6446609
+episode reward: -0.7666606
+episode reward: -0.8181731
+episode reward: -0.8333246
+episode reward: -0.9374912
+episode reward: -0.8749924
+Colidiu com cal�ada! --0.1 pts | atual: -0.4612283
+Colidiu com cal�ada! --0.1 pts | atual: -0.5622283
+Colidiu com cal�ada! --0.1 pts | atual: -0.8102264
+episode reward: -2.064229
+episode reward: -0.7499943
+episode reward: -0.8076857
+episode reward: -0.7499918
+episode reward: -0.666661
+Colidiu com cal�ada! --0.1 pts | atual: -0.4022186
+Colidiu com cal�ada! --0.1 pts | atual: -0.7352156
+episode reward: -0.9222145
+Colidiu com parede! --0.1 pts | atual: -0.1967699
+Colidiu com parede! --0.1 pts | atual: -0.3473072
+num. colisões ep: 2
+finalreward: 0.8
+episode reward: -0.9062412
+episode reward: -0.9230676
+episode reward: -0.9285626
+episode reward: -0.8928488
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.6666609
+episode reward: -0.8499914
+episode reward: -0.6666589
+episode reward: -0.8749919
+episode reward: -0.8636282
+Colidiu com cal�ada! --0.1 pts | atual: -0.1110008
+episode reward: -0.6999951
+episode reward: -0.9230676
+episode reward: -0.7142799
+episode reward: -0.7142801
+episode reward: -0.8636276
+episode reward: -0.7777702
+episode reward: -0.6666619
+Colidiu com cal�ada! --0.1 pts | atual: -0.2989995
+Colidiu com cal�ada! --0.1 pts | atual: -0.3989995
+Colidiu com cal�ada! --0.1 pts | atual: -0.5159993
+Colidiu com cal�ada! --0.1 pts | atual: -0.7979969
+Colidiu com cal�ada! --0.1 pts | atual: -0.897997
+episode reward: -2.042999
+episode reward: -0.7499921
+episode reward: -0.8499911
+episode reward: -0.8749914
+episode reward: -0.8333256
+episode reward: -0.7499938
+episode reward: -0.884606
+Colidiu com cal�ada! --0.1 pts | atual: -0.2530008
+episode reward: -0.6999964
+episode reward: -0.8846061
+episode reward: -0.8749908
+episode reward: -0.8333253
+episode reward: -0.6249925
+episode reward: -0.6666591
+episode reward: -0.8076857
+episode reward: -0.8846066
+episode reward: -0.8076859
+episode reward: -0.8636277
+episode reward: -0.6874924
+episode reward: -0.7222128
+episode reward: -0.8076857
+episode reward: -0.9062412
+episode reward: -0.8571346
+episode reward: -0.8571342
+episode reward: -0.857134
+episode reward: -0.8333247
+episode reward: -0.66666
+episode reward: -0.8749907
+episode reward: -0.8749922
+episode reward: -0.769224
+episode reward: -0.8333247
+episode reward: -0.8999914
+episode reward: -0.8076856
+episode reward: -0.9285632
+episode reward: -0.8846066
+episode reward: -0.8333248
+num. colisões ep: 0
+finalreward: 1
+Colidiu com cal�ada! --0.1 pts | atual: -0.4057736
+episode reward: -0.8777688
+episode reward: -0.7499925
+episode reward: -0.5999959
+episode reward: -0.9285631
+episode reward: -0.5999965
+episode reward: -0.7142801
+episode reward: -0.9230676
+episode reward: -0.7777693
+episode reward: -0.884606
+Colidiu com cal�ada! --0.1 pts | atual: -0.6317712
+Colidiu com cal�ada! --0.1 pts | atual: -0.7817706
+episode reward: -0.9777694
+episode reward: -0.9374912
+Colidiu com cal�ada! --0.1 pts | atual: -0.7677694
+episode reward: -0.8777693
+episode reward: -0.7142799
+episode reward: -0.7142801
+episode reward: -0.8124916
+episode reward: -0.9062412
+episode reward: -0.5999966
+episode reward: -0.9374912
+episode reward: -0.7692238
+num. colisões ep: 0
+finalreward: 1
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.611103
+episode reward: -0.8333249
+episode reward: -0.6874925
+episode reward: -0.7142799
+episode reward: -0.8749925
+episode reward: -0.71428
+episode reward: -0.9285628
+episode reward: -0.8333253
+episode reward: -0.777769
+episode reward: -0.8846067
+episode reward: -0.6666605
+episode reward: -0.8571345
+episode reward: -0.8333251
+Colidiu com cal�ada! --0.1 pts | atual: 0.05733322
+Colidiu com cal�ada! --0.1 pts | atual: -0.6866615
+episode reward: -0.8666605
+episode reward: -0.8181738
+episode reward: -0.77777
+episode reward: -0.9062412
+episode reward: -0.7142799
+episode reward: -0.9374908
+episode reward: -0.8749907
+Colidiu com parede! --0.1 pts | atual: -0.1026155
+Colidiu com parede! --0.1 pts | atual: -0.3206147
+Colidiu com parede! --0.1 pts | atual: -0.4631521
+Colidiu com parede! --0.1 pts | atual: -0.6608406
+Colidiu com parede! --0.1 pts | atual: -0.8633772
+episode reward: -2.031457
+episode reward: -0.9062412
+episode reward: -0.8846066
+episode reward: -0.7499921
+episode reward: -0.833324
+episode reward: -0.8636277
+episode reward: -0.9062412
+episode reward: -0.5999966
+episode reward: -0.5999967
+episode reward: -0.6666598
+Colidiu com cal�ada! --0.1 pts | atual: -0.5979967
+episode reward: -0.6999967
+episode reward: -0.6666597
+episode reward: -0.9062411
+episode reward: -0.71428
+episode reward: -0.8749913
+episode reward: -0.7499918
+episode reward: -0.8333243
+episode reward: -0.8333248
+Colidiu com cal�ada! --0.1 pts | atual: -0.5262179
+Colidiu com cal�ada! --0.1 pts | atual: -0.6542175
+episode reward: -0.9222154
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.7777693
+episode reward: -0.9230676
+episode reward: -0.6249936
+episode reward: -0.8124907
+episode reward: -0.7142801
+episode reward: -0.8333241
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8181735
+episode reward: -0.8333253
+episode reward: -0.71428
+episode reward: -0.8333247
+episode reward: -0.8749924
+episode reward: -0.6249928
+episode reward: -0.8076858
+Colidiu com cal�ada! --0.1 pts | atual: -0.4032295
+Colidiu com cal�ada! --0.1 pts | atual: -0.6802272
+episode reward: -0.8923017
+episode reward: -0.818173
+episode reward: -0.8846061
+episode reward: -0.9230682
+episode reward: -0.8333253
+episode reward: -0.8636276
+episode reward: -0.9285631
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8181738
+Colidiu com cal�ada! --0.1 pts | atual: -0.467664
+episode reward: -0.7666614
+episode reward: -0.8124918
+episode reward: -0.7499941
+episode reward: -0.8846061
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8846061
+episode reward: -0.8846066
+episode reward: -0.8076854
+episode reward: -0.71428
+episode reward: -0.8749907
+episode reward: -0.9062412
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.9374912
+episode reward: -0.8076855
+episode reward: -0.8571345
+episode reward: -0.8333253
+episode reward: -0.8846066
+episode reward: -0.9062412
+episode reward: -0.7499939
+episode reward: -0.8124923
+episode reward: -0.8333251
+episode reward: -0.9062412
+episode reward: -0.8124928
+episode reward: -0.7499921
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8076859
+episode reward: -0.8181732
+episode reward: -0.7499942
+episode reward: -0.8846066
+episode reward: -0.8124916
+Colidiu com cal�ada! --0.1 pts | atual: -0.3736643
+episode reward: -0.7666606
+episode reward: -0.7499939
+episode reward: -0.8124925
+episode reward: -0.8846067
+episode reward: -0.8636276
+episode reward: -0.884606
+episode reward: -0.6666608
+episode reward: -0.8181738
+Colidiu com cal�ada! --0.1 pts | atual: -0.6537718
+Colidiu com cal�ada! --0.1 pts | atual: -0.7537718
+episode reward: -0.9777702
+episode reward: -0.7499914
+episode reward: -0.857134
+episode reward: -0.6111032
+episode reward: -0.9062412
+episode reward: -0.9062412
+episode reward: -0.8076858
+episode reward: -0.9374912
+episode reward: -0.71428
+episode reward: -0.6499954
+episode reward: -0.6249925
+Colidiu com cal�ada! --0.1 pts | atual: -0.3242218
+Colidiu com cal�ada! --0.1 pts | atual: -0.5372203
+episode reward: -0.9222167
+episode reward: -0.8846065
+episode reward: -0.71428
+episode reward: -0.7142801
+episode reward: -0.6666595
+Colidiu com cal�ada! --0.1 pts | atual: -0.1840002
+Colidiu com cal�ada! --0.1 pts | atual: -0.3939988
+Colidiu com cal�ada! --0.1 pts | atual: -0.7269958
+Colidiu com cal�ada! --0.1 pts | atual: -0.8479956
+Colidiu com cal�ada! --0.1 pts | atual: -1.011995
+episode reward: -2.163669
+episode reward: -0.6249934
+episode reward: -0.884606
+episode reward: -0.71428
+episode reward: -0.7777718
+episode reward: -0.9062412
+episode reward: -0.5555477
+episode reward: -0.7499922
+episode reward: -0.749994
+episode reward: -0.5999957
+episode reward: -0.6111025
+episode reward: -0.6499951
+Colidiu com cal�ada! --0.1 pts | atual: -0.146001
+episode reward: -0.6999952
+episode reward: -0.8181731
+episode reward: -0.8999907
+episode reward: -0.8333252
+Colidiu com cal�ada! --0.1 pts | atual: -0.01166662
+Colidiu com cal�ada! --0.1 pts | atual: -0.1126666
+episode reward: -0.8666588
+episode reward: -0.7777696
+episode reward: -0.9285631
+episode reward: -0.6499957
+episode reward: -0.8333253
+episode reward: -0.8571346
+episode reward: -0.6249924
+episode reward: -0.8124924
+episode reward: -0.7777702
+episode reward: -0.6499959
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8333257
+episode reward: -0.6666609
+episode reward: -0.9166579
+episode reward: -0.8636276
+Colidiu com cal�ada! --0.1 pts | atual: -0.2602229
+episode reward: -0.7666613
+Colidiu com cal�ada! --0.1 pts | atual: -0.5593288
+episode reward: -0.9333253
+episode reward: -0.8499907
+Colidiu com cal�ada! --0.1 pts | atual: -0.7069921
+Colidiu com cal�ada! --0.1 pts | atual: -0.8089921
+episode reward: -0.9499916
+episode reward: -0.8571345
+episode reward: -0.5999959
+episode reward: -0.7777702
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8499914
+episode reward: -0.8571345
+episode reward: -0.8181731
+episode reward: -0.7142799
+episode reward: -0.5999963
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8571346
+Colidiu com cal�ada! --0.1 pts | atual: -0.5266633
+Colidiu com cal�ada! --0.1 pts | atual: -0.7036623
+Colidiu com cal�ada! --0.1 pts | atual: -0.8436618
+episode reward: -0.9666616
+Colidiu com cal�ada! --0.1 pts | atual: -0.5879967
+episode reward: -0.6999966
+episode reward: -0.7142799
+episode reward: -0.6249925
+episode reward: -0.6249925
+episode reward: -0.8571345
+episode reward: -0.7142801
+episode reward: -0.71428
+episode reward: -0.7777697
+episode reward: -0.8846066
+episode reward: -0.666662
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8461444
+episode reward: -0.8333252
+episode reward: -0.7777693
+episode reward: -0.8181738
+episode reward: -0.71428
+episode reward: -0.8124916
+episode reward: -0.7142801
+episode reward: -0.8749916
+episode reward: -0.8846067
+episode reward: -0.8333253
+episode reward: -0.7499919
+Colidiu com cal�ada! --0.1 pts | atual: -0.332666
+episode reward: -0.7666617
+Colidiu com parede! --0.1 pts | atual: -0.2133086
+num. colisões ep: 1
+finalreward: 0.9
+episode reward: -0.7777693
+Colidiu com cal�ada! --0.1 pts | atual: -0.07299969
+Colidiu com cal�ada! --0.1 pts | atual: -0.6679945
+Colidiu com cal�ada! --0.1 pts | atual: -0.7679945
+episode reward: -0.8999941
+episode reward: -0.8571345
+Colidiu com cal�ada! --0.1 pts | atual: -0.09300052
+episode reward: -0.6999949
+episode reward: -0.8749916
+episode reward: -0.818173
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.666661
+episode reward: -0.7777699
+episode reward: -0.8333251
+episode reward: -0.7499924
+episode reward: -0.8846066
+episode reward: -0.8749915
+episode reward: -0.6666608
+Colidiu com cal�ada! --0.1 pts | atual: -0.002000063
+Colidiu com cal�ada! --0.1 pts | atual: -0.1760002
+episode reward: -0.9499915
+episode reward: -0.7777684
+episode reward: -0.6666601
+Colidiu com cal�ada! --0.1 pts | atual: -0.5899964
+episode reward: -0.6999963
+Colidiu com cal�ada! --0.1 pts | atual: -0.1931121
+Colidiu com cal�ada! --0.1 pts | atual: -0.4549978
+episode reward: -0.6999959
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.8333253
+episode reward: -0.8076859
+episode reward: -0.6666592
+num. colisões ep: 0
+finalreward: 1
+episode reward: -0.6666605
+episode reward: -0.8333253
+Setting up 6 worker threads for Enlighten.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 141658 frames, [2.0 KB-4.0 KB]: 1855 frames, [4.0 KB-8.0 KB]: 434 frames, [8.0 KB-16.0 KB]: 577 frames, [16.0 KB-32.0 KB]: 18 frames, [32.0 KB-64.0 KB]: 2457 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 288.0 KB
+      Peak Allocated Bytes 176.5 KB
+      Overflow Count 5
+    [ALLOC_TEMP_Background Job.worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 53.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 24.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 158 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 29
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 147000 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 23.9 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 147000 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 17.8 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 146999 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 65.5 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 60 frames, [2.0 MB-4.0 MB]: 146940 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.7 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 147000 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.4 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 146999 frames, [8.0 MB-16.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 3
+      Peak Allocated memory 9.9 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.5 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 147000 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 96 B
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 147000 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.9 KB
+      Peak Large allocation bytes 0 B

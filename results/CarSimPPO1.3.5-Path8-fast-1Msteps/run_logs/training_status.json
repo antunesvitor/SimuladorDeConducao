@@ -1,0 +1,38 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 599995,
+                "file_path": "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget/MoveToTarget-599995.onnx",
+                "reward": 0.6604772721501914,
+                "creation_time": 1699225450.3071275,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget/MoveToTarget-599995.pt"
+                ]
+            },
+            {
+                "steps": 1000008,
+                "file_path": "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget/MoveToTarget-1000008.onnx",
+                "reward": 0.7234829630364071,
+                "creation_time": 1699228839.1061826,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget/MoveToTarget-1000008.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000008,
+            "file_path": "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget.onnx",
+            "reward": 0.7234829630364071,
+            "creation_time": 1699228839.1061826,
+            "auxillary_file_paths": [
+                "results/CarSimPPO1.3.5-Path8-fast-1Msteps/MoveToTarget/MoveToTarget-1000008.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

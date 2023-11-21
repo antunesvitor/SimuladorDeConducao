@@ -1,0 +1,47 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-499998.onnx",
+                "reward": 1.656404526715868,
+                "creation_time": 1699359267.3198829,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-499998.pt"
+                ]
+            },
+            {
+                "steps": 999980,
+                "file_path": "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-999980.onnx",
+                "reward": 1.7022782564163208,
+                "creation_time": 1699362055.8890486,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-999980.pt"
+                ]
+            },
+            {
+                "steps": 1000032,
+                "file_path": "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-1000032.onnx",
+                "reward": 1.7023437805473804,
+                "creation_time": 1699362055.9343016,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-1000032.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000032,
+            "file_path": "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget.onnx",
+            "reward": 1.7023437805473804,
+            "creation_time": 1699362055.9343016,
+            "auxillary_file_paths": [
+                "results/CarSimPPO_2.0_Path8_beta-lr-epsilon_increased/MoveToTarget/MoveToTarget-1000032.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}

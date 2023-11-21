@@ -1,0 +1,47 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 199978,
+                "file_path": "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-199978.onnx",
+                "reward": 0.6567334340841964,
+                "creation_time": 1699931475.6261878,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-199978.pt"
+                ]
+            },
+            {
+                "steps": 399995,
+                "file_path": "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-399995.onnx",
+                "reward": 1.5266778320999619,
+                "creation_time": 1699933999.0950332,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-399995.pt"
+                ]
+            },
+            {
+                "steps": 500017,
+                "file_path": "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-500017.onnx",
+                "reward": 1.5327298945462853,
+                "creation_time": 1699935296.868328,
+                "auxillary_file_paths": [
+                    "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-500017.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500017,
+            "file_path": "results/CarSimPPO3.0_Path0/MoveToTarget.onnx",
+            "reward": 1.5327298945462853,
+            "creation_time": 1699935296.868328,
+            "auxillary_file_paths": [
+                "results/CarSimPPO3.0_Path0/MoveToTarget/MoveToTarget-500017.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}
