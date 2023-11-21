@@ -69,6 +69,6 @@ CarSim<algoritmo><versão>_<path>-<id>
 
 <versão> é um número que identifica a versão do veículo, durante o projeto diversas versões foram criadas, atualmente só há uma versão dele (3.1), porém esta a versão foi posta para deixar claro que possa haver mais de um agente em versões diferentes no mesmo ambiente.
 
-<path> a rota a qual aquele cérebro treinou, se habilitar uma rota diferente do cérebro ele provavelmente não irá desempenhar bem a tarefa. O nome é igual aos GameObjects do localizados abaixo do GameObject SpawnPointManager. O "GERAL" significa que ele treinou em todas as rotas.
+\<path> a rota a qual aquele cérebro treinou, se habilitar uma rota diferente do cérebro ele provavelmente não irá desempenhar bem a tarefa. O nome é igual aos GameObjects do localizados abaixo do GameObject SpawnPointManager. O "GERAL" significa que ele treinou em todas as rotas.
 
-<id> opcional, um identificador a mais para diferenciar um cérebro de outro caso os valores acima sejam iguais.
+\<id> opcional, um identificador a mais para diferenciar um cérebro de outro caso os valores acima sejam iguais.
