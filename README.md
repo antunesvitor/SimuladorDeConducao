@@ -18,6 +18,7 @@ Abaixo se encontra instruções de como reproduzir os testes feitos e como trein
 ³ Pode ser possível executar em outras versões 2022.3.x.
 
 ## Como reproduzir
+Aqui é explicado como reproduzir os testes que foram feitos no projeto. Eles obterão o exato resultado mostrado no projeto dado a natureza estocástica do agente e grande quantidade de possíveis estados, porém um desempenho muito próximo é esperado.
 
 ### Instalando e abrindo o projeto
 
@@ -45,16 +46,29 @@ Abaixo se encontra instruções de como reproduzir os testes feitos e como trein
 Para testar os modelos apropriadaente é preciso testar um por vez e ajustar o projeto de acordo, alguns dos "cérebros" (arquivos .onnx na pasta Brains) são de trajetos específicos.
 
 1. Selecione o objeto Car na hierarquia do projeto.
-
 ![Passo 1](GIFs/passo-1.gif)
 
 2. Arraste o "cérebro" que deseja treinar para o campo Model no inspetor à esquerda do editor. (na imagem abaixo ele seleciona o cérebro para o path 0).
-
 ![Passo 2](GIFs/passo-2.gif)
 
 3. Desabilite todos os paths que não for usar (no exemplo ele desabilita todos os paths exceto o path 0).
 ![Passo 3](GIFs/passo-2.gif)
 
 4. Agora basta apertar o botão play &#9654; no topo ao centro e o veículo já estará sendo conduzido pelo cérebro. (Obs. garanta que os campos "Behaviour Type" e "Inference Device" estejam ambos em Default ou "Inference Only" e "CPU" respectivamente, caso contrário não funcionará).
-
 ![Passo 4](GIFs/passo-4.gif)
+
+
+### Nomenclatura dos cérebros
+Os "cérebros" estão na pasta Assets/Brains e seguem o seguinte padrão de nome:
+
+```
+CarSim<algoritmo><versão>_<path>-<id>
+```
+
+\<algoritmo\> serve pra identificar o algoritmo que foi treinado possíveis valores são: PPO, SAC, PPO+BC, PPO+GAIL, PPO+GAIL+BC, etc. 
+
+<versão> é um número que identifica a versão do veículo, durante o projeto diversas versões foram criadas, atualmente só há uma versão dele (3.1), porém esta a versão foi posta para deixar claro que possa haver mais de um agente em versões diferentes no mesmo ambiente.
+
+<path> a rota a qual aquele cérebro treinou, se habilitar uma rota diferente do cérebro ele provavelmente não irá desempenhar bem a tarefa. O nome é igual aos GameObjects do localizados abaixo do GameObject SpawnPointManager. O "GERAL" significa que ele treinou em todas as rotas.
+
+<id> opcional, um identificador a mais para diferenciar um cérebro de outro caso os valores acima sejam iguais.
