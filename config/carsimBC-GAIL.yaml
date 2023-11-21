@@ -26,8 +26,8 @@ behaviors:
         gamma: 0.99
         strength: 1.0
       gail:
-        strength: 0.5
-        demo_path: Demos/CarSimPath3.demo
+        strength: 0.95
+        demo_path: Demos/CarSimGERAL_2.demo
     behavioral_cloning:
-        strength: 0.5
-        demo_path: Demos/CarSimPath3.demo
+        strength: 0.95
+        demo_path: Demos/CarSimGERAL_2.demo
