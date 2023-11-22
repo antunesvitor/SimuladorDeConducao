@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 499966,
+                "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-499966.onnx",
+                "reward": 3.0300015211105347,
+                "creation_time": 1691800919.545457,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-499966.pt"
+                ]
+            },
+            {
+                "steps": 999978,
+                "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-999978.onnx",
+                "reward": null,
+                "creation_time": 1691802156.6371467,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-999978.pt"
+                ]
+            },
+            {
+                "steps": 1499975,
+                "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-1499975.onnx",
+                "reward": 19.15666739145915,
+                "creation_time": 1691803415.1552684,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-1499975.pt"
+                ]
+            },
+            {
+                "steps": 1999988,
+                "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-1999988.onnx",
+                "reward": 26.23000144958496,
+                "creation_time": 1691804688.9190803,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-1999988.pt"
+                ]
+            },
+            {
+                "steps": 2000052,
+                "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-2000052.onnx",
+                "reward": 26.23000144958496,
+                "creation_time": 1691804688.9551578,
+                "auxillary_file_paths": [
+                    "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-2000052.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000052,
+            "file_path": "results\\CarSim6.2.3_ALL-3\\MoveToTarget.onnx",
+            "reward": 26.23000144958496,
+            "creation_time": 1691804688.9551578,
+            "auxillary_file_paths": [
+                "results\\CarSim6.2.3_ALL-3\\MoveToTarget\\MoveToTarget-2000052.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cpu"
+    }
+}
