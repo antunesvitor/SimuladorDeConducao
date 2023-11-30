@@ -802,8 +802,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Record: 0
-  NumStepsToRecord: 4000
-  DemonstrationName: CarSim_GERAL
+  NumStepsToRecord: 1000
+  DemonstrationName: CarSim_PATH3
   DemonstrationDirectory: Demos
 --- !u!1 &1954739881 stripped
 GameObject:
@@ -1553,7 +1553,7 @@ PrefabInstance:
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5022602860645237092, guid: 66e6e6bf30b74ca46988d62bf37ac0db, type: 3}
     - target: {fileID: 8533236714575887034, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_BehaviorType
       value: 0
@@ -1588,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: isTesting
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8533236714575887035, guid: 2fccefaf432af6241ab3a82d2ffa7ea6, type: 3}
       propertyPath: m_Enabled

@@ -1,7 +1,7 @@
 behaviors:
   MoveToTarget:
     trainer_type: ppo
-    max_steps: 1200000
+    max_steps: 2400000
     time_horizon: 256
     summary_freq: 20000
     keep_checkpoints: 5     #número de checkpoints gerados (cerebros .onnx intermediarios)
@@ -25,3 +25,6 @@ behaviors:
       extrinsic:
         gamma: 0.99
         strength: 1.0
+    behavioral_cloning:
+      strength: 0.9
+      demo_path: Demos/CarSimPATH6.demo

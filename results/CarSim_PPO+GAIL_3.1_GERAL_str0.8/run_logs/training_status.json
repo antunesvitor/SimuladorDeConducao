@@ -1,0 +1,65 @@
+{
+    "MoveToTarget": {
+        "checkpoints": [
+            {
+                "steps": 899951,
+                "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-899951.onnx",
+                "reward": -0.47923036802698066,
+                "creation_time": 1700837329.3997934,
+                "auxillary_file_paths": [
+                    "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-899951.pt"
+                ]
+            },
+            {
+                "steps": 999951,
+                "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-999951.onnx",
+                "reward": -0.4767909175876913,
+                "creation_time": 1700838203.3642983,
+                "auxillary_file_paths": [
+                    "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-999951.pt"
+                ]
+            },
+            {
+                "steps": 1099951,
+                "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1099951.onnx",
+                "reward": -0.41951431118344007,
+                "creation_time": 1700839086.029923,
+                "auxillary_file_paths": [
+                    "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1099951.pt"
+                ]
+            },
+            {
+                "steps": 1199951,
+                "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1199951.onnx",
+                "reward": -0.46038095994542044,
+                "creation_time": 1700839969.0324874,
+                "auxillary_file_paths": [
+                    "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1199951.pt"
+                ]
+            },
+            {
+                "steps": 1200031,
+                "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1200031.onnx",
+                "reward": -0.4567529834001451,
+                "creation_time": 1700839969.0844128,
+                "auxillary_file_paths": [
+                    "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1200031.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1200031,
+            "file_path": "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget.onnx",
+            "reward": -0.4567529834001451,
+            "creation_time": 1700839969.0844128,
+            "auxillary_file_paths": [
+                "results/CarSim_PPO+GAIL_3.1_GERAL_str0.8/MoveToTarget/MoveToTarget-1200031.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cpu"
+    }
+}
